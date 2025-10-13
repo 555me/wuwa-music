@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "set_scene_music_jz_indoor",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -1388795783,
+            "SoundBanks": [
+              {
+                "SoundBankId": -1388795783,
+                "SoundBankPathName": "Event/set_scene_music_jz_indoor.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "set_scene_music_jz_indoor",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 1290962327,
+                "Id": -309959900,
+                "DebugName": "area_indoor_institute"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 727401557,
+                "Id": -294378315,
+                "DebugName": "JZCQ"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "set_scene_music_jz_indoor"
+          }
+        }
+      ],
+      "DebugName": "set_scene_music_jz_indoor",
+      "EventId": -1388795783
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

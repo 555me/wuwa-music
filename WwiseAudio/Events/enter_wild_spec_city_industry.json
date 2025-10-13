@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "enter_wild_spec_city_industry",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -1735308367,
+            "SoundBanks": [
+              {
+                "SoundBankId": -1735308367,
+                "SoundBankPathName": "Event/enter_wild_spec_city_industry.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "enter_wild_spec_city_industry",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": -1503452341,
+                "Id": 1687888247,
+                "DebugName": "wind_city"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 1684817153,
+                "Id": -1616729083,
+                "DebugName": "no_spec_city_industry"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 143585452,
+                "Id": -677392052,
+                "DebugName": "vo_harbour"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "enter_wild_spec_city_industry"
+          }
+        }
+      ],
+      "DebugName": "enter_wild_spec_city_industry",
+      "EventId": -1735308367
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

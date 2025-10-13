@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "enter_level_zhezhi_boss",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 170446169,
+            "SoundBanks": [
+              {
+                "SoundBankId": 170446169,
+                "SoundBankPathName": "Event/enter_level_zhezhi_boss.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "enter_level_zhezhi_boss",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 143585452,
+                "Id": 748895195,
+                "DebugName": "None"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 1684817153,
+                "Id": 1402000512,
+                "DebugName": "no_level_zhezhi_boss"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "enter_level_zhezhi_boss"
+          }
+        }
+      ],
+      "DebugName": "enter_level_zhezhi_boss",
+      "EventId": 170446169
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

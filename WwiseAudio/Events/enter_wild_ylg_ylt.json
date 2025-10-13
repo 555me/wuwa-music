@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "enter_wild_ylg_ylt",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 1949375559,
+            "SoundBanks": [
+              {
+                "SoundBankId": 1949375559,
+                "SoundBankPathName": "Event/enter_wild_ylg_ylt.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "enter_wild_ylg_ylt",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 143585452,
+                "Id": 1697967234,
+                "DebugName": "vo_valley"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 1684817153,
+                "Id": -890548523,
+                "DebugName": "no_nor_valley_bright"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": -1503452341,
+                "Id": -153631617,
+                "DebugName": "wind_valley"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "enter_wild_ylg_ylt"
+          }
+        }
+      ],
+      "DebugName": "enter_wild_ylg_ylt",
+      "EventId": 1949375559
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

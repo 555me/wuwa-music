@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "set_scene_music_hksm_full",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -1992327238,
+            "SoundBanks": [
+              {
+                "SoundBankId": -1992327238,
+                "SoundBankPathName": "Event/set_scene_music_hksm_full.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "set_scene_music_hksm_full",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 1290962327,
+                "Id": 1738356262,
+                "DebugName": "area_full"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 727401557,
+                "Id": -810871898,
+                "DebugName": "HKSM"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "set_scene_music_hksm_full"
+          }
+        }
+      ],
+      "DebugName": "set_scene_music_hksm_full",
+      "EventId": -1992327238
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

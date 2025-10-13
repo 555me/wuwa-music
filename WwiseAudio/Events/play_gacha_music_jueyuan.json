@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "play_gacha_music_jueyuan",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 2132176802,
+            "SoundBanks": [
+              {
+                "SoundBankId": 2132176802,
+                "SoundBankPathName": "Event/play_gacha_music_jueyuan.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_gacha_music_jueyuan",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 891283802,
+                "MediaPathName": "Media/891283802.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_function\\character_gacha_music\\gacha_music_jueyuan.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_gacha_music_jueyuan"
+          }
+        }
+      ],
+      "DebugName": "play_gacha_music_jueyuan",
+      "EventId": 2132176802
+    },
+    "MaximumDuration": 8.95925,
+    "MinimumDuration": 8.95925,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

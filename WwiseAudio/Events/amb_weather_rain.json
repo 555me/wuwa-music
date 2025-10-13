@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "amb_weather_rain",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -134964421,
+            "SoundBanks": [
+              {
+                "SoundBankId": -134964421,
+                "SoundBankPathName": "Event/amb_weather_rain.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "amb_weather_rain",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 193490227,
+                "MediaPathName": "Media/193490227.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "rain_background_subtle.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 352653110,
+                "MediaPathName": "Media/352653110.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "rain_background_heavy.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1043087282,
+                "MediaPathName": "Media/1043087282.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "rain_background_gentle_002.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "amb_weather_rain"
+          }
+        }
+      ],
+      "DebugName": "amb_weather_rain",
+      "EventId": -134964421
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": true,
+    "MaxAttenuationRadius": 0.0
+  }
+]

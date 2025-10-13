@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "map_role_jiyan_musicreset_deprecated",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 951943579,
+            "SoundBanks": [
+              {
+                "SoundBankId": 951943579,
+                "SoundBankPathName": "Event/map_role_jiyan_musicreset_deprecated.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "map_role_jiyan_musicreset_deprecated",
+                "PackagedFile": null
+              },
+              {
+                "SoundBankId": -1243809257,
+                "SoundBankPathName": "Event/play_dungeon_jiyan_layer1.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_dungeon_jiyan_layer1",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 1312432705,
+                "Id": 389842714,
+                "DebugName": "jiyan_scene_layer1"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": -1228006169,
+                "Id": 930712164,
+                "DebugName": "off"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "map_role_jiyan_musicreset_deprecated"
+          }
+        }
+      ],
+      "DebugName": "map_role_jiyan_musicreset_deprecated",
+      "EventId": 951943579
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

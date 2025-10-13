@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "enter_level_lingyang",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -1808563182,
+            "SoundBanks": [
+              {
+                "SoundBankId": -1202485556,
+                "SoundBankPathName": "Event/map_role_lingyang_reset.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "map_role_lingyang_reset",
+                "PackagedFile": null
+              },
+              {
+                "SoundBankId": -1808563182,
+                "SoundBankPathName": "Event/enter_level_lingyang.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "enter_level_lingyang",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 143585452,
+                "Id": 748895195,
+                "DebugName": "None"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 1684817153,
+                "Id": -479601105,
+                "DebugName": "no_level_lingyang_common"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "enter_level_lingyang"
+          }
+        }
+      ],
+      "DebugName": "enter_level_lingyang",
+      "EventId": -1808563182
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

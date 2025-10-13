@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "test_cxs_double_music_02",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 2024346709,
+            "SoundBanks": [
+              {
+                "SoundBankId": 2024346709,
+                "SoundBankPathName": "Event/test_cxs_double_music_02.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "test_cxs_double_music_02",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": -999755472,
+                "Id": 1846755610,
+                "DebugName": "small"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 1221856762,
+                "Id": -1357134337,
+                "DebugName": "battle"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": -1008500023,
+                "Id": -279717885,
+                "DebugName": "battle_strong"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "test_cxs_double_music_02"
+          }
+        }
+      ],
+      "DebugName": "test_cxs_double_music_02",
+      "EventId": 2024346709
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

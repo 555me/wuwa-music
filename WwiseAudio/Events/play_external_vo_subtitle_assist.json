@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "play_external_vo_subtitle_assist",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -1296268700,
+            "SoundBanks": [
+              {
+                "SoundBankId": -1296268700,
+                "SoundBankPathName": "Event/play_external_vo_subtitle_assist.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_external_vo_subtitle_assist",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [
+              {
+                "Cookie": 934279885,
+                "DebugName": "external_plot_voice_assist"
+              }
+            ],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_external_vo_subtitle_assist"
+          }
+        }
+      ],
+      "DebugName": "play_external_vo_subtitle_assist",
+      "EventId": -1296268700
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 5000.0
+  }
+]

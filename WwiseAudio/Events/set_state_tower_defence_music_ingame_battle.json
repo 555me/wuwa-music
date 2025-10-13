@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "set_state_tower_defence_music_ingame_battle",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -426387441,
+            "SoundBanks": [
+              {
+                "SoundBankId": -426387441,
+                "SoundBankPathName": "Event/set_state_tower_defence_music_ingame_battle.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "set_state_tower_defence_music_ingame_battle",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": -275229903,
+                "Id": -1357134337,
+                "DebugName": "battle"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "set_state_tower_defence_music_ingame_battle"
+          }
+        }
+      ],
+      "DebugName": "set_state_tower_defence_music_ingame_battle",
+      "EventId": -426387441
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "play_dungeon_music_zanni_fushua",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -2069460724,
+            "SoundBanks": [
+              {
+                "SoundBankId": -2069460724,
+                "SoundBankPathName": "Event/play_dungeon_music_zanni_fushua.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_dungeon_music_zanni_fushua",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 526585071,
+                "MediaPathName": "Media/526585071.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_story\\music_story_2.0\\roles\\zanni\\music_story_zanni_birdge_drumless_bpm153_v2.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1008868387,
+                "MediaPathName": "Media/1008868387.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_story\\music_story_2.0\\roles\\zanni\\music_story_zanni_birdge_bpm153_v2.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": -616288781,
+                "Id": -222362075,
+                "DebugName": "club"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_dungeon_music_zanni_fushua"
+          }
+        }
+      ],
+      "DebugName": "play_dungeon_music_zanni_fushua",
+      "EventId": -2069460724
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": true,
+    "MaxAttenuationRadius": 0.0
+  }
+]

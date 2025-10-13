@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "enter_level_yinlin_common",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -1226134660,
+            "SoundBanks": [
+              {
+                "SoundBankId": -1226134660,
+                "SoundBankPathName": "Event/enter_level_yinlin_common.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "enter_level_yinlin_common",
+                "PackagedFile": null
+              },
+              {
+                "SoundBankId": 197759230,
+                "SoundBankPathName": "Event/map_role_yinlin_reset.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "map_role_yinlin_reset",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 143585452,
+                "Id": 748895195,
+                "DebugName": "None"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 1684817153,
+                "Id": -43896635,
+                "DebugName": "no_level_yinlin_common"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "enter_level_yinlin_common"
+          }
+        }
+      ],
+      "DebugName": "enter_level_yinlin_common",
+      "EventId": -1226134660
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

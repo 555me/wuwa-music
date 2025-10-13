@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "enter_level_shenghen",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -1671284063,
+            "SoundBanks": [
+              {
+                "SoundBankId": -1671284063,
+                "SoundBankPathName": "Event/enter_level_shenghen.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "enter_level_shenghen",
+                "PackagedFile": null
+              },
+              {
+                "SoundBankId": -1802502264,
+                "SoundBankPathName": "Event/map_main_shanghen02_reset.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "map_main_shanghen02_reset",
+                "PackagedFile": null
+              },
+              {
+                "SoundBankId": 888926791,
+                "SoundBankPathName": "Event/map_main_shanghen01_reset.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "map_main_shanghen01_reset",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 143585452,
+                "Id": 748895195,
+                "DebugName": "None"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 1684817153,
+                "Id": 955970102,
+                "DebugName": "no_level_weapon"
+              },
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": -1503452341,
+                "Id": 2133905386,
+                "DebugName": "wind_dark"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "enter_level_shenghen"
+          }
+        }
+      ],
+      "DebugName": "enter_level_shenghen",
+      "EventId": -1671284063
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "stop_function_music_vehicles_gondola",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 789435411,
+            "SoundBanks": [
+              {
+                "SoundBankId": 789435411,
+                "SoundBankPathName": "Event/stop_function_music_vehicles_gondola.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "stop_function_music_vehicles_gondola",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 1787780186,
+                "Id": 930712164,
+                "DebugName": "off"
+              }
+            ],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "stop_function_music_vehicles_gondola"
+          }
+        }
+      ],
+      "DebugName": "stop_function_music_vehicles_gondola",
+      "EventId": 789435411
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

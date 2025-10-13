@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "play_ui_music_basic",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -901044061,
+            "SoundBanks": [
+              {
+                "SoundBankId": -901044061,
+                "SoundBankPathName": "Event/play_ui_music_basic.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_ui_music_basic",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 995011663,
+                "MediaPathName": "Media/995011663.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_ui\\ui_music_basic.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_ui_music_basic"
+          }
+        }
+      ],
+      "DebugName": "play_ui_music_basic",
+      "EventId": -901044061
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": true,
+    "MaxAttenuationRadius": 0.0
+  }
+]

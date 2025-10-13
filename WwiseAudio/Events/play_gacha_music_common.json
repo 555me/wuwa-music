@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "play_gacha_music_common",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 1453330100,
+            "SoundBanks": [
+              {
+                "SoundBankId": 1453330100,
+                "SoundBankPathName": "Event/play_gacha_music_common.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_gacha_music_common",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 767440469,
+                "MediaPathName": "Media/767440469.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_function\\character_gacha_music\\gacha_music_common.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_gacha_music_common"
+          }
+        }
+      ],
+      "DebugName": "play_gacha_music_common",
+      "EventId": 1453330100
+    },
+    "MaximumDuration": 10.478646,
+    "MinimumDuration": 10.478646,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]

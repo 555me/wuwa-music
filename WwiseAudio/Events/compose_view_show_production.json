@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "compose_view_show_production",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -2041029385,
+            "SoundBanks": [
+              {
+                "SoundBankId": -2041029385,
+                "SoundBankPathName": "Event/compose_view_show_production.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "compose_view_show_production",
+                "PackagedFile": null
+              },
+              {
+                "SoundBankId": -1815350568,
+                "SoundBankPathName": "Event/play_ui_fx_spl_gen_noise_loop.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_ui_fx_spl_gen_noise_loop",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 859749208,
+                "MediaPathName": "Media/859749208.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "SFX\\UI\\sfx_ui_bigworld\\ui_fx_spl_gen_page_open.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 293477081,
+                "MediaPathName": "Media/293477081.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "SFX\\UI\\sfx_ui_bigworld\\ui_fx_spl_gen_noise_loop.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "compose_view_show_production"
+          }
+        }
+      ],
+      "DebugName": "compose_view_show_production",
+      "EventId": -2041029385
+    },
+    "MaximumDuration": 2.2849374,
+    "MinimumDuration": 2.2849374,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]
