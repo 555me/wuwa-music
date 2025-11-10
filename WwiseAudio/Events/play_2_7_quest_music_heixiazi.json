@@ -3,6 +3,65 @@
     "Type": "AkAudioEvent",
     "Name": "play_2_7_quest_music_heixiazi",
     "Class": "UScriptClass'AkAudioEvent'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 978343143,
+            "SoundBanks": [
+              {
+                "SoundBankId": 978343143,
+                "SoundBankPathName": "Event/play_2_7_quest_music_heixiazi.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_2_7_quest_music_heixiazi",
+                "PackagedFile": null
+              },
+              {
+                "SoundBankId": -521887611,
+                "SoundBankPathName": "Event/stop_2_7_quest_music_heixiazi_soaring.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "stop_2_7_quest_music_heixiazi_soaring",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 359055211,
+                "MediaPathName": "Media/359055211.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_dungeon\\2_7_heixiazi\\2_7_quest_music_heixiazi_soaring_bpm95.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_2_7_quest_music_heixiazi"
+          }
+        }
+      ],
+      "DebugName": "play_2_7_quest_music_heixiazi",
+      "EventId": 978343143
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": true,
+    "MaxAttenuationRadius": 0.0
   }
 ]

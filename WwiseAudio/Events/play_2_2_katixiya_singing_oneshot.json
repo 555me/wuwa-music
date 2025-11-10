@@ -3,6 +3,55 @@
     "Type": "AkAudioEvent",
     "Name": "play_2_2_katixiya_singing_oneshot",
     "Class": "UScriptClass'AkAudioEvent'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 1282037679,
+            "SoundBanks": [
+              {
+                "SoundBankId": 1282037679,
+                "SoundBankPathName": "Event/play_2_2_katixiya_singing_oneshot.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_2_2_katixiya_singing_oneshot",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 40263530,
+                "MediaPathName": "Media/40263530.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_story\\plot\\2.2\\katixiya\\music_point_katixiya_singing.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_2_2_katixiya_singing_oneshot"
+          }
+        }
+      ],
+      "DebugName": "play_2_2_katixiya_singing_oneshot",
+      "EventId": 1282037679
+    },
+    "MaximumDuration": 20.0,
+    "MinimumDuration": 20.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 20000.0
   }
 ]

@@ -3,6 +3,55 @@
     "Type": "AkAudioEvent",
     "Name": "play_all_sound_e0001",
     "Class": "UScriptClass'AkAudioEvent'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 1479518770,
+            "SoundBanks": [
+              {
+                "SoundBankId": 1479518770,
+                "SoundBankPathName": "Event/play_all_sound_e0001.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_all_sound_e0001",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 735554591,
+                "MediaPathName": "Media/735554591.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_story\\sequence\\2.7\\music_story_mp4_E0001.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_all_sound_e0001"
+          }
+        }
+      ],
+      "DebugName": "play_all_sound_e0001",
+      "EventId": 1479518770
+    },
+    "MaximumDuration": 188.88,
+    "MinimumDuration": 188.88,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
   }
 ]

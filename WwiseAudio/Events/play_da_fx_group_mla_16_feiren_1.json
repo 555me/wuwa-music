@@ -3,6 +3,65 @@
     "Type": "AkAudioEvent",
     "Name": "play_da_fx_group_mla_16_feiren_1",
     "Class": "UScriptClass'AkAudioEvent'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -497232769,
+            "SoundBanks": [
+              {
+                "SoundBankId": -497232769,
+                "SoundBankPathName": "Event/play_da_fx_group_mla_16_feiren_1.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_da_fx_group_mla_16_feiren_1",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 283390036,
+                "MediaPathName": "Media/283390036.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "DA_Fx_Group_MLa_16_Feiren_1.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 921589387,
+                "MediaPathName": "Media/921589387.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "DA_Fx_Group_MLa_16_Feiren_loop.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_da_fx_group_mla_16_feiren_1"
+          }
+        }
+      ],
+      "DebugName": "play_da_fx_group_mla_16_feiren_1",
+      "EventId": -497232769
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": true,
+    "MaxAttenuationRadius": 20000.0
   }
 ]

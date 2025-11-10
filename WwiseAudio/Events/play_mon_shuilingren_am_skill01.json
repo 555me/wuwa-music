@@ -3,6 +3,55 @@
     "Type": "AkAudioEvent",
     "Name": "play_mon_shuilingren_am_skill01",
     "Class": "UScriptClass'AkAudioEvent'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 361804683,
+            "SoundBanks": [
+              {
+                "SoundBankId": 361804683,
+                "SoundBankPathName": "Event/play_mon_shuilingren_am_skill01.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_mon_shuilingren_am_skill01",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 187905766,
+                "MediaPathName": "Media/187905766.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "mon_shuilingren_AM_Skill01.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_mon_shuilingren_am_skill01"
+          }
+        }
+      ],
+      "DebugName": "play_mon_shuilingren_am_skill01",
+      "EventId": 361804683
+    },
+    "MaximumDuration": 4.0560093,
+    "MinimumDuration": 4.0560093,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 20000.0
   }
 ]
