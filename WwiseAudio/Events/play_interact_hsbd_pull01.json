@@ -3,6 +3,55 @@
     "Type": "AkAudioEvent",
     "Name": "play_interact_hsbd_pull01",
     "Class": "UScriptClass'AkAudioEvent'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 358936353,
+            "SoundBanks": [
+              {
+                "SoundBankId": 358936353,
+                "SoundBankPathName": "Event/play_interact_hsbd_pull01.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_interact_hsbd_pull01",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 345669687,
+                "MediaPathName": "Media/345669687.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Interact_hsbd_pull01.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_interact_hsbd_pull01"
+          }
+        }
+      ],
+      "DebugName": "play_interact_hsbd_pull01",
+      "EventId": 358936353
+    },
+    "MaximumDuration": 2.7977293,
+    "MinimumDuration": 2.7977293,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 20000.0
   }
 ]

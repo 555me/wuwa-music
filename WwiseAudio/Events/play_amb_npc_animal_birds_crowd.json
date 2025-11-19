@@ -3,6 +3,65 @@
     "Type": "AkAudioEvent",
     "Name": "play_amb_npc_animal_birds_crowd",
     "Class": "UScriptClass'AkAudioEvent'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -258143978,
+            "SoundBanks": [
+              {
+                "SoundBankId": -258143978,
+                "SoundBankPathName": "Event/play_amb_npc_animal_birds_crowd.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_amb_npc_animal_birds_crowd",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 229133123,
+                "MediaPathName": "Media/229133123.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "SFX\\amb\\amb_npc_animal\\amb_npc_animal_birds_crowd.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 833520984,
+                "MediaPathName": "Media/833520984.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "SFX\\amb\\amb_emit\\amb_emit_valley.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_amb_npc_animal_birds_crowd"
+          }
+        }
+      ],
+      "DebugName": "play_amb_npc_animal_birds_crowd",
+      "EventId": -258143978
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": true,
+    "MaxAttenuationRadius": 20000.0
   }
 ]

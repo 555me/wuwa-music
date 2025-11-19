@@ -3,6 +3,65 @@
     "Type": "AkAudioEvent",
     "Name": "amb_npc_alien_wutata_shake_head",
     "Class": "UScriptClass'AkAudioEvent'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -17084418,
+            "SoundBanks": [
+              {
+                "SoundBankId": -17084418,
+                "SoundBankPathName": "Event/amb_npc_alien_wutata_shake_head.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "amb_npc_alien_wutata_shake_head",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 289861095,
+                "MediaPathName": "Media/289861095.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "amb_npc_alien_wutata_shake_head_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 446108830,
+                "MediaPathName": "Media/446108830.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "amb_npc_alien_wutata_shake_head_01.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "amb_npc_alien_wutata_shake_head"
+          }
+        }
+      ],
+      "DebugName": "amb_npc_alien_wutata_shake_head",
+      "EventId": -17084418
+    },
+    "MaximumDuration": 2.5333333,
+    "MinimumDuration": 2.5333333,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 1500.0
   }
 ]

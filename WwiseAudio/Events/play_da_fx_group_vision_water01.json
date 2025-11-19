@@ -3,6 +3,55 @@
     "Type": "AkAudioEvent",
     "Name": "play_da_fx_group_vision_water01",
     "Class": "UScriptClass'AkAudioEvent'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 878837858,
+            "SoundBanks": [
+              {
+                "SoundBankId": 878837858,
+                "SoundBankPathName": "Event/play_da_fx_group_vision_water01.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_da_fx_group_vision_water01",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 924506271,
+                "MediaPathName": "Media/924506271.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "DA_Fx_Group_Vision_Water01.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_da_fx_group_vision_water01"
+          }
+        }
+      ],
+      "DebugName": "play_da_fx_group_vision_water01",
+      "EventId": 878837858
+    },
+    "MaximumDuration": 2.4385834,
+    "MinimumDuration": 2.4385834,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 20000.0
   }
 ]

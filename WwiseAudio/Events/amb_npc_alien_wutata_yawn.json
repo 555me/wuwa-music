@@ -3,6 +3,65 @@
     "Type": "AkAudioEvent",
     "Name": "amb_npc_alien_wutata_yawn",
     "Class": "UScriptClass'AkAudioEvent'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 1092573592,
+            "SoundBanks": [
+              {
+                "SoundBankId": 1092573592,
+                "SoundBankPathName": "Event/amb_npc_alien_wutata_yawn.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "amb_npc_alien_wutata_yawn",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 571696595,
+                "MediaPathName": "Media/571696595.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "amb_npc_alien_wutata_yawn_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 712299537,
+                "MediaPathName": "Media/712299537.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "amb_npc_alien_wutata_yawn_02.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "amb_npc_alien_wutata_yawn"
+          }
+        }
+      ],
+      "DebugName": "amb_npc_alien_wutata_yawn",
+      "EventId": 1092573592
+    },
+    "MaximumDuration": 3.2,
+    "MinimumDuration": 3.2,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 1500.0
   }
 ]
