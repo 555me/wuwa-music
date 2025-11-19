@@ -1,7 +1,7 @@
 [
   {
     "Type": "AkAudioEvent",
-    "Name": "play_da_fx_group_sl2_sb_dianhua_burst",
+    "Name": "play_bgm_wuyinqu_2_8",
     "Class": "UScriptClass'AkAudioEvent'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "EventCookedData": {
@@ -13,28 +13,38 @@
             "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
-            "EventId": -1530780932,
+            "EventId": -1225135379,
             "SoundBanks": [
               {
-                "SoundBankId": -1530780932,
-                "SoundBankPathName": "Event/play_da_fx_group_sl2_sb_dianhua_burst.bnk",
+                "SoundBankId": -1225135379,
+                "SoundBankPathName": "Event/play_bgm_wuyinqu_2_8.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
                 "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_da_fx_group_sl2_sb_dianhua_burst",
+                "DebugName": "play_bgm_wuyinqu_2_8",
                 "PackagedFile": null
               }
             ],
             "Media": [
               {
-                "MediaId": 390034258,
-                "MediaPathName": "Media/390034258.wem",
+                "MediaId": 201357450,
+                "MediaPathName": "Media/201357450.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "DA_Fx_Group_Sl2_SB_Dianhua_Burst.wav",
+                "DebugName": "music\\music_dungeon\\2.8wuyinqu\\bgm-battle_scene_wuyinqu_2_8_battle_small-all-full-105bpm-4_4.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 842549770,
+                "MediaPathName": "Media/842549770.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_dungeon\\2.8wuyinqu\\bgm-battle_scene_wuyinqu2_8_peace_small-all-full-105bpm-4_4.wav",
                 "PackagedFile": null
               }
             ],
@@ -42,16 +52,16 @@
             "SwitchContainerLeaves": [],
             "RequiredGroupValueSet": [],
             "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_da_fx_group_sl2_sb_dianhua_burst"
+            "DebugName": "play_bgm_wuyinqu_2_8"
           }
         }
       ],
-      "DebugName": "play_da_fx_group_sl2_sb_dianhua_burst",
-      "EventId": -1530780932
+      "DebugName": "play_bgm_wuyinqu_2_8",
+      "EventId": -1225135379
     },
-    "MaximumDuration": 2.004,
-    "MinimumDuration": 2.004,
-    "IsInfinite": false,
-    "MaxAttenuationRadius": 3000.0
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": true,
+    "MaxAttenuationRadius": 0.0
   }
 ]
