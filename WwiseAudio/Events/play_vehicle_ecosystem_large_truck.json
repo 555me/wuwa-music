@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "play_vehicle_ecosystem_large_truck",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -1510491949,
+            "SoundBanks": [
+              {
+                "SoundBankId": -1510491949,
+                "SoundBankPathName": "Event/play_vehicle_ecosystem_large_truck.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_vehicle_ecosystem_large_truck"
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 246372789,
+                "MediaPathName": "Media/246372789.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "vehicle_ecosystem_large_truck_speed_moderate.wav"
+              },
+              {
+                "MediaId": 420188418,
+                "MediaPathName": "Media/420188418.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "vehicle_ecosystem_large_truck_speed_low.wav"
+              },
+              {
+                "MediaId": 1034146402,
+                "MediaPathName": "Media/1034146402.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "vehicle_ecosystem_large_truck_speed_high.wav"
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_vehicle_ecosystem_large_truck"
+          }
+        }
+      ],
+      "DebugName": "play_vehicle_ecosystem_large_truck",
+      "EventId": -1510491949
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": true,
+    "MaxAttenuationRadius": 4000.0
+  }
+]
