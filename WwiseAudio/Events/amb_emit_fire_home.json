@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "amb_emit_fire_home",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": -926446648,
+            "SoundBanks": [
+              {
+                "SoundBankId": -926446648,
+                "SoundBankPathName": "Event/amb_emit_fire_home.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "amb_emit_fire_home",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 366932337,
+                "MediaPathName": "Media/366932337.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "amb\\amb_modular\\3.1\\fire\\amb_emit_fire_room.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 540858003,
+                "MediaPathName": "Media/540858003.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "amb\\amb_modular\\3.1\\fire\\amb_emit_fire_place.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "amb_emit_fire_home"
+          }
+        }
+      ],
+      "DebugName": "amb_emit_fire_home",
+      "EventId": -926446648
+    },
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": true,
+    "MaxAttenuationRadius": 1000.0
+  }
+]
