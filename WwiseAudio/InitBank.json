@@ -2,9 +2,10 @@
   {
     "Type": "AkInitBank",
     "Name": "InitBank",
-    "Class": "UScriptClass'AkInitBank'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AkInitBank'",
     "InitBankCookedData": {
+      "SoundBanks": [],
       "Media": [],
       "Language": [
         {
@@ -34,7 +35,8 @@
       "bDeviceMemory": false,
       "bContainsMedia": false,
       "SoundBankType": "EWwiseSoundBankType::User",
-      "DebugName": "Init"
+      "DebugName": "Init",
+      "PackagedFile": null
     }
   }
 ]

@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "play_task_film_tape_stop",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 127867392,
+            "SoundBanks": [
+              {
+                "SoundBankId": 127867392,
+                "SoundBankPathName": "Event/play_task_film_tape_stop.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_task_film_tape_stop",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 51181628,
+                "MediaPathName": "Media/51181628.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "task_film_tape_stop.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_task_film_tape_stop"
+          }
+        }
+      ],
+      "DebugName": "play_task_film_tape_stop",
+      "EventId": 127867392
+    },
+    "MaximumDuration": 0.51022285,
+    "MinimumDuration": 0.51022285,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]
