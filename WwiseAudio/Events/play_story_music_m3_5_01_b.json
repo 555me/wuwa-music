@@ -36,11 +36,48 @@
                 "bStreaming": true,
                 "DebugName": "music_next\\music_common\\bgm-story_common_neutral_06-all-full-56bpm-4_4.wav",
                 "PackagedFile": null
+              },
+              {
+                "MediaId": 101952194,
+                "MediaPathName": "Media/101952194.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_scene\\silence_5s.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 106490068,
+                "MediaPathName": "Media/106490068.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music_next\\music_story\\level_b\\3.2\\bgm-story_plot_m3_5_01_x01-all-full-null-4_4.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 950160242,
+                "MediaPathName": "Media/950160242.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music_next\\music_story\\common\\3.0\\bgm-story_common_3,0_neutral_01-loop-full-84bpm-4_4.wav",
+                "PackagedFile": null
               }
             ],
             "ExternalSources": [],
             "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
+            "RequiredGroupValueSet": [
+              {
+                "Type": "EWwiseGroupType::State",
+                "GroupId": 1268568171,
+                "Id": 84696445,
+                "DebugName": "b"
+              }
+            ],
             "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
             "DebugName": "play_story_music_m3_5_01_b"
           }
