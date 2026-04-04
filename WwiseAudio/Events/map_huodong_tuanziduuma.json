@@ -4,6 +4,7 @@
     "Name": "map_huodong_tuanziduuma",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'AkAudioEvent'",
+    "Package": "Client/Content/Aki/WwiseAudio/Events/map_huodong_tuanziduuma",
     "EventCookedData": {
       "EventLanguageMap": [
         {
@@ -13,10 +14,10 @@
             "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
-            "EventId": -9456178,
+            "EventId": 4285511118,
             "SoundBanks": [
               {
-                "SoundBankId": -9456178,
+                "SoundBankId": 4285511118,
                 "SoundBankPathName": "Event/map_huodong_tuanziduuma.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
@@ -26,7 +27,58 @@
                 "PackagedFile": null
               }
             ],
-            "Media": [],
+            "Media": [
+              {
+                "MediaId": 798218287,
+                "MediaPathName": "Media/798218287.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_dungeon\\2.3tuanzi_race\\dungeon_music_2_3_tuanzi_race_finals_bpm140.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 448329003,
+                "MediaPathName": "Media/448329003.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_dungeon\\2.3tuanzi_race\\dungeon_music_2_3_tuanzi_race_groupstage_bpm140.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 404024645,
+                "MediaPathName": "Media/404024645.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_dungeon\\2.3tuanzi_race\\dungeon_music_2_3_tuanzi_race_mainview_bpm120.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 440963442,
+                "MediaPathName": "Media/440963442.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_dungeon\\2.3tuanzi_race\\dungeon_music_2_3_tuanzi_race_complete.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 446704252,
+                "MediaPathName": "Media/446704252.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music\\music_dungeon\\2.3tuanzi_race\\dungeon_music_2_3_tuanzi_race_matchpoint_bpm140.wav",
+                "PackagedFile": null
+              }
+            ],
             "ExternalSources": [],
             "SwitchContainerLeaves": [],
             "RequiredGroupValueSet": [],
@@ -36,11 +88,11 @@
         }
       ],
       "DebugName": "map_huodong_tuanziduuma",
-      "EventId": -9456178
+      "EventId": 4285511118
     },
     "MaximumDuration": 0.0,
     "MinimumDuration": 0.0,
-    "IsInfinite": false,
+    "IsInfinite": true,
     "MaxAttenuationRadius": 0.0
   }
 ]
