@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "play_sfx_gp_lightrail_open",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Package": "Client/Content/Aki/WwiseAudio/Events/play_sfx_gp_lightrail_open",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 3236203253,
+            "SoundBanks": [
+              {
+                "SoundBankId": 3236203253,
+                "SoundBankPathName": "Event/play_sfx_gp_lightrail_open.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_sfx_gp_lightrail_open",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 7303424,
+                "MediaPathName": "Media/7303424.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "SFX\\Buff\\Element\\element_fx_lightice.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 330189788,
+                "MediaPathName": "Media/330189788.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Interact_ValleyLightOn.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_sfx_gp_lightrail_open"
+          }
+        }
+      ],
+      "DebugName": "play_sfx_gp_lightrail_open",
+      "EventId": 3236203253
+    },
+    "MaximumDuration": 2.3783257,
+    "MinimumDuration": 2.3783257,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 5000.0
+  }
+]

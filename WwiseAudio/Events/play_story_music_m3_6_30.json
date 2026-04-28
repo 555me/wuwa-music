@@ -4,6 +4,7 @@
     "Name": "play_story_music_m3_6_30",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'AkAudioEvent'",
+    "Package": "Client/Content/Aki/WwiseAudio/Events/play_story_music_m3_6_30",
     "EventCookedData": {
       "EventLanguageMap": [
         {
@@ -36,6 +37,16 @@
                 "bStreaming": true,
                 "DebugName": "music\\music_scene\\silence_5s.wav",
                 "PackagedFile": null
+              },
+              {
+                "MediaId": 728179649,
+                "MediaPathName": "Media/728179649.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music_next\\music_story\\3_3\\bgm-story_plot_m3_6_30-all-full-80bpm-4_4.wav",
+                "PackagedFile": null
               }
             ],
             "ExternalSources": [],
@@ -49,9 +60,9 @@
       "DebugName": "play_story_music_m3_6_30",
       "EventId": 1541596879
     },
-    "MaximumDuration": 4.5,
-    "MinimumDuration": 4.5,
-    "IsInfinite": false,
+    "MaximumDuration": 0.0,
+    "MinimumDuration": 0.0,
+    "IsInfinite": true,
     "MaxAttenuationRadius": 0.0
   }
 ]
