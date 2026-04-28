@@ -1,10 +1,10 @@
 [
   {
     "Type": "AkAudioEvent",
-    "Name": "play_amb_emit_water_stream_small_2",
+    "Name": "play_sfx_gp_riling_surround",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'AkAudioEvent'",
-    "Package": "Client/Content/Aki/WwiseAudio/Events/play_amb_emit_water_stream_small_2",
+    "Package": "Client/Content/Aki/WwiseAudio/Events/play_sfx_gp_riling_surround",
     "EventCookedData": {
       "EventLanguageMap": [
         {
@@ -14,28 +14,38 @@
             "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
-            "EventId": 1376843148,
+            "EventId": 3690475854,
             "SoundBanks": [
               {
-                "SoundBankId": 1376843148,
-                "SoundBankPathName": "Event/play_amb_emit_water_stream_small_2.bnk",
+                "SoundBankId": 3690475854,
+                "SoundBankPathName": "Event/play_sfx_gp_riling_surround.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
                 "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_amb_emit_water_stream_small_2",
+                "DebugName": "play_sfx_gp_riling_surround",
                 "PackagedFile": null
               }
             ],
             "Media": [
               {
-                "MediaId": 185656510,
-                "MediaPathName": "Media/185656510.wem",
+                "MediaId": 330311806,
+                "MediaPathName": "Media/330311806.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "amb\\amb_emit\\3.0\\amb_emit_water\\amb_emit_water_river_stream_v4.wav",
+                "DebugName": "sfx_gp_riling_surround_loop.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 925360848,
+                "MediaPathName": "Media/925360848.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "sfx_gp_riling_surround_oneshot.wav",
                 "PackagedFile": null
               }
             ],
@@ -43,16 +53,16 @@
             "SwitchContainerLeaves": [],
             "RequiredGroupValueSet": [],
             "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_amb_emit_water_stream_small_2"
+            "DebugName": "play_sfx_gp_riling_surround"
           }
         }
       ],
-      "DebugName": "play_amb_emit_water_stream_small_2",
-      "EventId": 1376843148
+      "DebugName": "play_sfx_gp_riling_surround",
+      "EventId": 3690475854
     },
     "MaximumDuration": 0.0,
     "MinimumDuration": 0.0,
     "IsInfinite": true,
-    "MaxAttenuationRadius": 4000.0
+    "MaxAttenuationRadius": 15000.0
   }
 ]
