@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4289635918,
             "SoundBanks": [
               {
                 "SoundBankId": 4289635918,
-                "SoundBankPathName": "Event/en/set_music_3_3_daniya_boss_stage2_battle.bnk",
+                "SoundBankPathName": "Event/set_music_3_3_daniya_boss_stage2_battle.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -27,156 +27,7 @@
                 "PackagedFile": null
               }
             ],
-            "Media": [
-              {
-                "MediaId": 226233811,
-                "MediaPathName": "Media/en/226233811.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "enemy\\branch_3,3\\daniya\\en_vo_boss_daniya_paralysis.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [
-              {
-                "Type": "EWwiseGroupType::State",
-                "GroupId": 1538104360,
-                "Id": 1733112119,
-                "DebugName": "d_stage2_battle"
-              }
-            ],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "set_music_3_3_daniya_boss_stage2_battle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4289635918,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4289635918,
-                "SoundBankPathName": "Event/ja/set_music_3_3_daniya_boss_stage2_battle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "set_music_3_3_daniya_boss_stage2_battle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 165514784,
-                "MediaPathName": "Media/ja/165514784.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "enemy\\branch_3,3\\daniya\\ja_vo_boss_daniya_paralysis.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [
-              {
-                "Type": "EWwiseGroupType::State",
-                "GroupId": 1538104360,
-                "Id": 1733112119,
-                "DebugName": "d_stage2_battle"
-              }
-            ],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "set_music_3_3_daniya_boss_stage2_battle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4289635918,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4289635918,
-                "SoundBankPathName": "Event/ko/set_music_3_3_daniya_boss_stage2_battle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "set_music_3_3_daniya_boss_stage2_battle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1057623228,
-                "MediaPathName": "Media/ko/1057623228.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "enemy\\branch_3,3\\daniya\\ko_vo_boss_daniya_paralysis.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [
-              {
-                "Type": "EWwiseGroupType::State",
-                "GroupId": 1538104360,
-                "Id": 1733112119,
-                "DebugName": "d_stage2_battle"
-              }
-            ],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "set_music_3_3_daniya_boss_stage2_battle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4289635918,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4289635918,
-                "SoundBankPathName": "Event/zh/set_music_3_3_daniya_boss_stage2_battle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "set_music_3_3_daniya_boss_stage2_battle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 226998988,
-                "MediaPathName": "Media/zh/226998988.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "enemy\\branch_3,3\\daniya\\zh_vo_boss_daniya_paralysis.wav",
-                "PackagedFile": null
-              }
-            ],
+            "Media": [],
             "ExternalSources": [],
             "SwitchContainerLeaves": [],
             "RequiredGroupValueSet": [
