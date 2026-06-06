@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "AkAudioEvent",
+    "Name": "play_gacha_music_libeika",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AkAudioEvent'",
+    "Package": "Client/Content/Aki/WwiseAudio/Events/play_gacha_music_libeika",
+    "EventCookedData": {
+      "EventLanguageMap": [
+        {
+          "Key": {
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          },
+          "Value": {
+            "EventId": 387246446,
+            "SoundBanks": [
+              {
+                "SoundBankId": 387246446,
+                "SoundBankPathName": "Event/play_gacha_music_libeika.bnk",
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bContainsMedia": false,
+                "SoundBankType": "EWwiseSoundBankType::Event",
+                "DebugName": "play_gacha_music_libeika",
+                "PackagedFile": null
+              }
+            ],
+            "Media": [
+              {
+                "MediaId": 431451715,
+                "MediaPathName": "Media/431451715.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "music_next\\music_ui\\ui_music_gacha\\3.4\\mov-gacha_libeika-all-full-null-4_4.wav",
+                "PackagedFile": null
+              }
+            ],
+            "ExternalSources": [],
+            "SwitchContainerLeaves": [],
+            "RequiredGroupValueSet": [],
+            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+            "DebugName": "play_gacha_music_libeika"
+          }
+        }
+      ],
+      "DebugName": "play_gacha_music_libeika",
+      "EventId": 387246446
+    },
+    "MaximumDuration": 18.0,
+    "MinimumDuration": 18.0,
+    "IsInfinite": false,
+    "MaxAttenuationRadius": 0.0
+  }
+]
