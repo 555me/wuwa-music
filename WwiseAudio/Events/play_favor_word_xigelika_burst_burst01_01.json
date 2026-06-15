@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4076063369,
             "SoundBanks": [
               {
                 "SoundBankId": 4076063369,
-                "SoundBankPathName": "Event/en/play_favor_word_xigelika_burst_burst01_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_xigelika_burst_burst01_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 79207610,
-                "MediaPathName": "Media/en/79207610.wem",
+                "MediaId": 424794044,
+                "MediaPathName": "Media/424794044.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\en_vo_xigelika_burst_burst01_01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,2\\xigelika\\ko_vo_xigelika_burst_burst01_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xigelika_burst_burst01_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4076063369,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4076063369,
-                "SoundBankPathName": "Event/ja/play_favor_word_xigelika_burst_burst01_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xigelika_burst_burst01_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 445073464,
-                "MediaPathName": "Media/ja/445073464.wem",
+                "MediaId": 909603185,
+                "MediaPathName": "Media/909603185.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\ja_vo_xigelika_burst_burst01_01_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,2\\xigelika\\en_vo_xigelika_burst_burst01_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xigelika_burst_burst01_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4076063369,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4076063369,
-                "SoundBankPathName": "Event/ko/play_favor_word_xigelika_burst_burst01_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xigelika_burst_burst01_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 304299034,
-                "MediaPathName": "Media/ko/304299034.wem",
+                "MediaId": 520728531,
+                "MediaPathName": "Media/520728531.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\ko_vo_xigelika_burst_burst01_01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,2\\xigelika\\zh_vo_xigelika_burst_burst01_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xigelika_burst_burst01_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4076063369,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4076063369,
-                "SoundBankPathName": "Event/zh/play_favor_word_xigelika_burst_burst01_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xigelika_burst_burst01_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 436477225,
-                "MediaPathName": "Media/zh/436477225.wem",
+                "MediaId": 168494444,
+                "MediaPathName": "Media/168494444.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\zh_vo_xigelika_burst_burst01_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,2\\xigelika\\ja_vo_xigelika_burst_burst01_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 4076063369
     },
     "MaximumDuration": 2.927875,
-    "MinimumDuration": 2.927875,
+    "MinimumDuration": 2.839729,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

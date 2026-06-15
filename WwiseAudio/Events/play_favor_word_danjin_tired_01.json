@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 159082091,
             "SoundBanks": [
               {
                 "SoundBankId": 159082091,
-                "SoundBankPathName": "Event/en/play_favor_word_danjin_tired_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_danjin_tired_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 917150065,
-                "MediaPathName": "Media/en/917150065.wem",
+                "MediaId": 340012235,
+                "MediaPathName": "Media/340012235.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_tired_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 877735610,
+                "MediaPathName": "Media/877735610.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_tired_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 116590417,
+                "MediaPathName": "Media/116590417.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_tired_01.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_tired_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_danjin_tired_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 159082091,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 159082091,
-                "SoundBankPathName": "Event/ja/play_favor_word_danjin_tired_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_danjin_tired_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 931564845,
-                "MediaPathName": "Media/ja/931564845.wem",
+                "MediaId": 829490527,
+                "MediaPathName": "Media/829490527.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_tired_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_danjin_tired_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 159082091,
-            "SoundBanks": [
-              {
-                "SoundBankId": 159082091,
-                "SoundBankPathName": "Event/ko/play_favor_word_danjin_tired_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_danjin_tired_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 115444043,
-                "MediaPathName": "Media/ko/115444043.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_tired_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_danjin_tired_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 159082091,
-            "SoundBanks": [
-              {
-                "SoundBankId": 159082091,
-                "SoundBankPathName": "Event/zh/play_favor_word_danjin_tired_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_danjin_tired_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 733965236,
-                "MediaPathName": "Media/zh/733965236.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_tired_01.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_tired_01.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_danjin_tired_01",
       "EventId": 159082091
     },
-    "MaximumDuration": 1.1071428,
+    "MaximumDuration": 2.24,
     "MinimumDuration": 1.1071428,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

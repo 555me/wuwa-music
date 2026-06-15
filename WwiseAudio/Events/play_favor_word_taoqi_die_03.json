@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2944345359,
             "SoundBanks": [
               {
                 "SoundBankId": 2944345359,
-                "SoundBankPathName": "Event/en/play_favor_word_taoqi_die_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_taoqi_die_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 627883716,
-                "MediaPathName": "Media/en/627883716.wem",
+                "MediaId": 305648334,
+                "MediaPathName": "Media/305648334.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_die_03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\taoqi\\ko_vo_taoqi_die_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_taoqi_die_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2944345359,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2944345359,
-                "SoundBankPathName": "Event/ja/play_favor_word_taoqi_die_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_taoqi_die_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1725110,
-                "MediaPathName": "Media/ja/1725110.wem",
+                "MediaId": 619671019,
+                "MediaPathName": "Media/619671019.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_die_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\taoqi\\zh_vo_taoqi_die_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_taoqi_die_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2944345359,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2944345359,
-                "SoundBankPathName": "Event/ko/play_favor_word_taoqi_die_03.bnk",
+                "MediaId": 738588935,
+                "MediaPathName": "Media/738588935.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_taoqi_die_03",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\taoqi\\ja_vo_taoqi_die_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 9331169,
-                "MediaPathName": "Media/ko/9331169.wem",
+                "MediaId": 790757035,
+                "MediaPathName": "Media/790757035.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_die_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_taoqi_die_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2944345359,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2944345359,
-                "SoundBankPathName": "Event/zh/play_favor_word_taoqi_die_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_taoqi_die_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 553872684,
-                "MediaPathName": "Media/zh/553872684.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_die_03.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\taoqi\\en_vo_taoqi_die_03.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 2944345359
     },
     "MaximumDuration": 4.0,
-    "MinimumDuration": 4.0,
+    "MinimumDuration": 1.8678958,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

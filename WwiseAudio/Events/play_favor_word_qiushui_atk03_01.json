@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3037675122,
             "SoundBanks": [
               {
                 "SoundBankId": 3037675122,
-                "SoundBankPathName": "Event/en/play_favor_word_qiushui_atk03_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_qiushui_atk03_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 451220424,
-                "MediaPathName": "Media/en/451220424.wem",
+                "MediaId": 254001189,
+                "MediaPathName": "Media/254001189.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_atk03_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\qiushui\\ja_vo_qiushui_atk03_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiushui_atk03_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3037675122,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3037675122,
-                "SoundBankPathName": "Event/ja/play_favor_word_qiushui_atk03_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiushui_atk03_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 523946346,
-                "MediaPathName": "Media/ja/523946346.wem",
+                "MediaId": 848849765,
+                "MediaPathName": "Media/848849765.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_atk03_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\qiushui\\ko_vo_qiushui_atk03_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiushui_atk03_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3037675122,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3037675122,
-                "SoundBankPathName": "Event/ko/play_favor_word_qiushui_atk03_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiushui_atk03_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 745535893,
-                "MediaPathName": "Media/ko/745535893.wem",
+                "MediaId": 529723586,
+                "MediaPathName": "Media/529723586.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_atk03_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\qiushui\\en_vo_qiushui_atk03_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiushui_atk03_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3037675122,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3037675122,
-                "SoundBankPathName": "Event/zh/play_favor_word_qiushui_atk03_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiushui_atk03_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 590331343,
-                "MediaPathName": "Media/zh/590331343.wem",
+                "MediaId": 234331487,
+                "MediaPathName": "Media/234331487.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_atk03_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\qiushui\\zh_vo_qiushui_atk03_01.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 3037675122
     },
     "MaximumDuration": 0.60575,
-    "MinimumDuration": 0.60575,
+    "MinimumDuration": 0.476,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

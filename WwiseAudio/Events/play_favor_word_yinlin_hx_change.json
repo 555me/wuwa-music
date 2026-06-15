@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 313861923,
             "SoundBanks": [
               {
                 "SoundBankId": 313861923,
-                "SoundBankPathName": "Event/en/play_favor_word_yinlin_hx_change.bnk",
+                "SoundBankPathName": "Event/play_favor_word_yinlin_hx_change.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 297245049,
-                "MediaPathName": "Media/en/297245049.wem",
+                "MediaId": 383880248,
+                "MediaPathName": "Media/383880248.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_hx_change.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yinlin\\en_vo_yinlin_hx_change.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yinlin_hx_change"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 313861923,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 313861923,
-                "SoundBankPathName": "Event/ja/play_favor_word_yinlin_hx_change.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yinlin_hx_change",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 224813927,
-                "MediaPathName": "Media/ja/224813927.wem",
+                "MediaId": 27447555,
+                "MediaPathName": "Media/27447555.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_hx_change.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yinlin\\zh_vo_yinlin_hx_change.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yinlin_hx_change"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 313861923,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 313861923,
-                "SoundBankPathName": "Event/ko/play_favor_word_yinlin_hx_change.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yinlin_hx_change",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 376839360,
-                "MediaPathName": "Media/ko/376839360.wem",
+                "MediaId": 672039832,
+                "MediaPathName": "Media/672039832.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_hx_change.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yinlin\\ja_vo_yinlin_hx_change.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yinlin_hx_change"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 313861923,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 313861923,
-                "SoundBankPathName": "Event/zh/play_favor_word_yinlin_hx_change.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yinlin_hx_change",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 614287890,
-                "MediaPathName": "Media/zh/614287890.wem",
+                "MediaId": 205569029,
+                "MediaPathName": "Media/205569029.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_hx_change.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yinlin\\ko_vo_yinlin_hx_change.wav",
                 "PackagedFile": null
               }
             ],

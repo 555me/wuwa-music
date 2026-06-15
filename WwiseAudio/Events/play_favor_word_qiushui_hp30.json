@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1829428166,
             "SoundBanks": [
               {
                 "SoundBankId": 1829428166,
-                "SoundBankPathName": "Event/en/play_favor_word_qiushui_hp30.bnk",
+                "SoundBankPathName": "Event/play_favor_word_qiushui_hp30.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 349260624,
-                "MediaPathName": "Media/en/349260624.wem",
+                "MediaId": 116938162,
+                "MediaPathName": "Media/116938162.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\qiushui\\ja_vo_qiushui_hpdown03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 523452095,
+                "MediaPathName": "Media/523452095.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_hpdown03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\qiushui\\ko_vo_qiushui_hpdown03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiushui_hp30"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1829428166,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1829428166,
-                "SoundBankPathName": "Event/ja/play_favor_word_qiushui_hp30.bnk",
+                "MediaId": 815224582,
+                "MediaPathName": "Media/815224582.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiushui_hp30",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\qiushui\\en_vo_qiushui_hpdown03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 860212504,
-                "MediaPathName": "Media/ja/860212504.wem",
+                "MediaId": 571118156,
+                "MediaPathName": "Media/571118156.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_hpdown03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiushui_hp30"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1829428166,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1829428166,
-                "SoundBankPathName": "Event/ko/play_favor_word_qiushui_hp30.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiushui_hp30",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 74556670,
-                "MediaPathName": "Media/ko/74556670.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_hpdown03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiushui_hp30"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1829428166,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1829428166,
-                "SoundBankPathName": "Event/zh/play_favor_word_qiushui_hp30.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiushui_hp30",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1026938467,
-                "MediaPathName": "Media/zh/1026938467.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_hpdown03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\qiushui\\zh_vo_qiushui_hpdown03.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 1829428166
     },
     "MaximumDuration": 2.803521,
-    "MinimumDuration": 2.803521,
+    "MinimumDuration": 1.553,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

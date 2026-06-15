@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 756082926,
             "SoundBanks": [
               {
                 "SoundBankId": 756082926,
-                "SoundBankPathName": "Event/en/play_favor_word_xiangliyao_com_behitfly_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_xiangliyao_com_behitfly_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 97739888,
-                "MediaPathName": "Media/en/97739888.wem",
+                "MediaId": 986353968,
+                "MediaPathName": "Media/986353968.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\xiangliyao\\ko_vo_xiangliyao_behit_fly_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 665665735,
+                "MediaPathName": "Media/665665735.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\xiangliyao\\zh_vo_xiangliyao_behit_fly_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 488519739,
+                "MediaPathName": "Media/488519739.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.2\\xiangliyao\\en_vo_xiangliyao_behit_fly_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1048826623,
+                "MediaPathName": "Media/1048826623.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_fly_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_com_behitfly_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 756082926,
-            "SoundBanks": [
-              {
-                "SoundBankId": 756082926,
-                "SoundBankPathName": "Event/ja/play_favor_word_xiangliyao_com_behitfly_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_com_behitfly_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 236288723,
-                "MediaPathName": "Media/ja/236288723.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_fly_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_com_behitfly_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 756082926,
-            "SoundBanks": [
-              {
-                "SoundBankId": 756082926,
-                "SoundBankPathName": "Event/ko/play_favor_word_xiangliyao_com_behitfly_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_com_behitfly_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 904368484,
-                "MediaPathName": "Media/ko/904368484.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_fly_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_com_behitfly_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 756082926,
-            "SoundBanks": [
-              {
-                "SoundBankId": 756082926,
-                "SoundBankPathName": "Event/zh/play_favor_word_xiangliyao_com_behitfly_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_com_behitfly_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 204129159,
-                "MediaPathName": "Media/zh/204129159.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_fly_02_tone.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\xiangliyao\\ja_vo_xiangliyao_behit_fly_02_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_xiangliyao_com_behitfly_02",
       "EventId": 756082926
     },
-    "MaximumDuration": 1.796625,
-    "MinimumDuration": 1.796625,
+    "MaximumDuration": 2.224,
+    "MinimumDuration": 1.5,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

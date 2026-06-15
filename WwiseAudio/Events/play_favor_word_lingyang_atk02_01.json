@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2607057172,
             "SoundBanks": [
               {
                 "SoundBankId": 2607057172,
-                "SoundBankPathName": "Event/en/play_favor_word_lingyang_atk02_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_lingyang_atk02_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 251116108,
-                "MediaPathName": "Media/en/251116108.wem",
+                "MediaId": 312090515,
+                "MediaPathName": "Media/312090515.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_atk02_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\lingyang\\zh_vo_lingyang_atk02_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_lingyang_atk02_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2607057172,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2607057172,
-                "SoundBankPathName": "Event/ja/play_favor_word_lingyang_atk02_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_lingyang_atk02_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 970474831,
-                "MediaPathName": "Media/ja/970474831.wem",
+                "MediaId": 199712613,
+                "MediaPathName": "Media/199712613.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_atk02_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\lingyang\\ko_vo_lingyang_atk02_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_lingyang_atk02_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2607057172,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2607057172,
-                "SoundBankPathName": "Event/ko/play_favor_word_lingyang_atk02_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_lingyang_atk02_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 572141482,
-                "MediaPathName": "Media/ko/572141482.wem",
+                "MediaId": 801804243,
+                "MediaPathName": "Media/801804243.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_atk02_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\lingyang\\ja_vo_lingyang_atk02_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_lingyang_atk02_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2607057172,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2607057172,
-                "SoundBankPathName": "Event/zh/play_favor_word_lingyang_atk02_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_lingyang_atk02_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 145998408,
-                "MediaPathName": "Media/zh/145998408.wem",
+                "MediaId": 897036709,
+                "MediaPathName": "Media/897036709.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_atk02_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\lingyang\\en_vo_lingyang_atk02_01.wav",
                 "PackagedFile": null
               }
             ],

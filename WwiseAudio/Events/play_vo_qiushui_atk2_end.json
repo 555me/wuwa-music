@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4255779587,
             "SoundBanks": [
               {
                 "SoundBankId": 4255779587,
-                "SoundBankPathName": "Event/en/play_vo_qiushui_atk2_end.bnk",
+                "SoundBankPathName": "Event/play_vo_qiushui_atk2_end.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 104167148,
-                "MediaPathName": "Media/en/104167148.wem",
+                "MediaId": 853252666,
+                "MediaPathName": "Media/853252666.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_atk2_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\qiushui\\ja_vo_qiushui_atk2_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 874026436,
-                "MediaPathName": "Media/en/874026436.wem",
+                "MediaId": 108048679,
+                "MediaPathName": "Media/108048679.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_atk2_end_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiushui_atk2_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4255779587,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4255779587,
-                "SoundBankPathName": "Event/ja/play_vo_qiushui_atk2_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiushui_atk2_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 196729605,
-                "MediaPathName": "Media/ja/196729605.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_atk2_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\qiushui\\ko_vo_qiushui_atk2_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1066544391,
-                "MediaPathName": "Media/ja/1066544391.wem",
+                "MediaId": 19732166,
+                "MediaPathName": "Media/19732166.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_atk2_end_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiushui_atk2_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4255779587,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4255779587,
-                "SoundBankPathName": "Event/ko/play_vo_qiushui_atk2_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiushui_atk2_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 396056516,
-                "MediaPathName": "Media/ko/396056516.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_atk2_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\qiushui\\en_vo_qiushui_atk2_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 870578259,
-                "MediaPathName": "Media/ko/870578259.wem",
+                "MediaId": 47141241,
+                "MediaPathName": "Media/47141241.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_atk2_end_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiushui_atk2_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4255779587,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4255779587,
-                "SoundBankPathName": "Event/zh/play_vo_qiushui_atk2_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiushui_atk2_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 623112611,
-                "MediaPathName": "Media/zh/623112611.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_atk2_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\qiushui\\zh_vo_qiushui_atk2_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 744094042,
-                "MediaPathName": "Media/zh/744094042.wem",
+                "MediaId": 478919150,
+                "MediaPathName": "Media/478919150.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_atk2_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\qiushui\\ja_vo_qiushui_atk2_end_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 821798084,
+                "MediaPathName": "Media/821798084.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\qiushui\\ko_vo_qiushui_atk2_end_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 777886712,
+                "MediaPathName": "Media/777886712.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\qiushui\\en_vo_qiushui_atk2_end_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 668138902,
+                "MediaPathName": "Media/668138902.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\qiushui\\zh_vo_qiushui_atk2_end_01.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 350550262,
             "SoundBanks": [
               {
                 "SoundBankId": 350550262,
-                "SoundBankPathName": "Event/en/play_favor_word_taoqi_enter_battle.bnk",
+                "SoundBankPathName": "Event/play_favor_word_taoqi_enter_battle.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 156570869,
-                "MediaPathName": "Media/en/156570869.wem",
+                "MediaId": 1039475643,
+                "MediaPathName": "Media/1039475643.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_enter_battle.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\taoqi\\ko_vo_taoqi_enter_battle.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_taoqi_enter_battle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 350550262,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 350550262,
-                "SoundBankPathName": "Event/ja/play_favor_word_taoqi_enter_battle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_taoqi_enter_battle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 221337322,
-                "MediaPathName": "Media/ja/221337322.wem",
+                "MediaId": 381622369,
+                "MediaPathName": "Media/381622369.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_enter_battle.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\taoqi\\zh_vo_taoqi_enter_battle.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_taoqi_enter_battle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 350550262,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 350550262,
-                "SoundBankPathName": "Event/ko/play_favor_word_taoqi_enter_battle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_taoqi_enter_battle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 295610253,
-                "MediaPathName": "Media/ko/295610253.wem",
+                "MediaId": 245867033,
+                "MediaPathName": "Media/245867033.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_enter_battle.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\taoqi\\ja_vo_taoqi_enter_battle.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_taoqi_enter_battle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 350550262,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 350550262,
-                "SoundBankPathName": "Event/zh/play_favor_word_taoqi_enter_battle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_taoqi_enter_battle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 794938955,
-                "MediaPathName": "Media/zh/794938955.wem",
+                "MediaId": 366949502,
+                "MediaPathName": "Media/366949502.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_enter_battle.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\taoqi\\en_vo_taoqi_enter_battle.wav",
                 "PackagedFile": null
               }
             ],

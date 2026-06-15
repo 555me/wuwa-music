@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 705216130,
             "SoundBanks": [
               {
                 "SoundBankId": 705216130,
-                "SoundBankPathName": "Event/en/play_vo_qiuyuan_npc_gondola_idle.bnk",
+                "SoundBankPathName": "Event/play_vo_qiuyuan_npc_gondola_idle.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 653472971,
-                "MediaPathName": "Media/en/653472971.wem",
+                "MediaId": 888392139,
+                "MediaPathName": "Media/888392139.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_npc_gondola_idle_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_npc_gondola_idle_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiuyuan_npc_gondola_idle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 705216130,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 705216130,
-                "SoundBankPathName": "Event/ja/play_vo_qiuyuan_npc_gondola_idle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiuyuan_npc_gondola_idle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1008325184,
-                "MediaPathName": "Media/ja/1008325184.wem",
+                "MediaId": 1069207527,
+                "MediaPathName": "Media/1069207527.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_npc_gondola_idle_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_npc_gondola_idle_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiuyuan_npc_gondola_idle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 705216130,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 705216130,
-                "SoundBankPathName": "Event/ko/play_vo_qiuyuan_npc_gondola_idle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiuyuan_npc_gondola_idle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 657640637,
-                "MediaPathName": "Media/ko/657640637.wem",
+                "MediaId": 1036288050,
+                "MediaPathName": "Media/1036288050.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_npc_gondola_idle_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_npc_gondola_idle_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiuyuan_npc_gondola_idle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 705216130,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 705216130,
-                "SoundBankPathName": "Event/zh/play_vo_qiuyuan_npc_gondola_idle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiuyuan_npc_gondola_idle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 730596100,
-                "MediaPathName": "Media/zh/730596100.wem",
+                "MediaId": 792909011,
+                "MediaPathName": "Media/792909011.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_npc_gondola_idle_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_npc_gondola_idle_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_qiuyuan_npc_gondola_idle",
       "EventId": 705216130
     },
-    "MaximumDuration": 3.222125,
-    "MinimumDuration": 3.222125,
+    "MaximumDuration": 4.291458,
+    "MinimumDuration": 2.032854,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

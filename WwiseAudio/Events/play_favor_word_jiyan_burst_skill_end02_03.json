@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2016708500,
             "SoundBanks": [
               {
                 "SoundBankId": 2016708500,
-                "SoundBankPathName": "Event/en/play_favor_word_jiyan_burst_skill_end02_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_jiyan_burst_skill_end02_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 425752004,
-                "MediaPathName": "Media/en/425752004.wem",
+                "MediaId": 294267032,
+                "MediaPathName": "Media/294267032.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_burst_skill_end02_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_burst_skill_end02_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jiyan_burst_skill_end02_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2016708500,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2016708500,
-                "SoundBankPathName": "Event/ja/play_favor_word_jiyan_burst_skill_end02_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jiyan_burst_skill_end02_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 13939793,
-                "MediaPathName": "Media/ja/13939793.wem",
+                "MediaId": 569144311,
+                "MediaPathName": "Media/569144311.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_burst_skill_end02_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_burst_skill_end02_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jiyan_burst_skill_end02_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2016708500,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2016708500,
-                "SoundBankPathName": "Event/ko/play_favor_word_jiyan_burst_skill_end02_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jiyan_burst_skill_end02_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 245026488,
-                "MediaPathName": "Media/ko/245026488.wem",
+                "MediaId": 800026828,
+                "MediaPathName": "Media/800026828.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_burst_skill_end02_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_burst_skill_end02_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jiyan_burst_skill_end02_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2016708500,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2016708500,
-                "SoundBankPathName": "Event/zh/play_favor_word_jiyan_burst_skill_end02_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jiyan_burst_skill_end02_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 6958288,
-                "MediaPathName": "Media/zh/6958288.wem",
+                "MediaId": 936901279,
+                "MediaPathName": "Media/936901279.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_burst_skill_end02_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_burst_skill_end02_03.wav",
                 "PackagedFile": null
               }
             ],

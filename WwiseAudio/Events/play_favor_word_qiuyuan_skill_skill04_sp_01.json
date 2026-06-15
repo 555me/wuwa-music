@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3812360776,
             "SoundBanks": [
               {
                 "SoundBankId": 3812360776,
-                "SoundBankPathName": "Event/en/play_favor_word_qiuyuan_skill_skill04_sp_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_qiuyuan_skill_skill04_sp_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 791938248,
-                "MediaPathName": "Media/en/791938248.wem",
+                "MediaId": 949035146,
+                "MediaPathName": "Media/949035146.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_skill_skill04_sp_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_skill_skill04_sp_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_skill_skill04_sp_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3812360776,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3812360776,
-                "SoundBankPathName": "Event/ja/play_favor_word_qiuyuan_skill_skill04_sp_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_skill_skill04_sp_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 873134689,
-                "MediaPathName": "Media/ja/873134689.wem",
+                "MediaId": 144820801,
+                "MediaPathName": "Media/144820801.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_skill_skill04_sp_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_skill_skill04_sp_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_skill_skill04_sp_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3812360776,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3812360776,
-                "SoundBankPathName": "Event/ko/play_favor_word_qiuyuan_skill_skill04_sp_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_skill_skill04_sp_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 957843008,
-                "MediaPathName": "Media/ko/957843008.wem",
+                "MediaId": 565055829,
+                "MediaPathName": "Media/565055829.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_skill_skill04_sp_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_skill_skill04_sp_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_skill_skill04_sp_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3812360776,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3812360776,
-                "SoundBankPathName": "Event/zh/play_favor_word_qiuyuan_skill_skill04_sp_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_skill_skill04_sp_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1066407189,
-                "MediaPathName": "Media/zh/1066407189.wem",
+                "MediaId": 845208978,
+                "MediaPathName": "Media/845208978.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_skill_skill04_sp_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_skill_skill04_sp_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_qiuyuan_skill_skill04_sp_01",
       "EventId": 3812360776
     },
-    "MaximumDuration": 0.8130625,
-    "MinimumDuration": 0.8130625,
+    "MaximumDuration": 0.936,
+    "MinimumDuration": 0.5804167,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

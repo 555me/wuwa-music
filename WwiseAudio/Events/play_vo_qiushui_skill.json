@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3078302556,
             "SoundBanks": [
               {
                 "SoundBankId": 3078302556,
-                "SoundBankPathName": "Event/en/play_vo_qiushui_skill.bnk",
+                "SoundBankPathName": "Event/play_vo_qiushui_skill.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 607157528,
-                "MediaPathName": "Media/en/607157528.wem",
+                "MediaId": 446798679,
+                "MediaPathName": "Media/446798679.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\qiushui\\ja_vo_qiushui_skill_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 660562740,
-                "MediaPathName": "Media/en/660562740.wem",
+                "MediaId": 30831302,
+                "MediaPathName": "Media/30831302.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_skill_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\qiushui\\ko_vo_qiushui_skill_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 696733725,
-                "MediaPathName": "Media/en/696733725.wem",
+                "MediaId": 781137635,
+                "MediaPathName": "Media/781137635.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiushui_skill"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3078302556,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3078302556,
-                "SoundBankPathName": "Event/ja/play_vo_qiushui_skill.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiushui_skill",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 353097485,
-                "MediaPathName": "Media/ja/353097485.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\qiushui\\en_vo_qiushui_skill_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 709528496,
-                "MediaPathName": "Media/ja/709528496.wem",
+                "MediaId": 388321711,
+                "MediaPathName": "Media/388321711.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_skill_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\qiushui\\zh_vo_qiushui_skill_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 730392296,
-                "MediaPathName": "Media/ja/730392296.wem",
+                "MediaId": 444859351,
+                "MediaPathName": "Media/444859351.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiushui_skill"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3078302556,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3078302556,
-                "SoundBankPathName": "Event/ko/play_vo_qiushui_skill.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiushui_skill",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 33360960,
-                "MediaPathName": "Media/ko/33360960.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\qiushui\\ja_vo_qiushui_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 73045944,
-                "MediaPathName": "Media/ko/73045944.wem",
+                "MediaId": 952620960,
+                "MediaPathName": "Media/952620960.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_skill_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\qiushui\\ko_vo_qiushui_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 826971130,
-                "MediaPathName": "Media/ko/826971130.wem",
+                "MediaId": 3854556,
+                "MediaPathName": "Media/3854556.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiushui_skill"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3078302556,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3078302556,
-                "SoundBankPathName": "Event/zh/play_vo_qiushui_skill.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiushui_skill",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 276783425,
-                "MediaPathName": "Media/zh/276783425.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\qiushui\\en_vo_qiushui_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 541865285,
-                "MediaPathName": "Media/zh/541865285.wem",
+                "MediaId": 108644819,
+                "MediaPathName": "Media/108644819.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_skill_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\qiushui\\zh_vo_qiushui_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 654936349,
-                "MediaPathName": "Media/zh/654936349.wem",
+                "MediaId": 806632756,
+                "MediaPathName": "Media/806632756.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\qiushui\\ja_vo_qiushui_skill_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 61849660,
+                "MediaPathName": "Media/61849660.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_skill_01.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\qiushui\\ko_vo_qiushui_skill_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 582445710,
+                "MediaPathName": "Media/582445710.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\qiushui\\en_vo_qiushui_skill_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 251018010,
+                "MediaPathName": "Media/251018010.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\qiushui\\zh_vo_qiushui_skill_02.wav",
                 "PackagedFile": null
               }
             ],

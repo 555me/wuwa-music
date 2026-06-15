@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3414722723,
             "SoundBanks": [
               {
                 "SoundBankId": 3414722723,
-                "SoundBankPathName": "Event/en/play_vo_aimisi_mechaform_sys_rogue_link.bnk",
+                "SoundBankPathName": "Event/play_vo_aimisi_mechaform_sys_rogue_link.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 64311678,
-                "MediaPathName": "Media/en/64311678.wem",
+                "MediaId": 1014972893,
+                "MediaPathName": "Media/1014972893.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\en_vo_aimisi_mechaform_sys_rogue_link_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\aimisi\\ja_vo_aimisi_mechaform_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1021829773,
-                "MediaPathName": "Media/en/1021829773.wem",
+                "MediaId": 414330663,
+                "MediaPathName": "Media/414330663.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\en_vo_aimisi_mechaform_sys_rogue_link_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_mechaform_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3414722723,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3414722723,
-                "SoundBankPathName": "Event/ja/play_vo_aimisi_mechaform_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_mechaform_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 102721724,
-                "MediaPathName": "Media/ja/102721724.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ja_vo_aimisi_mechaform_sys_rogue_link_01_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,1\\aimisi\\en_vo_aimisi_mechaform_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 406589583,
-                "MediaPathName": "Media/ja/406589583.wem",
+                "MediaId": 826051942,
+                "MediaPathName": "Media/826051942.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ja_vo_aimisi_mechaform_sys_rogue_link_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_mechaform_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3414722723,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3414722723,
-                "SoundBankPathName": "Event/ko/play_vo_aimisi_mechaform_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_mechaform_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 88859461,
-                "MediaPathName": "Media/ko/88859461.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ko_vo_aimisi_mechaform_sys_rogue_link_01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\aimisi\\zh_vo_aimisi_mechaform_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 661929705,
-                "MediaPathName": "Media/ko/661929705.wem",
+                "MediaId": 1050950281,
+                "MediaPathName": "Media/1050950281.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ko_vo_aimisi_mechaform_sys_rogue_link_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_mechaform_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3414722723,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3414722723,
-                "SoundBankPathName": "Event/zh/play_vo_aimisi_mechaform_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_mechaform_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 212685741,
-                "MediaPathName": "Media/zh/212685741.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\zh_vo_aimisi_mechaform_sys_rogue_link_02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\aimisi\\ko_vo_aimisi_mechaform_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 818283646,
-                "MediaPathName": "Media/zh/818283646.wem",
+                "MediaId": 762353501,
+                "MediaPathName": "Media/762353501.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\zh_vo_aimisi_mechaform_sys_rogue_link_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\aimisi\\ja_vo_aimisi_mechaform_sys_rogue_link_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 138107632,
+                "MediaPathName": "Media/138107632.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\aimisi\\en_vo_aimisi_mechaform_sys_rogue_link_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 453505665,
+                "MediaPathName": "Media/453505665.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\aimisi\\zh_vo_aimisi_mechaform_sys_rogue_link_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1025740577,
+                "MediaPathName": "Media/1025740577.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\aimisi\\ko_vo_aimisi_mechaform_sys_rogue_link_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,8 +120,8 @@
       "DebugName": "play_vo_aimisi_mechaform_sys_rogue_link",
       "EventId": 3414722723
     },
-    "MaximumDuration": 2.7986042,
-    "MinimumDuration": 2.5840416,
+    "MaximumDuration": 3.416979,
+    "MinimumDuration": 2.4691875,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1761916592,
             "SoundBanks": [
               {
                 "SoundBankId": 1761916592,
-                "SoundBankPathName": "Event/en/play_favor_word_luokeke_com_hpdown01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_luokeke_com_hpdown01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 781311415,
-                "MediaPathName": "Media/en/781311415.wem",
+                "MediaId": 112564511,
+                "MediaPathName": "Media/112564511.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\en_vo_luokeke_com_hpdown01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\luokeke\\ja_vo_luokeke_com_hpdown01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_luokeke_com_hpdown01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1761916592,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1761916592,
-                "SoundBankPathName": "Event/ja/play_favor_word_luokeke_com_hpdown01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_luokeke_com_hpdown01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 223866000,
-                "MediaPathName": "Media/ja/223866000.wem",
+                "MediaId": 695153302,
+                "MediaPathName": "Media/695153302.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ja_vo_luokeke_com_hpdown01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\luokeke\\en_vo_luokeke_com_hpdown01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_luokeke_com_hpdown01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1761916592,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1761916592,
-                "SoundBankPathName": "Event/ko/play_favor_word_luokeke_com_hpdown01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_luokeke_com_hpdown01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 703463171,
-                "MediaPathName": "Media/ko/703463171.wem",
+                "MediaId": 45052328,
+                "MediaPathName": "Media/45052328.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ko_vo_luokeke_com_hpdown01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\luokeke\\ko_vo_luokeke_com_hpdown01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_luokeke_com_hpdown01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1761916592,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1761916592,
-                "SoundBankPathName": "Event/zh/play_favor_word_luokeke_com_hpdown01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_luokeke_com_hpdown01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 473546453,
-                "MediaPathName": "Media/zh/473546453.wem",
+                "MediaId": 405688852,
+                "MediaPathName": "Media/405688852.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\zh_vo_luokeke_com_hpdown01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\luokeke\\zh_vo_luokeke_com_hpdown01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_luokeke_com_hpdown01",
       "EventId": 1761916592
     },
-    "MaximumDuration": 1.1775416,
-    "MinimumDuration": 1.1775416,
+    "MaximumDuration": 1.5046667,
+    "MinimumDuration": 1.0911875,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

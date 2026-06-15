@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3013392393,
             "SoundBanks": [
               {
                 "SoundBankId": 3013392393,
-                "SoundBankPathName": "Event/en/play_favor_word_chun_com_behit_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_chun_com_behit_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1021627522,
-                "MediaPathName": "Media/en/1021627522.wem",
+                "MediaId": 337375343,
+                "MediaPathName": "Media/337375343.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\en_vo_chun_com_behit_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.4\\chun\\zh_vo_chun_com_behit_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chun_com_behit_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3013392393,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3013392393,
-                "SoundBankPathName": "Event/ja/play_favor_word_chun_com_behit_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chun_com_behit_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 922739343,
-                "MediaPathName": "Media/ja/922739343.wem",
+                "MediaId": 221712134,
+                "MediaPathName": "Media/221712134.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ja_vo_chun_com_behit_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.4\\chun\\en_vo_chun_com_behit_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chun_com_behit_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3013392393,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3013392393,
-                "SoundBankPathName": "Event/ko/play_favor_word_chun_com_behit_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chun_com_behit_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 667586515,
-                "MediaPathName": "Media/ko/667586515.wem",
+                "MediaId": 415247514,
+                "MediaPathName": "Media/415247514.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ko_vo_chun_com_behit_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.4\\chun\\ko_vo_chun_com_behit_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chun_com_behit_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3013392393,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3013392393,
-                "SoundBankPathName": "Event/zh/play_favor_word_chun_com_behit_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chun_com_behit_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 148994861,
-                "MediaPathName": "Media/zh/148994861.wem",
+                "MediaId": 364217622,
+                "MediaPathName": "Media/364217622.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\zh_vo_chun_com_behit_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.4\\chun\\ja_vo_chun_com_behit_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 3013392393
     },
     "MaximumDuration": 1.0736876,
-    "MinimumDuration": 1.0736876,
+    "MinimumDuration": 0.972625,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1578706742,
             "SoundBanks": [
               {
                 "SoundBankId": 1578706742,
-                "SoundBankPathName": "Event/en/play_favor_word_nvzhu_fast_run_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_nvzhu_fast_run_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 641373534,
-                "MediaPathName": "Media/en/641373534.wem",
+                "MediaId": 15795817,
+                "MediaPathName": "Media/15795817.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nvzhu\\zh_vo_nvzhu_fastclimb_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nvzhu_fast_run_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1578706742,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1578706742,
-                "SoundBankPathName": "Event/ja/play_favor_word_nvzhu_fast_run_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nvzhu_fast_run_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 27800181,
-                "MediaPathName": "Media/ja/27800181.wem",
+                "MediaId": 421474354,
+                "MediaPathName": "Media/421474354.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nvzhu\\ko_vo_nvzhu_fastclimb_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nvzhu_fast_run_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1578706742,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1578706742,
-                "SoundBankPathName": "Event/ko/play_favor_word_nvzhu_fast_run_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nvzhu_fast_run_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 160486523,
-                "MediaPathName": "Media/ko/160486523.wem",
+                "MediaId": 111048794,
+                "MediaPathName": "Media/111048794.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nvzhu\\en_vo_nvzhu_fastclimb_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nvzhu_fast_run_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1578706742,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1578706742,
-                "SoundBankPathName": "Event/zh/play_favor_word_nvzhu_fast_run_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nvzhu_fast_run_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 348115560,
-                "MediaPathName": "Media/zh/348115560.wem",
+                "MediaId": 625227076,
+                "MediaPathName": "Media/625227076.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nvzhu\\ja_vo_nvzhu_fastclimb_03.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_nvzhu_fast_run_03",
       "EventId": 1578706742
     },
-    "MaximumDuration": 0.25014582,
+    "MaximumDuration": 0.364625,
     "MinimumDuration": 0.25014582,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

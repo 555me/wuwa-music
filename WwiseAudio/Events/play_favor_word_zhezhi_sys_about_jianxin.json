@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1099742508,
             "SoundBanks": [
               {
                 "SoundBankId": 1099742508,
-                "SoundBankPathName": "Event/en/play_favor_word_zhezhi_sys_about_jianxin.bnk",
+                "SoundBankPathName": "Event/play_favor_word_zhezhi_sys_about_jianxin.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 844417869,
-                "MediaPathName": "Media/en/844417869.wem",
+                "MediaId": 281175355,
+                "MediaPathName": "Media/281175355.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_about_jianxin_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\zhezhi\\ja_vo_zhezhi_about_jianxin_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zhezhi_sys_about_jianxin"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1099742508,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1099742508,
-                "SoundBankPathName": "Event/ja/play_favor_word_zhezhi_sys_about_jianxin.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zhezhi_sys_about_jianxin",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 121060094,
-                "MediaPathName": "Media/ja/121060094.wem",
+                "MediaId": 264039200,
+                "MediaPathName": "Media/264039200.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_about_jianxin_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\zhezhi\\ko_vo_zhezhi_about_jianxin_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zhezhi_sys_about_jianxin"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1099742508,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1099742508,
-                "SoundBankPathName": "Event/ko/play_favor_word_zhezhi_sys_about_jianxin.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zhezhi_sys_about_jianxin",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 837195159,
-                "MediaPathName": "Media/ko/837195159.wem",
+                "MediaId": 634844828,
+                "MediaPathName": "Media/634844828.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_about_jianxin_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.2\\zhezhi\\en_vo_zhezhi_about_jianxin_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zhezhi_sys_about_jianxin"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1099742508,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1099742508,
-                "SoundBankPathName": "Event/zh/play_favor_word_zhezhi_sys_about_jianxin.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zhezhi_sys_about_jianxin",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 839080837,
-                "MediaPathName": "Media/zh/839080837.wem",
+                "MediaId": 1062950016,
+                "MediaPathName": "Media/1062950016.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_about_jianxin_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\zhezhi\\zh_vo_zhezhi_about_jianxin_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_zhezhi_sys_about_jianxin",
       "EventId": 1099742508
     },
-    "MaximumDuration": 19.906145,
-    "MinimumDuration": 19.906145,
+    "MaximumDuration": 27.203333,
+    "MinimumDuration": 16.858,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

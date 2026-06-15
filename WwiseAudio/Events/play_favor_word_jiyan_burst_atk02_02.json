@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2521598428,
             "SoundBanks": [
               {
                 "SoundBankId": 2521598428,
-                "SoundBankPathName": "Event/en/play_favor_word_jiyan_burst_atk02_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_jiyan_burst_atk02_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 348554225,
-                "MediaPathName": "Media/en/348554225.wem",
+                "MediaId": 146385661,
+                "MediaPathName": "Media/146385661.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_burst_atk02_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_burst_atk02_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jiyan_burst_atk02_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2521598428,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2521598428,
-                "SoundBankPathName": "Event/ja/play_favor_word_jiyan_burst_atk02_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jiyan_burst_atk02_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 54319565,
-                "MediaPathName": "Media/ja/54319565.wem",
+                "MediaId": 147227215,
+                "MediaPathName": "Media/147227215.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_burst_atk02_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_burst_atk02_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jiyan_burst_atk02_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2521598428,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2521598428,
-                "SoundBankPathName": "Event/ko/play_favor_word_jiyan_burst_atk02_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jiyan_burst_atk02_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 102784718,
-                "MediaPathName": "Media/ko/102784718.wem",
+                "MediaId": 215744702,
+                "MediaPathName": "Media/215744702.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_burst_atk02_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_burst_atk02_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jiyan_burst_atk02_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2521598428,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2521598428,
-                "SoundBankPathName": "Event/zh/play_favor_word_jiyan_burst_atk02_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jiyan_burst_atk02_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 301531316,
-                "MediaPathName": "Media/zh/301531316.wem",
+                "MediaId": 235036216,
+                "MediaPathName": "Media/235036216.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_burst_atk02_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_burst_atk02_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_jiyan_burst_atk02_02",
       "EventId": 2521598428
     },
-    "MaximumDuration": 0.7863125,
+    "MaximumDuration": 0.9151667,
     "MinimumDuration": 0.7863125,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

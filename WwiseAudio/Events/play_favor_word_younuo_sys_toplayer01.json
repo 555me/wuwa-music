@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2473040031,
             "SoundBanks": [
               {
                 "SoundBankId": 2473040031,
-                "SoundBankPathName": "Event/en/play_favor_word_younuo_sys_toplayer01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_younuo_sys_toplayer01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 699220426,
-                "MediaPathName": "Media/en/699220426.wem",
+                "MediaId": 879796252,
+                "MediaPathName": "Media/879796252.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,6\\younuo\\en_vo_younuo_sys_toplayer01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,6\\younuo\\ko_vo_younuo_sys_toplayer01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_younuo_sys_toplayer01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2473040031,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2473040031,
-                "SoundBankPathName": "Event/ja/play_favor_word_younuo_sys_toplayer01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_younuo_sys_toplayer01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 486558356,
-                "MediaPathName": "Media/ja/486558356.wem",
+                "MediaId": 995628184,
+                "MediaPathName": "Media/995628184.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,6\\younuo\\ja_vo_younuo_sys_toplayer01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,6\\younuo\\zh_vo_younuo_sys_toplayer01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_younuo_sys_toplayer01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2473040031,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2473040031,
-                "SoundBankPathName": "Event/ko/play_favor_word_younuo_sys_toplayer01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_younuo_sys_toplayer01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 743233051,
-                "MediaPathName": "Media/ko/743233051.wem",
+                "MediaId": 117329987,
+                "MediaPathName": "Media/117329987.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,6\\younuo\\ko_vo_younuo_sys_toplayer01_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,6\\younuo\\en_vo_younuo_sys_toplayer01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_younuo_sys_toplayer01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2473040031,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2473040031,
-                "SoundBankPathName": "Event/zh/play_favor_word_younuo_sys_toplayer01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_younuo_sys_toplayer01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 633134266,
-                "MediaPathName": "Media/zh/633134266.wem",
+                "MediaId": 1013335500,
+                "MediaPathName": "Media/1013335500.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,6\\younuo\\zh_vo_younuo_sys_toplayer01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,6\\younuo\\ja_vo_younuo_sys_toplayer01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_younuo_sys_toplayer01",
       "EventId": 2473040031
     },
-    "MaximumDuration": 43.122124,
+    "MaximumDuration": 58.755978,
     "MinimumDuration": 43.122124,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

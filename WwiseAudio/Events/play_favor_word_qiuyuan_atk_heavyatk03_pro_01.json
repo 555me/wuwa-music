@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3253540438,
             "SoundBanks": [
               {
                 "SoundBankId": 3253540438,
-                "SoundBankPathName": "Event/en/play_favor_word_qiuyuan_atk_heavyatk03_pro_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_qiuyuan_atk_heavyatk03_pro_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 287482900,
-                "MediaPathName": "Media/en/287482900.wem",
+                "MediaId": 103894911,
+                "MediaPathName": "Media/103894911.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_atk_heavyatk03_pro_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_atk_heavyatk03_pro_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_atk_heavyatk03_pro_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3253540438,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3253540438,
-                "SoundBankPathName": "Event/ja/play_favor_word_qiuyuan_atk_heavyatk03_pro_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_atk_heavyatk03_pro_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 665561439,
-                "MediaPathName": "Media/ja/665561439.wem",
+                "MediaId": 490614031,
+                "MediaPathName": "Media/490614031.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_atk_heavyatk03_pro_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_atk_heavyatk03_pro_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_atk_heavyatk03_pro_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3253540438,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3253540438,
-                "SoundBankPathName": "Event/ko/play_favor_word_qiuyuan_atk_heavyatk03_pro_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_atk_heavyatk03_pro_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 47490158,
-                "MediaPathName": "Media/ko/47490158.wem",
+                "MediaId": 868064413,
+                "MediaPathName": "Media/868064413.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_atk_heavyatk03_pro_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_atk_heavyatk03_pro_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_atk_heavyatk03_pro_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3253540438,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3253540438,
-                "SoundBankPathName": "Event/zh/play_favor_word_qiuyuan_atk_heavyatk03_pro_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_atk_heavyatk03_pro_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 373285220,
-                "MediaPathName": "Media/zh/373285220.wem",
+                "MediaId": 1064087560,
+                "MediaPathName": "Media/1064087560.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_atk_heavyatk03_pro_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_atk_heavyatk03_pro_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_qiuyuan_atk_heavyatk03_pro_01",
       "EventId": 3253540438
     },
-    "MaximumDuration": 0.67702085,
+    "MaximumDuration": 0.9507292,
     "MinimumDuration": 0.67702085,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3055649465,
             "SoundBanks": [
               {
                 "SoundBankId": 3055649465,
-                "SoundBankPathName": "Event/en/play_favor_vo_qiushui_fly_03.bnk",
+                "SoundBankPathName": "Event/play_favor_vo_qiushui_fly_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 713123468,
-                "MediaPathName": "Media/en/713123468.wem",
+                "MediaId": 22343032,
+                "MediaPathName": "Media/22343032.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\qiushui\\ja_vo_qiushui_fly_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1045663752,
+                "MediaPathName": "Media/1045663752.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_fly_03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\qiushui\\ko_vo_qiushui_fly_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_vo_qiushui_fly_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3055649465,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3055649465,
-                "SoundBankPathName": "Event/ja/play_favor_vo_qiushui_fly_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_vo_qiushui_fly_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 636645937,
-                "MediaPathName": "Media/ja/636645937.wem",
+                "MediaId": 228995645,
+                "MediaPathName": "Media/228995645.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_fly_03.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\qiushui\\en_vo_qiushui_fly_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_vo_qiushui_fly_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3055649465,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3055649465,
-                "SoundBankPathName": "Event/ko/play_favor_vo_qiushui_fly_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_vo_qiushui_fly_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 930901787,
-                "MediaPathName": "Media/ko/930901787.wem",
+                "MediaId": 939409641,
+                "MediaPathName": "Media/939409641.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_fly_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_vo_qiushui_fly_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3055649465,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3055649465,
-                "SoundBankPathName": "Event/zh/play_favor_vo_qiushui_fly_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_vo_qiushui_fly_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 602014031,
-                "MediaPathName": "Media/zh/602014031.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_fly_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\qiushui\\zh_vo_qiushui_fly_03.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 3055649465
     },
     "MaximumDuration": 2.0247917,
-    "MinimumDuration": 2.0247917,
+    "MinimumDuration": 0.32783332,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

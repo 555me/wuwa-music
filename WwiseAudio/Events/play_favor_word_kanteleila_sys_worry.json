@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2355064054,
             "SoundBanks": [
               {
                 "SoundBankId": 2355064054,
-                "SoundBankPathName": "Event/en/play_favor_word_kanteleila_sys_worry.bnk",
+                "SoundBankPathName": "Event/play_favor_word_kanteleila_sys_worry.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 349982953,
-                "MediaPathName": "Media/en/349982953.wem",
+                "MediaId": 306872611,
+                "MediaPathName": "Media/306872611.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\en_vo_kanteleila_sys_worry_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_sys_worry_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_sys_worry"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2355064054,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2355064054,
-                "SoundBankPathName": "Event/ja/play_favor_word_kanteleila_sys_worry.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_sys_worry",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 679023744,
-                "MediaPathName": "Media/ja/679023744.wem",
+                "MediaId": 123760480,
+                "MediaPathName": "Media/123760480.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_sys_worry_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_sys_worry_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_sys_worry"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2355064054,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2355064054,
-                "SoundBankPathName": "Event/ko/play_favor_word_kanteleila_sys_worry.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_sys_worry",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 611086121,
-                "MediaPathName": "Media/ko/611086121.wem",
+                "MediaId": 633712605,
+                "MediaPathName": "Media/633712605.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_sys_worry_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_sys_worry_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_sys_worry"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2355064054,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2355064054,
-                "SoundBankPathName": "Event/zh/play_favor_word_kanteleila_sys_worry.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_sys_worry",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 215930089,
-                "MediaPathName": "Media/zh/215930089.wem",
+                "MediaId": 358655006,
+                "MediaPathName": "Media/358655006.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_sys_worry_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,2\\kanteleila\\en_vo_kanteleila_sys_worry_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 2355064054
     },
     "MaximumDuration": 9.551375,
-    "MinimumDuration": 9.551375,
+    "MinimumDuration": 7.688,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

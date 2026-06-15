@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1747974395,
             "SoundBanks": [
               {
                 "SoundBankId": 1747974395,
-                "SoundBankPathName": "Event/en/play_favor_word_luhesi_atk_airatk02_pro_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_luhesi_atk_airatk02_pro_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 861481114,
-                "MediaPathName": "Media/en/861481114.wem",
+                "MediaId": 867487151,
+                "MediaPathName": "Media/867487151.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\en_vo_luhesi_atk_airatk02_pro_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\luhesi\\ko_vo_luhesi_atk_airatk02_pro_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_luhesi_atk_airatk02_pro_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1747974395,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1747974395,
-                "SoundBankPathName": "Event/ja/play_favor_word_luhesi_atk_airatk02_pro_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_luhesi_atk_airatk02_pro_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 555279816,
-                "MediaPathName": "Media/ja/555279816.wem",
+                "MediaId": 184797800,
+                "MediaPathName": "Media/184797800.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\ja_vo_luhesi_atk_airatk02_pro_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\luhesi\\zh_vo_luhesi_atk_airatk02_pro_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_luhesi_atk_airatk02_pro_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1747974395,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1747974395,
-                "SoundBankPathName": "Event/ko/play_favor_word_luhesi_atk_airatk02_pro_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_luhesi_atk_airatk02_pro_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 971129329,
-                "MediaPathName": "Media/ko/971129329.wem",
+                "MediaId": 290139297,
+                "MediaPathName": "Media/290139297.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\ko_vo_luhesi_atk_airatk02_pro_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\luhesi\\ja_vo_luhesi_atk_airatk02_pro_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_luhesi_atk_airatk02_pro_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1747974395,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1747974395,
-                "SoundBankPathName": "Event/zh/play_favor_word_luhesi_atk_airatk02_pro_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_luhesi_atk_airatk02_pro_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 582797922,
-                "MediaPathName": "Media/zh/582797922.wem",
+                "MediaId": 458083774,
+                "MediaPathName": "Media/458083774.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\zh_vo_luhesi_atk_airatk02_pro_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\luhesi\\en_vo_luhesi_atk_airatk02_pro_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_luhesi_atk_airatk02_pro_02",
       "EventId": 1747974395
     },
-    "MaximumDuration": 0.921,
-    "MinimumDuration": 0.921,
+    "MaximumDuration": 1.3790417,
+    "MinimumDuration": 0.9207708,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

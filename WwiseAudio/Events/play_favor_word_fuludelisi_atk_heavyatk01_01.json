@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 883767898,
             "SoundBanks": [
               {
                 "SoundBankId": 883767898,
-                "SoundBankPathName": "Event/en/play_favor_word_fuludelisi_atk_heavyatk01_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_fuludelisi_atk_heavyatk01_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 304511364,
-                "MediaPathName": "Media/en/304511364.wem",
+                "MediaId": 330001215,
+                "MediaPathName": "Media/330001215.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\fuludelisi\\en_vo_fuludelisi_atk_heavyatk01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,4\\fuludelisi\\ko_vo_fuludelisi_atk_heavyatk01_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_fuludelisi_atk_heavyatk01_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 883767898,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 883767898,
-                "SoundBankPathName": "Event/ja/play_favor_word_fuludelisi_atk_heavyatk01_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_fuludelisi_atk_heavyatk01_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 929339599,
-                "MediaPathName": "Media/ja/929339599.wem",
+                "MediaId": 358897804,
+                "MediaPathName": "Media/358897804.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\fuludelisi\\ja_vo_fuludelisi_atk_heavyatk01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,4\\fuludelisi\\zh_vo_fuludelisi_atk_heavyatk01_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_fuludelisi_atk_heavyatk01_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 883767898,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 883767898,
-                "SoundBankPathName": "Event/ko/play_favor_word_fuludelisi_atk_heavyatk01_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_fuludelisi_atk_heavyatk01_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 804039363,
-                "MediaPathName": "Media/ko/804039363.wem",
+                "MediaId": 170866820,
+                "MediaPathName": "Media/170866820.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\fuludelisi\\ko_vo_fuludelisi_atk_heavyatk01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,4\\fuludelisi\\en_vo_fuludelisi_atk_heavyatk01_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_fuludelisi_atk_heavyatk01_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 883767898,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 883767898,
-                "SoundBankPathName": "Event/zh/play_favor_word_fuludelisi_atk_heavyatk01_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_fuludelisi_atk_heavyatk01_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 530090858,
-                "MediaPathName": "Media/zh/530090858.wem",
+                "MediaId": 110025804,
+                "MediaPathName": "Media/110025804.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\fuludelisi\\zh_vo_fuludelisi_atk_heavyatk01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,4\\fuludelisi\\ja_vo_fuludelisi_atk_heavyatk01_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_fuludelisi_atk_heavyatk01_01",
       "EventId": 883767898
     },
-    "MaximumDuration": 0.61972916,
-    "MinimumDuration": 0.61972916,
+    "MaximumDuration": 1.0472708,
+    "MinimumDuration": 0.557625,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

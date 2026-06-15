@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 292490973,
             "SoundBanks": [
               {
                 "SoundBankId": 292490973,
-                "SoundBankPathName": "Event/en/play_favor_vo_jianxin_burst_skill_03.bnk",
+                "SoundBankPathName": "Event/play_favor_vo_jianxin_burst_skill_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 913657285,
-                "MediaPathName": "Media/en/913657285.wem",
+                "MediaId": 382165274,
+                "MediaPathName": "Media/382165274.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_burst_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jianxin\\ko_vo_jianxin_burst_skill_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_vo_jianxin_burst_skill_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 292490973,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 292490973,
-                "SoundBankPathName": "Event/ja/play_favor_vo_jianxin_burst_skill_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_vo_jianxin_burst_skill_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 282643735,
-                "MediaPathName": "Media/ja/282643735.wem",
+                "MediaId": 371495865,
+                "MediaPathName": "Media/371495865.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_burst_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jianxin\\en_vo_jianxin_burst_skill_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_vo_jianxin_burst_skill_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 292490973,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 292490973,
-                "SoundBankPathName": "Event/ko/play_favor_vo_jianxin_burst_skill_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_vo_jianxin_burst_skill_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 850860717,
-                "MediaPathName": "Media/ko/850860717.wem",
+                "MediaId": 665965782,
+                "MediaPathName": "Media/665965782.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_burst_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jianxin\\zh_vo_jianxin_burst_skill_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_vo_jianxin_burst_skill_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 292490973,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 292490973,
-                "SoundBankPathName": "Event/zh/play_favor_vo_jianxin_burst_skill_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_vo_jianxin_burst_skill_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 70532612,
-                "MediaPathName": "Media/zh/70532612.wem",
+                "MediaId": 343470285,
+                "MediaPathName": "Media/343470285.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_burst_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jianxin\\ja_vo_jianxin_burst_skill_03.wav",
                 "PackagedFile": null
               }
             ],

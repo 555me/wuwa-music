@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2423054386,
             "SoundBanks": [
               {
                 "SoundBankId": 2423054386,
-                "SoundBankPathName": "Event/en/play_vo_weilinai_scan.bnk",
+                "SoundBankPathName": "Event/play_vo_weilinai_scan.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 698798146,
-                "MediaPathName": "Media/en/698798146.wem",
+                "MediaId": 289192600,
+                "MediaPathName": "Media/289192600.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\weilinai\\ja_vo_weilinai_scan.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 731174149,
+                "MediaPathName": "Media/731174149.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_scan.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\weilinai\\zh_vo_weilinai_scan.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_weilinai_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2423054386,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2423054386,
-                "SoundBankPathName": "Event/ja/play_vo_weilinai_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_weilinai_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 132284983,
-                "MediaPathName": "Media/ja/132284983.wem",
+                "MediaId": 736696253,
+                "MediaPathName": "Media/736696253.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_scan.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\weilinai\\ko_vo_weilinai_scan.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_weilinai_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2423054386,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2423054386,
-                "SoundBankPathName": "Event/ko/play_vo_weilinai_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_weilinai_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 45583520,
-                "MediaPathName": "Media/ko/45583520.wem",
+                "MediaId": 614753972,
+                "MediaPathName": "Media/614753972.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_scan.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_weilinai_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2423054386,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2423054386,
-                "SoundBankPathName": "Event/zh/play_vo_weilinai_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_weilinai_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 980076959,
-                "MediaPathName": "Media/zh/980076959.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_scan.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\weilinai\\en_vo_weilinai_scan.wav",
                 "PackagedFile": null
               }
             ],

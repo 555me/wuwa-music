@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1724928430,
             "SoundBanks": [
               {
                 "SoundBankId": 1724928430,
-                "SoundBankPathName": "Event/en/play_favor_word_zhezhi_sys_story_exp.bnk",
+                "SoundBankPathName": "Event/play_favor_word_zhezhi_sys_story_exp.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 646119145,
-                "MediaPathName": "Media/en/646119145.wem",
+                "MediaId": 30617497,
+                "MediaPathName": "Media/30617497.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_story_exp_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\zhezhi\\ja_vo_zhezhi_story_exp_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zhezhi_sys_story_exp"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1724928430,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1724928430,
-                "SoundBankPathName": "Event/ja/play_favor_word_zhezhi_sys_story_exp.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zhezhi_sys_story_exp",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 425799364,
-                "MediaPathName": "Media/ja/425799364.wem",
+                "MediaId": 795093597,
+                "MediaPathName": "Media/795093597.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_story_exp_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\zhezhi\\ko_vo_zhezhi_story_exp_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zhezhi_sys_story_exp"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1724928430,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1724928430,
-                "SoundBankPathName": "Event/ko/play_favor_word_zhezhi_sys_story_exp.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zhezhi_sys_story_exp",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 521393139,
-                "MediaPathName": "Media/ko/521393139.wem",
+                "MediaId": 845375599,
+                "MediaPathName": "Media/845375599.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_story_exp_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.2\\zhezhi\\en_vo_zhezhi_story_exp_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zhezhi_sys_story_exp"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1724928430,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1724928430,
-                "SoundBankPathName": "Event/zh/play_favor_word_zhezhi_sys_story_exp.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zhezhi_sys_story_exp",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 226791741,
-                "MediaPathName": "Media/zh/226791741.wem",
+                "MediaId": 306607533,
+                "MediaPathName": "Media/306607533.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_story_exp_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\zhezhi\\zh_vo_zhezhi_story_exp_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_zhezhi_sys_story_exp",
       "EventId": 1724928430
     },
-    "MaximumDuration": 25.844313,
-    "MinimumDuration": 25.844313,
+    "MaximumDuration": 26.23275,
+    "MinimumDuration": 17.438,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

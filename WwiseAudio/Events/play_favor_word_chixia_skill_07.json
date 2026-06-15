@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1238800726,
             "SoundBanks": [
               {
                 "SoundBankId": 1238800726,
-                "SoundBankPathName": "Event/en/play_favor_word_chixia_skill_07.bnk",
+                "SoundBankPathName": "Event/play_favor_word_chixia_skill_07.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1070325816,
-                "MediaPathName": "Media/en/1070325816.wem",
+                "MediaId": 931635679,
+                "MediaPathName": "Media/931635679.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_bskill_hold_start_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\chixia\\en_vo_chixia_bskill_hold_start_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chixia_skill_07"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1238800726,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1238800726,
-                "SoundBankPathName": "Event/ja/play_favor_word_chixia_skill_07.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chixia_skill_07",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 164239387,
-                "MediaPathName": "Media/ja/164239387.wem",
+                "MediaId": 635415419,
+                "MediaPathName": "Media/635415419.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_bskill_hold_start_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\chixia\\ko_vo_chixia_bskill_hold_start_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chixia_skill_07"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1238800726,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1238800726,
-                "SoundBankPathName": "Event/ko/play_favor_word_chixia_skill_07.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chixia_skill_07",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 885153035,
-                "MediaPathName": "Media/ko/885153035.wem",
+                "MediaId": 806554126,
+                "MediaPathName": "Media/806554126.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_bskill_hold_start_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\chixia\\zh_vo_chixia_bskill_hold_start_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chixia_skill_07"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1238800726,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1238800726,
-                "SoundBankPathName": "Event/zh/play_favor_word_chixia_skill_07.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chixia_skill_07",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1005149974,
-                "MediaPathName": "Media/zh/1005149974.wem",
+                "MediaId": 1019817146,
+                "MediaPathName": "Media/1019817146.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_bskill_hold_start_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\chixia\\ja_vo_chixia_bskill_hold_start_01.wav",
                 "PackagedFile": null
               }
             ],

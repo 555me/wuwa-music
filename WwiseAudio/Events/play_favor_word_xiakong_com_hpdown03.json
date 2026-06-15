@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 99253769,
             "SoundBanks": [
               {
                 "SoundBankId": 99253769,
-                "SoundBankPathName": "Event/en/play_favor_word_xiakong_com_hpdown03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_xiakong_com_hpdown03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 370780293,
-                "MediaPathName": "Media/en/370780293.wem",
+                "MediaId": 945009037,
+                "MediaPathName": "Media/945009037.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\en_vo_xiakong_com_hpdown03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\xiakong\\zh_vo_xiakong_com_hpdown03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiakong_com_hpdown03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 99253769,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 99253769,
-                "SoundBankPathName": "Event/ja/play_favor_word_xiakong_com_hpdown03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiakong_com_hpdown03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 661262674,
-                "MediaPathName": "Media/ja/661262674.wem",
+                "MediaId": 1050016015,
+                "MediaPathName": "Media/1050016015.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\ja_vo_xiakong_com_hpdown03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\xiakong\\ko_vo_xiakong_com_hpdown03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiakong_com_hpdown03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 99253769,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 99253769,
-                "SoundBankPathName": "Event/ko/play_favor_word_xiakong_com_hpdown03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiakong_com_hpdown03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1050613252,
-                "MediaPathName": "Media/ko/1050613252.wem",
+                "MediaId": 520905648,
+                "MediaPathName": "Media/520905648.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\ko_vo_xiakong_com_hpdown03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,3\\xiakong\\en_vo_xiakong_com_hpdown03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiakong_com_hpdown03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 99253769,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 99253769,
-                "SoundBankPathName": "Event/zh/play_favor_word_xiakong_com_hpdown03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiakong_com_hpdown03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 597527863,
-                "MediaPathName": "Media/zh/597527863.wem",
+                "MediaId": 609826636,
+                "MediaPathName": "Media/609826636.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\zh_vo_xiakong_com_hpdown03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\xiakong\\ja_vo_xiakong_com_hpdown03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_xiakong_com_hpdown03",
       "EventId": 99253769
     },
-    "MaximumDuration": 1.5866667,
-    "MinimumDuration": 1.5866667,
+    "MaximumDuration": 1.7509167,
+    "MinimumDuration": 1.291625,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

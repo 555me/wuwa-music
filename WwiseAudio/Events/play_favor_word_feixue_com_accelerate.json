@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 77275772,
             "SoundBanks": [
               {
                 "SoundBankId": 77275772,
-                "SoundBankPathName": "Event/en/play_favor_word_feixue_com_accelerate.bnk",
+                "SoundBankPathName": "Event/play_favor_word_feixue_com_accelerate.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 950658093,
-                "MediaPathName": "Media/en/950658093.wem",
+                "MediaId": 95393843,
+                "MediaPathName": "Media/95393843.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_com_accelerate_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_com_accelerate_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_com_accelerate"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 77275772,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 77275772,
-                "SoundBankPathName": "Event/ja/play_favor_word_feixue_com_accelerate.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_com_accelerate",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 76600128,
-                "MediaPathName": "Media/ja/76600128.wem",
+                "MediaId": 594639178,
+                "MediaPathName": "Media/594639178.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_com_accelerate_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_com_accelerate_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_com_accelerate"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 77275772,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 77275772,
-                "SoundBankPathName": "Event/ko/play_favor_word_feixue_com_accelerate.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_com_accelerate",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 633178854,
-                "MediaPathName": "Media/ko/633178854.wem",
+                "MediaId": 1011215032,
+                "MediaPathName": "Media/1011215032.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_com_accelerate_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_com_accelerate_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_com_accelerate"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 77275772,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 77275772,
-                "SoundBankPathName": "Event/zh/play_favor_word_feixue_com_accelerate.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_com_accelerate",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 481108398,
-                "MediaPathName": "Media/zh/481108398.wem",
+                "MediaId": 494020459,
+                "MediaPathName": "Media/494020459.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_com_accelerate_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_com_accelerate_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_feixue_com_accelerate",
       "EventId": 77275772
     },
-    "MaximumDuration": 0.445625,
+    "MaximumDuration": 1.7959583,
     "MinimumDuration": 0.445625,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

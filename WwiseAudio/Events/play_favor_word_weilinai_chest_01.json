@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4290383852,
             "SoundBanks": [
               {
                 "SoundBankId": 4290383852,
-                "SoundBankPathName": "Event/en/play_favor_word_weilinai_chest_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_weilinai_chest_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 704259131,
-                "MediaPathName": "Media/en/704259131.wem",
+                "MediaId": 601080988,
+                "MediaPathName": "Media/601080988.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\weilinai\\ja_vo_weilinai_openbox_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 278472120,
+                "MediaPathName": "Media/278472120.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_openbox_01.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\weilinai\\zh_vo_weilinai_openbox_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_weilinai_chest_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4290383852,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4290383852,
-                "SoundBankPathName": "Event/ja/play_favor_word_weilinai_chest_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_weilinai_chest_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 897562839,
-                "MediaPathName": "Media/ja/897562839.wem",
+                "MediaId": 1916196,
+                "MediaPathName": "Media/1916196.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_openbox_01.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\weilinai\\ko_vo_weilinai_openbox_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_weilinai_chest_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4290383852,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4290383852,
-                "SoundBankPathName": "Event/ko/play_favor_word_weilinai_chest_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_weilinai_chest_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 440502523,
-                "MediaPathName": "Media/ko/440502523.wem",
+                "MediaId": 865847534,
+                "MediaPathName": "Media/865847534.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_openbox_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_weilinai_chest_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4290383852,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4290383852,
-                "SoundBankPathName": "Event/zh/play_favor_word_weilinai_chest_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_weilinai_chest_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 72036661,
-                "MediaPathName": "Media/zh/72036661.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_openbox_01.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\weilinai\\en_vo_weilinai_openbox_01.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 4290383852
     },
     "MaximumDuration": 3.0,
-    "MinimumDuration": 3.0,
+    "MinimumDuration": 1.271125,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 780876715,
             "SoundBanks": [
               {
                 "SoundBankId": 780876715,
-                "SoundBankPathName": "Event/en/play_vo_feixue_atk_atk03.bnk",
+                "SoundBankPathName": "Event/play_vo_feixue_atk_atk03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 242048711,
-                "MediaPathName": "Media/en/242048711.wem",
+                "MediaId": 666893885,
+                "MediaPathName": "Media/666893885.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_atk_atk03_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_atk_atk03_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 332139505,
-                "MediaPathName": "Media/en/332139505.wem",
+                "MediaId": 331843726,
+                "MediaPathName": "Media/331843726.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_atk_atk03_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_atk_atk03_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 726222283,
-                "MediaPathName": "Media/en/726222283.wem",
+                "MediaId": 234367675,
+                "MediaPathName": "Media/234367675.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_atk_atk03_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feixue_atk_atk03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 780876715,
-            "SoundBanks": [
-              {
-                "SoundBankId": 780876715,
-                "SoundBankPathName": "Event/ja/play_vo_feixue_atk_atk03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feixue_atk_atk03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 428251537,
-                "MediaPathName": "Media/ja/428251537.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_atk_atk03_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_atk_atk03_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 543792066,
-                "MediaPathName": "Media/ja/543792066.wem",
+                "MediaId": 167636142,
+                "MediaPathName": "Media/167636142.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_atk_atk03_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_atk_atk03_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 547659440,
-                "MediaPathName": "Media/ja/547659440.wem",
+                "MediaId": 834299335,
+                "MediaPathName": "Media/834299335.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_atk_atk03_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feixue_atk_atk03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 780876715,
-            "SoundBanks": [
-              {
-                "SoundBankId": 780876715,
-                "SoundBankPathName": "Event/ko/play_vo_feixue_atk_atk03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feixue_atk_atk03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 208697513,
-                "MediaPathName": "Media/ko/208697513.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_atk_atk03_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_atk_atk03_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 309708502,
-                "MediaPathName": "Media/ko/309708502.wem",
+                "MediaId": 358639645,
+                "MediaPathName": "Media/358639645.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_atk_atk03_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_atk_atk03_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 527352626,
-                "MediaPathName": "Media/ko/527352626.wem",
+                "MediaId": 956474381,
+                "MediaPathName": "Media/956474381.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_atk_atk03_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feixue_atk_atk03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 780876715,
-            "SoundBanks": [
-              {
-                "SoundBankId": 780876715,
-                "SoundBankPathName": "Event/zh/play_vo_feixue_atk_atk03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feixue_atk_atk03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 44938225,
-                "MediaPathName": "Media/zh/44938225.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_atk_atk03_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_atk_atk03_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 210458771,
-                "MediaPathName": "Media/zh/210458771.wem",
+                "MediaId": 58058297,
+                "MediaPathName": "Media/58058297.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_atk_atk03_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_atk_atk03_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 356359842,
-                "MediaPathName": "Media/zh/356359842.wem",
+                "MediaId": 8059356,
+                "MediaPathName": "Media/8059356.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_atk_atk03_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_atk_atk03_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 741939384,
+                "MediaPathName": "Media/741939384.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_atk_atk03_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 943173304,
+                "MediaPathName": "Media/943173304.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_atk_atk03_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 928942086,
+                "MediaPathName": "Media/928942086.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_atk_atk03_01_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -248,7 +161,7 @@
       "EventId": 780876715
     },
     "MaximumDuration": 0.51,
-    "MinimumDuration": 0.4440625,
+    "MinimumDuration": 0.22475,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

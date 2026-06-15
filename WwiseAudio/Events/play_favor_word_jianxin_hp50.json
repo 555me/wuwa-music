@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1792267729,
             "SoundBanks": [
               {
                 "SoundBankId": 1792267729,
-                "SoundBankPathName": "Event/en/play_favor_word_jianxin_hp50.bnk",
+                "SoundBankPathName": "Event/play_favor_word_jianxin_hp50.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 214624035,
-                "MediaPathName": "Media/en/214624035.wem",
+                "MediaId": 680959326,
+                "MediaPathName": "Media/680959326.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jianxin\\ko_vo_jianxin_hpdown02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 477922313,
+                "MediaPathName": "Media/477922313.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_hpdown02.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jianxin\\en_vo_jianxin_hpdown02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jianxin_hp50"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1792267729,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1792267729,
-                "SoundBankPathName": "Event/ja/play_favor_word_jianxin_hp50.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jianxin_hp50",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1069815644,
-                "MediaPathName": "Media/ja/1069815644.wem",
+                "MediaId": 903211257,
+                "MediaPathName": "Media/903211257.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_hpdown02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jianxin\\zh_vo_jianxin_hpdown02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jianxin_hp50"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1792267729,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1792267729,
-                "SoundBankPathName": "Event/ko/play_favor_word_jianxin_hp50.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jianxin_hp50",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 827902324,
-                "MediaPathName": "Media/ko/827902324.wem",
+                "MediaId": 1054447177,
+                "MediaPathName": "Media/1054447177.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_hpdown02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jianxin_hp50"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1792267729,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1792267729,
-                "SoundBankPathName": "Event/zh/play_favor_word_jianxin_hp50.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jianxin_hp50",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 982046128,
-                "MediaPathName": "Media/zh/982046128.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_hpdown02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jianxin\\ja_vo_jianxin_hpdown02.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_jianxin_hp50",
       "EventId": 1792267729
     },
-    "MaximumDuration": 1.1744444,
+    "MaximumDuration": 3.0510833,
     "MinimumDuration": 1.1744444,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

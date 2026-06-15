@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2569506029,
             "SoundBanks": [
               {
                 "SoundBankId": 2569506029,
-                "SoundBankPathName": "Event/en/play_favor_word_baizhi_enter_battle.bnk",
+                "SoundBankPathName": "Event/play_favor_word_baizhi_enter_battle.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 288149335,
-                "MediaPathName": "Media/en/288149335.wem",
+                "MediaId": 625549834,
+                "MediaPathName": "Media/625549834.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_enter_battle.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\baizhi\\en_vo_baizhi_enter_battle.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_baizhi_enter_battle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2569506029,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2569506029,
-                "SoundBankPathName": "Event/ja/play_favor_word_baizhi_enter_battle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_baizhi_enter_battle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 912704768,
-                "MediaPathName": "Media/ja/912704768.wem",
+                "MediaId": 868102174,
+                "MediaPathName": "Media/868102174.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_enter_battle.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\baizhi\\ko_vo_baizhi_enter_battle.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_baizhi_enter_battle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2569506029,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2569506029,
-                "SoundBankPathName": "Event/ko/play_favor_word_baizhi_enter_battle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_baizhi_enter_battle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 961932855,
-                "MediaPathName": "Media/ko/961932855.wem",
+                "MediaId": 926855386,
+                "MediaPathName": "Media/926855386.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_enter_battle.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\baizhi\\zh_vo_baizhi_enter_battle.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_baizhi_enter_battle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2569506029,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2569506029,
-                "SoundBankPathName": "Event/zh/play_favor_word_baizhi_enter_battle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_baizhi_enter_battle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 859990972,
-                "MediaPathName": "Media/zh/859990972.wem",
+                "MediaId": 428192615,
+                "MediaPathName": "Media/428192615.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_enter_battle.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\baizhi\\ja_vo_baizhi_enter_battle.wav",
                 "PackagedFile": null
               }
             ],

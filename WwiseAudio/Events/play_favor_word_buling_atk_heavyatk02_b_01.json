@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1249595315,
             "SoundBanks": [
               {
                 "SoundBankId": 1249595315,
-                "SoundBankPathName": "Event/en/play_favor_word_buling_atk_heavyatk02_b_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_buling_atk_heavyatk02_b_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 536343255,
-                "MediaPathName": "Media/en/536343255.wem",
+                "MediaId": 684638027,
+                "MediaPathName": "Media/684638027.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\en_vo_buling_atk_heavyatk02_b_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,8\\buling\\zh_vo_buling_atk_heavyatk02_b_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_atk_heavyatk02_b_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1249595315,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1249595315,
-                "SoundBankPathName": "Event/ja/play_favor_word_buling_atk_heavyatk02_b_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_atk_heavyatk02_b_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 545274334,
-                "MediaPathName": "Media/ja/545274334.wem",
+                "MediaId": 865106047,
+                "MediaPathName": "Media/865106047.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ja_vo_buling_atk_heavyatk02_b_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,8\\buling\\en_vo_buling_atk_heavyatk02_b_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_atk_heavyatk02_b_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1249595315,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1249595315,
-                "SoundBankPathName": "Event/ko/play_favor_word_buling_atk_heavyatk02_b_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_atk_heavyatk02_b_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 394232778,
-                "MediaPathName": "Media/ko/394232778.wem",
+                "MediaId": 607288597,
+                "MediaPathName": "Media/607288597.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ko_vo_buling_atk_heavyatk02_b_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,8\\buling\\ko_vo_buling_atk_heavyatk02_b_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_atk_heavyatk02_b_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1249595315,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1249595315,
-                "SoundBankPathName": "Event/zh/play_favor_word_buling_atk_heavyatk02_b_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_atk_heavyatk02_b_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 993704223,
-                "MediaPathName": "Media/zh/993704223.wem",
+                "MediaId": 650712687,
+                "MediaPathName": "Media/650712687.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\zh_vo_buling_atk_heavyatk02_b_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,8\\buling\\ja_vo_buling_atk_heavyatk02_b_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_buling_atk_heavyatk02_b_01",
       "EventId": 1249595315
     },
-    "MaximumDuration": 0.9119167,
-    "MinimumDuration": 0.9119167,
+    "MaximumDuration": 1.95825,
+    "MinimumDuration": 0.8580625,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

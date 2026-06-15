@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1327428353,
             "SoundBanks": [
               {
                 "SoundBankId": 1327428353,
-                "SoundBankPathName": "Event/en/play_favor_word_jinxi_sys_about_taoqi.bnk",
+                "SoundBankPathName": "Event/play_favor_word_jinxi_sys_about_taoqi.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 369044279,
-                "MediaPathName": "Media/en/369044279.wem",
+                "MediaId": 729011359,
+                "MediaPathName": "Media/729011359.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_sys_about_taoqi.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,1\\jinxi\\en_vo_jinxi_sys_about_taoqi.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_sys_about_taoqi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1327428353,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1327428353,
-                "SoundBankPathName": "Event/ja/play_favor_word_jinxi_sys_about_taoqi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_sys_about_taoqi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 326876944,
-                "MediaPathName": "Media/ja/326876944.wem",
+                "MediaId": 133218969,
+                "MediaPathName": "Media/133218969.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_sys_about_taoqi.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\jinxi\\ko_vo_jinxi_sys_about_taoqi.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_sys_about_taoqi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1327428353,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1327428353,
-                "SoundBankPathName": "Event/ko/play_favor_word_jinxi_sys_about_taoqi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_sys_about_taoqi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 64348431,
-                "MediaPathName": "Media/ko/64348431.wem",
+                "MediaId": 696541497,
+                "MediaPathName": "Media/696541497.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_sys_about_taoqi.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\jinxi\\zh_vo_jinxi_sys_about_taoqi.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_sys_about_taoqi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1327428353,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1327428353,
-                "SoundBankPathName": "Event/zh/play_favor_word_jinxi_sys_about_taoqi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_sys_about_taoqi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 59242382,
-                "MediaPathName": "Media/zh/59242382.wem",
+                "MediaId": 454870606,
+                "MediaPathName": "Media/454870606.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_sys_about_taoqi.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\jinxi\\ja_vo_jinxi_sys_about_taoqi.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 1327428353
     },
     "MaximumDuration": 10.436104,
-    "MinimumDuration": 10.436104,
+    "MinimumDuration": 8.134334,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1229344441,
             "SoundBanks": [
               {
                 "SoundBankId": 1229344441,
-                "SoundBankPathName": "Event/en/play_favor_word_baizhi_scan.bnk",
+                "SoundBankPathName": "Event/play_favor_word_baizhi_scan.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 646732965,
-                "MediaPathName": "Media/en/646732965.wem",
+                "MediaId": 390158869,
+                "MediaPathName": "Media/390158869.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_scan.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\baizhi\\en_vo_baizhi_scan.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_baizhi_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1229344441,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1229344441,
-                "SoundBankPathName": "Event/ja/play_favor_word_baizhi_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_baizhi_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1065056735,
-                "MediaPathName": "Media/ja/1065056735.wem",
+                "MediaId": 565481559,
+                "MediaPathName": "Media/565481559.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_scan.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\baizhi\\ko_vo_baizhi_scan.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_baizhi_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1229344441,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1229344441,
-                "SoundBankPathName": "Event/ko/play_favor_word_baizhi_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_baizhi_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 694050740,
-                "MediaPathName": "Media/ko/694050740.wem",
+                "MediaId": 530429692,
+                "MediaPathName": "Media/530429692.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_scan.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\baizhi\\zh_vo_baizhi_scan.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_baizhi_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1229344441,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1229344441,
-                "SoundBankPathName": "Event/zh/play_favor_word_baizhi_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_baizhi_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1036265003,
-                "MediaPathName": "Media/zh/1036265003.wem",
+                "MediaId": 383359426,
+                "MediaPathName": "Media/383359426.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_scan.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\baizhi\\ja_vo_baizhi_scan.wav",
                 "PackagedFile": null
               }
             ],

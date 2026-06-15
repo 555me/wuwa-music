@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4140913487,
             "SoundBanks": [
               {
                 "SoundBankId": 4140913487,
-                "SoundBankPathName": "Event/en/play_vo_danjin_airatk.bnk",
+                "SoundBankPathName": "Event/play_vo_danjin_airatk.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 246616603,
-                "MediaPathName": "Media/en/246616603.wem",
+                "MediaId": 759762034,
+                "MediaPathName": "Media/759762034.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_airatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 845084665,
-                "MediaPathName": "Media/en/845084665.wem",
+                "MediaId": 606668614,
+                "MediaPathName": "Media/606668614.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 954204781,
-                "MediaPathName": "Media/en/954204781.wem",
+                "MediaId": 436994144,
+                "MediaPathName": "Media/436994144.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_airatk_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4140913487,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4140913487,
-                "SoundBankPathName": "Event/ja/play_vo_danjin_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 401676682,
-                "MediaPathName": "Media/ja/401676682.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 603369029,
-                "MediaPathName": "Media/ja/603369029.wem",
+                "MediaId": 414546783,
+                "MediaPathName": "Media/414546783.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_airatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 798673374,
-                "MediaPathName": "Media/ja/798673374.wem",
+                "MediaId": 20412003,
+                "MediaPathName": "Media/20412003.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_airatk_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4140913487,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4140913487,
-                "SoundBankPathName": "Event/ko/play_vo_danjin_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 71374260,
-                "MediaPathName": "Media/ko/71374260.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 202455000,
-                "MediaPathName": "Media/ko/202455000.wem",
+                "MediaId": 495825881,
+                "MediaPathName": "Media/495825881.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 907598440,
-                "MediaPathName": "Media/ko/907598440.wem",
+                "MediaId": 1008934900,
+                "MediaPathName": "Media/1008934900.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_airatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4140913487,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4140913487,
-                "SoundBankPathName": "Event/zh/play_vo_danjin_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 536863677,
-                "MediaPathName": "Media/zh/536863677.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 725148543,
-                "MediaPathName": "Media/zh/725148543.wem",
+                "MediaId": 807177265,
+                "MediaPathName": "Media/807177265.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_airatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 876932182,
-                "MediaPathName": "Media/zh/876932182.wem",
+                "MediaId": 844369168,
+                "MediaPathName": "Media/844369168.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_airatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 582609647,
+                "MediaPathName": "Media/582609647.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_airatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1027389324,
+                "MediaPathName": "Media/1027389324.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_airatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 265650492,
+                "MediaPathName": "Media/265650492.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_airatk_01.wav",
                 "PackagedFile": null
               }
             ],

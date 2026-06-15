@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1757167633,
             "SoundBanks": [
               {
                 "SoundBankId": 1757167633,
-                "SoundBankPathName": "Event/en/play_favor_word_kelaita_burst_burst02_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_kelaita_burst_burst02_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1009912491,
-                "MediaPathName": "Media/en/1009912491.wem",
+                "MediaId": 914037059,
+                "MediaPathName": "Media/914037059.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\en_vo_kelaita_burst_burst02_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\kelaita\\ja_vo_kelaita_burst_burst02_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_burst_burst02_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1757167633,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1757167633,
-                "SoundBankPathName": "Event/ja/play_favor_word_kelaita_burst_burst02_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_burst_burst02_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 791986846,
-                "MediaPathName": "Media/ja/791986846.wem",
+                "MediaId": 136132391,
+                "MediaPathName": "Media/136132391.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ja_vo_kelaita_burst_burst02_01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\kelaita\\ko_vo_kelaita_burst_burst02_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_burst_burst02_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1757167633,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1757167633,
-                "SoundBankPathName": "Event/ko/play_favor_word_kelaita_burst_burst02_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_burst_burst02_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 696054743,
-                "MediaPathName": "Media/ko/696054743.wem",
+                "MediaId": 280120428,
+                "MediaPathName": "Media/280120428.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ko_vo_kelaita_burst_burst02_01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\kelaita\\zh_vo_kelaita_burst_burst02_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_burst_burst02_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1757167633,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1757167633,
-                "SoundBankPathName": "Event/zh/play_favor_word_kelaita_burst_burst02_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_burst_burst02_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 384323385,
-                "MediaPathName": "Media/zh/384323385.wem",
+                "MediaId": 170531048,
+                "MediaPathName": "Media/170531048.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\zh_vo_kelaita_burst_burst02_01_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,0\\kelaita\\en_vo_kelaita_burst_burst02_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 1757167633
     },
     "MaximumDuration": 2.8346667,
-    "MinimumDuration": 2.8346667,
+    "MinimumDuration": 2.2,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

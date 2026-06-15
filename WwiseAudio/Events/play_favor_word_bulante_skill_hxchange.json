@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3566929510,
             "SoundBanks": [
               {
                 "SoundBankId": 3566929510,
-                "SoundBankPathName": "Event/en/play_favor_word_bulante_skill_hxchange.bnk",
+                "SoundBankPathName": "Event/play_favor_word_bulante_skill_hxchange.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 358778086,
-                "MediaPathName": "Media/en/358778086.wem",
+                "MediaId": 118604585,
+                "MediaPathName": "Media/118604585.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\bulante\\zh_vo_bulante_skill_hxchange_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 961115816,
+                "MediaPathName": "Media/961115816.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\bulante\\ja_vo_bulante_skill_hxchange_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1001240395,
+                "MediaPathName": "Media/1001240395.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\en_vo_bulante_skill_hxchange_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,1\\bulante\\en_vo_bulante_skill_hxchange_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_bulante_skill_hxchange"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3566929510,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3566929510,
-                "SoundBankPathName": "Event/ja/play_favor_word_bulante_skill_hxchange.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_bulante_skill_hxchange",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 105391858,
-                "MediaPathName": "Media/ja/105391858.wem",
+                "MediaId": 1073035817,
+                "MediaPathName": "Media/1073035817.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ja_vo_bulante_skill_hxchange_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_bulante_skill_hxchange"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3566929510,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3566929510,
-                "SoundBankPathName": "Event/ko/play_favor_word_bulante_skill_hxchange.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_bulante_skill_hxchange",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 95497391,
-                "MediaPathName": "Media/ko/95497391.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ko_vo_bulante_skill_hxchange_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_bulante_skill_hxchange"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3566929510,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3566929510,
-                "SoundBankPathName": "Event/zh/play_favor_word_bulante_skill_hxchange.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_bulante_skill_hxchange",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1027168344,
-                "MediaPathName": "Media/zh/1027168344.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\zh_vo_bulante_skill_hxchange_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\bulante\\ko_vo_bulante_skill_hxchange_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_bulante_skill_hxchange",
       "EventId": 3566929510
     },
-    "MaximumDuration": 1.9462708,
-    "MinimumDuration": 1.9462708,
+    "MaximumDuration": 2.3689582,
+    "MinimumDuration": 1.5896459,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

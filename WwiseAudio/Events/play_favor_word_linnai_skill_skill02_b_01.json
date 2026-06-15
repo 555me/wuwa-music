@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1279160980,
             "SoundBanks": [
               {
                 "SoundBankId": 1279160980,
-                "SoundBankPathName": "Event/en/play_favor_word_linnai_skill_skill02_b_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_linnai_skill_skill02_b_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1035332086,
-                "MediaPathName": "Media/en/1035332086.wem",
+                "MediaId": 729874355,
+                "MediaPathName": "Media/729874355.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\en_vo_linnai_skill_skill02_b_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\linnai\\ja_vo_linnai_skill_skill02_b_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_skill_skill02_b_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1279160980,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1279160980,
-                "SoundBankPathName": "Event/ja/play_favor_word_linnai_skill_skill02_b_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_skill_skill02_b_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 727548121,
-                "MediaPathName": "Media/ja/727548121.wem",
+                "MediaId": 43815958,
+                "MediaPathName": "Media/43815958.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ja_vo_linnai_skill_skill02_b_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\linnai\\en_vo_linnai_skill_skill02_b_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_skill_skill02_b_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1279160980,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1279160980,
-                "SoundBankPathName": "Event/ko/play_favor_word_linnai_skill_skill02_b_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_skill_skill02_b_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 926376541,
-                "MediaPathName": "Media/ko/926376541.wem",
+                "MediaId": 628921652,
+                "MediaPathName": "Media/628921652.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ko_vo_linnai_skill_skill02_b_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\linnai\\zh_vo_linnai_skill_skill02_b_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_skill_skill02_b_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1279160980,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1279160980,
-                "SoundBankPathName": "Event/zh/play_favor_word_linnai_skill_skill02_b_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_skill_skill02_b_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 382231858,
-                "MediaPathName": "Media/zh/382231858.wem",
+                "MediaId": 560832314,
+                "MediaPathName": "Media/560832314.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\zh_vo_linnai_skill_skill02_b_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\linnai\\ko_vo_linnai_skill_skill02_b_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_linnai_skill_skill02_b_01",
       "EventId": 1279160980
     },
-    "MaximumDuration": 1.1645625,
-    "MinimumDuration": 1.1645625,
+    "MaximumDuration": 1.1861042,
+    "MinimumDuration": 1.0552292,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

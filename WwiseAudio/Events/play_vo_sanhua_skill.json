@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3723795088,
             "SoundBanks": [
               {
                 "SoundBankId": 3723795088,
-                "SoundBankPathName": "Event/en/play_vo_sanhua_skill.bnk",
+                "SoundBankPathName": "Event/play_vo_sanhua_skill.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 665038950,
-                "MediaPathName": "Media/en/665038950.wem",
+                "MediaId": 564875297,
+                "MediaPathName": "Media/564875297.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_skill_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\sanhua\\en_vo_sanhua_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 703123460,
-                "MediaPathName": "Media/en/703123460.wem",
+                "MediaId": 538306433,
+                "MediaPathName": "Media/538306433.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_skill_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\sanhua\\ko_vo_sanhua_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 855830703,
-                "MediaPathName": "Media/en/855830703.wem",
+                "MediaId": 746258855,
+                "MediaPathName": "Media/746258855.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_skill_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_sanhua_skill"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3723795088,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3723795088,
-                "SoundBankPathName": "Event/ja/play_vo_sanhua_skill.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_sanhua_skill",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 483080063,
-                "MediaPathName": "Media/ja/483080063.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_skill_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\sanhua\\zh_vo_sanhua_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 551675417,
-                "MediaPathName": "Media/ja/551675417.wem",
+                "MediaId": 490003972,
+                "MediaPathName": "Media/490003972.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\sanhua\\ja_vo_sanhua_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1032687426,
-                "MediaPathName": "Media/ja/1032687426.wem",
+                "MediaId": 888802563,
+                "MediaPathName": "Media/888802563.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_sanhua_skill"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3723795088,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3723795088,
-                "SoundBankPathName": "Event/ko/play_vo_sanhua_skill.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_sanhua_skill",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 654780001,
-                "MediaPathName": "Media/ko/654780001.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_skill_03.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\sanhua\\en_vo_sanhua_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 883583385,
-                "MediaPathName": "Media/ko/883583385.wem",
+                "MediaId": 916973519,
+                "MediaPathName": "Media/916973519.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_skill_01.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\sanhua\\ko_vo_sanhua_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 922469360,
-                "MediaPathName": "Media/ko/922469360.wem",
+                "MediaId": 360036733,
+                "MediaPathName": "Media/360036733.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_skill_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_sanhua_skill"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3723795088,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3723795088,
-                "SoundBankPathName": "Event/zh/play_vo_sanhua_skill.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_sanhua_skill",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 397915577,
-                "MediaPathName": "Media/zh/397915577.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_skill_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\sanhua\\zh_vo_sanhua_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 603688726,
-                "MediaPathName": "Media/zh/603688726.wem",
+                "MediaId": 835507199,
+                "MediaPathName": "Media/835507199.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_skill_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\sanhua\\ja_vo_sanhua_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 634957931,
-                "MediaPathName": "Media/zh/634957931.wem",
+                "MediaId": 638766829,
+                "MediaPathName": "Media/638766829.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_skill_03.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\sanhua\\en_vo_sanhua_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 94987089,
+                "MediaPathName": "Media/94987089.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\sanhua\\ko_vo_sanhua_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 542736782,
+                "MediaPathName": "Media/542736782.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\sanhua\\zh_vo_sanhua_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 507881115,
+                "MediaPathName": "Media/507881115.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\sanhua\\ja_vo_sanhua_skill_01.wav",
                 "PackagedFile": null
               }
             ],

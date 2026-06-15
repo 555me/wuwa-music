@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 548636644,
             "SoundBanks": [
               {
                 "SoundBankId": 548636644,
-                "SoundBankPathName": "Event/en/play_vo_qiuyuan_com_scan.bnk",
+                "SoundBankPathName": "Event/play_vo_qiuyuan_com_scan.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 41624649,
-                "MediaPathName": "Media/en/41624649.wem",
+                "MediaId": 440945829,
+                "MediaPathName": "Media/440945829.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_com_scan_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_com_scan_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiuyuan_com_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 548636644,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 548636644,
-                "SoundBankPathName": "Event/ja/play_vo_qiuyuan_com_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiuyuan_com_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 392483346,
-                "MediaPathName": "Media/ja/392483346.wem",
+                "MediaId": 484815097,
+                "MediaPathName": "Media/484815097.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_com_scan_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_com_scan_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiuyuan_com_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 548636644,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 548636644,
-                "SoundBankPathName": "Event/ko/play_vo_qiuyuan_com_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiuyuan_com_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 296643485,
-                "MediaPathName": "Media/ko/296643485.wem",
+                "MediaId": 385267536,
+                "MediaPathName": "Media/385267536.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_com_scan_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_com_scan_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiuyuan_com_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 548636644,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 548636644,
-                "SoundBankPathName": "Event/zh/play_vo_qiuyuan_com_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiuyuan_com_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 996969850,
-                "MediaPathName": "Media/zh/996969850.wem",
+                "MediaId": 24458153,
+                "MediaPathName": "Media/24458153.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_com_scan_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_com_scan_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_vo_qiuyuan_com_scan",
       "EventId": 548636644
     },
-    "MaximumDuration": 0.73066664,
+    "MaximumDuration": 0.98889583,
     "MinimumDuration": 0.73066664,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0

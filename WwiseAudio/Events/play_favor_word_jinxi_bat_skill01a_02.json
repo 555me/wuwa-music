@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1063614731,
             "SoundBanks": [
               {
                 "SoundBankId": 1063614731,
-                "SoundBankPathName": "Event/en/play_favor_word_jinxi_bat_skill01a_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_jinxi_bat_skill01a_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 614039173,
-                "MediaPathName": "Media/en/614039173.wem",
+                "MediaId": 740445051,
+                "MediaPathName": "Media/740445051.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_bat_skill01a_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,1\\jinxi\\en_vo_jinxi_bat_skill01a_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_bat_skill01a_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1063614731,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1063614731,
-                "SoundBankPathName": "Event/ja/play_favor_word_jinxi_bat_skill01a_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_bat_skill01a_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 978077074,
-                "MediaPathName": "Media/ja/978077074.wem",
+                "MediaId": 882457948,
+                "MediaPathName": "Media/882457948.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_bat_skill01a_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\jinxi\\ko_vo_jinxi_bat_skill01a_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_bat_skill01a_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1063614731,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1063614731,
-                "SoundBankPathName": "Event/ko/play_favor_word_jinxi_bat_skill01a_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_bat_skill01a_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 802098302,
-                "MediaPathName": "Media/ko/802098302.wem",
+                "MediaId": 818281028,
+                "MediaPathName": "Media/818281028.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_bat_skill01a_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\jinxi\\zh_vo_jinxi_bat_skill01a_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_bat_skill01a_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1063614731,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1063614731,
-                "SoundBankPathName": "Event/zh/play_favor_word_jinxi_bat_skill01a_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_bat_skill01a_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 438148246,
-                "MediaPathName": "Media/zh/438148246.wem",
+                "MediaId": 345596248,
+                "MediaPathName": "Media/345596248.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_bat_skill01a_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\jinxi\\ja_vo_jinxi_bat_skill01a_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_jinxi_bat_skill01a_02",
       "EventId": 1063614731
     },
-    "MaximumDuration": 1.120375,
+    "MaximumDuration": 1.3906667,
     "MinimumDuration": 1.120375,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

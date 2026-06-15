@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3613673175,
             "SoundBanks": [
               {
                 "SoundBankId": 3613673175,
-                "SoundBankPathName": "Event/en/play_vo_yuanwu_character_switch_atk.bnk",
+                "SoundBankPathName": "Event/play_vo_yuanwu_character_switch_atk.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 638971240,
-                "MediaPathName": "Media/en/638971240.wem",
+                "MediaId": 181409403,
+                "MediaPathName": "Media/181409403.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_character_switch_atk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yuanwu\\zh_vo_yuanwu_character_switch_atk_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 750504128,
-                "MediaPathName": "Media/en/750504128.wem",
+                "MediaId": 378777897,
+                "MediaPathName": "Media/378777897.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_character_switch_atk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yuanwu\\ja_vo_yuanwu_character_switch_atk_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 756847460,
-                "MediaPathName": "Media/en/756847460.wem",
+                "MediaId": 234676563,
+                "MediaPathName": "Media/234676563.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_character_switch_atk_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_yuanwu_character_switch_atk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3613673175,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3613673175,
-                "SoundBankPathName": "Event/ja/play_vo_yuanwu_character_switch_atk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_yuanwu_character_switch_atk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 120874943,
-                "MediaPathName": "Media/ja/120874943.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_character_switch_atk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yuanwu\\ko_vo_yuanwu_character_switch_atk_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 257779530,
-                "MediaPathName": "Media/ja/257779530.wem",
+                "MediaId": 599130796,
+                "MediaPathName": "Media/599130796.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_character_switch_atk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yuanwu\\en_vo_yuanwu_character_switch_atk_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 611079324,
-                "MediaPathName": "Media/ja/611079324.wem",
+                "MediaId": 913830101,
+                "MediaPathName": "Media/913830101.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_character_switch_atk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_yuanwu_character_switch_atk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3613673175,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3613673175,
-                "SoundBankPathName": "Event/ko/play_vo_yuanwu_character_switch_atk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_yuanwu_character_switch_atk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 142559009,
-                "MediaPathName": "Media/ko/142559009.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_character_switch_atk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yuanwu\\zh_vo_yuanwu_character_switch_atk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 378087805,
-                "MediaPathName": "Media/ko/378087805.wem",
+                "MediaId": 213269919,
+                "MediaPathName": "Media/213269919.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_character_switch_atk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yuanwu\\ja_vo_yuanwu_character_switch_atk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 615276071,
-                "MediaPathName": "Media/ko/615276071.wem",
+                "MediaId": 994975970,
+                "MediaPathName": "Media/994975970.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_character_switch_atk_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_yuanwu_character_switch_atk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3613673175,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3613673175,
-                "SoundBankPathName": "Event/zh/play_vo_yuanwu_character_switch_atk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_yuanwu_character_switch_atk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 779157342,
-                "MediaPathName": "Media/zh/779157342.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_character_switch_atk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yuanwu\\ko_vo_yuanwu_character_switch_atk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 822116400,
-                "MediaPathName": "Media/zh/822116400.wem",
+                "MediaId": 234227383,
+                "MediaPathName": "Media/234227383.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_character_switch_atk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yuanwu\\en_vo_yuanwu_character_switch_atk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 941673704,
-                "MediaPathName": "Media/zh/941673704.wem",
+                "MediaId": 135300574,
+                "MediaPathName": "Media/135300574.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_character_switch_atk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yuanwu\\zh_vo_yuanwu_character_switch_atk_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1061603731,
+                "MediaPathName": "Media/1061603731.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yuanwu\\ja_vo_yuanwu_character_switch_atk_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 116863534,
+                "MediaPathName": "Media/116863534.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yuanwu\\ko_vo_yuanwu_character_switch_atk_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 158541471,
+                "MediaPathName": "Media/158541471.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yuanwu\\en_vo_yuanwu_character_switch_atk_03.wav",
                 "PackagedFile": null
               }
             ],

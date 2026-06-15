@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1096856468,
             "SoundBanks": [
               {
                 "SoundBankId": 1096856468,
-                "SoundBankPathName": "Event/en/play_favor_vo_jianxin_about_yuanwu.bnk",
+                "SoundBankPathName": "Event/play_favor_vo_jianxin_about_yuanwu.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 480791227,
-                "MediaPathName": "Media/en/480791227.wem",
+                "MediaId": 702630604,
+                "MediaPathName": "Media/702630604.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_about_yuanwu.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jianxin\\ko_vo_jianxin_about_yuanwu.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_vo_jianxin_about_yuanwu"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1096856468,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1096856468,
-                "SoundBankPathName": "Event/ja/play_favor_vo_jianxin_about_yuanwu.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_vo_jianxin_about_yuanwu",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 879313131,
-                "MediaPathName": "Media/ja/879313131.wem",
+                "MediaId": 775158715,
+                "MediaPathName": "Media/775158715.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_about_yuanwu.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jianxin\\en_vo_jianxin_about_yuanwu.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_vo_jianxin_about_yuanwu"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1096856468,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1096856468,
-                "SoundBankPathName": "Event/ko/play_favor_vo_jianxin_about_yuanwu.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_vo_jianxin_about_yuanwu",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 482763587,
-                "MediaPathName": "Media/ko/482763587.wem",
+                "MediaId": 535586624,
+                "MediaPathName": "Media/535586624.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_about_yuanwu.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jianxin\\zh_vo_jianxin_about_yuanwu.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_vo_jianxin_about_yuanwu"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1096856468,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1096856468,
-                "SoundBankPathName": "Event/zh/play_favor_vo_jianxin_about_yuanwu.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_vo_jianxin_about_yuanwu",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 35134315,
-                "MediaPathName": "Media/zh/35134315.wem",
+                "MediaId": 52112549,
+                "MediaPathName": "Media/52112549.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_about_yuanwu.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jianxin\\ja_vo_jianxin_about_yuanwu.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_vo_jianxin_about_yuanwu",
       "EventId": 1096856468
     },
-    "MaximumDuration": 22.497166,
+    "MaximumDuration": 35.912918,
     "MinimumDuration": 22.497166,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

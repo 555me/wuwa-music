@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 689469941,
             "SoundBanks": [
               {
                 "SoundBankId": 689469941,
-                "SoundBankPathName": "Event/en/play_vo_danjin_skill02_b.bnk",
+                "SoundBankPathName": "Event/play_vo_danjin_skill02_b.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1009738143,
-                "MediaPathName": "Media/en/1009738143.wem",
+                "MediaId": 698224056,
+                "MediaPathName": "Media/698224056.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_skill02_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_skill02_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_skill02_b"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 689469941,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 689469941,
-                "SoundBankPathName": "Event/ja/play_vo_danjin_skill02_b.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_skill02_b",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1048966928,
-                "MediaPathName": "Media/ja/1048966928.wem",
+                "MediaId": 228945491,
+                "MediaPathName": "Media/228945491.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_skill02_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_skill02_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_skill02_b"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 689469941,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 689469941,
-                "SoundBankPathName": "Event/ko/play_vo_danjin_skill02_b.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_skill02_b",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 197756055,
-                "MediaPathName": "Media/ko/197756055.wem",
+                "MediaId": 240611328,
+                "MediaPathName": "Media/240611328.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_skill02_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_skill02_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_skill02_b"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 689469941,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 689469941,
-                "SoundBankPathName": "Event/zh/play_vo_danjin_skill02_b.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_skill02_b",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1011535360,
-                "MediaPathName": "Media/zh/1011535360.wem",
+                "MediaId": 862324161,
+                "MediaPathName": "Media/862324161.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_skill02_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_skill02_02.wav",
                 "PackagedFile": null
               }
             ],

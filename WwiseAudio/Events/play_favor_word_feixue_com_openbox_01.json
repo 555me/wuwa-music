@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3982553676,
             "SoundBanks": [
               {
                 "SoundBankId": 3982553676,
-                "SoundBankPathName": "Event/en/play_favor_word_feixue_com_openbox_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_feixue_com_openbox_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 571426295,
-                "MediaPathName": "Media/en/571426295.wem",
+                "MediaId": 692769685,
+                "MediaPathName": "Media/692769685.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_com_openbox_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_com_openbox_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_com_openbox_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3982553676,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3982553676,
-                "SoundBankPathName": "Event/ja/play_favor_word_feixue_com_openbox_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_com_openbox_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 905045595,
-                "MediaPathName": "Media/ja/905045595.wem",
+                "MediaId": 92257134,
+                "MediaPathName": "Media/92257134.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_com_openbox_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_com_openbox_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_com_openbox_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3982553676,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3982553676,
-                "SoundBankPathName": "Event/ko/play_favor_word_feixue_com_openbox_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_com_openbox_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 362163081,
-                "MediaPathName": "Media/ko/362163081.wem",
+                "MediaId": 141919844,
+                "MediaPathName": "Media/141919844.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_com_openbox_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_com_openbox_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_com_openbox_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3982553676,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3982553676,
-                "SoundBankPathName": "Event/zh/play_favor_word_feixue_com_openbox_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_com_openbox_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 901166134,
-                "MediaPathName": "Media/zh/901166134.wem",
+                "MediaId": 800744894,
+                "MediaPathName": "Media/800744894.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_com_openbox_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_com_openbox_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_feixue_com_openbox_01",
       "EventId": 3982553676
     },
-    "MaximumDuration": 0.5292917,
+    "MaximumDuration": 1.5207708,
     "MinimumDuration": 0.5292917,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

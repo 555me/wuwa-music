@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3034568822,
             "SoundBanks": [
               {
                 "SoundBankId": 3034568822,
-                "SoundBankPathName": "Event/en/play_favor_word_nvzhu_jump_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_nvzhu_jump_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 12189147,
-                "MediaPathName": "Media/en/12189147.wem",
+                "MediaId": 157923461,
+                "MediaPathName": "Media/157923461.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_jump_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nvzhu\\zh_vo_nvzhu_jump_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nvzhu_jump_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3034568822,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3034568822,
-                "SoundBankPathName": "Event/ja/play_favor_word_nvzhu_jump_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nvzhu_jump_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 273857732,
-                "MediaPathName": "Media/ja/273857732.wem",
+                "MediaId": 689157443,
+                "MediaPathName": "Media/689157443.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_jump_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nvzhu\\ko_vo_nvzhu_jump_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nvzhu_jump_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3034568822,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3034568822,
-                "SoundBankPathName": "Event/ko/play_favor_word_nvzhu_jump_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nvzhu_jump_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 366760148,
-                "MediaPathName": "Media/ko/366760148.wem",
+                "MediaId": 817768219,
+                "MediaPathName": "Media/817768219.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_jump_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nvzhu\\en_vo_nvzhu_jump_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nvzhu_jump_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3034568822,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3034568822,
-                "SoundBankPathName": "Event/zh/play_favor_word_nvzhu_jump_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nvzhu_jump_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 630422715,
-                "MediaPathName": "Media/zh/630422715.wem",
+                "MediaId": 24123568,
+                "MediaPathName": "Media/24123568.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_jump_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nvzhu\\ja_vo_nvzhu_jump_03.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 3034568822
     },
     "MaximumDuration": 0.264,
-    "MinimumDuration": 0.264,
+    "MinimumDuration": 0.17954166,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

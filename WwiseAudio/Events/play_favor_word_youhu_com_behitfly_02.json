@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2592562857,
             "SoundBanks": [
               {
                 "SoundBankId": 2592562857,
-                "SoundBankPathName": "Event/en/play_favor_word_youhu_com_behitfly_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_youhu_com_behitfly_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 321371920,
-                "MediaPathName": "Media/en/321371920.wem",
+                "MediaId": 1038751244,
+                "MediaPathName": "Media/1038751244.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_com_behitfly_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 92148001,
+                "MediaPathName": "Media/92148001.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_com_behitfly_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 543765050,
+                "MediaPathName": "Media/543765050.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_com_behitfly_02_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_com_behitfly_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_youhu_com_behitfly_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2592562857,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2592562857,
-                "SoundBankPathName": "Event/ja/play_favor_word_youhu_com_behitfly_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_youhu_com_behitfly_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 54262687,
-                "MediaPathName": "Media/ja/54262687.wem",
+                "MediaId": 1018667852,
+                "MediaPathName": "Media/1018667852.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_com_behitfly_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_youhu_com_behitfly_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2592562857,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2592562857,
-                "SoundBankPathName": "Event/ko/play_favor_word_youhu_com_behitfly_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_youhu_com_behitfly_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1045161370,
-                "MediaPathName": "Media/ko/1045161370.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_com_behitfly_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_youhu_com_behitfly_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2592562857,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2592562857,
-                "SoundBankPathName": "Event/zh/play_favor_word_youhu_com_behitfly_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_youhu_com_behitfly_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 467159806,
-                "MediaPathName": "Media/zh/467159806.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_com_behitfly_02_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_com_behitfly_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 2592562857
     },
     "MaximumDuration": 2.123979,
-    "MinimumDuration": 2.123979,
+    "MinimumDuration": 1.5765834,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2345387684,
             "SoundBanks": [
               {
                 "SoundBankId": 2345387684,
-                "SoundBankPathName": "Event/en/play_vo_shouanren_com_parry.bnk",
+                "SoundBankPathName": "Event/play_vo_shouanren_com_parry.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 16772971,
-                "MediaPathName": "Media/en/16772971.wem",
+                "MediaId": 541770954,
+                "MediaPathName": "Media/541770954.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\shouanren\\en_vo_shouanren_parry_success_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\shouanren\\ja_vo_shouanren_parry_success_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 313102155,
-                "MediaPathName": "Media/en/313102155.wem",
+                "MediaId": 78790855,
+                "MediaPathName": "Media/78790855.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\shouanren\\en_vo_shouanren_parry_success_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\shouanren\\zh_vo_shouanren_parry_success_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 889270753,
-                "MediaPathName": "Media/en/889270753.wem",
+                "MediaId": 1048422963,
+                "MediaPathName": "Media/1048422963.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\shouanren\\en_vo_shouanren_parry_success_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_shouanren_com_parry"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2345387684,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2345387684,
-                "SoundBankPathName": "Event/ja/play_vo_shouanren_com_parry.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_shouanren_com_parry",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 300909793,
-                "MediaPathName": "Media/ja/300909793.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\shouanren\\ja_vo_shouanren_parry_success_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\shouanren\\en_vo_shouanren_parry_success_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 733120431,
-                "MediaPathName": "Media/ja/733120431.wem",
+                "MediaId": 522307345,
+                "MediaPathName": "Media/522307345.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\shouanren\\ja_vo_shouanren_parry_success_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\shouanren\\ko_vo_shouanren_parry_success_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 986658400,
-                "MediaPathName": "Media/ja/986658400.wem",
+                "MediaId": 485483305,
+                "MediaPathName": "Media/485483305.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\shouanren\\ja_vo_shouanren_parry_success_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_shouanren_com_parry"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2345387684,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2345387684,
-                "SoundBankPathName": "Event/ko/play_vo_shouanren_com_parry.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_shouanren_com_parry",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 49704650,
-                "MediaPathName": "Media/ko/49704650.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\shouanren\\ko_vo_shouanren_parry_success_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\shouanren\\ja_vo_shouanren_parry_success_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 259832443,
-                "MediaPathName": "Media/ko/259832443.wem",
+                "MediaId": 825818443,
+                "MediaPathName": "Media/825818443.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\shouanren\\ko_vo_shouanren_parry_success_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\shouanren\\zh_vo_shouanren_parry_success_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 888503545,
-                "MediaPathName": "Media/ko/888503545.wem",
+                "MediaId": 596312378,
+                "MediaPathName": "Media/596312378.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\shouanren\\ko_vo_shouanren_parry_success_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_shouanren_com_parry"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2345387684,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2345387684,
-                "SoundBankPathName": "Event/zh/play_vo_shouanren_com_parry.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_shouanren_com_parry",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 734836410,
-                "MediaPathName": "Media/zh/734836410.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\shouanren\\zh_vo_shouanren_parry_success_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\shouanren\\en_vo_shouanren_parry_success_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 808019446,
-                "MediaPathName": "Media/zh/808019446.wem",
+                "MediaId": 607854130,
+                "MediaPathName": "Media/607854130.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\shouanren\\zh_vo_shouanren_parry_success_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\shouanren\\ko_vo_shouanren_parry_success_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 838047023,
-                "MediaPathName": "Media/zh/838047023.wem",
+                "MediaId": 470790171,
+                "MediaPathName": "Media/470790171.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\shouanren\\zh_vo_shouanren_parry_success_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\shouanren\\ja_vo_shouanren_parry_success_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 856269069,
+                "MediaPathName": "Media/856269069.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\shouanren\\zh_vo_shouanren_parry_success_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 80038886,
+                "MediaPathName": "Media/80038886.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\shouanren\\en_vo_shouanren_parry_success_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 741860208,
+                "MediaPathName": "Media/741860208.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\shouanren\\ko_vo_shouanren_parry_success_02_tone.wav",
                 "PackagedFile": null
               }
             ],

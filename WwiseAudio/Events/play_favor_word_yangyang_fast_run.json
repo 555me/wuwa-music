@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3887428291,
             "SoundBanks": [
               {
                 "SoundBankId": 3887428291,
-                "SoundBankPathName": "Event/en/play_favor_word_yangyang_fast_run.bnk",
+                "SoundBankPathName": "Event/play_favor_word_yangyang_fast_run.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 615440080,
-                "MediaPathName": "Media/en/615440080.wem",
+                "MediaId": 376719516,
+                "MediaPathName": "Media/376719516.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_fastclimb_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yangyang\\ko_vo_yangyang_fastclimb_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yangyang_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3887428291,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3887428291,
-                "SoundBankPathName": "Event/ja/play_favor_word_yangyang_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yangyang_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 955011359,
-                "MediaPathName": "Media/ja/955011359.wem",
+                "MediaId": 16110115,
+                "MediaPathName": "Media/16110115.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_fastclimb_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yangyang\\en_vo_yangyang_fastclimb_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yangyang_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3887428291,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3887428291,
-                "SoundBankPathName": "Event/ko/play_favor_word_yangyang_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yangyang_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 799349112,
-                "MediaPathName": "Media/ko/799349112.wem",
+                "MediaId": 263168487,
+                "MediaPathName": "Media/263168487.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_fastclimb_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yangyang\\ja_vo_yangyang_fastclimb_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yangyang_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3887428291,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3887428291,
-                "SoundBankPathName": "Event/zh/play_favor_word_yangyang_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yangyang_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 122654211,
-                "MediaPathName": "Media/zh/122654211.wem",
+                "MediaId": 13713228,
+                "MediaPathName": "Media/13713228.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_fastclimb_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yangyang\\zh_vo_yangyang_fastclimb_01.wav",
                 "PackagedFile": null
               }
             ],

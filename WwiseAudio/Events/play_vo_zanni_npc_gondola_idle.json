@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3570626706,
             "SoundBanks": [
               {
                 "SoundBankId": 3570626706,
-                "SoundBankPathName": "Event/en/play_vo_zanni_npc_gondola_idle.bnk",
+                "SoundBankPathName": "Event/play_vo_zanni_npc_gondola_idle.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 490684914,
-                "MediaPathName": "Media/en/490684914.wem",
+                "MediaId": 1005905421,
+                "MediaPathName": "Media/1005905421.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\en_vo_zanni_npc_gondola_idle_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\zanni\\ja_vo_zanni_npc_gondola_idle_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zanni_npc_gondola_idle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3570626706,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3570626706,
-                "SoundBankPathName": "Event/ja/play_vo_zanni_npc_gondola_idle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zanni_npc_gondola_idle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 568262849,
-                "MediaPathName": "Media/ja/568262849.wem",
+                "MediaId": 428648699,
+                "MediaPathName": "Media/428648699.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ja_vo_zanni_npc_gondola_idle_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,3\\zanni\\en_vo_zanni_npc_gondola_idle_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zanni_npc_gondola_idle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3570626706,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3570626706,
-                "SoundBankPathName": "Event/ko/play_vo_zanni_npc_gondola_idle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zanni_npc_gondola_idle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 362424205,
-                "MediaPathName": "Media/ko/362424205.wem",
+                "MediaId": 921320779,
+                "MediaPathName": "Media/921320779.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ko_vo_zanni_npc_gondola_idle_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\zanni\\zh_vo_zanni_npc_gondola_idle_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zanni_npc_gondola_idle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3570626706,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3570626706,
-                "SoundBankPathName": "Event/zh/play_vo_zanni_npc_gondola_idle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zanni_npc_gondola_idle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1070128848,
-                "MediaPathName": "Media/zh/1070128848.wem",
+                "MediaId": 164604353,
+                "MediaPathName": "Media/164604353.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\zh_vo_zanni_npc_gondola_idle_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\zanni\\ko_vo_zanni_npc_gondola_idle_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_zanni_npc_gondola_idle",
       "EventId": 3570626706
     },
-    "MaximumDuration": 3.4608958,
-    "MinimumDuration": 3.4608958,
+    "MaximumDuration": 5.1709166,
+    "MinimumDuration": 2.3307707,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

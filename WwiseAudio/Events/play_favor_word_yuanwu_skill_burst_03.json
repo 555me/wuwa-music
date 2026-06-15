@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1188026518,
             "SoundBanks": [
               {
                 "SoundBankId": 1188026518,
-                "SoundBankPathName": "Event/en/play_favor_word_yuanwu_skill_burst_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_yuanwu_skill_burst_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 825314180,
-                "MediaPathName": "Media/en/825314180.wem",
+                "MediaId": 174618842,
+                "MediaPathName": "Media/174618842.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_burst_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yuanwu\\zh_vo_yuanwu_skill_burst_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yuanwu_skill_burst_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1188026518,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1188026518,
-                "SoundBankPathName": "Event/ja/play_favor_word_yuanwu_skill_burst_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yuanwu_skill_burst_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 373122632,
-                "MediaPathName": "Media/ja/373122632.wem",
+                "MediaId": 465977906,
+                "MediaPathName": "Media/465977906.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_burst_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yuanwu\\ja_vo_yuanwu_skill_burst_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yuanwu_skill_burst_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1188026518,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1188026518,
-                "SoundBankPathName": "Event/ko/play_favor_word_yuanwu_skill_burst_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yuanwu_skill_burst_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1028616196,
-                "MediaPathName": "Media/ko/1028616196.wem",
+                "MediaId": 195246289,
+                "MediaPathName": "Media/195246289.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_burst_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yuanwu\\ko_vo_yuanwu_skill_burst_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yuanwu_skill_burst_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1188026518,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1188026518,
-                "SoundBankPathName": "Event/zh/play_favor_word_yuanwu_skill_burst_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yuanwu_skill_burst_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 821429836,
-                "MediaPathName": "Media/zh/821429836.wem",
+                "MediaId": 355879573,
+                "MediaPathName": "Media/355879573.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_burst_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yuanwu\\en_vo_yuanwu_skill_burst_03.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3157196081,
             "SoundBanks": [
               {
                 "SoundBankId": 3157196081,
-                "SoundBankPathName": "Event/en/play_vo_buling_npc_gondola_stop.bnk",
+                "SoundBankPathName": "Event/play_vo_buling_npc_gondola_stop.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 509015037,
-                "MediaPathName": "Media/en/509015037.wem",
+                "MediaId": 685130829,
+                "MediaPathName": "Media/685130829.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\en_vo_buling_npc_gondola_stop_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,8\\buling\\ja_vo_buling_npc_gondola_stop_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_buling_npc_gondola_stop"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3157196081,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3157196081,
-                "SoundBankPathName": "Event/ja/play_vo_buling_npc_gondola_stop.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_buling_npc_gondola_stop",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 62807322,
-                "MediaPathName": "Media/ja/62807322.wem",
+                "MediaId": 135857404,
+                "MediaPathName": "Media/135857404.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ja_vo_buling_npc_gondola_stop_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,8\\buling\\en_vo_buling_npc_gondola_stop_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_buling_npc_gondola_stop"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3157196081,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3157196081,
-                "SoundBankPathName": "Event/ko/play_vo_buling_npc_gondola_stop.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_buling_npc_gondola_stop",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 417170596,
-                "MediaPathName": "Media/ko/417170596.wem",
+                "MediaId": 1036109125,
+                "MediaPathName": "Media/1036109125.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ko_vo_buling_npc_gondola_stop_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,8\\buling\\zh_vo_buling_npc_gondola_stop_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_buling_npc_gondola_stop"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3157196081,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3157196081,
-                "SoundBankPathName": "Event/zh/play_vo_buling_npc_gondola_stop.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_buling_npc_gondola_stop",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1006188920,
-                "MediaPathName": "Media/zh/1006188920.wem",
+                "MediaId": 798567841,
+                "MediaPathName": "Media/798567841.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\zh_vo_buling_npc_gondola_stop_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,8\\buling\\ko_vo_buling_npc_gondola_stop_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_vo_buling_npc_gondola_stop",
       "EventId": 3157196081
     },
-    "MaximumDuration": 6.4047084,
+    "MaximumDuration": 8.755146,
     "MinimumDuration": 6.4047084,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

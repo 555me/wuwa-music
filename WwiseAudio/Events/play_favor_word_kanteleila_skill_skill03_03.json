@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3185449131,
             "SoundBanks": [
               {
                 "SoundBankId": 3185449131,
-                "SoundBankPathName": "Event/en/play_favor_word_kanteleila_skill_skill03_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_kanteleila_skill_skill03_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1003763323,
-                "MediaPathName": "Media/en/1003763323.wem",
+                "MediaId": 360175844,
+                "MediaPathName": "Media/360175844.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\en_vo_kanteleila_skill_skill03_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_skill_skill03_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_skill_skill03_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3185449131,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3185449131,
-                "SoundBankPathName": "Event/ja/play_favor_word_kanteleila_skill_skill03_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_skill_skill03_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 63297039,
-                "MediaPathName": "Media/ja/63297039.wem",
+                "MediaId": 958888273,
+                "MediaPathName": "Media/958888273.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_skill_skill03_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_skill_skill03_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_skill_skill03_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3185449131,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3185449131,
-                "SoundBankPathName": "Event/ko/play_favor_word_kanteleila_skill_skill03_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_skill_skill03_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1038694910,
-                "MediaPathName": "Media/ko/1038694910.wem",
+                "MediaId": 42766482,
+                "MediaPathName": "Media/42766482.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_skill_skill03_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_skill_skill03_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_skill_skill03_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3185449131,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3185449131,
-                "SoundBankPathName": "Event/zh/play_favor_word_kanteleila_skill_skill03_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_skill_skill03_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 13267868,
-                "MediaPathName": "Media/zh/13267868.wem",
+                "MediaId": 644855675,
+                "MediaPathName": "Media/644855675.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_skill_skill03_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,2\\kanteleila\\en_vo_kanteleila_skill_skill03_03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_kanteleila_skill_skill03_03",
       "EventId": 3185449131
     },
-    "MaximumDuration": 1.605625,
-    "MinimumDuration": 1.605625,
+    "MaximumDuration": 1.7509792,
+    "MinimumDuration": 1.5354792,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

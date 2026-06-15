@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 435656212,
             "SoundBanks": [
               {
                 "SoundBankId": 435656212,
-                "SoundBankPathName": "Event/en/play_favor_word_kakaluo_heavyatk01_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_kakaluo_heavyatk01_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 112943341,
-                "MediaPathName": "Media/en/112943341.wem",
+                "MediaId": 744792666,
+                "MediaPathName": "Media/744792666.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_heavyatk01_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_heavyatk01_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kakaluo_heavyatk01_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 435656212,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 435656212,
-                "SoundBankPathName": "Event/ja/play_favor_word_kakaluo_heavyatk01_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kakaluo_heavyatk01_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 64660297,
-                "MediaPathName": "Media/ja/64660297.wem",
+                "MediaId": 673432549,
+                "MediaPathName": "Media/673432549.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_heavyatk01_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_heavyatk01_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kakaluo_heavyatk01_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 435656212,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 435656212,
-                "SoundBankPathName": "Event/ko/play_favor_word_kakaluo_heavyatk01_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kakaluo_heavyatk01_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 913330769,
-                "MediaPathName": "Media/ko/913330769.wem",
+                "MediaId": 232779377,
+                "MediaPathName": "Media/232779377.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_heavyatk01_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_heavyatk01_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kakaluo_heavyatk01_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 435656212,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 435656212,
-                "SoundBankPathName": "Event/zh/play_favor_word_kakaluo_heavyatk01_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kakaluo_heavyatk01_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 149489575,
-                "MediaPathName": "Media/zh/149489575.wem",
+                "MediaId": 1066277624,
+                "MediaPathName": "Media/1066277624.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_heavyatk01_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_heavyatk01_02.wav",
                 "PackagedFile": null
               }
             ],

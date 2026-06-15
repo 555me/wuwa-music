@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3132207817,
             "SoundBanks": [
               {
                 "SoundBankId": 3132207817,
-                "SoundBankPathName": "Event/en/play_favor_word_zanni_skill_hxchange.bnk",
+                "SoundBankPathName": "Event/play_favor_word_zanni_skill_hxchange.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 188573187,
-                "MediaPathName": "Media/en/188573187.wem",
+                "MediaId": 765990108,
+                "MediaPathName": "Media/765990108.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\en_vo_zanni_skill_hxchange_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\zanni\\ko_vo_zanni_skill_hxchange_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zanni_skill_hxchange"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3132207817,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3132207817,
-                "SoundBankPathName": "Event/ja/play_favor_word_zanni_skill_hxchange.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zanni_skill_hxchange",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 419993970,
-                "MediaPathName": "Media/ja/419993970.wem",
+                "MediaId": 821173106,
+                "MediaPathName": "Media/821173106.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ja_vo_zanni_skill_hxchange_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\zanni\\ja_vo_zanni_skill_hxchange_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zanni_skill_hxchange"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3132207817,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3132207817,
-                "SoundBankPathName": "Event/ko/play_favor_word_zanni_skill_hxchange.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zanni_skill_hxchange",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 351240532,
-                "MediaPathName": "Media/ko/351240532.wem",
+                "MediaId": 889774771,
+                "MediaPathName": "Media/889774771.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ko_vo_zanni_skill_hxchange_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,3\\zanni\\en_vo_zanni_skill_hxchange_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zanni_skill_hxchange"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3132207817,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3132207817,
-                "SoundBankPathName": "Event/zh/play_favor_word_zanni_skill_hxchange.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zanni_skill_hxchange",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 20374887,
-                "MediaPathName": "Media/zh/20374887.wem",
+                "MediaId": 418661895,
+                "MediaPathName": "Media/418661895.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\zh_vo_zanni_skill_hxchange_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\zanni\\zh_vo_zanni_skill_hxchange_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_zanni_skill_hxchange",
       "EventId": 3132207817
     },
-    "MaximumDuration": 0.95533335,
+    "MaximumDuration": 1.991125,
     "MinimumDuration": 0.95533335,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

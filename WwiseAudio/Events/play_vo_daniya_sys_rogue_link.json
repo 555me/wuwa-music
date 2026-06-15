@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 711321138,
             "SoundBanks": [
               {
                 "SoundBankId": 711321138,
-                "SoundBankPathName": "Event/en/play_vo_daniya_sys_rogue_link.bnk",
+                "SoundBankPathName": "Event/play_vo_daniya_sys_rogue_link.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 166165759,
-                "MediaPathName": "Media/en/166165759.wem",
+                "MediaId": 779415391,
+                "MediaPathName": "Media/779415391.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\en_vo_daniya_sys_rogue_link_01_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,3\\daniya\\en_vo_daniya_sys_rogue_link_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 999181988,
-                "MediaPathName": "Media/en/999181988.wem",
+                "MediaId": 1015444868,
+                "MediaPathName": "Media/1015444868.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\en_vo_daniya_sys_rogue_link_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_daniya_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 711321138,
-            "SoundBanks": [
-              {
-                "SoundBankId": 711321138,
-                "SoundBankPathName": "Event/ja/play_vo_daniya_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_daniya_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 45439809,
-                "MediaPathName": "Media/ja/45439809.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\ja_vo_daniya_sys_rogue_link_01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\daniya\\zh_vo_daniya_sys_rogue_link_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 932601238,
-                "MediaPathName": "Media/ja/932601238.wem",
+                "MediaId": 1040932257,
+                "MediaPathName": "Media/1040932257.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\ja_vo_daniya_sys_rogue_link_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_daniya_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 711321138,
-            "SoundBanks": [
-              {
-                "SoundBankId": 711321138,
-                "SoundBankPathName": "Event/ko/play_vo_daniya_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_daniya_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 548366044,
-                "MediaPathName": "Media/ko/548366044.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\ko_vo_daniya_sys_rogue_link_01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\daniya\\ko_vo_daniya_sys_rogue_link_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 960652882,
-                "MediaPathName": "Media/ko/960652882.wem",
+                "MediaId": 1006316369,
+                "MediaPathName": "Media/1006316369.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\ko_vo_daniya_sys_rogue_link_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_daniya_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 711321138,
-            "SoundBanks": [
-              {
-                "SoundBankId": 711321138,
-                "SoundBankPathName": "Event/zh/play_vo_daniya_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_daniya_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 286907442,
-                "MediaPathName": "Media/zh/286907442.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\zh_vo_daniya_sys_rogue_link_02_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\daniya\\ja_vo_daniya_sys_rogue_link_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 611530028,
-                "MediaPathName": "Media/zh/611530028.wem",
+                "MediaId": 104641963,
+                "MediaPathName": "Media/104641963.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\daniya\\en_vo_daniya_sys_rogue_link_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 669469249,
+                "MediaPathName": "Media/669469249.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\daniya\\zh_vo_daniya_sys_rogue_link_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1033096820,
+                "MediaPathName": "Media/1033096820.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\daniya\\ko_vo_daniya_sys_rogue_link_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 113711299,
+                "MediaPathName": "Media/113711299.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\zh_vo_daniya_sys_rogue_link_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\daniya\\ja_vo_daniya_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,8 +120,8 @@
       "DebugName": "play_vo_daniya_sys_rogue_link",
       "EventId": 711321138
     },
-    "MaximumDuration": 2.2092707,
-    "MinimumDuration": 1.5480833,
+    "MaximumDuration": 4.175521,
+    "MinimumDuration": 1.4190834,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

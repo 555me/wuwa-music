@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1357537792,
             "SoundBanks": [
               {
                 "SoundBankId": 1357537792,
-                "SoundBankPathName": "Event/en/play_favor_word_xiangliyao_sys_to_player01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_xiangliyao_sys_to_player01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 626759685,
-                "MediaPathName": "Media/en/626759685.wem",
+                "MediaId": 682140617,
+                "MediaPathName": "Media/682140617.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_to_player01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\xiangliyao\\ko_vo_xiangliyao_to_player01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_sys_to_player01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1357537792,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1357537792,
-                "SoundBankPathName": "Event/ja/play_favor_word_xiangliyao_sys_to_player01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_sys_to_player01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1022374101,
-                "MediaPathName": "Media/ja/1022374101.wem",
+                "MediaId": 748485427,
+                "MediaPathName": "Media/748485427.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_to_player01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\xiangliyao\\zh_vo_xiangliyao_to_player01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_sys_to_player01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1357537792,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1357537792,
-                "SoundBankPathName": "Event/ko/play_favor_word_xiangliyao_sys_to_player01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_sys_to_player01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 388445494,
-                "MediaPathName": "Media/ko/388445494.wem",
+                "MediaId": 262913253,
+                "MediaPathName": "Media/262913253.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_to_player01_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.2\\xiangliyao\\en_vo_xiangliyao_to_player01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_sys_to_player01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1357537792,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1357537792,
-                "SoundBankPathName": "Event/zh/play_favor_word_xiangliyao_sys_to_player01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_sys_to_player01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 229114465,
-                "MediaPathName": "Media/zh/229114465.wem",
+                "MediaId": 775641503,
+                "MediaPathName": "Media/775641503.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_to_player01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\xiangliyao\\ja_vo_xiangliyao_to_player01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_xiangliyao_sys_to_player01",
       "EventId": 1357537792
     },
-    "MaximumDuration": 17.531626,
+    "MaximumDuration": 21.157063,
     "MinimumDuration": 17.531626,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

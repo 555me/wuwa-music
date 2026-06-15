@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4011817744,
             "SoundBanks": [
               {
                 "SoundBankId": 4011817744,
-                "SoundBankPathName": "Event/en/play_favor_word_aimisi_sys_foodlike.bnk",
+                "SoundBankPathName": "Event/play_favor_word_aimisi_sys_foodlike.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 244283242,
-                "MediaPathName": "Media/en/244283242.wem",
+                "MediaId": 681295127,
+                "MediaPathName": "Media/681295127.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\en_vo_aimisi_sys_foodlike_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\aimisi\\ja_vo_aimisi_sys_foodlike_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_sys_foodlike"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4011817744,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4011817744,
-                "SoundBankPathName": "Event/ja/play_favor_word_aimisi_sys_foodlike.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_sys_foodlike",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 354341648,
-                "MediaPathName": "Media/ja/354341648.wem",
+                "MediaId": 773065480,
+                "MediaPathName": "Media/773065480.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ja_vo_aimisi_sys_foodlike_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,1\\aimisi\\en_vo_aimisi_sys_foodlike_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_sys_foodlike"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4011817744,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4011817744,
-                "SoundBankPathName": "Event/ko/play_favor_word_aimisi_sys_foodlike.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_sys_foodlike",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 764765406,
-                "MediaPathName": "Media/ko/764765406.wem",
+                "MediaId": 726038669,
+                "MediaPathName": "Media/726038669.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ko_vo_aimisi_sys_foodlike_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\aimisi\\zh_vo_aimisi_sys_foodlike_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_sys_foodlike"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4011817744,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4011817744,
-                "SoundBankPathName": "Event/zh/play_favor_word_aimisi_sys_foodlike.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_sys_foodlike",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 100295314,
-                "MediaPathName": "Media/zh/100295314.wem",
+                "MediaId": 404520434,
+                "MediaPathName": "Media/404520434.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\zh_vo_aimisi_sys_foodlike_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\aimisi\\ko_vo_aimisi_sys_foodlike_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_aimisi_sys_foodlike",
       "EventId": 4011817744
     },
-    "MaximumDuration": 21.043709,
-    "MinimumDuration": 21.043709,
+    "MaximumDuration": 28.321772,
+    "MinimumDuration": 16.225166,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

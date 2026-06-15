@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2127885591,
             "SoundBanks": [
               {
                 "SoundBankId": 2127885591,
-                "SoundBankPathName": "Event/en/play_vo_jiyan_skill_end.bnk",
+                "SoundBankPathName": "Event/play_vo_jiyan_skill_end.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 162375295,
-                "MediaPathName": "Media/en/162375295.wem",
+                "MediaId": 397110570,
+                "MediaPathName": "Media/397110570.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_skill_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_skill_end_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 478832989,
-                "MediaPathName": "Media/en/478832989.wem",
+                "MediaId": 866492737,
+                "MediaPathName": "Media/866492737.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_skill_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_skill_end_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 828396013,
-                "MediaPathName": "Media/en/828396013.wem",
+                "MediaId": 316536355,
+                "MediaPathName": "Media/316536355.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_skill_end_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_skill_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2127885591,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2127885591,
-                "SoundBankPathName": "Event/ja/play_vo_jiyan_skill_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_skill_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 44299029,
-                "MediaPathName": "Media/ja/44299029.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_skill_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_skill_end_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 164017415,
-                "MediaPathName": "Media/ja/164017415.wem",
+                "MediaId": 139879272,
+                "MediaPathName": "Media/139879272.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_skill_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_skill_end_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 228507769,
-                "MediaPathName": "Media/ja/228507769.wem",
+                "MediaId": 405018546,
+                "MediaPathName": "Media/405018546.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_skill_end_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_skill_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2127885591,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2127885591,
-                "SoundBankPathName": "Event/ko/play_vo_jiyan_skill_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_skill_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 75676281,
-                "MediaPathName": "Media/ko/75676281.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_skill_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_skill_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 630573642,
-                "MediaPathName": "Media/ko/630573642.wem",
+                "MediaId": 731466062,
+                "MediaPathName": "Media/731466062.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_skill_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_skill_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 797231415,
-                "MediaPathName": "Media/ko/797231415.wem",
+                "MediaId": 892201799,
+                "MediaPathName": "Media/892201799.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_skill_end_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_skill_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2127885591,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2127885591,
-                "SoundBankPathName": "Event/zh/play_vo_jiyan_skill_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_skill_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 258912467,
-                "MediaPathName": "Media/zh/258912467.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_skill_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_skill_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 318479967,
-                "MediaPathName": "Media/zh/318479967.wem",
+                "MediaId": 356183770,
+                "MediaPathName": "Media/356183770.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_skill_end_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_skill_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 630667449,
-                "MediaPathName": "Media/zh/630667449.wem",
+                "MediaId": 267583321,
+                "MediaPathName": "Media/267583321.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_skill_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_skill_end_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 938343150,
+                "MediaPathName": "Media/938343150.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_skill_end_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 422836024,
+                "MediaPathName": "Media/422836024.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_skill_end_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 581298091,
+                "MediaPathName": "Media/581298091.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_skill_end_01.wav",
                 "PackagedFile": null
               }
             ],

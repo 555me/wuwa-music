@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 324252109,
             "SoundBanks": [
               {
                 "SoundBankId": 324252109,
-                "SoundBankPathName": "Event/en/play_favor_word_changli_bat_atksp04_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_changli_bat_atksp04_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 388642714,
-                "MediaPathName": "Media/en/388642714.wem",
+                "MediaId": 373082651,
+                "MediaPathName": "Media/373082651.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_atksp04_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\changli\\zh_vo_changli_bat_atksp04_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_changli_bat_atksp04_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 324252109,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 324252109,
-                "SoundBankPathName": "Event/ja/play_favor_word_changli_bat_atksp04_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_changli_bat_atksp04_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 885203405,
-                "MediaPathName": "Media/ja/885203405.wem",
+                "MediaId": 309922841,
+                "MediaPathName": "Media/309922841.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_atksp04_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\changli\\ja_vo_changli_bat_atksp04_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_changli_bat_atksp04_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 324252109,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 324252109,
-                "SoundBankPathName": "Event/ko/play_favor_word_changli_bat_atksp04_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_changli_bat_atksp04_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 501193294,
-                "MediaPathName": "Media/ko/501193294.wem",
+                "MediaId": 294001755,
+                "MediaPathName": "Media/294001755.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_atksp04_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\changli\\ko_vo_changli_bat_atksp04_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_changli_bat_atksp04_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 324252109,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 324252109,
-                "SoundBankPathName": "Event/zh/play_favor_word_changli_bat_atksp04_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_changli_bat_atksp04_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 94056270,
-                "MediaPathName": "Media/zh/94056270.wem",
+                "MediaId": 250194428,
+                "MediaPathName": "Media/250194428.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_atksp04_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,1\\changli\\en_vo_changli_bat_atksp04_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_changli_bat_atksp04_02",
       "EventId": 324252109
     },
-    "MaximumDuration": 1.1090208,
+    "MaximumDuration": 1.396,
     "MinimumDuration": 1.1090208,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

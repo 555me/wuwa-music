@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3191405353,
             "SoundBanks": [
               {
                 "SoundBankId": 3191405353,
-                "SoundBankPathName": "Event/en/play_favor_word_nvzhu_enter_battle.bnk",
+                "SoundBankPathName": "Event/play_favor_word_nvzhu_enter_battle.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 905121735,
-                "MediaPathName": "Media/en/905121735.wem",
+                "MediaId": 884821752,
+                "MediaPathName": "Media/884821752.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_enter_battle.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nvzhu\\zh_vo_nvzhu_enter_battle.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nvzhu_enter_battle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3191405353,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3191405353,
-                "SoundBankPathName": "Event/ja/play_favor_word_nvzhu_enter_battle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nvzhu_enter_battle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 472652212,
-                "MediaPathName": "Media/ja/472652212.wem",
+                "MediaId": 372314616,
+                "MediaPathName": "Media/372314616.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_enter_battle.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nvzhu\\ko_vo_nvzhu_enter_battle.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nvzhu_enter_battle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3191405353,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3191405353,
-                "SoundBankPathName": "Event/ko/play_favor_word_nvzhu_enter_battle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nvzhu_enter_battle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 448893066,
-                "MediaPathName": "Media/ko/448893066.wem",
+                "MediaId": 401216718,
+                "MediaPathName": "Media/401216718.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_enter_battle.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nvzhu\\en_vo_nvzhu_enter_battle.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nvzhu_enter_battle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3191405353,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3191405353,
-                "SoundBankPathName": "Event/zh/play_favor_word_nvzhu_enter_battle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nvzhu_enter_battle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 894839710,
-                "MediaPathName": "Media/zh/894839710.wem",
+                "MediaId": 1064780274,
+                "MediaPathName": "Media/1064780274.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_enter_battle.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nvzhu\\ja_vo_nvzhu_enter_battle.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_nvzhu_enter_battle",
       "EventId": 3191405353
     },
-    "MaximumDuration": 0.5876667,
+    "MaximumDuration": 0.7655417,
     "MinimumDuration": 0.5876667,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

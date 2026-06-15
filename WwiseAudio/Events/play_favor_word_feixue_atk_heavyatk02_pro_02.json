@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3267555088,
             "SoundBanks": [
               {
                 "SoundBankId": 3267555088,
-                "SoundBankPathName": "Event/en/play_favor_word_feixue_atk_heavyatk02_pro_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_feixue_atk_heavyatk02_pro_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 545485031,
-                "MediaPathName": "Media/en/545485031.wem",
+                "MediaId": 159978007,
+                "MediaPathName": "Media/159978007.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_atk_heavyatk02_pro_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_atk_heavyatk02_pro_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_atk_heavyatk02_pro_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3267555088,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3267555088,
-                "SoundBankPathName": "Event/ja/play_favor_word_feixue_atk_heavyatk02_pro_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_atk_heavyatk02_pro_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1068770325,
-                "MediaPathName": "Media/ja/1068770325.wem",
+                "MediaId": 780025009,
+                "MediaPathName": "Media/780025009.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_atk_heavyatk02_pro_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_atk_heavyatk02_pro_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_atk_heavyatk02_pro_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3267555088,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3267555088,
-                "SoundBankPathName": "Event/ko/play_favor_word_feixue_atk_heavyatk02_pro_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_atk_heavyatk02_pro_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 227204018,
-                "MediaPathName": "Media/ko/227204018.wem",
+                "MediaId": 748230817,
+                "MediaPathName": "Media/748230817.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_atk_heavyatk02_pro_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_atk_heavyatk02_pro_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_atk_heavyatk02_pro_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3267555088,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3267555088,
-                "SoundBankPathName": "Event/zh/play_favor_word_feixue_atk_heavyatk02_pro_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_atk_heavyatk02_pro_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 492276157,
-                "MediaPathName": "Media/zh/492276157.wem",
+                "MediaId": 497060519,
+                "MediaPathName": "Media/497060519.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_atk_heavyatk02_pro_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_atk_heavyatk02_pro_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_feixue_atk_heavyatk02_pro_02",
       "EventId": 3267555088
     },
-    "MaximumDuration": 0.43010417,
+    "MaximumDuration": 1.0832708,
     "MinimumDuration": 0.43010417,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1840354716,
             "SoundBanks": [
               {
                 "SoundBankId": 1840354716,
-                "SoundBankPathName": "Event/en/play_favor_word_baizhi_skill_end_char_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_baizhi_skill_end_char_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 383123664,
-                "MediaPathName": "Media/en/383123664.wem",
+                "MediaId": 72927358,
+                "MediaPathName": "Media/72927358.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_skill_end_char_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\baizhi\\en_vo_baizhi_skill_end_char_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_baizhi_skill_end_char_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1840354716,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1840354716,
-                "SoundBankPathName": "Event/ja/play_favor_word_baizhi_skill_end_char_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_baizhi_skill_end_char_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 194493393,
-                "MediaPathName": "Media/ja/194493393.wem",
+                "MediaId": 390411929,
+                "MediaPathName": "Media/390411929.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_skill_end_char_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\baizhi\\ko_vo_baizhi_skill_end_char_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_baizhi_skill_end_char_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1840354716,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1840354716,
-                "SoundBankPathName": "Event/ko/play_favor_word_baizhi_skill_end_char_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_baizhi_skill_end_char_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 693437496,
-                "MediaPathName": "Media/ko/693437496.wem",
+                "MediaId": 445507703,
+                "MediaPathName": "Media/445507703.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_skill_end_char_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\baizhi\\zh_vo_baizhi_skill_end_char_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_baizhi_skill_end_char_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1840354716,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1840354716,
-                "SoundBankPathName": "Event/zh/play_favor_word_baizhi_skill_end_char_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_baizhi_skill_end_char_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 216496640,
-                "MediaPathName": "Media/zh/216496640.wem",
+                "MediaId": 636334949,
+                "MediaPathName": "Media/636334949.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_skill_end_char_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\baizhi\\ja_vo_baizhi_skill_end_char_01.wav",
                 "PackagedFile": null
               }
             ],

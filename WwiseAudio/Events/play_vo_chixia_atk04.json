@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3400673541,
             "SoundBanks": [
               {
                 "SoundBankId": 3400673541,
-                "SoundBankPathName": "Event/en/play_vo_chixia_atk04.bnk",
+                "SoundBankPathName": "Event/play_vo_chixia_atk04.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 646534986,
-                "MediaPathName": "Media/en/646534986.wem",
+                "MediaId": 784083156,
+                "MediaPathName": "Media/784083156.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_atk04_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\chixia\\en_vo_chixia_atk04_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 784902440,
-                "MediaPathName": "Media/en/784902440.wem",
+                "MediaId": 329723757,
+                "MediaPathName": "Media/329723757.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_atk04_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\chixia\\ko_vo_chixia_atk04_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 996556311,
-                "MediaPathName": "Media/en/996556311.wem",
+                "MediaId": 216675840,
+                "MediaPathName": "Media/216675840.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_atk04_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chixia_atk04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3400673541,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3400673541,
-                "SoundBankPathName": "Event/ja/play_vo_chixia_atk04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chixia_atk04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 25027555,
-                "MediaPathName": "Media/ja/25027555.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_atk04_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\chixia\\zh_vo_chixia_atk04_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 556219579,
-                "MediaPathName": "Media/ja/556219579.wem",
+                "MediaId": 326216395,
+                "MediaPathName": "Media/326216395.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_atk04_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\chixia\\ja_vo_chixia_atk04_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 853954415,
-                "MediaPathName": "Media/ja/853954415.wem",
+                "MediaId": 956351604,
+                "MediaPathName": "Media/956351604.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_atk04_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chixia_atk04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3400673541,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3400673541,
-                "SoundBankPathName": "Event/ko/play_vo_chixia_atk04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chixia_atk04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 31528932,
-                "MediaPathName": "Media/ko/31528932.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_atk04_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\chixia\\en_vo_chixia_atk04_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 75693920,
-                "MediaPathName": "Media/ko/75693920.wem",
+                "MediaId": 56461191,
+                "MediaPathName": "Media/56461191.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_atk04_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\chixia\\ko_vo_chixia_atk04_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 853660914,
-                "MediaPathName": "Media/ko/853660914.wem",
+                "MediaId": 879838893,
+                "MediaPathName": "Media/879838893.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_atk04_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chixia_atk04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3400673541,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3400673541,
-                "SoundBankPathName": "Event/zh/play_vo_chixia_atk04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chixia_atk04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 126834175,
-                "MediaPathName": "Media/zh/126834175.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_atk04_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\chixia\\zh_vo_chixia_atk04_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 428358736,
-                "MediaPathName": "Media/zh/428358736.wem",
+                "MediaId": 265668417,
+                "MediaPathName": "Media/265668417.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_atk04_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\chixia\\ja_vo_chixia_atk04_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 568641533,
-                "MediaPathName": "Media/zh/568641533.wem",
+                "MediaId": 590711320,
+                "MediaPathName": "Media/590711320.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_atk04_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\chixia\\en_vo_chixia_atk04_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 613279058,
+                "MediaPathName": "Media/613279058.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\chixia\\ko_vo_chixia_atk04_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1042041022,
+                "MediaPathName": "Media/1042041022.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\chixia\\zh_vo_chixia_atk04_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 404657041,
+                "MediaPathName": "Media/404657041.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\chixia\\ja_vo_chixia_atk04_03.wav",
                 "PackagedFile": null
               }
             ],

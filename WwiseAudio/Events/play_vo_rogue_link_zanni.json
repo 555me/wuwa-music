@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4247682346,
             "SoundBanks": [
               {
                 "SoundBankId": 4247682346,
-                "SoundBankPathName": "Event/en/play_vo_rogue_link_zanni.bnk",
+                "SoundBankPathName": "Event/play_vo_rogue_link_zanni.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 92373589,
-                "MediaPathName": "Media/en/92373589.wem",
+                "MediaId": 81048840,
+                "MediaPathName": "Media/81048840.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_zanni_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_zanni_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 131777794,
-                "MediaPathName": "Media/en/131777794.wem",
+                "MediaId": 76625938,
+                "MediaPathName": "Media/76625938.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_zanni_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_zanni"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4247682346,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4247682346,
-                "SoundBankPathName": "Event/ja/play_vo_rogue_link_zanni.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_zanni",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 359209803,
-                "MediaPathName": "Media/ja/359209803.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_zanni_02.wav",
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_zanni_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 627451496,
-                "MediaPathName": "Media/ja/627451496.wem",
+                "MediaId": 159701376,
+                "MediaPathName": "Media/159701376.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_zanni_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_zanni"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4247682346,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4247682346,
-                "SoundBankPathName": "Event/ko/play_vo_rogue_link_zanni.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_zanni",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 573184089,
-                "MediaPathName": "Media/ko/573184089.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_zanni_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_zanni_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 769007571,
-                "MediaPathName": "Media/ko/769007571.wem",
+                "MediaId": 76408285,
+                "MediaPathName": "Media/76408285.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_zanni_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_zanni"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4247682346,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4247682346,
-                "SoundBankPathName": "Event/zh/play_vo_rogue_link_zanni.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_zanni",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 248650763,
-                "MediaPathName": "Media/zh/248650763.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_zanni_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_zanni_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 825544619,
-                "MediaPathName": "Media/zh/825544619.wem",
+                "MediaId": 78039484,
+                "MediaPathName": "Media/78039484.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_zanni_02.wav",
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_zanni_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 617955958,
+                "MediaPathName": "Media/617955958.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_zanni_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1071143053,
+                "MediaPathName": "Media/1071143053.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_zanni_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 996388651,
+                "MediaPathName": "Media/996388651.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_zanni_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,8 +120,8 @@
       "DebugName": "play_vo_rogue_link_zanni",
       "EventId": 4247682346
     },
-    "MaximumDuration": 4.1566668,
-    "MinimumDuration": 1.6123959,
+    "MaximumDuration": 4.667917,
+    "MinimumDuration": 1.5010417,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

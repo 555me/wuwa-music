@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1316235535,
             "SoundBanks": [
               {
                 "SoundBankId": 1316235535,
-                "SoundBankPathName": "Event/en/play_vo_luhesi_sys_rankup01.bnk",
+                "SoundBankPathName": "Event/play_vo_luhesi_sys_rankup01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 629570983,
-                "MediaPathName": "Media/en/629570983.wem",
+                "MediaId": 908271045,
+                "MediaPathName": "Media/908271045.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\en_vo_luhesi_sys_rankup01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\luhesi\\ko_vo_luhesi_sys_rankup01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luhesi_sys_rankup01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1316235535,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1316235535,
-                "SoundBankPathName": "Event/ja/play_vo_luhesi_sys_rankup01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luhesi_sys_rankup01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 283164733,
-                "MediaPathName": "Media/ja/283164733.wem",
+                "MediaId": 318629999,
+                "MediaPathName": "Media/318629999.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\ja_vo_luhesi_sys_rankup01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\luhesi\\zh_vo_luhesi_sys_rankup01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luhesi_sys_rankup01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1316235535,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1316235535,
-                "SoundBankPathName": "Event/ko/play_vo_luhesi_sys_rankup01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luhesi_sys_rankup01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 895545477,
-                "MediaPathName": "Media/ko/895545477.wem",
+                "MediaId": 454435021,
+                "MediaPathName": "Media/454435021.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\ko_vo_luhesi_sys_rankup01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\luhesi\\ja_vo_luhesi_sys_rankup01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luhesi_sys_rankup01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1316235535,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1316235535,
-                "SoundBankPathName": "Event/zh/play_vo_luhesi_sys_rankup01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luhesi_sys_rankup01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 925248690,
-                "MediaPathName": "Media/zh/925248690.wem",
+                "MediaId": 428243604,
+                "MediaPathName": "Media/428243604.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\zh_vo_luhesi_sys_rankup01_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,1\\luhesi\\en_vo_luhesi_sys_rankup01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_vo_luhesi_sys_rankup01",
       "EventId": 1316235535
     },
-    "MaximumDuration": 15.490937,
+    "MaximumDuration": 17.003729,
     "MinimumDuration": 15.490937,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

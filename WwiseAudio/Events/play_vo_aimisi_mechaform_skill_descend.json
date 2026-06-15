@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2798268840,
             "SoundBanks": [
               {
                 "SoundBankId": 2798268840,
-                "SoundBankPathName": "Event/en/play_vo_aimisi_mechaform_skill_descend.bnk",
+                "SoundBankPathName": "Event/play_vo_aimisi_mechaform_skill_descend.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 161803792,
-                "MediaPathName": "Media/en/161803792.wem",
+                "MediaId": 1038802688,
+                "MediaPathName": "Media/1038802688.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\en_vo_aimisi_mechaform_com_descend_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\aimisi\\ja_vo_aimisi_mechaform_com_descend_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_mechaform_skill_descend"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2798268840,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2798268840,
-                "SoundBankPathName": "Event/ja/play_vo_aimisi_mechaform_skill_descend.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_mechaform_skill_descend",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1008815387,
-                "MediaPathName": "Media/ja/1008815387.wem",
+                "MediaId": 121752331,
+                "MediaPathName": "Media/121752331.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ja_vo_aimisi_mechaform_com_descend_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\aimisi\\en_vo_aimisi_mechaform_com_descend_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_mechaform_skill_descend"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2798268840,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2798268840,
-                "SoundBankPathName": "Event/ko/play_vo_aimisi_mechaform_skill_descend.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_mechaform_skill_descend",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 701324650,
-                "MediaPathName": "Media/ko/701324650.wem",
+                "MediaId": 372834417,
+                "MediaPathName": "Media/372834417.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ko_vo_aimisi_mechaform_com_descend_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\aimisi\\zh_vo_aimisi_mechaform_com_descend_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_mechaform_skill_descend"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2798268840,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2798268840,
-                "SoundBankPathName": "Event/zh/play_vo_aimisi_mechaform_skill_descend.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_mechaform_skill_descend",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 524127958,
-                "MediaPathName": "Media/zh/524127958.wem",
+                "MediaId": 69569709,
+                "MediaPathName": "Media/69569709.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\zh_vo_aimisi_mechaform_com_descend_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\aimisi\\ko_vo_aimisi_mechaform_com_descend_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_aimisi_mechaform_skill_descend",
       "EventId": 2798268840
     },
-    "MaximumDuration": 1.5378958,
-    "MinimumDuration": 1.5378958,
+    "MaximumDuration": 2.08875,
+    "MinimumDuration": 1.3379375,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

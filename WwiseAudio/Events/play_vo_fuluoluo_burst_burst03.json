@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 972629010,
             "SoundBanks": [
               {
                 "SoundBankId": 972629010,
-                "SoundBankPathName": "Event/en/play_vo_fuluoluo_burst_burst03.bnk",
+                "SoundBankPathName": "Event/play_vo_fuluoluo_burst_burst03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 579084937,
-                "MediaPathName": "Media/en/579084937.wem",
+                "MediaId": 663290105,
+                "MediaPathName": "Media/663290105.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\en_vo_fuluoluo_burst_burst03_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,5\\fuluoluo\\ja_vo_fuluoluo_burst_burst03_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 814618903,
-                "MediaPathName": "Media/en/814618903.wem",
+                "MediaId": 39470492,
+                "MediaPathName": "Media/39470492.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\en_vo_fuluoluo_burst_burst03_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,5\\fuluoluo\\en_vo_fuluoluo_burst_burst03_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 931101954,
-                "MediaPathName": "Media/en/931101954.wem",
+                "MediaId": 28158913,
+                "MediaPathName": "Media/28158913.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\en_vo_fuluoluo_burst_burst03_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_fuluoluo_burst_burst03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 972629010,
-            "SoundBanks": [
-              {
-                "SoundBankId": 972629010,
-                "SoundBankPathName": "Event/ja/play_vo_fuluoluo_burst_burst03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_fuluoluo_burst_burst03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 253313560,
-                "MediaPathName": "Media/ja/253313560.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\ja_vo_fuluoluo_burst_burst03_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,5\\fuluoluo\\ko_vo_fuluoluo_burst_burst03_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 654843531,
-                "MediaPathName": "Media/ja/654843531.wem",
+                "MediaId": 893608776,
+                "MediaPathName": "Media/893608776.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\ja_vo_fuluoluo_burst_burst03_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,5\\fuluoluo\\zh_vo_fuluoluo_burst_burst03_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1039982766,
-                "MediaPathName": "Media/ja/1039982766.wem",
+                "MediaId": 64609654,
+                "MediaPathName": "Media/64609654.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\ja_vo_fuluoluo_burst_burst03_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_fuluoluo_burst_burst03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 972629010,
-            "SoundBanks": [
-              {
-                "SoundBankId": 972629010,
-                "SoundBankPathName": "Event/ko/play_vo_fuluoluo_burst_burst03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_fuluoluo_burst_burst03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 298242325,
-                "MediaPathName": "Media/ko/298242325.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\ko_vo_fuluoluo_burst_burst03_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,5\\fuluoluo\\ja_vo_fuluoluo_burst_burst03_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 347978672,
-                "MediaPathName": "Media/ko/347978672.wem",
+                "MediaId": 674861740,
+                "MediaPathName": "Media/674861740.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\ko_vo_fuluoluo_burst_burst03_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,5\\fuluoluo\\en_vo_fuluoluo_burst_burst03_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 766613553,
-                "MediaPathName": "Media/ko/766613553.wem",
+                "MediaId": 196768484,
+                "MediaPathName": "Media/196768484.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\ko_vo_fuluoluo_burst_burst03_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_fuluoluo_burst_burst03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 972629010,
-            "SoundBanks": [
-              {
-                "SoundBankId": 972629010,
-                "SoundBankPathName": "Event/zh/play_vo_fuluoluo_burst_burst03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_fuluoluo_burst_burst03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 189238035,
-                "MediaPathName": "Media/zh/189238035.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\zh_vo_fuluoluo_burst_burst03_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,5\\fuluoluo\\ko_vo_fuluoluo_burst_burst03_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 590147850,
-                "MediaPathName": "Media/zh/590147850.wem",
+                "MediaId": 209534965,
+                "MediaPathName": "Media/209534965.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\zh_vo_fuluoluo_burst_burst03_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,5\\fuluoluo\\zh_vo_fuluoluo_burst_burst03_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 929306063,
-                "MediaPathName": "Media/zh/929306063.wem",
+                "MediaId": 107826071,
+                "MediaPathName": "Media/107826071.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\zh_vo_fuluoluo_burst_burst03_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,5\\fuluoluo\\ja_vo_fuluoluo_burst_burst03_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 583607598,
+                "MediaPathName": "Media/583607598.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,5\\fuluoluo\\en_vo_fuluoluo_burst_burst03_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 394034362,
+                "MediaPathName": "Media/394034362.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,5\\fuluoluo\\ko_vo_fuluoluo_burst_burst03_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 874623405,
+                "MediaPathName": "Media/874623405.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,5\\fuluoluo\\zh_vo_fuluoluo_burst_burst03_02_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,8 +160,8 @@
       "DebugName": "play_vo_fuluoluo_burst_burst03",
       "EventId": 972629010
     },
-    "MaximumDuration": 1.5355208,
-    "MinimumDuration": 0.68189585,
+    "MaximumDuration": 1.7657917,
+    "MinimumDuration": 0.23227084,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3526166729,
             "SoundBanks": [
               {
                 "SoundBankId": 3526166729,
-                "SoundBankPathName": "Event/en/play_vo_kakaluo_fast_run.bnk",
+                "SoundBankPathName": "Event/play_vo_kakaluo_fast_run.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 111480685,
-                "MediaPathName": "Media/en/111480685.wem",
+                "MediaId": 106064959,
+                "MediaPathName": "Media/106064959.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 572090580,
-                "MediaPathName": "Media/en/572090580.wem",
+                "MediaId": 26688699,
+                "MediaPathName": "Media/26688699.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 752711737,
-                "MediaPathName": "Media/en/752711737.wem",
+                "MediaId": 279855165,
+                "MediaPathName": "Media/279855165.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_fastclimb_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kakaluo_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3526166729,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3526166729,
-                "SoundBankPathName": "Event/ja/play_vo_kakaluo_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kakaluo_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 442557033,
-                "MediaPathName": "Media/ja/442557033.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 778506772,
-                "MediaPathName": "Media/ja/778506772.wem",
+                "MediaId": 114494343,
+                "MediaPathName": "Media/114494343.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 903345980,
-                "MediaPathName": "Media/ja/903345980.wem",
+                "MediaId": 797183169,
+                "MediaPathName": "Media/797183169.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_fastclimb_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kakaluo_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3526166729,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3526166729,
-                "SoundBankPathName": "Event/ko/play_vo_kakaluo_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kakaluo_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 285342846,
-                "MediaPathName": "Media/ko/285342846.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 928648238,
-                "MediaPathName": "Media/ko/928648238.wem",
+                "MediaId": 882742143,
+                "MediaPathName": "Media/882742143.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1067861062,
-                "MediaPathName": "Media/ko/1067861062.wem",
+                "MediaId": 753327978,
+                "MediaPathName": "Media/753327978.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_fastclimb_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kakaluo_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3526166729,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3526166729,
-                "SoundBankPathName": "Event/zh/play_vo_kakaluo_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kakaluo_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 458046102,
-                "MediaPathName": "Media/zh/458046102.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 574362091,
-                "MediaPathName": "Media/zh/574362091.wem",
+                "MediaId": 767145570,
+                "MediaPathName": "Media/767145570.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_fastclimb_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 777853380,
-                "MediaPathName": "Media/zh/777853380.wem",
+                "MediaId": 719365761,
+                "MediaPathName": "Media/719365761.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_fastclimb_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 304599231,
+                "MediaPathName": "Media/304599231.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_fastclimb_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 714337388,
+                "MediaPathName": "Media/714337388.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_fastclimb_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 694899856,
+                "MediaPathName": "Media/694899856.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_fastclimb_01.wav",
                 "PackagedFile": null
               }
             ],

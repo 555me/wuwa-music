@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 994987228,
             "SoundBanks": [
               {
                 "SoundBankId": 994987228,
-                "SoundBankPathName": "Event/en/play_favor_word_weilinai_food_fafavor_wordr.bnk",
+                "SoundBankPathName": "Event/play_favor_word_weilinai_food_fafavor_wordr.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 867129869,
-                "MediaPathName": "Media/en/867129869.wem",
+                "MediaId": 1023167099,
+                "MediaPathName": "Media/1023167099.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_foodlove.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\weilinai\\ja_vo_weilinai_foodlove.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_weilinai_food_fafavor_wordr"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 994987228,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 994987228,
-                "SoundBankPathName": "Event/ja/play_favor_word_weilinai_food_fafavor_wordr.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_weilinai_food_fafavor_wordr",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 410331135,
-                "MediaPathName": "Media/ja/410331135.wem",
+                "MediaId": 732774748,
+                "MediaPathName": "Media/732774748.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_foodlove.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\weilinai\\zh_vo_weilinai_foodlove.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_weilinai_food_fafavor_wordr"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 994987228,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 994987228,
-                "SoundBankPathName": "Event/ko/play_favor_word_weilinai_food_fafavor_wordr.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_weilinai_food_fafavor_wordr",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 537822041,
-                "MediaPathName": "Media/ko/537822041.wem",
+                "MediaId": 82992585,
+                "MediaPathName": "Media/82992585.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_foodlove.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\weilinai\\ko_vo_weilinai_foodlove.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_weilinai_food_fafavor_wordr"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 994987228,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 994987228,
-                "SoundBankPathName": "Event/zh/play_favor_word_weilinai_food_fafavor_wordr.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_weilinai_food_fafavor_wordr",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1017912102,
-                "MediaPathName": "Media/zh/1017912102.wem",
+                "MediaId": 620185083,
+                "MediaPathName": "Media/620185083.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_foodlove.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\weilinai\\en_vo_weilinai_foodlove.wav",
                 "PackagedFile": null
               }
             ],

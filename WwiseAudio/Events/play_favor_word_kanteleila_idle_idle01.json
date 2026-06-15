@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3321153489,
             "SoundBanks": [
               {
                 "SoundBankId": 3321153489,
-                "SoundBankPathName": "Event/en/play_favor_word_kanteleila_idle_idle01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_kanteleila_idle_idle01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 28473668,
-                "MediaPathName": "Media/en/28473668.wem",
+                "MediaId": 164445280,
+                "MediaPathName": "Media/164445280.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\en_vo_kanteleila_idle_idle01_tone.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_idle_idle01_tone.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_idle_idle01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3321153489,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3321153489,
-                "SoundBankPathName": "Event/ja/play_favor_word_kanteleila_idle_idle01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_idle_idle01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 233600616,
-                "MediaPathName": "Media/ja/233600616.wem",
+                "MediaId": 912682417,
+                "MediaPathName": "Media/912682417.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_idle_idle01_tone.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_idle_idle01_tone.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_idle_idle01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3321153489,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3321153489,
-                "SoundBankPathName": "Event/ko/play_favor_word_kanteleila_idle_idle01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_idle_idle01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 548645272,
-                "MediaPathName": "Media/ko/548645272.wem",
+                "MediaId": 199966975,
+                "MediaPathName": "Media/199966975.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_idle_idle01_tone.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_idle_idle01_tone.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_idle_idle01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3321153489,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3321153489,
-                "SoundBankPathName": "Event/zh/play_favor_word_kanteleila_idle_idle01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_idle_idle01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 584697559,
-                "MediaPathName": "Media/zh/584697559.wem",
+                "MediaId": 780089486,
+                "MediaPathName": "Media/780089486.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_idle_idle01_tone.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,2\\kanteleila\\en_vo_kanteleila_idle_idle01_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 3321153489
     },
     "MaximumDuration": 17.69277,
-    "MinimumDuration": 17.69277,
+    "MinimumDuration": 17.45375,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2595104493,
             "SoundBanks": [
               {
                 "SoundBankId": 2595104493,
-                "SoundBankPathName": "Event/en/play_favor_word_kelaita_sys_about_feibi.bnk",
+                "SoundBankPathName": "Event/play_favor_word_kelaita_sys_about_feibi.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 101799224,
-                "MediaPathName": "Media/en/101799224.wem",
+                "MediaId": 750668085,
+                "MediaPathName": "Media/750668085.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\en_vo_kelaita_sys_about_feibi_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\kelaita\\ja_vo_kelaita_sys_about_feibi_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_sys_about_feibi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2595104493,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2595104493,
-                "SoundBankPathName": "Event/ja/play_favor_word_kelaita_sys_about_feibi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_sys_about_feibi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 159588535,
-                "MediaPathName": "Media/ja/159588535.wem",
+                "MediaId": 623099986,
+                "MediaPathName": "Media/623099986.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ja_vo_kelaita_sys_about_feibi_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\kelaita\\ko_vo_kelaita_sys_about_feibi_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_sys_about_feibi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2595104493,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2595104493,
-                "SoundBankPathName": "Event/ko/play_favor_word_kelaita_sys_about_feibi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_sys_about_feibi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1068966493,
-                "MediaPathName": "Media/ko/1068966493.wem",
+                "MediaId": 292069120,
+                "MediaPathName": "Media/292069120.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ko_vo_kelaita_sys_about_feibi_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\kelaita\\zh_vo_kelaita_sys_about_feibi_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_sys_about_feibi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2595104493,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2595104493,
-                "SoundBankPathName": "Event/zh/play_favor_word_kelaita_sys_about_feibi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_sys_about_feibi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 460760857,
-                "MediaPathName": "Media/zh/460760857.wem",
+                "MediaId": 250685321,
+                "MediaPathName": "Media/250685321.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\zh_vo_kelaita_sys_about_feibi_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,0\\kelaita\\en_vo_kelaita_sys_about_feibi_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_kelaita_sys_about_feibi",
       "EventId": 2595104493
     },
-    "MaximumDuration": 26.63754,
+    "MaximumDuration": 40.138,
     "MinimumDuration": 26.63754,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

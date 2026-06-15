@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3168721328,
             "SoundBanks": [
               {
                 "SoundBankId": 3168721328,
-                "SoundBankPathName": "Event/en/play_favor_word_sanhua_atk04_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_sanhua_atk04_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 612964726,
-                "MediaPathName": "Media/en/612964726.wem",
+                "MediaId": 890267367,
+                "MediaPathName": "Media/890267367.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_atk04_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\sanhua\\en_vo_sanhua_atk04_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_sanhua_atk04_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3168721328,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3168721328,
-                "SoundBankPathName": "Event/ja/play_favor_word_sanhua_atk04_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_sanhua_atk04_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1012578960,
-                "MediaPathName": "Media/ja/1012578960.wem",
+                "MediaId": 148560072,
+                "MediaPathName": "Media/148560072.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_atk04_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\sanhua\\ko_vo_sanhua_atk04_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_sanhua_atk04_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3168721328,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3168721328,
-                "SoundBankPathName": "Event/ko/play_favor_word_sanhua_atk04_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_sanhua_atk04_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 781166680,
-                "MediaPathName": "Media/ko/781166680.wem",
+                "MediaId": 957430885,
+                "MediaPathName": "Media/957430885.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_atk04_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\sanhua\\zh_vo_sanhua_atk04_02.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_sanhua_atk04_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3168721328,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3168721328,
-                "SoundBankPathName": "Event/zh/play_favor_word_sanhua_atk04_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_sanhua_atk04_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 469180279,
-                "MediaPathName": "Media/zh/469180279.wem",
+                "MediaId": 1012687333,
+                "MediaPathName": "Media/1012687333.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_atk04_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\sanhua\\ja_vo_sanhua_atk04_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_sanhua_atk04_02",
       "EventId": 3168721328
     },
-    "MaximumDuration": 0.52922904,
-    "MinimumDuration": 0.52922904,
+    "MaximumDuration": 0.8849792,
+    "MinimumDuration": 0.3793125,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

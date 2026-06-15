@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3266015055,
             "SoundBanks": [
               {
                 "SoundBankId": 3266015055,
-                "SoundBankPathName": "Event/en/play_vo_aimisi_sys_rankup05.bnk",
+                "SoundBankPathName": "Event/play_vo_aimisi_sys_rankup05.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 290360005,
-                "MediaPathName": "Media/en/290360005.wem",
+                "MediaId": 173453865,
+                "MediaPathName": "Media/173453865.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\en_vo_aimisi_sys_rankup05_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\aimisi\\ja_vo_aimisi_sys_rankup05_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_sys_rankup05"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3266015055,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3266015055,
-                "SoundBankPathName": "Event/ja/play_vo_aimisi_sys_rankup05.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_sys_rankup05",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 577692210,
-                "MediaPathName": "Media/ja/577692210.wem",
+                "MediaId": 727423625,
+                "MediaPathName": "Media/727423625.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ja_vo_aimisi_sys_rankup05_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,1\\aimisi\\en_vo_aimisi_sys_rankup05_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_sys_rankup05"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3266015055,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3266015055,
-                "SoundBankPathName": "Event/ko/play_vo_aimisi_sys_rankup05.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_sys_rankup05",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 252623901,
-                "MediaPathName": "Media/ko/252623901.wem",
+                "MediaId": 216132318,
+                "MediaPathName": "Media/216132318.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ko_vo_aimisi_sys_rankup05_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\aimisi\\zh_vo_aimisi_sys_rankup05_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_sys_rankup05"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3266015055,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3266015055,
-                "SoundBankPathName": "Event/zh/play_vo_aimisi_sys_rankup05.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_sys_rankup05",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 415727314,
-                "MediaPathName": "Media/zh/415727314.wem",
+                "MediaId": 921371265,
+                "MediaPathName": "Media/921371265.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\zh_vo_aimisi_sys_rankup05_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\aimisi\\ko_vo_aimisi_sys_rankup05_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_aimisi_sys_rankup05",
       "EventId": 3266015055
     },
-    "MaximumDuration": 15.862896,
-    "MinimumDuration": 15.862896,
+    "MaximumDuration": 19.385834,
+    "MinimumDuration": 13.557333,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

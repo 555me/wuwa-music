@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3720115592,
             "SoundBanks": [
               {
                 "SoundBankId": 3720115592,
-                "SoundBankPathName": "Event/en/play_vo_anke_tired.bnk",
+                "SoundBankPathName": "Event/play_vo_anke_tired.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 101325863,
-                "MediaPathName": "Media/en/101325863.wem",
+                "MediaId": 919374809,
+                "MediaPathName": "Media/919374809.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_tired_03.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\anke\\ja_vo_anke_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 412505185,
-                "MediaPathName": "Media/en/412505185.wem",
+                "MediaId": 985351906,
+                "MediaPathName": "Media/985351906.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_tired_02.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\anke\\en_vo_anke_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 475174702,
-                "MediaPathName": "Media/en/475174702.wem",
+                "MediaId": 675444942,
+                "MediaPathName": "Media/675444942.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_tired_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_anke_tired"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3720115592,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3720115592,
-                "SoundBankPathName": "Event/ja/play_vo_anke_tired.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_anke_tired",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 211174379,
-                "MediaPathName": "Media/ja/211174379.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_tired_03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\anke\\ko_vo_anke_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 634776652,
-                "MediaPathName": "Media/ja/634776652.wem",
+                "MediaId": 206437177,
+                "MediaPathName": "Media/206437177.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_tired_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\anke\\zh_vo_anke_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 913886917,
-                "MediaPathName": "Media/ja/913886917.wem",
+                "MediaId": 845164241,
+                "MediaPathName": "Media/845164241.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_tired_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_anke_tired"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3720115592,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3720115592,
-                "SoundBankPathName": "Event/ko/play_vo_anke_tired.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_anke_tired",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 219787963,
-                "MediaPathName": "Media/ko/219787963.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_tired_03.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\anke\\ja_vo_anke_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 571159488,
-                "MediaPathName": "Media/ko/571159488.wem",
+                "MediaId": 686409715,
+                "MediaPathName": "Media/686409715.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_tired_02.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\anke\\en_vo_anke_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1015767914,
-                "MediaPathName": "Media/ko/1015767914.wem",
+                "MediaId": 137051146,
+                "MediaPathName": "Media/137051146.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_tired_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_anke_tired"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3720115592,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3720115592,
-                "SoundBankPathName": "Event/zh/play_vo_anke_tired.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_anke_tired",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 91334351,
-                "MediaPathName": "Media/zh/91334351.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_tired_03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\anke\\ko_vo_anke_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 337328420,
-                "MediaPathName": "Media/zh/337328420.wem",
+                "MediaId": 1002139393,
+                "MediaPathName": "Media/1002139393.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_tired_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\anke\\zh_vo_anke_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 676554087,
-                "MediaPathName": "Media/zh/676554087.wem",
+                "MediaId": 559895191,
+                "MediaPathName": "Media/559895191.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_tired_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\anke\\ja_vo_anke_tired_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 668351048,
+                "MediaPathName": "Media/668351048.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\anke\\en_vo_anke_tired_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 300037529,
+                "MediaPathName": "Media/300037529.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\anke\\ko_vo_anke_tired_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 371880426,
+                "MediaPathName": "Media/371880426.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\anke\\zh_vo_anke_tired_01.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 815477645,
             "SoundBanks": [
               {
                 "SoundBankId": 815477645,
-                "SoundBankPathName": "Event/en/play_favor_word_moning_skill_qte.bnk",
+                "SoundBankPathName": "Event/play_favor_word_moning_skill_qte.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 844376451,
-                "MediaPathName": "Media/en/844376451.wem",
+                "MediaId": 396162548,
+                "MediaPathName": "Media/396162548.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\en_vo_moning_skill_qte_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\moning\\ja_vo_moning_skill_qte_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_moning_skill_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 815477645,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 815477645,
-                "SoundBankPathName": "Event/ja/play_favor_word_moning_skill_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_moning_skill_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 205453988,
-                "MediaPathName": "Media/ja/205453988.wem",
+                "MediaId": 335844318,
+                "MediaPathName": "Media/335844318.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ja_vo_moning_skill_qte_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\moning\\ko_vo_moning_skill_qte_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_moning_skill_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 815477645,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 815477645,
-                "SoundBankPathName": "Event/ko/play_favor_word_moning_skill_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_moning_skill_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 32182860,
-                "MediaPathName": "Media/ko/32182860.wem",
+                "MediaId": 893456697,
+                "MediaPathName": "Media/893456697.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ko_vo_moning_skill_qte_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\moning\\en_vo_moning_skill_qte_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_moning_skill_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 815477645,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 815477645,
-                "SoundBankPathName": "Event/zh/play_favor_word_moning_skill_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_moning_skill_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 435904842,
-                "MediaPathName": "Media/zh/435904842.wem",
+                "MediaId": 604783004,
+                "MediaPathName": "Media/604783004.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\zh_vo_moning_skill_qte_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\moning\\zh_vo_moning_skill_qte_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_moning_skill_qte",
       "EventId": 815477645
     },
-    "MaximumDuration": 1.1609167,
-    "MinimumDuration": 1.1609167,
+    "MaximumDuration": 1.6860417,
+    "MinimumDuration": 1.1390834,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

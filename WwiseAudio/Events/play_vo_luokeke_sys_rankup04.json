@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4140544070,
             "SoundBanks": [
               {
                 "SoundBankId": 4140544070,
-                "SoundBankPathName": "Event/en/play_vo_luokeke_sys_rankup04.bnk",
+                "SoundBankPathName": "Event/play_vo_luokeke_sys_rankup04.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 893563725,
-                "MediaPathName": "Media/en/893563725.wem",
+                "MediaId": 973704830,
+                "MediaPathName": "Media/973704830.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\en_vo_luokeke_sys_rankup04_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\luokeke\\ja_vo_luokeke_sys_rankup04_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luokeke_sys_rankup04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4140544070,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4140544070,
-                "SoundBankPathName": "Event/ja/play_vo_luokeke_sys_rankup04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luokeke_sys_rankup04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 196265082,
-                "MediaPathName": "Media/ja/196265082.wem",
+                "MediaId": 478707369,
+                "MediaPathName": "Media/478707369.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ja_vo_luokeke_sys_rankup04_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,0\\luokeke\\en_vo_luokeke_sys_rankup04_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luokeke_sys_rankup04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4140544070,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4140544070,
-                "SoundBankPathName": "Event/ko/play_vo_luokeke_sys_rankup04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luokeke_sys_rankup04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 675009892,
-                "MediaPathName": "Media/ko/675009892.wem",
+                "MediaId": 579085952,
+                "MediaPathName": "Media/579085952.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ko_vo_luokeke_sys_rankup04_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\luokeke\\ko_vo_luokeke_sys_rankup04_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luokeke_sys_rankup04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4140544070,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4140544070,
-                "SoundBankPathName": "Event/zh/play_vo_luokeke_sys_rankup04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luokeke_sys_rankup04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 440938768,
-                "MediaPathName": "Media/zh/440938768.wem",
+                "MediaId": 527316584,
+                "MediaPathName": "Media/527316584.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\zh_vo_luokeke_sys_rankup04_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\luokeke\\zh_vo_luokeke_sys_rankup04_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_luokeke_sys_rankup04",
       "EventId": 4140544070
     },
-    "MaximumDuration": 4.7733335,
-    "MinimumDuration": 4.7733335,
+    "MaximumDuration": 4.881125,
+    "MinimumDuration": 4.2515626,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

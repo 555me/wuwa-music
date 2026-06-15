@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2759320954,
             "SoundBanks": [
               {
                 "SoundBankId": 2759320954,
-                "SoundBankPathName": "Event/en/play_favor_word_kakaluo_hp70.bnk",
+                "SoundBankPathName": "Event/play_favor_word_kakaluo_hp70.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 678628094,
-                "MediaPathName": "Media/en/678628094.wem",
+                "MediaId": 338370323,
+                "MediaPathName": "Media/338370323.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_hpdown01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_hpdown01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kakaluo_hp70"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2759320954,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2759320954,
-                "SoundBankPathName": "Event/ja/play_favor_word_kakaluo_hp70.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kakaluo_hp70",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 358460225,
-                "MediaPathName": "Media/ja/358460225.wem",
+                "MediaId": 695216786,
+                "MediaPathName": "Media/695216786.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_hpdown01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_hpdown01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kakaluo_hp70"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2759320954,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2759320954,
-                "SoundBankPathName": "Event/ko/play_favor_word_kakaluo_hp70.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kakaluo_hp70",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 294657701,
-                "MediaPathName": "Media/ko/294657701.wem",
+                "MediaId": 175495158,
+                "MediaPathName": "Media/175495158.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_hpdown01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_hpdown01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kakaluo_hp70"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2759320954,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2759320954,
-                "SoundBankPathName": "Event/zh/play_favor_word_kakaluo_hp70.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kakaluo_hp70",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 116334366,
-                "MediaPathName": "Media/zh/116334366.wem",
+                "MediaId": 53941886,
+                "MediaPathName": "Media/53941886.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_hpdown01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_hpdown01.wav",
                 "PackagedFile": null
               }
             ],

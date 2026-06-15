@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 30791373,
             "SoundBanks": [
               {
                 "SoundBankId": 30791373,
-                "SoundBankPathName": "Event/en/play_vo_moning_com_limitdodge02.bnk",
+                "SoundBankPathName": "Event/play_vo_moning_com_limitdodge02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 469015568,
-                "MediaPathName": "Media/en/469015568.wem",
+                "MediaId": 830258403,
+                "MediaPathName": "Media/830258403.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\en_vo_moning_com_limitdodge02_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\moning\\ja_vo_moning_com_limitdodge02_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 570685475,
-                "MediaPathName": "Media/en/570685475.wem",
+                "MediaId": 109317247,
+                "MediaPathName": "Media/109317247.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\en_vo_moning_com_limitdodge02_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\moning\\ko_vo_moning_com_limitdodge02_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 741689339,
-                "MediaPathName": "Media/en/741689339.wem",
+                "MediaId": 503550826,
+                "MediaPathName": "Media/503550826.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\en_vo_moning_com_limitdodge02_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_moning_com_limitdodge02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 30791373,
-            "SoundBanks": [
-              {
-                "SoundBankId": 30791373,
-                "SoundBankPathName": "Event/ja/play_vo_moning_com_limitdodge02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_moning_com_limitdodge02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 81221355,
-                "MediaPathName": "Media/ja/81221355.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ja_vo_moning_com_limitdodge02_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\moning\\en_vo_moning_com_limitdodge02_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 737789061,
-                "MediaPathName": "Media/ja/737789061.wem",
+                "MediaId": 433390832,
+                "MediaPathName": "Media/433390832.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ja_vo_moning_com_limitdodge02_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\moning\\zh_vo_moning_com_limitdodge02_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1027683502,
-                "MediaPathName": "Media/ja/1027683502.wem",
+                "MediaId": 168964856,
+                "MediaPathName": "Media/168964856.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ja_vo_moning_com_limitdodge02_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_moning_com_limitdodge02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 30791373,
-            "SoundBanks": [
-              {
-                "SoundBankId": 30791373,
-                "SoundBankPathName": "Event/ko/play_vo_moning_com_limitdodge02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_moning_com_limitdodge02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 34863272,
-                "MediaPathName": "Media/ko/34863272.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ko_vo_moning_com_limitdodge02_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\moning\\ja_vo_moning_com_limitdodge02_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 420985410,
-                "MediaPathName": "Media/ko/420985410.wem",
+                "MediaId": 174230721,
+                "MediaPathName": "Media/174230721.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ko_vo_moning_com_limitdodge02_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\moning\\ko_vo_moning_com_limitdodge02_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 869301562,
-                "MediaPathName": "Media/ko/869301562.wem",
+                "MediaId": 8434695,
+                "MediaPathName": "Media/8434695.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ko_vo_moning_com_limitdodge02_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_moning_com_limitdodge02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 30791373,
-            "SoundBanks": [
-              {
-                "SoundBankId": 30791373,
-                "SoundBankPathName": "Event/zh/play_vo_moning_com_limitdodge02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_moning_com_limitdodge02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 423810934,
-                "MediaPathName": "Media/zh/423810934.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\zh_vo_moning_com_limitdodge02_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\moning\\en_vo_moning_com_limitdodge02_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 546972743,
-                "MediaPathName": "Media/zh/546972743.wem",
+                "MediaId": 596461928,
+                "MediaPathName": "Media/596461928.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\zh_vo_moning_com_limitdodge02_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\moning\\zh_vo_moning_com_limitdodge02_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 817045328,
-                "MediaPathName": "Media/zh/817045328.wem",
+                "MediaId": 245012611,
+                "MediaPathName": "Media/245012611.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\zh_vo_moning_com_limitdodge02_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\moning\\ja_vo_moning_com_limitdodge02_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1045665437,
+                "MediaPathName": "Media/1045665437.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\moning\\ko_vo_moning_com_limitdodge02_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 309415073,
+                "MediaPathName": "Media/309415073.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\moning\\en_vo_moning_com_limitdodge02_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 576794060,
+                "MediaPathName": "Media/576794060.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\moning\\zh_vo_moning_com_limitdodge02_03_tone.wav",
                 "PackagedFile": null
               }
             ],

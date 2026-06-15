@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 870476042,
             "SoundBanks": [
               {
                 "SoundBankId": 870476042,
-                "SoundBankPathName": "Event/en/play_vo_anke_qte.bnk",
+                "SoundBankPathName": "Event/play_vo_anke_qte.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 565560065,
-                "MediaPathName": "Media/en/565560065.wem",
+                "MediaId": 477250369,
+                "MediaPathName": "Media/477250369.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_qte_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\anke\\ja_vo_anke_qte_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 610422451,
-                "MediaPathName": "Media/en/610422451.wem",
+                "MediaId": 414484087,
+                "MediaPathName": "Media/414484087.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_qte_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_anke_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 870476042,
-            "SoundBanks": [
-              {
-                "SoundBankId": 870476042,
-                "SoundBankPathName": "Event/ja/play_vo_anke_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_anke_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 564440069,
-                "MediaPathName": "Media/ja/564440069.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_qte_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\anke\\en_vo_anke_qte_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 654042466,
-                "MediaPathName": "Media/ja/654042466.wem",
+                "MediaId": 161252232,
+                "MediaPathName": "Media/161252232.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_qte_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_anke_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 870476042,
-            "SoundBanks": [
-              {
-                "SoundBankId": 870476042,
-                "SoundBankPathName": "Event/ko/play_vo_anke_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_anke_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 762174321,
-                "MediaPathName": "Media/ko/762174321.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_qte_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\anke\\ko_vo_anke_qte_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 866592466,
-                "MediaPathName": "Media/ko/866592466.wem",
+                "MediaId": 1032878422,
+                "MediaPathName": "Media/1032878422.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_qte_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_anke_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 870476042,
-            "SoundBanks": [
-              {
-                "SoundBankId": 870476042,
-                "SoundBankPathName": "Event/zh/play_vo_anke_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_anke_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 64366709,
-                "MediaPathName": "Media/zh/64366709.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_qte_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\anke\\zh_vo_anke_qte_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 403197535,
-                "MediaPathName": "Media/zh/403197535.wem",
+                "MediaId": 5532161,
+                "MediaPathName": "Media/5532161.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_qte_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\anke\\ja_vo_anke_qte_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 682268985,
+                "MediaPathName": "Media/682268985.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\anke\\en_vo_anke_qte_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 25413130,
+                "MediaPathName": "Media/25413130.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\anke\\ko_vo_anke_qte_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 880348104,
+                "MediaPathName": "Media/880348104.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\anke\\zh_vo_anke_qte_02.wav",
                 "PackagedFile": null
               }
             ],

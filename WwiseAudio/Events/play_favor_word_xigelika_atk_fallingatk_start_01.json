@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2447708796,
             "SoundBanks": [
               {
                 "SoundBankId": 2447708796,
-                "SoundBankPathName": "Event/en/play_favor_word_xigelika_atk_fallingatk_start_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_xigelika_atk_fallingatk_start_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 897473733,
-                "MediaPathName": "Media/en/897473733.wem",
+                "MediaId": 562792318,
+                "MediaPathName": "Media/562792318.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\en_vo_xigelika_atk_fallingatk_start_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,2\\xigelika\\ko_vo_xigelika_atk_fallingatk_start_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xigelika_atk_fallingatk_start_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2447708796,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2447708796,
-                "SoundBankPathName": "Event/ja/play_favor_word_xigelika_atk_fallingatk_start_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xigelika_atk_fallingatk_start_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 578845083,
-                "MediaPathName": "Media/ja/578845083.wem",
+                "MediaId": 533592273,
+                "MediaPathName": "Media/533592273.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\ja_vo_xigelika_atk_fallingatk_start_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,2\\xigelika\\en_vo_xigelika_atk_fallingatk_start_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xigelika_atk_fallingatk_start_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2447708796,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2447708796,
-                "SoundBankPathName": "Event/ko/play_favor_word_xigelika_atk_fallingatk_start_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xigelika_atk_fallingatk_start_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 769485453,
-                "MediaPathName": "Media/ko/769485453.wem",
+                "MediaId": 497843481,
+                "MediaPathName": "Media/497843481.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\ko_vo_xigelika_atk_fallingatk_start_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,2\\xigelika\\zh_vo_xigelika_atk_fallingatk_start_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xigelika_atk_fallingatk_start_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2447708796,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2447708796,
-                "SoundBankPathName": "Event/zh/play_favor_word_xigelika_atk_fallingatk_start_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xigelika_atk_fallingatk_start_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 110936527,
-                "MediaPathName": "Media/zh/110936527.wem",
+                "MediaId": 314318469,
+                "MediaPathName": "Media/314318469.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\zh_vo_xigelika_atk_fallingatk_start_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,2\\xigelika\\ja_vo_xigelika_atk_fallingatk_start_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_xigelika_atk_fallingatk_start_01",
       "EventId": 2447708796
     },
-    "MaximumDuration": 0.62452084,
-    "MinimumDuration": 0.62452084,
+    "MaximumDuration": 0.82679164,
+    "MinimumDuration": 0.5773125,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

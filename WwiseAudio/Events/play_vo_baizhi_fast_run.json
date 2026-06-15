@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4000440464,
             "SoundBanks": [
               {
                 "SoundBankId": 4000440464,
-                "SoundBankPathName": "Event/en/play_vo_baizhi_fast_run.bnk",
+                "SoundBankPathName": "Event/play_vo_baizhi_fast_run.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 324732294,
-                "MediaPathName": "Media/en/324732294.wem",
+                "MediaId": 15108135,
+                "MediaPathName": "Media/15108135.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\baizhi\\en_vo_baizhi_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 486008395,
-                "MediaPathName": "Media/en/486008395.wem",
+                "MediaId": 426708257,
+                "MediaPathName": "Media/426708257.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\baizhi\\ko_vo_baizhi_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 610228772,
-                "MediaPathName": "Media/en/610228772.wem",
+                "MediaId": 109815177,
+                "MediaPathName": "Media/109815177.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_fastclimb_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_baizhi_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4000440464,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4000440464,
-                "SoundBankPathName": "Event/ja/play_vo_baizhi_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_baizhi_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 227574131,
-                "MediaPathName": "Media/ja/227574131.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\baizhi\\zh_vo_baizhi_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 255371554,
-                "MediaPathName": "Media/ja/255371554.wem",
+                "MediaId": 1060550886,
+                "MediaPathName": "Media/1060550886.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\baizhi\\ja_vo_baizhi_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 730739197,
-                "MediaPathName": "Media/ja/730739197.wem",
+                "MediaId": 128710300,
+                "MediaPathName": "Media/128710300.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_fastclimb_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_baizhi_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4000440464,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4000440464,
-                "SoundBankPathName": "Event/ko/play_vo_baizhi_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_baizhi_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 815529056,
-                "MediaPathName": "Media/ko/815529056.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\baizhi\\en_vo_baizhi_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 879262295,
-                "MediaPathName": "Media/ko/879262295.wem",
+                "MediaId": 630537146,
+                "MediaPathName": "Media/630537146.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\baizhi\\ko_vo_baizhi_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 914346626,
-                "MediaPathName": "Media/ko/914346626.wem",
+                "MediaId": 226191406,
+                "MediaPathName": "Media/226191406.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_fastclimb_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_baizhi_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4000440464,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4000440464,
-                "SoundBankPathName": "Event/zh/play_vo_baizhi_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_baizhi_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 484421930,
-                "MediaPathName": "Media/zh/484421930.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\baizhi\\zh_vo_baizhi_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 605684195,
-                "MediaPathName": "Media/zh/605684195.wem",
+                "MediaId": 516772099,
+                "MediaPathName": "Media/516772099.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_fastclimb_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\baizhi\\ja_vo_baizhi_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1009774788,
-                "MediaPathName": "Media/zh/1009774788.wem",
+                "MediaId": 645525971,
+                "MediaPathName": "Media/645525971.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\baizhi\\en_vo_baizhi_fastclimb_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 282555637,
+                "MediaPathName": "Media/282555637.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\baizhi\\ko_vo_baizhi_fastclimb_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 713249305,
+                "MediaPathName": "Media/713249305.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\baizhi\\zh_vo_baizhi_fastclimb_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 735570271,
+                "MediaPathName": "Media/735570271.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\baizhi\\ja_vo_baizhi_fastclimb_01.wav",
                 "PackagedFile": null
               }
             ],

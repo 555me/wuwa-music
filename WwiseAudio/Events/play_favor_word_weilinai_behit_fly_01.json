@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1519179525,
             "SoundBanks": [
               {
                 "SoundBankId": 1519179525,
-                "SoundBankPathName": "Event/en/play_favor_word_weilinai_behit_fly_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_weilinai_behit_fly_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 151002011,
-                "MediaPathName": "Media/en/151002011.wem",
+                "MediaId": 377953071,
+                "MediaPathName": "Media/377953071.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_behitfly_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\weilinai\\ja_vo_weilinai_behitfly_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_weilinai_behit_fly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1519179525,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1519179525,
-                "SoundBankPathName": "Event/ja/play_favor_word_weilinai_behit_fly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_weilinai_behit_fly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1039211505,
-                "MediaPathName": "Media/ja/1039211505.wem",
+                "MediaId": 89905341,
+                "MediaPathName": "Media/89905341.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_behitfly_01.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\weilinai\\zh_vo_weilinai_behitfly_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_weilinai_behit_fly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1519179525,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1519179525,
-                "SoundBankPathName": "Event/ko/play_favor_word_weilinai_behit_fly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_weilinai_behit_fly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 848048283,
-                "MediaPathName": "Media/ko/848048283.wem",
+                "MediaId": 467578816,
+                "MediaPathName": "Media/467578816.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_behitfly_01.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\weilinai\\ko_vo_weilinai_behitfly_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_weilinai_behit_fly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1519179525,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1519179525,
-                "SoundBankPathName": "Event/zh/play_favor_word_weilinai_behit_fly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_weilinai_behit_fly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 603909196,
-                "MediaPathName": "Media/zh/603909196.wem",
+                "MediaId": 450278942,
+                "MediaPathName": "Media/450278942.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_behitfly_01.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\weilinai\\en_vo_weilinai_behitfly_01.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1652599819,
             "SoundBanks": [
               {
                 "SoundBankId": 1652599819,
-                "SoundBankPathName": "Event/en/play_favor_word_nanzhu_behit_fly_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_nanzhu_behit_fly_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 798712562,
-                "MediaPathName": "Media/en/798712562.wem",
+                "MediaId": 250417333,
+                "MediaPathName": "Media/250417333.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behitfly_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_behitfly_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nanzhu_behit_fly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1652599819,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1652599819,
-                "SoundBankPathName": "Event/ja/play_favor_word_nanzhu_behit_fly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nanzhu_behit_fly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 246947403,
-                "MediaPathName": "Media/ja/246947403.wem",
+                "MediaId": 139046747,
+                "MediaPathName": "Media/139046747.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behitfly_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_behitfly_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nanzhu_behit_fly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1652599819,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1652599819,
-                "SoundBankPathName": "Event/ko/play_favor_word_nanzhu_behit_fly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nanzhu_behit_fly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 951562553,
-                "MediaPathName": "Media/ko/951562553.wem",
+                "MediaId": 633627430,
+                "MediaPathName": "Media/633627430.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behitfly_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_behitfly_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nanzhu_behit_fly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1652599819,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1652599819,
-                "SoundBankPathName": "Event/zh/play_favor_word_nanzhu_behit_fly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nanzhu_behit_fly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 202173222,
-                "MediaPathName": "Media/zh/202173222.wem",
+                "MediaId": 917014700,
+                "MediaPathName": "Media/917014700.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behitfly_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_behitfly_01.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 1652599819
     },
     "MaximumDuration": 1.5,
-    "MinimumDuration": 1.5,
+    "MinimumDuration": 0.27747917,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

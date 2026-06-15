@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1782647385,
             "SoundBanks": [
               {
                 "SoundBankId": 1782647385,
-                "SoundBankPathName": "Event/en/play_favor_word_zanni_com_behitfly_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_zanni_com_behitfly_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 692386801,
-                "MediaPathName": "Media/en/692386801.wem",
+                "MediaId": 743676058,
+                "MediaPathName": "Media/743676058.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\en_vo_zanni_com_behitfly_02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\zanni\\ko_vo_zanni_com_behitfly_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zanni_com_behitfly_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1782647385,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1782647385,
-                "SoundBankPathName": "Event/ja/play_favor_word_zanni_com_behitfly_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zanni_com_behitfly_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 367341571,
-                "MediaPathName": "Media/ja/367341571.wem",
+                "MediaId": 145534553,
+                "MediaPathName": "Media/145534553.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ja_vo_zanni_com_behitfly_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\zanni\\ja_vo_zanni_com_behitfly_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zanni_com_behitfly_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1782647385,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1782647385,
-                "SoundBankPathName": "Event/ko/play_favor_word_zanni_com_behitfly_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zanni_com_behitfly_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 315387080,
-                "MediaPathName": "Media/ko/315387080.wem",
+                "MediaId": 420552182,
+                "MediaPathName": "Media/420552182.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ko_vo_zanni_com_behitfly_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,3\\zanni\\en_vo_zanni_com_behitfly_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zanni_com_behitfly_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1782647385,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1782647385,
-                "SoundBankPathName": "Event/zh/play_favor_word_zanni_com_behitfly_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zanni_com_behitfly_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 285965725,
-                "MediaPathName": "Media/zh/285965725.wem",
+                "MediaId": 863287276,
+                "MediaPathName": "Media/863287276.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\zh_vo_zanni_com_behitfly_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\zanni\\zh_vo_zanni_com_behitfly_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_zanni_com_behitfly_02",
       "EventId": 1782647385
     },
-    "MaximumDuration": 1.8472917,
-    "MinimumDuration": 1.8472917,
+    "MaximumDuration": 2.034396,
+    "MinimumDuration": 1.404,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1015213991,
             "SoundBanks": [
               {
                 "SoundBankId": 1015213991,
-                "SoundBankPathName": "Event/en/play_favor_word_daniya_com_parry_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_daniya_com_parry_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 760967044,
-                "MediaPathName": "Media/en/760967044.wem",
+                "MediaId": 1048455277,
+                "MediaPathName": "Media/1048455277.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\en_vo_daniya_com_parry_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\daniya\\en_vo_daniya_com_parry_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_daniya_com_parry_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1015213991,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1015213991,
-                "SoundBankPathName": "Event/ja/play_favor_word_daniya_com_parry_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_daniya_com_parry_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 488935480,
-                "MediaPathName": "Media/ja/488935480.wem",
+                "MediaId": 797741257,
+                "MediaPathName": "Media/797741257.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\ja_vo_daniya_com_parry_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\daniya\\zh_vo_daniya_com_parry_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_daniya_com_parry_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1015213991,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1015213991,
-                "SoundBankPathName": "Event/ko/play_favor_word_daniya_com_parry_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_daniya_com_parry_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 575323997,
-                "MediaPathName": "Media/ko/575323997.wem",
+                "MediaId": 753436868,
+                "MediaPathName": "Media/753436868.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\ko_vo_daniya_com_parry_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\daniya\\ko_vo_daniya_com_parry_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_daniya_com_parry_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1015213991,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1015213991,
-                "SoundBankPathName": "Event/zh/play_favor_word_daniya_com_parry_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_daniya_com_parry_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1044243081,
-                "MediaPathName": "Media/zh/1044243081.wem",
+                "MediaId": 684531463,
+                "MediaPathName": "Media/684531463.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\zh_vo_daniya_com_parry_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\daniya\\ja_vo_daniya_com_parry_03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_daniya_com_parry_03",
       "EventId": 1015213991
     },
-    "MaximumDuration": 0.804,
+    "MaximumDuration": 1.2152916,
     "MinimumDuration": 0.804,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

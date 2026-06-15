@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2627778934,
             "SoundBanks": [
               {
                 "SoundBankId": 2627778934,
-                "SoundBankPathName": "Event/en/play_favor_word_nanzhu_character_switch_atk_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_nanzhu_character_switch_atk_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 60222350,
-                "MediaPathName": "Media/en/60222350.wem",
+                "MediaId": 145028356,
+                "MediaPathName": "Media/145028356.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_atk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_character_switch_atk_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nanzhu_character_switch_atk_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2627778934,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2627778934,
-                "SoundBankPathName": "Event/ja/play_favor_word_nanzhu_character_switch_atk_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nanzhu_character_switch_atk_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 195232973,
-                "MediaPathName": "Media/ja/195232973.wem",
+                "MediaId": 687962450,
+                "MediaPathName": "Media/687962450.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_atk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_character_switch_atk_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nanzhu_character_switch_atk_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2627778934,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2627778934,
-                "SoundBankPathName": "Event/ko/play_favor_word_nanzhu_character_switch_atk_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nanzhu_character_switch_atk_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 631682174,
-                "MediaPathName": "Media/ko/631682174.wem",
+                "MediaId": 183721294,
+                "MediaPathName": "Media/183721294.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_atk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_character_switch_atk_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nanzhu_character_switch_atk_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2627778934,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2627778934,
-                "SoundBankPathName": "Event/zh/play_favor_word_nanzhu_character_switch_atk_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nanzhu_character_switch_atk_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1046297828,
-                "MediaPathName": "Media/zh/1046297828.wem",
+                "MediaId": 17425273,
+                "MediaPathName": "Media/17425273.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_atk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_character_switch_atk_03.wav",
                 "PackagedFile": null
               }
             ],

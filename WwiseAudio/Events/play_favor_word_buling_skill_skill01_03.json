@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1409723586,
             "SoundBanks": [
               {
                 "SoundBankId": 1409723586,
-                "SoundBankPathName": "Event/en/play_favor_word_buling_skill_skill01_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_buling_skill_skill01_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 788016277,
-                "MediaPathName": "Media/en/788016277.wem",
+                "MediaId": 589218504,
+                "MediaPathName": "Media/589218504.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\en_vo_buling_skill_skill01_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,8\\buling\\zh_vo_buling_skill_skill01_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_skill_skill01_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1409723586,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1409723586,
-                "SoundBankPathName": "Event/ja/play_favor_word_buling_skill_skill01_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_skill_skill01_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 129506555,
-                "MediaPathName": "Media/ja/129506555.wem",
+                "MediaId": 992331296,
+                "MediaPathName": "Media/992331296.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ja_vo_buling_skill_skill01_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,8\\buling\\en_vo_buling_skill_skill01_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_skill_skill01_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1409723586,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1409723586,
-                "SoundBankPathName": "Event/ko/play_favor_word_buling_skill_skill01_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_skill_skill01_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 758075553,
-                "MediaPathName": "Media/ko/758075553.wem",
+                "MediaId": 469815292,
+                "MediaPathName": "Media/469815292.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ko_vo_buling_skill_skill01_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,8\\buling\\ko_vo_buling_skill_skill01_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_skill_skill01_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1409723586,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1409723586,
-                "SoundBankPathName": "Event/zh/play_favor_word_buling_skill_skill01_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_skill_skill01_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1066599887,
-                "MediaPathName": "Media/zh/1066599887.wem",
+                "MediaId": 671262063,
+                "MediaPathName": "Media/671262063.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\zh_vo_buling_skill_skill01_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,8\\buling\\ja_vo_buling_skill_skill01_03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_buling_skill_skill01_03",
       "EventId": 1409723586
     },
-    "MaximumDuration": 0.48725,
+    "MaximumDuration": 1.234625,
     "MinimumDuration": 0.48725,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 833144276,
             "SoundBanks": [
               {
                 "SoundBankId": 833144276,
-                "SoundBankPathName": "Event/en/play_favor_word_nvzhu_atk04_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_nvzhu_atk04_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1045327746,
-                "MediaPathName": "Media/en/1045327746.wem",
+                "MediaId": 693450116,
+                "MediaPathName": "Media/693450116.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_atk04_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nvzhu\\zh_vo_nvzhu_atk04_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nvzhu_atk04_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 833144276,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 833144276,
-                "SoundBankPathName": "Event/ja/play_favor_word_nvzhu_atk04_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nvzhu_atk04_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 61833376,
-                "MediaPathName": "Media/ja/61833376.wem",
+                "MediaId": 343461579,
+                "MediaPathName": "Media/343461579.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_atk04_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nvzhu\\ko_vo_nvzhu_atk04_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nvzhu_atk04_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 833144276,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 833144276,
-                "SoundBankPathName": "Event/ko/play_favor_word_nvzhu_atk04_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nvzhu_atk04_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 288352030,
-                "MediaPathName": "Media/ko/288352030.wem",
+                "MediaId": 658667295,
+                "MediaPathName": "Media/658667295.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_atk04_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nvzhu\\en_vo_nvzhu_atk04_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_nvzhu_atk04_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 833144276,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 833144276,
-                "SoundBankPathName": "Event/zh/play_favor_word_nvzhu_atk04_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_nvzhu_atk04_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 200910514,
-                "MediaPathName": "Media/zh/200910514.wem",
+                "MediaId": 661143522,
+                "MediaPathName": "Media/661143522.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nvzhu\\vo_nvzhu_atk04_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nvzhu\\ja_vo_nvzhu_atk04_03.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_nvzhu_atk04_03",
       "EventId": 833144276
     },
-    "MaximumDuration": 0.48377085,
+    "MaximumDuration": 0.53458333,
     "MinimumDuration": 0.48377085,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

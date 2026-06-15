@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2287391338,
             "SoundBanks": [
               {
                 "SoundBankId": 2287391338,
-                "SoundBankPathName": "Event/en/play_vo_youhu_com_hook.bnk",
+                "SoundBankPathName": "Event/play_vo_youhu_com_hook.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 123870160,
-                "MediaPathName": "Media/en/123870160.wem",
+                "MediaId": 854875600,
+                "MediaPathName": "Media/854875600.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_com_hook_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_com_hook_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 782435286,
-                "MediaPathName": "Media/en/782435286.wem",
+                "MediaId": 384971489,
+                "MediaPathName": "Media/384971489.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_com_hook_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_com_hook_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 860393326,
-                "MediaPathName": "Media/en/860393326.wem",
+                "MediaId": 676532363,
+                "MediaPathName": "Media/676532363.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_com_hook_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_com_hook"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2287391338,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2287391338,
-                "SoundBankPathName": "Event/ja/play_vo_youhu_com_hook.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_com_hook",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 146753703,
-                "MediaPathName": "Media/ja/146753703.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_com_hook_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_com_hook_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 533153497,
-                "MediaPathName": "Media/ja/533153497.wem",
+                "MediaId": 175707676,
+                "MediaPathName": "Media/175707676.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_com_hook_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_com_hook_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 900813950,
-                "MediaPathName": "Media/ja/900813950.wem",
+                "MediaId": 771272331,
+                "MediaPathName": "Media/771272331.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_com_hook_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_com_hook"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2287391338,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2287391338,
-                "SoundBankPathName": "Event/ko/play_vo_youhu_com_hook.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_com_hook",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 91185089,
-                "MediaPathName": "Media/ko/91185089.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_com_hook_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_com_hook_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 582486543,
-                "MediaPathName": "Media/ko/582486543.wem",
+                "MediaId": 234519874,
+                "MediaPathName": "Media/234519874.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_com_hook_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_com_hook_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1059218140,
-                "MediaPathName": "Media/ko/1059218140.wem",
+                "MediaId": 1026923557,
+                "MediaPathName": "Media/1026923557.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_com_hook_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_com_hook"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2287391338,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2287391338,
-                "SoundBankPathName": "Event/zh/play_vo_youhu_com_hook.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_com_hook",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 207583840,
-                "MediaPathName": "Media/zh/207583840.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_com_hook_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_com_hook_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 289119109,
-                "MediaPathName": "Media/zh/289119109.wem",
+                "MediaId": 369868615,
+                "MediaPathName": "Media/369868615.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_com_hook_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_com_hook_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 872125273,
-                "MediaPathName": "Media/zh/872125273.wem",
+                "MediaId": 18372000,
+                "MediaPathName": "Media/18372000.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_com_hook_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_com_hook_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 89664249,
+                "MediaPathName": "Media/89664249.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_com_hook_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 99554647,
+                "MediaPathName": "Media/99554647.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_com_hook_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 910810325,
+                "MediaPathName": "Media/910810325.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_com_hook_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,8 +160,8 @@
       "DebugName": "play_vo_youhu_com_hook",
       "EventId": 2287391338
     },
-    "MaximumDuration": 1.01225,
-    "MinimumDuration": 0.78214586,
+    "MaximumDuration": 1.6822916,
+    "MinimumDuration": 0.18877083,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

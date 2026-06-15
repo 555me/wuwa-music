@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3337351576,
             "SoundBanks": [
               {
                 "SoundBankId": 3337351576,
-                "SoundBankPathName": "Event/en/play_vo_bulante_com_jump.bnk",
+                "SoundBankPathName": "Event/play_vo_bulante_com_jump.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 153536313,
-                "MediaPathName": "Media/en/153536313.wem",
+                "MediaId": 716701562,
+                "MediaPathName": "Media/716701562.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\en_vo_bulante_com_jump_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\bulante\\zh_vo_bulante_com_jump_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 318618592,
-                "MediaPathName": "Media/en/318618592.wem",
+                "MediaId": 254498334,
+                "MediaPathName": "Media/254498334.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\en_vo_bulante_com_jump_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\bulante\\ja_vo_bulante_com_jump_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 566234955,
-                "MediaPathName": "Media/en/566234955.wem",
+                "MediaId": 133395985,
+                "MediaPathName": "Media/133395985.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\en_vo_bulante_com_jump_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_bulante_com_jump"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3337351576,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3337351576,
-                "SoundBankPathName": "Event/ja/play_vo_bulante_com_jump.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_bulante_com_jump",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 71803311,
-                "MediaPathName": "Media/ja/71803311.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ja_vo_bulante_com_jump_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\bulante\\en_vo_bulante_com_jump_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 140178417,
-                "MediaPathName": "Media/ja/140178417.wem",
+                "MediaId": 405882946,
+                "MediaPathName": "Media/405882946.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ja_vo_bulante_com_jump_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\bulante\\ko_vo_bulante_com_jump_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 641283886,
-                "MediaPathName": "Media/ja/641283886.wem",
+                "MediaId": 428566293,
+                "MediaPathName": "Media/428566293.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ja_vo_bulante_com_jump_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_bulante_com_jump"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3337351576,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3337351576,
-                "SoundBankPathName": "Event/ko/play_vo_bulante_com_jump.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_bulante_com_jump",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 156723717,
-                "MediaPathName": "Media/ko/156723717.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ko_vo_bulante_com_jump_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\bulante\\zh_vo_bulante_com_jump_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 285481709,
-                "MediaPathName": "Media/ko/285481709.wem",
+                "MediaId": 127286778,
+                "MediaPathName": "Media/127286778.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ko_vo_bulante_com_jump_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\bulante\\ja_vo_bulante_com_jump_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 301001822,
-                "MediaPathName": "Media/ko/301001822.wem",
+                "MediaId": 3602434,
+                "MediaPathName": "Media/3602434.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ko_vo_bulante_com_jump_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_bulante_com_jump"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3337351576,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3337351576,
-                "SoundBankPathName": "Event/zh/play_vo_bulante_com_jump.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_bulante_com_jump",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 738915757,
-                "MediaPathName": "Media/zh/738915757.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\zh_vo_bulante_com_jump_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\bulante\\en_vo_bulante_com_jump_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 779808468,
-                "MediaPathName": "Media/zh/779808468.wem",
+                "MediaId": 545517587,
+                "MediaPathName": "Media/545517587.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\zh_vo_bulante_com_jump_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\bulante\\ko_vo_bulante_com_jump_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 837120896,
-                "MediaPathName": "Media/zh/837120896.wem",
+                "MediaId": 1038706566,
+                "MediaPathName": "Media/1038706566.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\zh_vo_bulante_com_jump_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\bulante\\zh_vo_bulante_com_jump_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 820635113,
+                "MediaPathName": "Media/820635113.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\bulante\\ja_vo_bulante_com_jump_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 367895086,
+                "MediaPathName": "Media/367895086.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\bulante\\en_vo_bulante_com_jump_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 106716971,
+                "MediaPathName": "Media/106716971.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\bulante\\ko_vo_bulante_com_jump_01_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -248,7 +161,7 @@
       "EventId": 3337351576
     },
     "MaximumDuration": 0.65260416,
-    "MinimumDuration": 0.23685417,
+    "MinimumDuration": 0.23541667,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

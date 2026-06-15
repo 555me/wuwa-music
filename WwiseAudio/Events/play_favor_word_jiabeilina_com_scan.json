@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1640042604,
             "SoundBanks": [
               {
                 "SoundBankId": 1640042604,
-                "SoundBankPathName": "Event/en/play_favor_word_jiabeilina_com_scan.bnk",
+                "SoundBankPathName": "Event/play_favor_word_jiabeilina_com_scan.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 558554938,
-                "MediaPathName": "Media/en/558554938.wem",
+                "MediaId": 337888102,
+                "MediaPathName": "Media/337888102.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_com_scan_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_com_scan_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jiabeilina_com_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1640042604,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1640042604,
-                "SoundBankPathName": "Event/ja/play_favor_word_jiabeilina_com_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jiabeilina_com_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 788954044,
-                "MediaPathName": "Media/ja/788954044.wem",
+                "MediaId": 656941065,
+                "MediaPathName": "Media/656941065.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_com_scan_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_com_scan_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jiabeilina_com_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1640042604,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1640042604,
-                "SoundBankPathName": "Event/ko/play_favor_word_jiabeilina_com_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jiabeilina_com_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 328129156,
-                "MediaPathName": "Media/ko/328129156.wem",
+                "MediaId": 356989324,
+                "MediaPathName": "Media/356989324.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_com_scan_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_com_scan_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jiabeilina_com_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1640042604,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1640042604,
-                "SoundBankPathName": "Event/zh/play_favor_word_jiabeilina_com_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jiabeilina_com_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 502303773,
-                "MediaPathName": "Media/zh/502303773.wem",
+                "MediaId": 747964552,
+                "MediaPathName": "Media/747964552.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_com_scan_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_com_scan_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_jiabeilina_com_scan",
       "EventId": 1640042604
     },
-    "MaximumDuration": 0.9446667,
+    "MaximumDuration": 1.4149375,
     "MinimumDuration": 0.9446667,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

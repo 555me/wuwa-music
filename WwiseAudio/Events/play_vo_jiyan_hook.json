@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1549161355,
             "SoundBanks": [
               {
                 "SoundBankId": 1549161355,
-                "SoundBankPathName": "Event/en/play_vo_jiyan_hook.bnk",
+                "SoundBankPathName": "Event/play_vo_jiyan_hook.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 481382801,
-                "MediaPathName": "Media/en/481382801.wem",
+                "MediaId": 513582997,
+                "MediaPathName": "Media/513582997.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_hook_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_hook_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 528580855,
-                "MediaPathName": "Media/en/528580855.wem",
+                "MediaId": 733548370,
+                "MediaPathName": "Media/733548370.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_hook_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_hook_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 579335533,
-                "MediaPathName": "Media/en/579335533.wem",
+                "MediaId": 745048972,
+                "MediaPathName": "Media/745048972.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_hook_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_hook"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1549161355,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1549161355,
-                "SoundBankPathName": "Event/ja/play_vo_jiyan_hook.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_hook",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 90114002,
-                "MediaPathName": "Media/ja/90114002.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_hook_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_hook_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 463100798,
-                "MediaPathName": "Media/ja/463100798.wem",
+                "MediaId": 514204611,
+                "MediaPathName": "Media/514204611.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_hook_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_hook_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 588518620,
-                "MediaPathName": "Media/ja/588518620.wem",
+                "MediaId": 634739121,
+                "MediaPathName": "Media/634739121.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_hook_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_hook"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1549161355,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1549161355,
-                "SoundBankPathName": "Event/ko/play_vo_jiyan_hook.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_hook",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 86357058,
-                "MediaPathName": "Media/ko/86357058.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_hook_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_hook_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 185265567,
-                "MediaPathName": "Media/ko/185265567.wem",
+                "MediaId": 941445806,
+                "MediaPathName": "Media/941445806.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_hook_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_hook_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 773492753,
-                "MediaPathName": "Media/ko/773492753.wem",
+                "MediaId": 966399693,
+                "MediaPathName": "Media/966399693.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_hook_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_hook"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1549161355,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1549161355,
-                "SoundBankPathName": "Event/zh/play_vo_jiyan_hook.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_hook",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 315679983,
-                "MediaPathName": "Media/zh/315679983.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_hook_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_hook_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 389602422,
-                "MediaPathName": "Media/zh/389602422.wem",
+                "MediaId": 1037649274,
+                "MediaPathName": "Media/1037649274.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_hook_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_hook_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 525143774,
-                "MediaPathName": "Media/zh/525143774.wem",
+                "MediaId": 273837137,
+                "MediaPathName": "Media/273837137.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_hook_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_hook_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 587545776,
+                "MediaPathName": "Media/587545776.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_hook_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 471974738,
+                "MediaPathName": "Media/471974738.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_hook_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 260322713,
+                "MediaPathName": "Media/260322713.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_hook_02.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2551696197,
             "SoundBanks": [
               {
                 "SoundBankId": 2551696197,
-                "SoundBankPathName": "Event/en/play_vo_rogue_link_feibi.bnk",
+                "SoundBankPathName": "Event/play_vo_rogue_link_feibi.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 48717429,
-                "MediaPathName": "Media/en/48717429.wem",
+                "MediaId": 189919641,
+                "MediaPathName": "Media/189919641.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_feibi_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_feibi_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 791824020,
-                "MediaPathName": "Media/en/791824020.wem",
+                "MediaId": 483181907,
+                "MediaPathName": "Media/483181907.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_feibi_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_feibi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2551696197,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2551696197,
-                "SoundBankPathName": "Event/ja/play_vo_rogue_link_feibi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_feibi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 551614121,
-                "MediaPathName": "Media/ja/551614121.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_feibi_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_feibi_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 637161220,
-                "MediaPathName": "Media/ja/637161220.wem",
+                "MediaId": 900725266,
+                "MediaPathName": "Media/900725266.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_feibi_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_feibi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2551696197,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2551696197,
-                "SoundBankPathName": "Event/ko/play_vo_rogue_link_feibi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_feibi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 163399514,
-                "MediaPathName": "Media/ko/163399514.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_feibi_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_feibi_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 610854471,
-                "MediaPathName": "Media/ko/610854471.wem",
+                "MediaId": 845500921,
+                "MediaPathName": "Media/845500921.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_feibi_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_feibi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2551696197,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2551696197,
-                "SoundBankPathName": "Event/zh/play_vo_rogue_link_feibi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_feibi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 308725322,
-                "MediaPathName": "Media/zh/308725322.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_feibi_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_feibi_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 498217881,
-                "MediaPathName": "Media/zh/498217881.wem",
+                "MediaId": 371011327,
+                "MediaPathName": "Media/371011327.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_feibi_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_feibi_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 340571512,
+                "MediaPathName": "Media/340571512.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_feibi_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1009246264,
+                "MediaPathName": "Media/1009246264.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_feibi_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 473278988,
+                "MediaPathName": "Media/473278988.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_feibi_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,7 +120,7 @@
       "DebugName": "play_vo_rogue_link_feibi",
       "EventId": 2551696197
     },
-    "MaximumDuration": 1.6562083,
+    "MaximumDuration": 1.9678959,
     "MinimumDuration": 0.970625,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

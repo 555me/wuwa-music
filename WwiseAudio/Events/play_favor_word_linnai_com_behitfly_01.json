@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 752250829,
             "SoundBanks": [
               {
                 "SoundBankId": 752250829,
-                "SoundBankPathName": "Event/en/play_favor_word_linnai_com_behitfly_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_linnai_com_behitfly_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 697364590,
-                "MediaPathName": "Media/en/697364590.wem",
+                "MediaId": 337157061,
+                "MediaPathName": "Media/337157061.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\en_vo_linnai_com_behitfly_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\linnai\\ja_vo_linnai_com_behitfly_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_com_behitfly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 752250829,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 752250829,
-                "SoundBankPathName": "Event/ja/play_favor_word_linnai_com_behitfly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_com_behitfly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 198695682,
-                "MediaPathName": "Media/ja/198695682.wem",
+                "MediaId": 357723916,
+                "MediaPathName": "Media/357723916.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ja_vo_linnai_com_behitfly_01_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,0\\linnai\\en_vo_linnai_com_behitfly_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_com_behitfly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 752250829,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 752250829,
-                "SoundBankPathName": "Event/ko/play_favor_word_linnai_com_behitfly_01.bnk",
+                "MediaId": 1052217269,
+                "MediaPathName": "Media/1052217269.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_com_behitfly_01",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\linnai\\zh_vo_linnai_com_behitfly_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 1072562488,
-                "MediaPathName": "Media/ko/1072562488.wem",
+                "MediaId": 697963105,
+                "MediaPathName": "Media/697963105.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ko_vo_linnai_com_behitfly_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_com_behitfly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 752250829,
-            "SoundBanks": [
-              {
-                "SoundBankId": 752250829,
-                "SoundBankPathName": "Event/zh/play_favor_word_linnai_com_behitfly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_com_behitfly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 740555176,
-                "MediaPathName": "Media/zh/740555176.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\zh_vo_linnai_com_behitfly_01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\linnai\\ko_vo_linnai_com_behitfly_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_linnai_com_behitfly_01",
       "EventId": 752250829
     },
-    "MaximumDuration": 1.9773333,
+    "MaximumDuration": 2.2744167,
     "MinimumDuration": 1.9773333,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

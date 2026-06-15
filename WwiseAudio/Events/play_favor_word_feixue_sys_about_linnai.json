@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1287131958,
             "SoundBanks": [
               {
                 "SoundBankId": 1287131958,
-                "SoundBankPathName": "Event/en/play_favor_word_feixue_sys_about_linnai.bnk",
+                "SoundBankPathName": "Event/play_favor_word_feixue_sys_about_linnai.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 329474738,
-                "MediaPathName": "Media/en/329474738.wem",
+                "MediaId": 10540646,
+                "MediaPathName": "Media/10540646.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_sys_about_linnai_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_sys_about_linnai_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_sys_about_linnai"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1287131958,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1287131958,
-                "SoundBankPathName": "Event/ja/play_favor_word_feixue_sys_about_linnai.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_sys_about_linnai",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 32973628,
-                "MediaPathName": "Media/ja/32973628.wem",
+                "MediaId": 428871339,
+                "MediaPathName": "Media/428871339.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_sys_about_linnai_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_sys_about_linnai_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_sys_about_linnai"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1287131958,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1287131958,
-                "SoundBankPathName": "Event/ko/play_favor_word_feixue_sys_about_linnai.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_sys_about_linnai",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1005441179,
-                "MediaPathName": "Media/ko/1005441179.wem",
+                "MediaId": 692689322,
+                "MediaPathName": "Media/692689322.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_sys_about_linnai_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_sys_about_linnai_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_sys_about_linnai"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1287131958,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1287131958,
-                "SoundBankPathName": "Event/zh/play_favor_word_feixue_sys_about_linnai.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_sys_about_linnai",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 237840345,
-                "MediaPathName": "Media/zh/237840345.wem",
+                "MediaId": 250258024,
+                "MediaPathName": "Media/250258024.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_sys_about_linnai_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_sys_about_linnai_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_feixue_sys_about_linnai",
       "EventId": 1287131958
     },
-    "MaximumDuration": 24.580166,
+    "MaximumDuration": 46.447166,
     "MinimumDuration": 24.580166,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

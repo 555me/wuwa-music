@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2840754394,
             "SoundBanks": [
               {
                 "SoundBankId": 2840754394,
-                "SoundBankPathName": "Event/en/play_favor_word_linnai_sys_about_luhesi.bnk",
+                "SoundBankPathName": "Event/play_favor_word_linnai_sys_about_luhesi.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 296546310,
-                "MediaPathName": "Media/en/296546310.wem",
+                "MediaId": 961786,
+                "MediaPathName": "Media/961786.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\en_vo_linnai_sys_about_luhesi_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\linnai\\ja_vo_linnai_sys_about_luhesi_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_sys_about_luhesi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2840754394,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2840754394,
-                "SoundBankPathName": "Event/ja/play_favor_word_linnai_sys_about_luhesi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_sys_about_luhesi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 782207883,
-                "MediaPathName": "Media/ja/782207883.wem",
+                "MediaId": 784147557,
+                "MediaPathName": "Media/784147557.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ja_vo_linnai_sys_about_luhesi_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,0\\linnai\\en_vo_linnai_sys_about_luhesi_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_sys_about_luhesi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2840754394,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2840754394,
-                "SoundBankPathName": "Event/ko/play_favor_word_linnai_sys_about_luhesi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_sys_about_luhesi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 161540049,
-                "MediaPathName": "Media/ko/161540049.wem",
+                "MediaId": 520685624,
+                "MediaPathName": "Media/520685624.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ko_vo_linnai_sys_about_luhesi_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\linnai\\zh_vo_linnai_sys_about_luhesi_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_sys_about_luhesi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2840754394,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2840754394,
-                "SoundBankPathName": "Event/zh/play_favor_word_linnai_sys_about_luhesi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_sys_about_luhesi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 113807602,
-                "MediaPathName": "Media/zh/113807602.wem",
+                "MediaId": 675327164,
+                "MediaPathName": "Media/675327164.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\zh_vo_linnai_sys_about_luhesi_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\linnai\\ko_vo_linnai_sys_about_luhesi_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_linnai_sys_about_luhesi",
       "EventId": 2840754394
     },
-    "MaximumDuration": 15.739333,
-    "MinimumDuration": 15.739333,
+    "MaximumDuration": 18.256792,
+    "MinimumDuration": 14.398021,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3613967965,
             "SoundBanks": [
               {
                 "SoundBankId": 3613967965,
-                "SoundBankPathName": "Event/en/play_favor_word_linnai_com_hxsummon.bnk",
+                "SoundBankPathName": "Event/play_favor_word_linnai_com_hxsummon.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 904029722,
-                "MediaPathName": "Media/en/904029722.wem",
+                "MediaId": 745906463,
+                "MediaPathName": "Media/745906463.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\en_vo_linnai_com_hxsummon_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\linnai\\ja_vo_linnai_com_hxsummon_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_com_hxsummon"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3613967965,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3613967965,
-                "SoundBankPathName": "Event/ja/play_favor_word_linnai_com_hxsummon.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_com_hxsummon",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 267515459,
-                "MediaPathName": "Media/ja/267515459.wem",
+                "MediaId": 1049556220,
+                "MediaPathName": "Media/1049556220.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ja_vo_linnai_com_hxsummon_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\linnai\\en_vo_linnai_com_hxsummon_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_com_hxsummon"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3613967965,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3613967965,
-                "SoundBankPathName": "Event/ko/play_favor_word_linnai_com_hxsummon.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_com_hxsummon",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 541558851,
-                "MediaPathName": "Media/ko/541558851.wem",
+                "MediaId": 867210842,
+                "MediaPathName": "Media/867210842.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ko_vo_linnai_com_hxsummon_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\linnai\\zh_vo_linnai_com_hxsummon_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_com_hxsummon"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3613967965,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3613967965,
-                "SoundBankPathName": "Event/zh/play_favor_word_linnai_com_hxsummon.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_com_hxsummon",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 874148523,
-                "MediaPathName": "Media/zh/874148523.wem",
+                "MediaId": 322117722,
+                "MediaPathName": "Media/322117722.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\zh_vo_linnai_com_hxsummon_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\linnai\\ko_vo_linnai_com_hxsummon_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_linnai_com_hxsummon",
       "EventId": 3613967965
     },
-    "MaximumDuration": 0.84247917,
-    "MinimumDuration": 0.84247917,
+    "MaximumDuration": 1.4175625,
+    "MinimumDuration": 0.7188125,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

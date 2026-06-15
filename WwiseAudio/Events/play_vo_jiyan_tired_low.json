@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2462251423,
             "SoundBanks": [
               {
                 "SoundBankId": 2462251423,
-                "SoundBankPathName": "Event/en/play_vo_jiyan_tired_low.bnk",
+                "SoundBankPathName": "Event/play_vo_jiyan_tired_low.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 520820030,
-                "MediaPathName": "Media/en/520820030.wem",
+                "MediaId": 905907611,
+                "MediaPathName": "Media/905907611.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_tired_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 540469060,
-                "MediaPathName": "Media/en/540469060.wem",
+                "MediaId": 244724138,
+                "MediaPathName": "Media/244724138.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_tired_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 985687907,
-                "MediaPathName": "Media/en/985687907.wem",
+                "MediaId": 472431787,
+                "MediaPathName": "Media/472431787.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_tired_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_tired_low"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2462251423,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2462251423,
-                "SoundBankPathName": "Event/ja/play_vo_jiyan_tired_low.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_tired_low",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 120689437,
-                "MediaPathName": "Media/ja/120689437.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_tired_02.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 232891775,
-                "MediaPathName": "Media/ja/232891775.wem",
+                "MediaId": 167824335,
+                "MediaPathName": "Media/167824335.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_tired_03.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 539240328,
-                "MediaPathName": "Media/ja/539240328.wem",
+                "MediaId": 431443542,
+                "MediaPathName": "Media/431443542.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_tired_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_tired_low"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2462251423,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2462251423,
-                "SoundBankPathName": "Event/ko/play_vo_jiyan_tired_low.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_tired_low",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 854373029,
-                "MediaPathName": "Media/ko/854373029.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_tired_01.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 901532708,
-                "MediaPathName": "Media/ko/901532708.wem",
+                "MediaId": 19992643,
+                "MediaPathName": "Media/19992643.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_tired_03.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 916749245,
-                "MediaPathName": "Media/ko/916749245.wem",
+                "MediaId": 361360280,
+                "MediaPathName": "Media/361360280.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_tired_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_tired_low"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2462251423,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2462251423,
-                "SoundBankPathName": "Event/zh/play_vo_jiyan_tired_low.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_tired_low",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 187101290,
-                "MediaPathName": "Media/zh/187101290.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_tired_02.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 397378599,
-                "MediaPathName": "Media/zh/397378599.wem",
+                "MediaId": 604728841,
+                "MediaPathName": "Media/604728841.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_tired_01.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 638501258,
-                "MediaPathName": "Media/zh/638501258.wem",
+                "MediaId": 1041682779,
+                "MediaPathName": "Media/1041682779.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_tired_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_tired_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 839555871,
+                "MediaPathName": "Media/839555871.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_tired_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 622020107,
+                "MediaPathName": "Media/622020107.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_tired_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 125718491,
+                "MediaPathName": "Media/125718491.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_tired_01.wav",
                 "PackagedFile": null
               }
             ],

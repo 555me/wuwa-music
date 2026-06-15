@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 811494136,
             "SoundBanks": [
               {
                 "SoundBankId": 811494136,
-                "SoundBankPathName": "Event/en/play_favor_word_yangyang_character_switch_atk.bnk",
+                "SoundBankPathName": "Event/play_favor_word_yangyang_character_switch_atk.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 752481779,
-                "MediaPathName": "Media/en/752481779.wem",
+                "MediaId": 226665574,
+                "MediaPathName": "Media/226665574.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_character_switch_atk.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yangyang\\ko_vo_yangyang_character_switch_atk.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yangyang_character_switch_atk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 811494136,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 811494136,
-                "SoundBankPathName": "Event/ja/play_favor_word_yangyang_character_switch_atk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yangyang_character_switch_atk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 805553185,
-                "MediaPathName": "Media/ja/805553185.wem",
+                "MediaId": 659429834,
+                "MediaPathName": "Media/659429834.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_character_switch_atk.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yangyang\\en_vo_yangyang_character_switch_atk.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yangyang_character_switch_atk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 811494136,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 811494136,
-                "SoundBankPathName": "Event/ko/play_favor_word_yangyang_character_switch_atk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yangyang_character_switch_atk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 879098370,
-                "MediaPathName": "Media/ko/879098370.wem",
+                "MediaId": 49827446,
+                "MediaPathName": "Media/49827446.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_character_switch_atk.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yangyang\\ja_vo_yangyang_character_switch_atk.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yangyang_character_switch_atk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 811494136,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 811494136,
-                "SoundBankPathName": "Event/zh/play_favor_word_yangyang_character_switch_atk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yangyang_character_switch_atk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 454546565,
-                "MediaPathName": "Media/zh/454546565.wem",
+                "MediaId": 477918103,
+                "MediaPathName": "Media/477918103.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_character_switch_atk.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yangyang\\zh_vo_yangyang_character_switch_atk.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 434493054,
             "SoundBanks": [
               {
                 "SoundBankId": 434493054,
-                "SoundBankPathName": "Event/en/play_favor_word_jinxi_sys_jointeam_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_jinxi_sys_jointeam_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 656193930,
-                "MediaPathName": "Media/en/656193930.wem",
+                "MediaId": 315971525,
+                "MediaPathName": "Media/315971525.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_sys_jointeam_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,1\\jinxi\\en_vo_jinxi_sys_jointeam_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_sys_jointeam_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 434493054,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 434493054,
-                "SoundBankPathName": "Event/ja/play_favor_word_jinxi_sys_jointeam_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_sys_jointeam_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 202186365,
-                "MediaPathName": "Media/ja/202186365.wem",
+                "MediaId": 497540771,
+                "MediaPathName": "Media/497540771.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_sys_jointeam_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\jinxi\\ko_vo_jinxi_sys_jointeam_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_sys_jointeam_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 434493054,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 434493054,
-                "SoundBankPathName": "Event/ko/play_favor_word_jinxi_sys_jointeam_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_sys_jointeam_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 138616417,
-                "MediaPathName": "Media/ko/138616417.wem",
+                "MediaId": 1062017555,
+                "MediaPathName": "Media/1062017555.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_sys_jointeam_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\jinxi\\zh_vo_jinxi_sys_jointeam_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_sys_jointeam_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 434493054,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 434493054,
-                "SoundBankPathName": "Event/zh/play_favor_word_jinxi_sys_jointeam_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_sys_jointeam_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 531150736,
-                "MediaPathName": "Media/zh/531150736.wem",
+                "MediaId": 516516651,
+                "MediaPathName": "Media/516516651.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_sys_jointeam_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\jinxi\\ja_vo_jinxi_sys_jointeam_01.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_jinxi_sys_jointeam_01",
       "EventId": 434493054
     },
-    "MaximumDuration": 0.6806458,
+    "MaximumDuration": 1.478,
     "MinimumDuration": 0.6806458,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

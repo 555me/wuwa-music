@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1412097544,
             "SoundBanks": [
               {
                 "SoundBankId": 1412097544,
-                "SoundBankPathName": "Event/en/play_vo_aimisi_com_hpdown03.bnk",
+                "SoundBankPathName": "Event/play_vo_aimisi_com_hpdown03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 645570657,
-                "MediaPathName": "Media/en/645570657.wem",
+                "MediaId": 293047009,
+                "MediaPathName": "Media/293047009.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\en_vo_aimisi_mechaform_com_hpdown03_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\aimisi\\ja_vo_aimisi_mechaform_com_hpdown03_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 248036914,
-                "MediaPathName": "Media/en/248036914.wem",
+                "MediaId": 882345624,
+                "MediaPathName": "Media/882345624.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\en_vo_aimisi_humanform_com_hpdown03_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_com_hpdown03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1412097544,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1412097544,
-                "SoundBankPathName": "Event/ja/play_vo_aimisi_com_hpdown03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_com_hpdown03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 656129644,
-                "MediaPathName": "Media/ja/656129644.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ja_vo_aimisi_mechaform_com_hpdown03_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,1\\aimisi\\en_vo_aimisi_mechaform_com_hpdown03_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 448558538,
-                "MediaPathName": "Media/ja/448558538.wem",
+                "MediaId": 830639628,
+                "MediaPathName": "Media/830639628.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ja_vo_aimisi_humanform_com_hpdown03_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_com_hpdown03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1412097544,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1412097544,
-                "SoundBankPathName": "Event/ko/play_vo_aimisi_com_hpdown03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_com_hpdown03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 236738440,
-                "MediaPathName": "Media/ko/236738440.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ko_vo_aimisi_mechaform_com_hpdown03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\aimisi\\zh_vo_aimisi_mechaform_com_hpdown03_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 201090240,
-                "MediaPathName": "Media/ko/201090240.wem",
+                "MediaId": 18743900,
+                "MediaPathName": "Media/18743900.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ko_vo_aimisi_humanform_com_hpdown03_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_com_hpdown03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1412097544,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1412097544,
-                "SoundBankPathName": "Event/zh/play_vo_aimisi_com_hpdown03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_com_hpdown03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 425543607,
-                "MediaPathName": "Media/zh/425543607.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\zh_vo_aimisi_mechaform_com_hpdown03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\aimisi\\ko_vo_aimisi_mechaform_com_hpdown03_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 68777563,
-                "MediaPathName": "Media/zh/68777563.wem",
+                "MediaId": 17429208,
+                "MediaPathName": "Media/17429208.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\zh_vo_aimisi_humanform_com_hpdown03_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\aimisi\\ja_vo_aimisi_humanform_com_hpdown03_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 965304428,
+                "MediaPathName": "Media/965304428.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\aimisi\\en_vo_aimisi_humanform_com_hpdown03_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1035568473,
+                "MediaPathName": "Media/1035568473.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\aimisi\\zh_vo_aimisi_humanform_com_hpdown03_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 442613406,
+                "MediaPathName": "Media/442613406.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\aimisi\\ko_vo_aimisi_humanform_com_hpdown03_word.wav",
                 "PackagedFile": null
               }
             ],

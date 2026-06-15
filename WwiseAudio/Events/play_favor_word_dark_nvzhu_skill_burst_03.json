@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2058574713,
             "SoundBanks": [
               {
                 "SoundBankId": 2058574713,
-                "SoundBankPathName": "Event/en/play_favor_word_dark_nvzhu_skill_burst_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_dark_nvzhu_skill_burst_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 751821495,
-                "MediaPathName": "Media/en/751821495.wem",
+                "MediaId": 437937195,
+                "MediaPathName": "Media/437937195.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nvzhu\\vo_dark_nvzhu_skill_burst_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\dark_nvzhu\\zh_vo_dark_nvzhu_skill_burst_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dark_nvzhu_skill_burst_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2058574713,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2058574713,
-                "SoundBankPathName": "Event/ja/play_favor_word_dark_nvzhu_skill_burst_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dark_nvzhu_skill_burst_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 404177081,
-                "MediaPathName": "Media/ja/404177081.wem",
+                "MediaId": 359667958,
+                "MediaPathName": "Media/359667958.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nvzhu\\vo_dark_nvzhu_skill_burst_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\dark_nvzhu\\ko_vo_dark_nvzhu_skill_burst_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dark_nvzhu_skill_burst_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2058574713,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2058574713,
-                "SoundBankPathName": "Event/ko/play_favor_word_dark_nvzhu_skill_burst_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dark_nvzhu_skill_burst_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 340514104,
-                "MediaPathName": "Media/ko/340514104.wem",
+                "MediaId": 482659764,
+                "MediaPathName": "Media/482659764.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nvzhu\\vo_dark_nvzhu_skill_burst_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\dark_nvzhu\\en_vo_dark_nvzhu_skill_burst_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dark_nvzhu_skill_burst_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2058574713,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2058574713,
-                "SoundBankPathName": "Event/zh/play_favor_word_dark_nvzhu_skill_burst_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dark_nvzhu_skill_burst_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 177805143,
-                "MediaPathName": "Media/zh/177805143.wem",
+                "MediaId": 1022523052,
+                "MediaPathName": "Media/1022523052.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nvzhu\\vo_dark_nvzhu_skill_burst_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\dark_nvzhu\\ja_vo_dark_nvzhu_skill_burst_03.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_dark_nvzhu_skill_burst_03",
       "EventId": 2058574713
     },
-    "MaximumDuration": 0.9263333,
+    "MaximumDuration": 0.991875,
     "MinimumDuration": 0.9263333,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

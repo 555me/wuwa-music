@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2953016277,
             "SoundBanks": [
               {
                 "SoundBankId": 2953016277,
-                "SoundBankPathName": "Event/en/play_favor_word_feibi_skill_skill02_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_feibi_skill_skill02_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 16689306,
-                "MediaPathName": "Media/en/16689306.wem",
+                "MediaId": 398845315,
+                "MediaPathName": "Media/398845315.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\en_vo_feibi_skill_skill02_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\feibi\\ko_vo_feibi_skill_skill02_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_skill_skill02_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2953016277,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2953016277,
-                "SoundBankPathName": "Event/ja/play_favor_word_feibi_skill_skill02_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_skill_skill02_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 96438504,
-                "MediaPathName": "Media/ja/96438504.wem",
+                "MediaId": 107346005,
+                "MediaPathName": "Media/107346005.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ja_vo_feibi_skill_skill02_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\feibi\\en_vo_feibi_skill_skill02_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_skill_skill02_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2953016277,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2953016277,
-                "SoundBankPathName": "Event/ko/play_favor_word_feibi_skill_skill02_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_skill_skill02_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 211278581,
-                "MediaPathName": "Media/ko/211278581.wem",
+                "MediaId": 799882576,
+                "MediaPathName": "Media/799882576.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ko_vo_feibi_skill_skill02_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\feibi\\zh_vo_feibi_skill_skill02_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_skill_skill02_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2953016277,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2953016277,
-                "SoundBankPathName": "Event/zh/play_favor_word_feibi_skill_skill02_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_skill_skill02_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 353613236,
-                "MediaPathName": "Media/zh/353613236.wem",
+                "MediaId": 468220387,
+                "MediaPathName": "Media/468220387.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\zh_vo_feibi_skill_skill02_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\feibi\\ja_vo_feibi_skill_skill02_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_feibi_skill_skill02_01",
       "EventId": 2953016277
     },
-    "MaximumDuration": 0.78325,
+    "MaximumDuration": 0.91008335,
     "MinimumDuration": 0.78325,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3861529739,
             "SoundBanks": [
               {
                 "SoundBankId": 3861529739,
-                "SoundBankPathName": "Event/en/play_favor_word_dengdeng_skill_qte.bnk",
+                "SoundBankPathName": "Event/play_favor_word_dengdeng_skill_qte.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1047059621,
-                "MediaPathName": "Media/en/1047059621.wem",
+                "MediaId": 181721621,
+                "MediaPathName": "Media/181721621.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\dengdeng\\en_vo_dengdeng_skill_qte_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.4\\dengdeng\\en_vo_dengdeng_skill_qte_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dengdeng_skill_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3861529739,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3861529739,
-                "SoundBankPathName": "Event/ja/play_favor_word_dengdeng_skill_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dengdeng_skill_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 740644620,
-                "MediaPathName": "Media/ja/740644620.wem",
+                "MediaId": 64558024,
+                "MediaPathName": "Media/64558024.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\dengdeng\\ja_vo_dengdeng_skill_qte_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.4\\dengdeng\\zh_vo_dengdeng_skill_qte_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dengdeng_skill_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3861529739,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3861529739,
-                "SoundBankPathName": "Event/ko/play_favor_word_dengdeng_skill_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dengdeng_skill_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 99299274,
-                "MediaPathName": "Media/ko/99299274.wem",
+                "MediaId": 846799044,
+                "MediaPathName": "Media/846799044.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\dengdeng\\ko_vo_dengdeng_skill_qte_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.4\\dengdeng\\ja_vo_dengdeng_skill_qte_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dengdeng_skill_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3861529739,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3861529739,
-                "SoundBankPathName": "Event/zh/play_favor_word_dengdeng_skill_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dengdeng_skill_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 676475768,
-                "MediaPathName": "Media/zh/676475768.wem",
+                "MediaId": 700526500,
+                "MediaPathName": "Media/700526500.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\dengdeng\\zh_vo_dengdeng_skill_qte_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.4\\dengdeng\\ko_vo_dengdeng_skill_qte_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_dengdeng_skill_qte",
       "EventId": 3861529739
     },
-    "MaximumDuration": 0.82033336,
-    "MinimumDuration": 0.82033336,
+    "MaximumDuration": 0.8277083,
+    "MinimumDuration": 0.73516667,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3342438540,
             "SoundBanks": [
               {
                 "SoundBankId": 3342438540,
-                "SoundBankPathName": "Event/en/play_vo_motefei_fast_run.bnk",
+                "SoundBankPathName": "Event/play_vo_motefei_fast_run.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 214171326,
-                "MediaPathName": "Media/en/214171326.wem",
+                "MediaId": 736186948,
+                "MediaPathName": "Media/736186948.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\motefei\\zh_vo_motefei_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 541334443,
-                "MediaPathName": "Media/en/541334443.wem",
+                "MediaId": 52994590,
+                "MediaPathName": "Media/52994590.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\motefei\\en_vo_motefei_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 679760370,
-                "MediaPathName": "Media/en/679760370.wem",
+                "MediaId": 579460434,
+                "MediaPathName": "Media/579460434.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_fastclimb_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_motefei_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3342438540,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3342438540,
-                "SoundBankPathName": "Event/ja/play_vo_motefei_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_motefei_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 315662650,
-                "MediaPathName": "Media/ja/315662650.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\motefei\\ja_vo_motefei_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 763904924,
-                "MediaPathName": "Media/ja/763904924.wem",
+                "MediaId": 42865596,
+                "MediaPathName": "Media/42865596.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_fastclimb_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\motefei\\ko_vo_motefei_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 784953959,
-                "MediaPathName": "Media/ja/784953959.wem",
+                "MediaId": 445696112,
+                "MediaPathName": "Media/445696112.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_fastclimb_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_motefei_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3342438540,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3342438540,
-                "SoundBankPathName": "Event/ko/play_vo_motefei_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_motefei_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 565891842,
-                "MediaPathName": "Media/ko/565891842.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_fastclimb_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\motefei\\zh_vo_motefei_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 635704518,
-                "MediaPathName": "Media/ko/635704518.wem",
+                "MediaId": 377819985,
+                "MediaPathName": "Media/377819985.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\motefei\\en_vo_motefei_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 764347207,
-                "MediaPathName": "Media/ko/764347207.wem",
+                "MediaId": 544292964,
+                "MediaPathName": "Media/544292964.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_fastclimb_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_motefei_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3342438540,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3342438540,
-                "SoundBankPathName": "Event/zh/play_vo_motefei_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_motefei_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 539483388,
-                "MediaPathName": "Media/zh/539483388.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\motefei\\ja_vo_motefei_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 769443524,
-                "MediaPathName": "Media/zh/769443524.wem",
+                "MediaId": 869285167,
+                "MediaPathName": "Media/869285167.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_fastclimb_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\motefei\\ko_vo_motefei_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1058122266,
-                "MediaPathName": "Media/zh/1058122266.wem",
+                "MediaId": 420509083,
+                "MediaPathName": "Media/420509083.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\motefei\\zh_vo_motefei_fastclimb_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 673954627,
+                "MediaPathName": "Media/673954627.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\motefei\\en_vo_motefei_fastclimb_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 369625690,
+                "MediaPathName": "Media/369625690.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\motefei\\ja_vo_motefei_fastclimb_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 970426406,
+                "MediaPathName": "Media/970426406.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\motefei\\ko_vo_motefei_fastclimb_01.wav",
                 "PackagedFile": null
               }
             ],

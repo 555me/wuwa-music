@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3081847343,
             "SoundBanks": [
               {
                 "SoundBankId": 3081847343,
-                "SoundBankPathName": "Event/en/play_vo_kakaluo_airatk.bnk",
+                "SoundBankPathName": "Event/play_vo_kakaluo_airatk.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 25970038,
-                "MediaPathName": "Media/en/25970038.wem",
+                "MediaId": 951941992,
+                "MediaPathName": "Media/951941992.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_airatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 338307146,
-                "MediaPathName": "Media/en/338307146.wem",
+                "MediaId": 702152226,
+                "MediaPathName": "Media/702152226.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 831581990,
-                "MediaPathName": "Media/en/831581990.wem",
+                "MediaId": 518011523,
+                "MediaPathName": "Media/518011523.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_airatk_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kakaluo_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3081847343,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3081847343,
-                "SoundBankPathName": "Event/ja/play_vo_kakaluo_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kakaluo_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 96319077,
-                "MediaPathName": "Media/ja/96319077.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 792730823,
-                "MediaPathName": "Media/ja/792730823.wem",
+                "MediaId": 182861397,
+                "MediaPathName": "Media/182861397.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 826027370,
-                "MediaPathName": "Media/ja/826027370.wem",
+                "MediaId": 889421157,
+                "MediaPathName": "Media/889421157.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_airatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kakaluo_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3081847343,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3081847343,
-                "SoundBankPathName": "Event/ko/play_vo_kakaluo_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kakaluo_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 109220608,
-                "MediaPathName": "Media/ko/109220608.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_airatk_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 626842289,
-                "MediaPathName": "Media/ko/626842289.wem",
+                "MediaId": 101884272,
+                "MediaPathName": "Media/101884272.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_airatk_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1031982091,
-                "MediaPathName": "Media/ko/1031982091.wem",
+                "MediaId": 409594885,
+                "MediaPathName": "Media/409594885.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_airatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kakaluo_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3081847343,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3081847343,
-                "SoundBankPathName": "Event/zh/play_vo_kakaluo_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kakaluo_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 220500798,
-                "MediaPathName": "Media/zh/220500798.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_airatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_airatk_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 680819860,
-                "MediaPathName": "Media/zh/680819860.wem",
+                "MediaId": 141296744,
+                "MediaPathName": "Media/141296744.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_airatk_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 703334144,
-                "MediaPathName": "Media/zh/703334144.wem",
+                "MediaId": 982532855,
+                "MediaPathName": "Media/982532855.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_airatk_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 976513153,
+                "MediaPathName": "Media/976513153.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_airatk_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 987855342,
+                "MediaPathName": "Media/987855342.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_airatk_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 119175110,
+                "MediaPathName": "Media/119175110.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_airatk_02.wav",
                 "PackagedFile": null
               }
             ],

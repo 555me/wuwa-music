@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3018386805,
             "SoundBanks": [
               {
                 "SoundBankId": 3018386805,
-                "SoundBankPathName": "Event/en/play_favor_word_jianxin_hx_change.bnk",
+                "SoundBankPathName": "Event/play_favor_word_jianxin_hx_change.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 30876364,
-                "MediaPathName": "Media/en/30876364.wem",
+                "MediaId": 26939060,
+                "MediaPathName": "Media/26939060.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_hx_change.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jianxin\\ko_vo_jianxin_hx_change.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jianxin_hx_change"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3018386805,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3018386805,
-                "SoundBankPathName": "Event/ja/play_favor_word_jianxin_hx_change.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jianxin_hx_change",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 724595356,
-                "MediaPathName": "Media/ja/724595356.wem",
+                "MediaId": 861041427,
+                "MediaPathName": "Media/861041427.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_hx_change.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jianxin\\en_vo_jianxin_hx_change.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jianxin_hx_change"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3018386805,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3018386805,
-                "SoundBankPathName": "Event/ko/play_favor_word_jianxin_hx_change.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jianxin_hx_change",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 191238919,
-                "MediaPathName": "Media/ko/191238919.wem",
+                "MediaId": 973741272,
+                "MediaPathName": "Media/973741272.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_hx_change.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jianxin\\zh_vo_jianxin_hx_change.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jianxin_hx_change"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3018386805,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3018386805,
-                "SoundBankPathName": "Event/zh/play_favor_word_jianxin_hx_change.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jianxin_hx_change",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 448304464,
-                "MediaPathName": "Media/zh/448304464.wem",
+                "MediaId": 897234180,
+                "MediaPathName": "Media/897234180.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jianxin\\vo_jianxin_hx_change.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jianxin\\ja_vo_jianxin_hx_change.wav",
                 "PackagedFile": null
               }
             ],

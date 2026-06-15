@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2249598370,
             "SoundBanks": [
               {
                 "SoundBankId": 2249598370,
-                "SoundBankPathName": "Event/en/play_vo_jiyan_heavyatk01.bnk",
+                "SoundBankPathName": "Event/play_vo_jiyan_heavyatk01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 61341644,
-                "MediaPathName": "Media/en/61341644.wem",
+                "MediaId": 117605401,
+                "MediaPathName": "Media/117605401.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_heavyatk01_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_heavyatk01_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 327594389,
-                "MediaPathName": "Media/en/327594389.wem",
+                "MediaId": 190647195,
+                "MediaPathName": "Media/190647195.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_heavyatk01_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_heavyatk01_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1031572445,
-                "MediaPathName": "Media/en/1031572445.wem",
+                "MediaId": 192208848,
+                "MediaPathName": "Media/192208848.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_heavyatk01_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_heavyatk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2249598370,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2249598370,
-                "SoundBankPathName": "Event/ja/play_vo_jiyan_heavyatk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_heavyatk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 222947784,
-                "MediaPathName": "Media/ja/222947784.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_heavyatk01_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_heavyatk01_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 498177863,
-                "MediaPathName": "Media/ja/498177863.wem",
+                "MediaId": 1025067738,
+                "MediaPathName": "Media/1025067738.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_heavyatk01_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_heavyatk01_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 628856735,
-                "MediaPathName": "Media/ja/628856735.wem",
+                "MediaId": 544346196,
+                "MediaPathName": "Media/544346196.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_heavyatk01_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_heavyatk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2249598370,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2249598370,
-                "SoundBankPathName": "Event/ko/play_vo_jiyan_heavyatk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_heavyatk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 266206286,
-                "MediaPathName": "Media/ko/266206286.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_heavyatk01_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_heavyatk01_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 785682307,
-                "MediaPathName": "Media/ko/785682307.wem",
+                "MediaId": 702859392,
+                "MediaPathName": "Media/702859392.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_heavyatk01_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_heavyatk01_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 982957684,
-                "MediaPathName": "Media/ko/982957684.wem",
+                "MediaId": 490606068,
+                "MediaPathName": "Media/490606068.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_heavyatk01_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_heavyatk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2249598370,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2249598370,
-                "SoundBankPathName": "Event/zh/play_vo_jiyan_heavyatk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_heavyatk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 118835172,
-                "MediaPathName": "Media/zh/118835172.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_heavyatk01_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_heavyatk01_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 423204882,
-                "MediaPathName": "Media/zh/423204882.wem",
+                "MediaId": 845709188,
+                "MediaPathName": "Media/845709188.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_heavyatk01_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_heavyatk01_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1063717973,
-                "MediaPathName": "Media/zh/1063717973.wem",
+                "MediaId": 1029102577,
+                "MediaPathName": "Media/1029102577.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_heavyatk01_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_heavyatk01_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 609658476,
+                "MediaPathName": "Media/609658476.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_heavyatk01_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 41261614,
+                "MediaPathName": "Media/41261614.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_heavyatk01_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 45377433,
+                "MediaPathName": "Media/45377433.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_heavyatk01_02.wav",
                 "PackagedFile": null
               }
             ],

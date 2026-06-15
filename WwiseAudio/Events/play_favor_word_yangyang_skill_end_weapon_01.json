@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 142486683,
             "SoundBanks": [
               {
                 "SoundBankId": 142486683,
-                "SoundBankPathName": "Event/en/play_favor_word_yangyang_skill_end_weapon_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_yangyang_skill_end_weapon_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 609180251,
-                "MediaPathName": "Media/en/609180251.wem",
+                "MediaId": 311953274,
+                "MediaPathName": "Media/311953274.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_end_weapon_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yangyang\\ko_vo_yangyang_skill_end_weapon_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yangyang_skill_end_weapon_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 142486683,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 142486683,
-                "SoundBankPathName": "Event/ja/play_favor_word_yangyang_skill_end_weapon_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yangyang_skill_end_weapon_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 101696664,
-                "MediaPathName": "Media/ja/101696664.wem",
+                "MediaId": 137901334,
+                "MediaPathName": "Media/137901334.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_end_weapon_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yangyang\\en_vo_yangyang_skill_end_weapon_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yangyang_skill_end_weapon_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 142486683,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 142486683,
-                "SoundBankPathName": "Event/ko/play_favor_word_yangyang_skill_end_weapon_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yangyang_skill_end_weapon_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 518177412,
-                "MediaPathName": "Media/ko/518177412.wem",
+                "MediaId": 263384675,
+                "MediaPathName": "Media/263384675.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_end_weapon_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yangyang\\ja_vo_yangyang_skill_end_weapon_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_yangyang_skill_end_weapon_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 142486683,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 142486683,
-                "SoundBankPathName": "Event/zh/play_favor_word_yangyang_skill_end_weapon_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_yangyang_skill_end_weapon_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 368600231,
-                "MediaPathName": "Media/zh/368600231.wem",
+                "MediaId": 1067183666,
+                "MediaPathName": "Media/1067183666.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_end_weapon_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yangyang\\zh_vo_yangyang_skill_end_weapon_01.wav",
                 "PackagedFile": null
               }
             ],

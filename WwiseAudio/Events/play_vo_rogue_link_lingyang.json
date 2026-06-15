@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4219857993,
             "SoundBanks": [
               {
                 "SoundBankId": 4219857993,
-                "SoundBankPathName": "Event/en/play_vo_rogue_link_lingyang.bnk",
+                "SoundBankPathName": "Event/play_vo_rogue_link_lingyang.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 727753483,
-                "MediaPathName": "Media/en/727753483.wem",
+                "MediaId": 79308817,
+                "MediaPathName": "Media/79308817.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_burst_skill_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\lingyang\\zh_vo_lingyang_burst_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 496998534,
-                "MediaPathName": "Media/en/496998534.wem",
+                "MediaId": 458142296,
+                "MediaPathName": "Media/458142296.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_burst_skill_02.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\lingyang\\ko_vo_lingyang_burst_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 955283136,
-                "MediaPathName": "Media/en/955283136.wem",
+                "MediaId": 312517840,
+                "MediaPathName": "Media/312517840.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_burst_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_lingyang"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4219857993,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4219857993,
-                "SoundBankPathName": "Event/ja/play_vo_rogue_link_lingyang.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_lingyang",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1001623528,
-                "MediaPathName": "Media/ja/1001623528.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_burst_skill_03.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\lingyang\\ja_vo_lingyang_burst_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 367511409,
-                "MediaPathName": "Media/ja/367511409.wem",
+                "MediaId": 522862850,
+                "MediaPathName": "Media/522862850.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_burst_skill_02.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\lingyang\\en_vo_lingyang_burst_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 153792319,
-                "MediaPathName": "Media/ja/153792319.wem",
+                "MediaId": 411664791,
+                "MediaPathName": "Media/411664791.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_burst_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_lingyang"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4219857993,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4219857993,
-                "SoundBankPathName": "Event/ko/play_vo_rogue_link_lingyang.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_lingyang",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 698997145,
-                "MediaPathName": "Media/ko/698997145.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_burst_skill_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\lingyang\\zh_vo_lingyang_burst_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 629405906,
-                "MediaPathName": "Media/ko/629405906.wem",
+                "MediaId": 129520323,
+                "MediaPathName": "Media/129520323.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_burst_skill_02.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\lingyang\\ko_vo_lingyang_burst_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 929735958,
-                "MediaPathName": "Media/ko/929735958.wem",
+                "MediaId": 943734778,
+                "MediaPathName": "Media/943734778.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_burst_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_lingyang"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4219857993,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4219857993,
-                "SoundBankPathName": "Event/zh/play_vo_rogue_link_lingyang.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_lingyang",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 660419028,
-                "MediaPathName": "Media/zh/660419028.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_burst_skill_03.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\lingyang\\ja_vo_lingyang_burst_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 164040649,
-                "MediaPathName": "Media/zh/164040649.wem",
+                "MediaId": 40378057,
+                "MediaPathName": "Media/40378057.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_burst_skill_02.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\lingyang\\en_vo_lingyang_burst_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 850976231,
-                "MediaPathName": "Media/zh/850976231.wem",
+                "MediaId": 288643928,
+                "MediaPathName": "Media/288643928.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_burst_skill_01.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\lingyang\\zh_vo_lingyang_burst_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 198563583,
+                "MediaPathName": "Media/198563583.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\lingyang\\ko_vo_lingyang_burst_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 863416021,
+                "MediaPathName": "Media/863416021.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\lingyang\\ja_vo_lingyang_burst_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 354267758,
+                "MediaPathName": "Media/354267758.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\lingyang\\en_vo_lingyang_burst_skill_01.wav",
                 "PackagedFile": null
               }
             ],

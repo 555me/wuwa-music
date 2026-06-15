@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2467938086,
             "SoundBanks": [
               {
                 "SoundBankId": 2467938086,
-                "SoundBankPathName": "Event/en/play_favor_word_dark_nanzhu_skill_burst_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_dark_nanzhu_skill_burst_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 397124389,
-                "MediaPathName": "Media/en/397124389.wem",
+                "MediaId": 838241879,
+                "MediaPathName": "Media/838241879.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nanzhu\\vo_dark_nanzhu_skill_burst_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\dark_nanzhu\\en_vo_dark_nanzhu_skill_burst_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dark_nanzhu_skill_burst_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2467938086,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2467938086,
-                "SoundBankPathName": "Event/ja/play_favor_word_dark_nanzhu_skill_burst_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dark_nanzhu_skill_burst_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 336023824,
-                "MediaPathName": "Media/ja/336023824.wem",
+                "MediaId": 405528562,
+                "MediaPathName": "Media/405528562.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nanzhu\\vo_dark_nanzhu_skill_burst_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\dark_nanzhu\\zh_vo_dark_nanzhu_skill_burst_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dark_nanzhu_skill_burst_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2467938086,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2467938086,
-                "SoundBankPathName": "Event/ko/play_favor_word_dark_nanzhu_skill_burst_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dark_nanzhu_skill_burst_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 158551411,
-                "MediaPathName": "Media/ko/158551411.wem",
+                "MediaId": 714355402,
+                "MediaPathName": "Media/714355402.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nanzhu\\vo_dark_nanzhu_skill_burst_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\dark_nanzhu\\ja_vo_dark_nanzhu_skill_burst_01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dark_nanzhu_skill_burst_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2467938086,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2467938086,
-                "SoundBankPathName": "Event/zh/play_favor_word_dark_nanzhu_skill_burst_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dark_nanzhu_skill_burst_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 442691345,
-                "MediaPathName": "Media/zh/442691345.wem",
+                "MediaId": 826042406,
+                "MediaPathName": "Media/826042406.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nanzhu\\vo_dark_nanzhu_skill_burst_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\dark_nanzhu\\ko_vo_dark_nanzhu_skill_burst_01.wav",
                 "PackagedFile": null
               }
             ],

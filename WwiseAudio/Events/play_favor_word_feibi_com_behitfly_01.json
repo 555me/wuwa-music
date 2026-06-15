@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 779104677,
             "SoundBanks": [
               {
                 "SoundBankId": 779104677,
-                "SoundBankPathName": "Event/en/play_favor_word_feibi_com_behitfly_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_feibi_com_behitfly_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 431622251,
-                "MediaPathName": "Media/en/431622251.wem",
+                "MediaId": 561926600,
+                "MediaPathName": "Media/561926600.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\en_vo_feibi_com_behitfly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\feibi\\ko_vo_feibi_com_behitfly_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_com_behitfly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 779104677,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 779104677,
-                "SoundBankPathName": "Event/ja/play_favor_word_feibi_com_behitfly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_com_behitfly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1021351679,
-                "MediaPathName": "Media/ja/1021351679.wem",
+                "MediaId": 320944669,
+                "MediaPathName": "Media/320944669.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ja_vo_feibi_com_behitfly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\feibi\\en_vo_feibi_com_behitfly_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_com_behitfly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 779104677,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 779104677,
-                "SoundBankPathName": "Event/ko/play_favor_word_feibi_com_behitfly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_com_behitfly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 492069864,
-                "MediaPathName": "Media/ko/492069864.wem",
+                "MediaId": 295463099,
+                "MediaPathName": "Media/295463099.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ko_vo_feibi_com_behitfly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\feibi\\zh_vo_feibi_com_behitfly_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_com_behitfly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 779104677,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 779104677,
-                "SoundBankPathName": "Event/zh/play_favor_word_feibi_com_behitfly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_com_behitfly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1068842658,
-                "MediaPathName": "Media/zh/1068842658.wem",
+                "MediaId": 652304344,
+                "MediaPathName": "Media/652304344.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\zh_vo_feibi_com_behitfly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\feibi\\ja_vo_feibi_com_behitfly_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_feibi_com_behitfly_01",
       "EventId": 779104677
     },
-    "MaximumDuration": 1.3900625,
-    "MinimumDuration": 1.3900625,
+    "MaximumDuration": 1.5194583,
+    "MinimumDuration": 1.3095417,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

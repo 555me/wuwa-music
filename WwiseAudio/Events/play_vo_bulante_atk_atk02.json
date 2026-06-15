@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 298972333,
             "SoundBanks": [
               {
                 "SoundBankId": 298972333,
-                "SoundBankPathName": "Event/en/play_vo_bulante_atk_atk02.bnk",
+                "SoundBankPathName": "Event/play_vo_bulante_atk_atk02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 239074018,
-                "MediaPathName": "Media/en/239074018.wem",
+                "MediaId": 256753816,
+                "MediaPathName": "Media/256753816.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\en_vo_bulante_atk_atk02_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\bulante\\zh_vo_bulante_atk_atk02_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 310743462,
-                "MediaPathName": "Media/en/310743462.wem",
+                "MediaId": 697272981,
+                "MediaPathName": "Media/697272981.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\en_vo_bulante_atk_atk02_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\bulante\\ja_vo_bulante_atk_atk02_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 844799271,
-                "MediaPathName": "Media/en/844799271.wem",
+                "MediaId": 96466703,
+                "MediaPathName": "Media/96466703.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\en_vo_bulante_atk_atk02_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_bulante_atk_atk02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 298972333,
-            "SoundBanks": [
-              {
-                "SoundBankId": 298972333,
-                "SoundBankPathName": "Event/ja/play_vo_bulante_atk_atk02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_bulante_atk_atk02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 4246920,
-                "MediaPathName": "Media/ja/4246920.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ja_vo_bulante_atk_atk02_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\bulante\\en_vo_bulante_atk_atk02_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 32848020,
-                "MediaPathName": "Media/ja/32848020.wem",
+                "MediaId": 100526875,
+                "MediaPathName": "Media/100526875.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ja_vo_bulante_atk_atk02_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\bulante\\ko_vo_bulante_atk_atk02_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 503943083,
-                "MediaPathName": "Media/ja/503943083.wem",
+                "MediaId": 245042619,
+                "MediaPathName": "Media/245042619.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ja_vo_bulante_atk_atk02_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_bulante_atk_atk02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 298972333,
-            "SoundBanks": [
-              {
-                "SoundBankId": 298972333,
-                "SoundBankPathName": "Event/ko/play_vo_bulante_atk_atk02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_bulante_atk_atk02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 152611972,
-                "MediaPathName": "Media/ko/152611972.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ko_vo_bulante_atk_atk02_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\bulante\\zh_vo_bulante_atk_atk02_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 396995518,
-                "MediaPathName": "Media/ko/396995518.wem",
+                "MediaId": 1005613707,
+                "MediaPathName": "Media/1005613707.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ko_vo_bulante_atk_atk02_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\bulante\\ja_vo_bulante_atk_atk02_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 775392770,
-                "MediaPathName": "Media/ko/775392770.wem",
+                "MediaId": 508446946,
+                "MediaPathName": "Media/508446946.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ko_vo_bulante_atk_atk02_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_bulante_atk_atk02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 298972333,
-            "SoundBanks": [
-              {
-                "SoundBankId": 298972333,
-                "SoundBankPathName": "Event/zh/play_vo_bulante_atk_atk02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_bulante_atk_atk02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 177485735,
-                "MediaPathName": "Media/zh/177485735.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\zh_vo_bulante_atk_atk02_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\bulante\\en_vo_bulante_atk_atk02_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 421082130,
-                "MediaPathName": "Media/zh/421082130.wem",
+                "MediaId": 339659753,
+                "MediaPathName": "Media/339659753.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\zh_vo_bulante_atk_atk02_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\bulante\\ko_vo_bulante_atk_atk02_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1034780613,
-                "MediaPathName": "Media/zh/1034780613.wem",
+                "MediaId": 859654345,
+                "MediaPathName": "Media/859654345.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\zh_vo_bulante_atk_atk02_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\bulante\\zh_vo_bulante_atk_atk02_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 755035874,
+                "MediaPathName": "Media/755035874.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\bulante\\ja_vo_bulante_atk_atk02_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 570997778,
+                "MediaPathName": "Media/570997778.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\bulante\\en_vo_bulante_atk_atk02_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 730015242,
+                "MediaPathName": "Media/730015242.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\bulante\\ko_vo_bulante_atk_atk02_01_tone.wav",
                 "PackagedFile": null
               }
             ],

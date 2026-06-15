@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3029092738,
             "SoundBanks": [
               {
                 "SoundBankId": 3029092738,
-                "SoundBankPathName": "Event/en/play_vo_xiakong_sys_rankup03.bnk",
+                "SoundBankPathName": "Event/play_vo_xiakong_sys_rankup03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 195475528,
-                "MediaPathName": "Media/en/195475528.wem",
+                "MediaId": 994071507,
+                "MediaPathName": "Media/994071507.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\en_vo_xiakong_sys_rankup03_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\xiakong\\zh_vo_xiakong_sys_rankup03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_xiakong_sys_rankup03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3029092738,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3029092738,
-                "SoundBankPathName": "Event/ja/play_vo_xiakong_sys_rankup03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_xiakong_sys_rankup03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 704336598,
-                "MediaPathName": "Media/ja/704336598.wem",
+                "MediaId": 609329806,
+                "MediaPathName": "Media/609329806.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\ja_vo_xiakong_sys_rankup03_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\xiakong\\ko_vo_xiakong_sys_rankup03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_xiakong_sys_rankup03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3029092738,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3029092738,
-                "SoundBankPathName": "Event/ko/play_vo_xiakong_sys_rankup03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_xiakong_sys_rankup03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 913026987,
-                "MediaPathName": "Media/ko/913026987.wem",
+                "MediaId": 930781778,
+                "MediaPathName": "Media/930781778.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\ko_vo_xiakong_sys_rankup03_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,3\\xiakong\\en_vo_xiakong_sys_rankup03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_xiakong_sys_rankup03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3029092738,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3029092738,
-                "SoundBankPathName": "Event/zh/play_vo_xiakong_sys_rankup03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_xiakong_sys_rankup03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1004961143,
-                "MediaPathName": "Media/zh/1004961143.wem",
+                "MediaId": 582065187,
+                "MediaPathName": "Media/582065187.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\zh_vo_xiakong_sys_rankup03_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\xiakong\\ja_vo_xiakong_sys_rankup03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_vo_xiakong_sys_rankup03",
       "EventId": 3029092738
     },
-    "MaximumDuration": 11.856209,
+    "MaximumDuration": 16.248417,
     "MinimumDuration": 11.856209,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

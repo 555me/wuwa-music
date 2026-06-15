@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2834943730,
             "SoundBanks": [
               {
                 "SoundBankId": 2834943730,
-                "SoundBankPathName": "Event/en/play_favor_word_aimisi_humanform_com_openbox_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_aimisi_humanform_com_openbox_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 58995156,
-                "MediaPathName": "Media/en/58995156.wem",
+                "MediaId": 214291164,
+                "MediaPathName": "Media/214291164.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\en_vo_aimisi_humanform_com_openbox_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\aimisi\\ja_vo_aimisi_humanform_com_openbox_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_humanform_com_openbox_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2834943730,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2834943730,
-                "SoundBankPathName": "Event/ja/play_favor_word_aimisi_humanform_com_openbox_01.bnk",
+                "MediaId": 996162591,
+                "MediaPathName": "Media/996162591.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_humanform_com_openbox_01",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\aimisi\\en_vo_aimisi_humanform_com_openbox_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 542591669,
-                "MediaPathName": "Media/ja/542591669.wem",
+                "MediaId": 751804616,
+                "MediaPathName": "Media/751804616.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ja_vo_aimisi_humanform_com_openbox_01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\aimisi\\zh_vo_aimisi_humanform_com_openbox_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_humanform_com_openbox_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2834943730,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2834943730,
-                "SoundBankPathName": "Event/ko/play_favor_word_aimisi_humanform_com_openbox_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_humanform_com_openbox_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 415411050,
-                "MediaPathName": "Media/ko/415411050.wem",
+                "MediaId": 31725853,
+                "MediaPathName": "Media/31725853.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ko_vo_aimisi_humanform_com_openbox_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_humanform_com_openbox_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2834943730,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2834943730,
-                "SoundBankPathName": "Event/zh/play_favor_word_aimisi_humanform_com_openbox_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_humanform_com_openbox_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1031366119,
-                "MediaPathName": "Media/zh/1031366119.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\zh_vo_aimisi_humanform_com_openbox_01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\aimisi\\ko_vo_aimisi_humanform_com_openbox_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 2834943730
     },
     "MaximumDuration": 2.0386667,
-    "MinimumDuration": 2.0386667,
+    "MinimumDuration": 1.805,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

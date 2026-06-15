@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4275517635,
             "SoundBanks": [
               {
                 "SoundBankId": 4275517635,
-                "SoundBankPathName": "Event/en/play_favor_word_katixiya_sys_rankup01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_katixiya_sys_rankup01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 690996233,
-                "MediaPathName": "Media/en/690996233.wem",
+                "MediaId": 941125627,
+                "MediaPathName": "Media/941125627.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\en_vo_katixiya_sys_rankup01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,4\\katixiya\\ko_vo_katixiya_sys_rankup01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_katixiya_sys_rankup01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4275517635,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4275517635,
-                "SoundBankPathName": "Event/ja/play_favor_word_katixiya_sys_rankup01.bnk",
+                "MediaId": 1070766358,
+                "MediaPathName": "Media/1070766358.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_katixiya_sys_rankup01",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,4\\katixiya\\zh_vo_katixiya_sys_rankup01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 650414152,
-                "MediaPathName": "Media/ja/650414152.wem",
+                "MediaId": 9001054,
+                "MediaPathName": "Media/9001054.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\ja_vo_katixiya_sys_rankup01_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,4\\katixiya\\en_vo_katixiya_sys_rankup01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_katixiya_sys_rankup01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4275517635,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4275517635,
-                "SoundBankPathName": "Event/ko/play_favor_word_katixiya_sys_rankup01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_katixiya_sys_rankup01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 446412629,
-                "MediaPathName": "Media/ko/446412629.wem",
+                "MediaId": 694590990,
+                "MediaPathName": "Media/694590990.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\ko_vo_katixiya_sys_rankup01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_katixiya_sys_rankup01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4275517635,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4275517635,
-                "SoundBankPathName": "Event/zh/play_favor_word_katixiya_sys_rankup01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_katixiya_sys_rankup01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 450585708,
-                "MediaPathName": "Media/zh/450585708.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\zh_vo_katixiya_sys_rankup01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,4\\katixiya\\ja_vo_katixiya_sys_rankup01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_katixiya_sys_rankup01",
       "EventId": 4275517635
     },
-    "MaximumDuration": 1.2582083,
+    "MaximumDuration": 2.5642707,
     "MinimumDuration": 1.2582083,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

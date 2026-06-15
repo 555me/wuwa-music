@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3250888292,
             "SoundBanks": [
               {
                 "SoundBankId": 3250888292,
-                "SoundBankPathName": "Event/en/play_favor_word_buling_sys_foodhate.bnk",
+                "SoundBankPathName": "Event/play_favor_word_buling_sys_foodhate.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 276839253,
-                "MediaPathName": "Media/en/276839253.wem",
+                "MediaId": 925929380,
+                "MediaPathName": "Media/925929380.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\en_vo_buling_sys_foodhate_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,8\\buling\\zh_vo_buling_sys_foodhate_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_sys_foodhate"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3250888292,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3250888292,
-                "SoundBankPathName": "Event/ja/play_favor_word_buling_sys_foodhate.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_sys_foodhate",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 570998311,
-                "MediaPathName": "Media/ja/570998311.wem",
+                "MediaId": 1010061038,
+                "MediaPathName": "Media/1010061038.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ja_vo_buling_sys_foodhate_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,8\\buling\\en_vo_buling_sys_foodhate_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_sys_foodhate"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3250888292,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3250888292,
-                "SoundBankPathName": "Event/ko/play_favor_word_buling_sys_foodhate.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_sys_foodhate",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 264688601,
-                "MediaPathName": "Media/ko/264688601.wem",
+                "MediaId": 797574850,
+                "MediaPathName": "Media/797574850.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ko_vo_buling_sys_foodhate_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,8\\buling\\ko_vo_buling_sys_foodhate_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_sys_foodhate"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3250888292,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3250888292,
-                "SoundBankPathName": "Event/zh/play_favor_word_buling_sys_foodhate.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_sys_foodhate",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 470397629,
-                "MediaPathName": "Media/zh/470397629.wem",
+                "MediaId": 311436799,
+                "MediaPathName": "Media/311436799.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\zh_vo_buling_sys_foodhate_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,8\\buling\\ja_vo_buling_sys_foodhate_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_buling_sys_foodhate",
       "EventId": 3250888292
     },
-    "MaximumDuration": 6.621792,
+    "MaximumDuration": 12.095021,
     "MinimumDuration": 6.621792,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

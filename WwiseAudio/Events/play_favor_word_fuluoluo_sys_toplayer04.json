@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1915547200,
             "SoundBanks": [
               {
                 "SoundBankId": 1915547200,
-                "SoundBankPathName": "Event/en/play_favor_word_fuluoluo_sys_toplayer04.bnk",
+                "SoundBankPathName": "Event/play_favor_word_fuluoluo_sys_toplayer04.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 998588523,
-                "MediaPathName": "Media/en/998588523.wem",
+                "MediaId": 586646921,
+                "MediaPathName": "Media/586646921.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\en_vo_fuluoluo_sys_toplayer04_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,5\\fuluoluo\\ja_vo_fuluoluo_sys_toplayer04_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_fuluoluo_sys_toplayer04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1915547200,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1915547200,
-                "SoundBankPathName": "Event/ja/play_favor_word_fuluoluo_sys_toplayer04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_fuluoluo_sys_toplayer04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 892731569,
-                "MediaPathName": "Media/ja/892731569.wem",
+                "MediaId": 720915231,
+                "MediaPathName": "Media/720915231.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\ja_vo_fuluoluo_sys_toplayer04_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,5\\fuluoluo\\en_vo_fuluoluo_sys_toplayer04_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_fuluoluo_sys_toplayer04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1915547200,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1915547200,
-                "SoundBankPathName": "Event/ko/play_favor_word_fuluoluo_sys_toplayer04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_fuluoluo_sys_toplayer04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 527703980,
-                "MediaPathName": "Media/ko/527703980.wem",
+                "MediaId": 91332888,
+                "MediaPathName": "Media/91332888.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\ko_vo_fuluoluo_sys_toplayer04_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,5\\fuluoluo\\ko_vo_fuluoluo_sys_toplayer04_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_fuluoluo_sys_toplayer04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1915547200,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1915547200,
-                "SoundBankPathName": "Event/zh/play_favor_word_fuluoluo_sys_toplayer04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_fuluoluo_sys_toplayer04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 514958083,
-                "MediaPathName": "Media/zh/514958083.wem",
+                "MediaId": 870954268,
+                "MediaPathName": "Media/870954268.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\zh_vo_fuluoluo_sys_toplayer04_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,5\\fuluoluo\\zh_vo_fuluoluo_sys_toplayer04_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_fuluoluo_sys_toplayer04",
       "EventId": 1915547200
     },
-    "MaximumDuration": 40.0135,
-    "MinimumDuration": 40.0135,
+    "MaximumDuration": 44.849144,
+    "MinimumDuration": 36.38298,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

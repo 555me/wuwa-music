@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2197491642,
             "SoundBanks": [
               {
                 "SoundBankId": 2197491642,
-                "SoundBankPathName": "Event/en/play_favor_word_katixiya_sys_about_xiakong.bnk",
+                "SoundBankPathName": "Event/play_favor_word_katixiya_sys_about_xiakong.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 418379131,
-                "MediaPathName": "Media/en/418379131.wem",
+                "MediaId": 644355247,
+                "MediaPathName": "Media/644355247.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\en_vo_katixiya_sys_about_xiakong_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,4\\katixiya\\ko_vo_katixiya_sys_about_xiakong_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_katixiya_sys_about_xiakong"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2197491642,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2197491642,
-                "SoundBankPathName": "Event/ja/play_favor_word_katixiya_sys_about_xiakong.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_katixiya_sys_about_xiakong",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 100681474,
-                "MediaPathName": "Media/ja/100681474.wem",
+                "MediaId": 91027558,
+                "MediaPathName": "Media/91027558.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\ja_vo_katixiya_sys_about_xiakong_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,4\\katixiya\\zh_vo_katixiya_sys_about_xiakong_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_katixiya_sys_about_xiakong"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2197491642,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2197491642,
-                "SoundBankPathName": "Event/ko/play_favor_word_katixiya_sys_about_xiakong.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_katixiya_sys_about_xiakong",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 644888804,
-                "MediaPathName": "Media/ko/644888804.wem",
+                "MediaId": 980398640,
+                "MediaPathName": "Media/980398640.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\ko_vo_katixiya_sys_about_xiakong_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,4\\katixiya\\en_vo_katixiya_sys_about_xiakong_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_katixiya_sys_about_xiakong"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2197491642,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2197491642,
-                "SoundBankPathName": "Event/zh/play_favor_word_katixiya_sys_about_xiakong.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_katixiya_sys_about_xiakong",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 115158067,
-                "MediaPathName": "Media/zh/115158067.wem",
+                "MediaId": 276735460,
+                "MediaPathName": "Media/276735460.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\zh_vo_katixiya_sys_about_xiakong_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,4\\katixiya\\ja_vo_katixiya_sys_about_xiakong_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_katixiya_sys_about_xiakong",
       "EventId": 2197491642
     },
-    "MaximumDuration": 27.56173,
-    "MinimumDuration": 27.56173,
+    "MaximumDuration": 32.237522,
+    "MinimumDuration": 27.167938,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2599041559,
             "SoundBanks": [
               {
                 "SoundBankId": 2599041559,
-                "SoundBankPathName": "Event/en/play_vo_luhesi_com_behit.bnk",
+                "SoundBankPathName": "Event/play_vo_luhesi_com_behit.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 85840435,
-                "MediaPathName": "Media/en/85840435.wem",
+                "MediaId": 520491797,
+                "MediaPathName": "Media/520491797.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\en_vo_luhesi_com_behit_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\luhesi\\ko_vo_luhesi_com_behit_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 254829177,
-                "MediaPathName": "Media/en/254829177.wem",
+                "MediaId": 1036348001,
+                "MediaPathName": "Media/1036348001.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\en_vo_luhesi_com_behit_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\luhesi\\zh_vo_luhesi_com_behit_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 584540949,
-                "MediaPathName": "Media/en/584540949.wem",
+                "MediaId": 590990533,
+                "MediaPathName": "Media/590990533.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\en_vo_luhesi_com_behit_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luhesi_com_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2599041559,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2599041559,
-                "SoundBankPathName": "Event/ja/play_vo_luhesi_com_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luhesi_com_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 279771206,
-                "MediaPathName": "Media/ja/279771206.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\ja_vo_luhesi_com_behit_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\luhesi\\ja_vo_luhesi_com_behit_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 444810119,
-                "MediaPathName": "Media/ja/444810119.wem",
+                "MediaId": 213095986,
+                "MediaPathName": "Media/213095986.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\ja_vo_luhesi_com_behit_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\luhesi\\en_vo_luhesi_com_behit_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 610706686,
-                "MediaPathName": "Media/ja/610706686.wem",
+                "MediaId": 467945285,
+                "MediaPathName": "Media/467945285.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\ja_vo_luhesi_com_behit_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luhesi_com_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2599041559,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2599041559,
-                "SoundBankPathName": "Event/ko/play_vo_luhesi_com_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luhesi_com_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 265664925,
-                "MediaPathName": "Media/ko/265664925.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\ko_vo_luhesi_com_behit_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\luhesi\\ko_vo_luhesi_com_behit_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 631417476,
-                "MediaPathName": "Media/ko/631417476.wem",
+                "MediaId": 680337559,
+                "MediaPathName": "Media/680337559.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\ko_vo_luhesi_com_behit_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\luhesi\\zh_vo_luhesi_com_behit_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 830626494,
-                "MediaPathName": "Media/ko/830626494.wem",
+                "MediaId": 900110268,
+                "MediaPathName": "Media/900110268.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\ko_vo_luhesi_com_behit_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luhesi_com_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2599041559,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2599041559,
-                "SoundBankPathName": "Event/zh/play_vo_luhesi_com_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luhesi_com_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 184959208,
-                "MediaPathName": "Media/zh/184959208.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\zh_vo_luhesi_com_behit_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\luhesi\\ja_vo_luhesi_com_behit_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 914496044,
-                "MediaPathName": "Media/zh/914496044.wem",
+                "MediaId": 864924883,
+                "MediaPathName": "Media/864924883.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\zh_vo_luhesi_com_behit_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\luhesi\\en_vo_luhesi_com_behit_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 995109864,
-                "MediaPathName": "Media/zh/995109864.wem",
+                "MediaId": 899075275,
+                "MediaPathName": "Media/899075275.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\zh_vo_luhesi_com_behit_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\luhesi\\ko_vo_luhesi_com_behit_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 718751670,
+                "MediaPathName": "Media/718751670.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\luhesi\\zh_vo_luhesi_com_behit_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 683916519,
+                "MediaPathName": "Media/683916519.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\luhesi\\ja_vo_luhesi_com_behit_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 869660665,
+                "MediaPathName": "Media/869660665.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\luhesi\\en_vo_luhesi_com_behit_03_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,7 +160,7 @@
       "DebugName": "play_vo_luhesi_com_behit",
       "EventId": 2599041559
     },
-    "MaximumDuration": 0.85522914,
+    "MaximumDuration": 1.7413958,
     "MinimumDuration": 0.20904167,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0

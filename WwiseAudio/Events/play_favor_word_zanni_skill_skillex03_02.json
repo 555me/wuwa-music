@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3387598989,
             "SoundBanks": [
               {
                 "SoundBankId": 3387598989,
-                "SoundBankPathName": "Event/en/play_favor_word_zanni_skill_skillex03_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_zanni_skill_skillex03_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 480013055,
-                "MediaPathName": "Media/en/480013055.wem",
+                "MediaId": 21913863,
+                "MediaPathName": "Media/21913863.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\zanni\\ko_vo_zanni_skill_skillex03_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 975457824,
+                "MediaPathName": "Media/975457824.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\zanni\\ja_vo_zanni_skill_skillex03_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 702936835,
+                "MediaPathName": "Media/702936835.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\en_vo_zanni_skill_skillex03_02_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,3\\zanni\\en_vo_zanni_skill_skillex03_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zanni_skill_skillex03_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3387598989,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3387598989,
-                "SoundBankPathName": "Event/ja/play_favor_word_zanni_skill_skillex03_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zanni_skill_skillex03_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 331662154,
-                "MediaPathName": "Media/ja/331662154.wem",
+                "MediaId": 943168037,
+                "MediaPathName": "Media/943168037.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ja_vo_zanni_skill_skillex03_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zanni_skill_skillex03_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3387598989,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3387598989,
-                "SoundBankPathName": "Event/ko/play_favor_word_zanni_skill_skillex03_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zanni_skill_skillex03_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 158068056,
-                "MediaPathName": "Media/ko/158068056.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ko_vo_zanni_skill_skillex03_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zanni_skill_skillex03_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3387598989,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3387598989,
-                "SoundBankPathName": "Event/zh/play_favor_word_zanni_skill_skillex03_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zanni_skill_skillex03_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 832357649,
-                "MediaPathName": "Media/zh/832357649.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\zh_vo_zanni_skill_skillex03_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\zanni\\zh_vo_zanni_skill_skillex03_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_zanni_skill_skillex03_02",
       "EventId": 3387598989
     },
-    "MaximumDuration": 1.2436875,
+    "MaximumDuration": 2.1226666,
     "MinimumDuration": 1.2436875,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

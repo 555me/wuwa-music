@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1371662627,
             "SoundBanks": [
               {
                 "SoundBankId": 1371662627,
-                "SoundBankPathName": "Event/en/play_vo_shouanren_sys_rankup04.bnk",
+                "SoundBankPathName": "Event/play_vo_shouanren_sys_rankup04.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 797842963,
-                "MediaPathName": "Media/en/797842963.wem",
+                "MediaId": 816421105,
+                "MediaPathName": "Media/816421105.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\en_vo_shouanren_sys_rankup04_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\shouanren\\ja_vo_shouanren_sys_rankup04_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_shouanren_sys_rankup04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1371662627,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1371662627,
-                "SoundBankPathName": "Event/ja/play_vo_shouanren_sys_rankup04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_shouanren_sys_rankup04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 832757722,
-                "MediaPathName": "Media/ja/832757722.wem",
+                "MediaId": 36365064,
+                "MediaPathName": "Media/36365064.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\ja_vo_shouanren_sys_rankup04_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\shouanren\\zh_vo_shouanren_sys_rankup04_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_shouanren_sys_rankup04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1371662627,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1371662627,
-                "SoundBankPathName": "Event/ko/play_vo_shouanren_sys_rankup04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_shouanren_sys_rankup04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1020484417,
-                "MediaPathName": "Media/ko/1020484417.wem",
+                "MediaId": 902342278,
+                "MediaPathName": "Media/902342278.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\ko_vo_shouanren_sys_rankup04_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.3\\shouanren\\en_vo_shouanren_sys_rankup04_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_shouanren_sys_rankup04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1371662627,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1371662627,
-                "SoundBankPathName": "Event/zh/play_vo_shouanren_sys_rankup04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_shouanren_sys_rankup04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 459905201,
-                "MediaPathName": "Media/zh/459905201.wem",
+                "MediaId": 828286592,
+                "MediaPathName": "Media/828286592.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\zh_vo_shouanren_sys_rankup04_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\shouanren\\ko_vo_shouanren_sys_rankup04_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_vo_shouanren_sys_rankup04",
       "EventId": 1371662627
     },
-    "MaximumDuration": 7.2235417,
+    "MaximumDuration": 11.763562,
     "MinimumDuration": 7.2235417,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

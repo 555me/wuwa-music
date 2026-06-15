@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2896344100,
             "SoundBanks": [
               {
                 "SoundBankId": 2896344100,
-                "SoundBankPathName": "Event/en/play_vo_fuluoluo_sys_gacha.bnk",
+                "SoundBankPathName": "Event/play_vo_fuluoluo_sys_gacha.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 498640613,
-                "MediaPathName": "Media/en/498640613.wem",
+                "MediaId": 661579961,
+                "MediaPathName": "Media/661579961.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\en_vo_fuluoluo_sys_gacha_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,5\\fuluoluo\\ja_vo_fuluoluo_sys_gacha_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_fuluoluo_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2896344100,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2896344100,
-                "SoundBankPathName": "Event/ja/play_vo_fuluoluo_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_fuluoluo_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 240320730,
-                "MediaPathName": "Media/ja/240320730.wem",
+                "MediaId": 411358906,
+                "MediaPathName": "Media/411358906.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\ja_vo_fuluoluo_sys_gacha_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,5\\fuluoluo\\en_vo_fuluoluo_sys_gacha_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_fuluoluo_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2896344100,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2896344100,
-                "SoundBankPathName": "Event/ko/play_vo_fuluoluo_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_fuluoluo_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1038361189,
-                "MediaPathName": "Media/ko/1038361189.wem",
+                "MediaId": 466988133,
+                "MediaPathName": "Media/466988133.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\ko_vo_fuluoluo_sys_gacha_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,5\\fuluoluo\\ko_vo_fuluoluo_sys_gacha_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_fuluoluo_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2896344100,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2896344100,
-                "SoundBankPathName": "Event/zh/play_vo_fuluoluo_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_fuluoluo_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 723829665,
-                "MediaPathName": "Media/zh/723829665.wem",
+                "MediaId": 674763521,
+                "MediaPathName": "Media/674763521.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\zh_vo_fuluoluo_sys_gacha_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,5\\fuluoluo\\zh_vo_fuluoluo_sys_gacha_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 2896344100
     },
     "MaximumDuration": 14.817604,
-    "MinimumDuration": 14.817604,
+    "MinimumDuration": 13.759334,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

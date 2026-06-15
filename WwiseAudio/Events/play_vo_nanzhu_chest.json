@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2170716538,
             "SoundBanks": [
               {
                 "SoundBankId": 2170716538,
-                "SoundBankPathName": "Event/en/play_vo_nanzhu_chest.bnk",
+                "SoundBankPathName": "Event/play_vo_nanzhu_chest.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 546588937,
-                "MediaPathName": "Media/en/546588937.wem",
+                "MediaId": 306533266,
+                "MediaPathName": "Media/306533266.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_openbox_03.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_openbox_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 644415557,
-                "MediaPathName": "Media/en/644415557.wem",
+                "MediaId": 331616153,
+                "MediaPathName": "Media/331616153.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_openbox_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_openbox_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 750824230,
-                "MediaPathName": "Media/en/750824230.wem",
+                "MediaId": 285999039,
+                "MediaPathName": "Media/285999039.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_openbox_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_nanzhu_chest"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2170716538,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2170716538,
-                "SoundBankPathName": "Event/ja/play_vo_nanzhu_chest.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_nanzhu_chest",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 259404111,
-                "MediaPathName": "Media/ja/259404111.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_openbox_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_openbox_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 517458444,
-                "MediaPathName": "Media/ja/517458444.wem",
+                "MediaId": 293706527,
+                "MediaPathName": "Media/293706527.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_openbox_02.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_openbox_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 791560304,
-                "MediaPathName": "Media/ja/791560304.wem",
+                "MediaId": 82277429,
+                "MediaPathName": "Media/82277429.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_openbox_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_nanzhu_chest"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2170716538,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2170716538,
-                "SoundBankPathName": "Event/ko/play_vo_nanzhu_chest.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_nanzhu_chest",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 39451791,
-                "MediaPathName": "Media/ko/39451791.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_openbox_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_openbox_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 210422790,
-                "MediaPathName": "Media/ko/210422790.wem",
+                "MediaId": 517710185,
+                "MediaPathName": "Media/517710185.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_openbox_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_openbox_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 835668481,
-                "MediaPathName": "Media/ko/835668481.wem",
+                "MediaId": 541330301,
+                "MediaPathName": "Media/541330301.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_openbox_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_nanzhu_chest"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2170716538,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2170716538,
-                "SoundBankPathName": "Event/zh/play_vo_nanzhu_chest.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_nanzhu_chest",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 379105877,
-                "MediaPathName": "Media/zh/379105877.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_openbox_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_openbox_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 509047206,
-                "MediaPathName": "Media/zh/509047206.wem",
+                "MediaId": 876748371,
+                "MediaPathName": "Media/876748371.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_openbox_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_openbox_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 909702592,
-                "MediaPathName": "Media/zh/909702592.wem",
+                "MediaId": 646528288,
+                "MediaPathName": "Media/646528288.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_openbox_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_openbox_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 499172182,
+                "MediaPathName": "Media/499172182.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_openbox_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 722722307,
+                "MediaPathName": "Media/722722307.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_openbox_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 918533308,
+                "MediaPathName": "Media/918533308.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_openbox_01.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2861484846,
             "SoundBanks": [
               {
                 "SoundBankId": 2861484846,
-                "SoundBankPathName": "Event/en/play_vo_xigelika_sys_rogue_link.bnk",
+                "SoundBankPathName": "Event/play_vo_xigelika_sys_rogue_link.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 818024005,
-                "MediaPathName": "Media/en/818024005.wem",
+                "MediaId": 367087251,
+                "MediaPathName": "Media/367087251.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\en_vo_xigelika_sys_rogue_link_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,2\\xigelika\\ko_vo_xigelika_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1038486434,
-                "MediaPathName": "Media/en/1038486434.wem",
+                "MediaId": 586793251,
+                "MediaPathName": "Media/586793251.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\en_vo_xigelika_sys_rogue_link_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_xigelika_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2861484846,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2861484846,
-                "SoundBankPathName": "Event/ja/play_vo_xigelika_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_xigelika_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 115854300,
-                "MediaPathName": "Media/ja/115854300.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\ja_vo_xigelika_sys_rogue_link_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,2\\xigelika\\en_vo_xigelika_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 872990094,
-                "MediaPathName": "Media/ja/872990094.wem",
+                "MediaId": 23289159,
+                "MediaPathName": "Media/23289159.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\ja_vo_xigelika_sys_rogue_link_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_xigelika_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2861484846,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2861484846,
-                "SoundBankPathName": "Event/ko/play_vo_xigelika_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_xigelika_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 193825667,
-                "MediaPathName": "Media/ko/193825667.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\ko_vo_xigelika_sys_rogue_link_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,2\\xigelika\\zh_vo_xigelika_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 545554773,
-                "MediaPathName": "Media/ko/545554773.wem",
+                "MediaId": 125001451,
+                "MediaPathName": "Media/125001451.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\ko_vo_xigelika_sys_rogue_link_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_xigelika_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2861484846,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2861484846,
-                "SoundBankPathName": "Event/zh/play_vo_xigelika_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_xigelika_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 63553496,
-                "MediaPathName": "Media/zh/63553496.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\zh_vo_xigelika_sys_rogue_link_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,2\\xigelika\\ja_vo_xigelika_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 393511826,
-                "MediaPathName": "Media/zh/393511826.wem",
+                "MediaId": 579063305,
+                "MediaPathName": "Media/579063305.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\zh_vo_xigelika_sys_rogue_link_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,2\\xigelika\\ko_vo_xigelika_sys_rogue_link_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 499115234,
+                "MediaPathName": "Media/499115234.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,2\\xigelika\\en_vo_xigelika_sys_rogue_link_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 700045948,
+                "MediaPathName": "Media/700045948.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,2\\xigelika\\zh_vo_xigelika_sys_rogue_link_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 293311801,
+                "MediaPathName": "Media/293311801.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,2\\xigelika\\ja_vo_xigelika_sys_rogue_link_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,8 +120,8 @@
       "DebugName": "play_vo_xigelika_sys_rogue_link",
       "EventId": 2861484846
     },
-    "MaximumDuration": 1.3933333,
-    "MinimumDuration": 1.293,
+    "MaximumDuration": 1.8910416,
+    "MinimumDuration": 1.2510417,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

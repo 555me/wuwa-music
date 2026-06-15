@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3828388168,
             "SoundBanks": [
               {
                 "SoundBankId": 3828388168,
-                "SoundBankPathName": "Event/en/play_vo_kanteleila_com_behitfly.bnk",
+                "SoundBankPathName": "Event/play_vo_kanteleila_com_behitfly.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 399469971,
-                "MediaPathName": "Media/en/399469971.wem",
+                "MediaId": 906095054,
+                "MediaPathName": "Media/906095054.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\en_vo_kanteleila_com_behitfly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_com_behitfly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 690988658,
-                "MediaPathName": "Media/en/690988658.wem",
+                "MediaId": 821334720,
+                "MediaPathName": "Media/821334720.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\en_vo_kanteleila_com_behitfly_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_com_behitfly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 946212553,
-                "MediaPathName": "Media/en/946212553.wem",
+                "MediaId": 720931,
+                "MediaPathName": "Media/720931.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\en_vo_kanteleila_com_behitfly_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kanteleila_com_behitfly"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3828388168,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3828388168,
-                "SoundBankPathName": "Event/ja/play_vo_kanteleila_com_behitfly.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kanteleila_com_behitfly",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 191418425,
-                "MediaPathName": "Media/ja/191418425.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_com_behitfly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_com_behitfly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 668739149,
-                "MediaPathName": "Media/ja/668739149.wem",
+                "MediaId": 594907511,
+                "MediaPathName": "Media/594907511.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_com_behitfly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,2\\kanteleila\\en_vo_kanteleila_com_behitfly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 976331088,
-                "MediaPathName": "Media/ja/976331088.wem",
+                "MediaId": 302142683,
+                "MediaPathName": "Media/302142683.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_com_behitfly_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kanteleila_com_behitfly"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3828388168,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3828388168,
-                "SoundBankPathName": "Event/ko/play_vo_kanteleila_com_behitfly.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kanteleila_com_behitfly",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 70472653,
-                "MediaPathName": "Media/ko/70472653.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_com_behitfly_03_tone.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_com_behitfly_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 378981796,
-                "MediaPathName": "Media/ko/378981796.wem",
+                "MediaId": 899116040,
+                "MediaPathName": "Media/899116040.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_com_behitfly_02_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_com_behitfly_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 900462348,
-                "MediaPathName": "Media/ko/900462348.wem",
+                "MediaId": 8722266,
+                "MediaPathName": "Media/8722266.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_com_behitfly_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kanteleila_com_behitfly"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3828388168,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3828388168,
-                "SoundBankPathName": "Event/zh/play_vo_kanteleila_com_behitfly.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kanteleila_com_behitfly",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 216821258,
-                "MediaPathName": "Media/zh/216821258.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_com_behitfly_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_com_behitfly_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 231370903,
-                "MediaPathName": "Media/zh/231370903.wem",
+                "MediaId": 740264834,
+                "MediaPathName": "Media/740264834.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_com_behitfly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,2\\kanteleila\\en_vo_kanteleila_com_behitfly_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 816199398,
-                "MediaPathName": "Media/zh/816199398.wem",
+                "MediaId": 1064880005,
+                "MediaPathName": "Media/1064880005.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_com_behitfly_02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_com_behitfly_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 161675203,
+                "MediaPathName": "Media/161675203.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_com_behitfly_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 239299818,
+                "MediaPathName": "Media/239299818.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_com_behitfly_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 845658691,
+                "MediaPathName": "Media/845658691.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_2,2\\kanteleila\\en_vo_kanteleila_com_behitfly_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,8 +160,8 @@
       "DebugName": "play_vo_kanteleila_com_behitfly",
       "EventId": 3828388168
     },
-    "MaximumDuration": 2.3354166,
-    "MinimumDuration": 1.5323125,
+    "MaximumDuration": 2.4095416,
+    "MinimumDuration": 1.5191875,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

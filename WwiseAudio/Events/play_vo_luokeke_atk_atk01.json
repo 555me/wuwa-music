@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3186674091,
             "SoundBanks": [
               {
                 "SoundBankId": 3186674091,
-                "SoundBankPathName": "Event/en/play_vo_luokeke_atk_atk01.bnk",
+                "SoundBankPathName": "Event/play_vo_luokeke_atk_atk01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 273585415,
-                "MediaPathName": "Media/en/273585415.wem",
+                "MediaId": 402951473,
+                "MediaPathName": "Media/402951473.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\en_vo_luokeke_atk_atk01_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\luokeke\\ja_vo_luokeke_atk_atk01_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 463816229,
-                "MediaPathName": "Media/en/463816229.wem",
+                "MediaId": 867405689,
+                "MediaPathName": "Media/867405689.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\en_vo_luokeke_atk_atk01_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\luokeke\\en_vo_luokeke_atk_atk01_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1071080255,
-                "MediaPathName": "Media/en/1071080255.wem",
+                "MediaId": 1070900029,
+                "MediaPathName": "Media/1070900029.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\en_vo_luokeke_atk_atk01_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luokeke_atk_atk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3186674091,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3186674091,
-                "SoundBankPathName": "Event/ja/play_vo_luokeke_atk_atk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luokeke_atk_atk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 36585932,
-                "MediaPathName": "Media/ja/36585932.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ja_vo_luokeke_atk_atk01_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\luokeke\\ko_vo_luokeke_atk_atk01_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 161843961,
-                "MediaPathName": "Media/ja/161843961.wem",
+                "MediaId": 312672734,
+                "MediaPathName": "Media/312672734.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ja_vo_luokeke_atk_atk01_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\luokeke\\zh_vo_luokeke_atk_atk01_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 250117861,
-                "MediaPathName": "Media/ja/250117861.wem",
+                "MediaId": 872094565,
+                "MediaPathName": "Media/872094565.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ja_vo_luokeke_atk_atk01_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luokeke_atk_atk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3186674091,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3186674091,
-                "SoundBankPathName": "Event/ko/play_vo_luokeke_atk_atk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luokeke_atk_atk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 125374546,
-                "MediaPathName": "Media/ko/125374546.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ko_vo_luokeke_atk_atk01_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\luokeke\\ja_vo_luokeke_atk_atk01_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 362393205,
-                "MediaPathName": "Media/ko/362393205.wem",
+                "MediaId": 638775433,
+                "MediaPathName": "Media/638775433.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ko_vo_luokeke_atk_atk01_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\luokeke\\en_vo_luokeke_atk_atk01_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 742341248,
-                "MediaPathName": "Media/ko/742341248.wem",
+                "MediaId": 785619709,
+                "MediaPathName": "Media/785619709.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ko_vo_luokeke_atk_atk01_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luokeke_atk_atk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3186674091,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3186674091,
-                "SoundBankPathName": "Event/zh/play_vo_luokeke_atk_atk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luokeke_atk_atk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 87896875,
-                "MediaPathName": "Media/zh/87896875.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\zh_vo_luokeke_atk_atk01_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\luokeke\\ko_vo_luokeke_atk_atk01_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 747933503,
-                "MediaPathName": "Media/zh/747933503.wem",
+                "MediaId": 23979331,
+                "MediaPathName": "Media/23979331.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\zh_vo_luokeke_atk_atk01_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\luokeke\\zh_vo_luokeke_atk_atk01_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 768662779,
-                "MediaPathName": "Media/zh/768662779.wem",
+                "MediaId": 742977659,
+                "MediaPathName": "Media/742977659.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\zh_vo_luokeke_atk_atk01_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\luokeke\\ja_vo_luokeke_atk_atk01_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 25933657,
+                "MediaPathName": "Media/25933657.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\luokeke\\en_vo_luokeke_atk_atk01_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 528503250,
+                "MediaPathName": "Media/528503250.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\luokeke\\ko_vo_luokeke_atk_atk01_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 6896436,
+                "MediaPathName": "Media/6896436.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\luokeke\\zh_vo_luokeke_atk_atk01_02_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -248,7 +161,7 @@
       "EventId": 3186674091
     },
     "MaximumDuration": 0.406,
-    "MinimumDuration": 0.28177083,
+    "MinimumDuration": 0.2458125,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

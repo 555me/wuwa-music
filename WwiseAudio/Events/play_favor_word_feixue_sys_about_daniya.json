@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4281744441,
             "SoundBanks": [
               {
                 "SoundBankId": 4281744441,
-                "SoundBankPathName": "Event/en/play_favor_word_feixue_sys_about_daniya.bnk",
+                "SoundBankPathName": "Event/play_favor_word_feixue_sys_about_daniya.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 426768947,
-                "MediaPathName": "Media/en/426768947.wem",
+                "MediaId": 165914636,
+                "MediaPathName": "Media/165914636.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_sys_about_daniya_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_sys_about_daniya_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_sys_about_daniya"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4281744441,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4281744441,
-                "SoundBankPathName": "Event/ja/play_favor_word_feixue_sys_about_daniya.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_sys_about_daniya",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 561254715,
-                "MediaPathName": "Media/ja/561254715.wem",
+                "MediaId": 304905360,
+                "MediaPathName": "Media/304905360.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_sys_about_daniya_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_sys_about_daniya_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_sys_about_daniya"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4281744441,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4281744441,
-                "SoundBankPathName": "Event/ko/play_favor_word_feixue_sys_about_daniya.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_sys_about_daniya",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 381916055,
-                "MediaPathName": "Media/ko/381916055.wem",
+                "MediaId": 551291044,
+                "MediaPathName": "Media/551291044.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_sys_about_daniya_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_sys_about_daniya_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_sys_about_daniya"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4281744441,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4281744441,
-                "SoundBankPathName": "Event/zh/play_favor_word_feixue_sys_about_daniya.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_sys_about_daniya",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 643372380,
-                "MediaPathName": "Media/zh/643372380.wem",
+                "MediaId": 491302397,
+                "MediaPathName": "Media/491302397.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_sys_about_daniya_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_sys_about_daniya_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_feixue_sys_about_daniya",
       "EventId": 4281744441
     },
-    "MaximumDuration": 26.766083,
+    "MaximumDuration": 38.38977,
     "MinimumDuration": 26.766083,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

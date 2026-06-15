@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2696102132,
             "SoundBanks": [
               {
                 "SoundBankId": 2696102132,
-                "SoundBankPathName": "Event/en/play_favor_word_shouanren_burst_burst01_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_shouanren_burst_burst01_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 982285120,
-                "MediaPathName": "Media/en/982285120.wem",
+                "MediaId": 854483838,
+                "MediaPathName": "Media/854483838.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\en_vo_shouanren_burst_burst01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\shouanren\\ja_vo_shouanren_burst_burst01_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_shouanren_burst_burst01_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2696102132,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2696102132,
-                "SoundBankPathName": "Event/ja/play_favor_word_shouanren_burst_burst01_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_shouanren_burst_burst01_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 797645337,
-                "MediaPathName": "Media/ja/797645337.wem",
+                "MediaId": 258554212,
+                "MediaPathName": "Media/258554212.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\ja_vo_shouanren_burst_burst01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\shouanren\\zh_vo_shouanren_burst_burst01_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_shouanren_burst_burst01_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2696102132,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2696102132,
-                "SoundBankPathName": "Event/ko/play_favor_word_shouanren_burst_burst01_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_shouanren_burst_burst01_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 770370416,
-                "MediaPathName": "Media/ko/770370416.wem",
+                "MediaId": 33971480,
+                "MediaPathName": "Media/33971480.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\ko_vo_shouanren_burst_burst01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\shouanren\\en_vo_shouanren_burst_burst01_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_shouanren_burst_burst01_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2696102132,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2696102132,
-                "SoundBankPathName": "Event/zh/play_favor_word_shouanren_burst_burst01_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_shouanren_burst_burst01_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 695399436,
-                "MediaPathName": "Media/zh/695399436.wem",
+                "MediaId": 9924849,
+                "MediaPathName": "Media/9924849.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\zh_vo_shouanren_burst_burst01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\shouanren\\ko_vo_shouanren_burst_burst01_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_shouanren_burst_burst01_01",
       "EventId": 2696102132
     },
-    "MaximumDuration": 1.5104792,
-    "MinimumDuration": 1.5104792,
+    "MaximumDuration": 1.5741458,
+    "MinimumDuration": 1.121,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

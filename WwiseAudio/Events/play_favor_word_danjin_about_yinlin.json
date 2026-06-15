@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2405673220,
             "SoundBanks": [
               {
                 "SoundBankId": 2405673220,
-                "SoundBankPathName": "Event/en/play_favor_word_danjin_about_yinlin.bnk",
+                "SoundBankPathName": "Event/play_favor_word_danjin_about_yinlin.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 902600496,
-                "MediaPathName": "Media/en/902600496.wem",
+                "MediaId": 543001526,
+                "MediaPathName": "Media/543001526.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_about_yinlin.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_about_yinlin.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_danjin_about_yinlin"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2405673220,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2405673220,
-                "SoundBankPathName": "Event/ja/play_favor_word_danjin_about_yinlin.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_danjin_about_yinlin",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 93838340,
-                "MediaPathName": "Media/ja/93838340.wem",
+                "MediaId": 1037428945,
+                "MediaPathName": "Media/1037428945.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_about_yinlin.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_about_yinlin.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_danjin_about_yinlin"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2405673220,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2405673220,
-                "SoundBankPathName": "Event/ko/play_favor_word_danjin_about_yinlin.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_danjin_about_yinlin",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 195760195,
-                "MediaPathName": "Media/ko/195760195.wem",
+                "MediaId": 991994391,
+                "MediaPathName": "Media/991994391.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_about_yinlin.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_about_yinlin.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_danjin_about_yinlin"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2405673220,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2405673220,
-                "SoundBankPathName": "Event/zh/play_favor_word_danjin_about_yinlin.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_danjin_about_yinlin",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 814047529,
-                "MediaPathName": "Media/zh/814047529.wem",
+                "MediaId": 132623244,
+                "MediaPathName": "Media/132623244.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_about_yinlin.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_about_yinlin.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_danjin_about_yinlin",
       "EventId": 2405673220
     },
-    "MaximumDuration": 11.68839,
+    "MaximumDuration": 16.610043,
     "MinimumDuration": 11.68839,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

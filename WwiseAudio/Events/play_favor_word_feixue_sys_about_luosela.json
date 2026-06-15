@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3382617798,
             "SoundBanks": [
               {
                 "SoundBankId": 3382617798,
-                "SoundBankPathName": "Event/en/play_favor_word_feixue_sys_about_luosela.bnk",
+                "SoundBankPathName": "Event/play_favor_word_feixue_sys_about_luosela.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 50766832,
-                "MediaPathName": "Media/en/50766832.wem",
+                "MediaId": 247079215,
+                "MediaPathName": "Media/247079215.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_sys_about_luosela_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_sys_about_luosela_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_sys_about_luosela"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3382617798,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3382617798,
-                "SoundBankPathName": "Event/ja/play_favor_word_feixue_sys_about_luosela.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_sys_about_luosela",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 589245974,
-                "MediaPathName": "Media/ja/589245974.wem",
+                "MediaId": 965959682,
+                "MediaPathName": "Media/965959682.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_sys_about_luosela_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_sys_about_luosela_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_sys_about_luosela"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3382617798,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3382617798,
-                "SoundBankPathName": "Event/ko/play_favor_word_feixue_sys_about_luosela.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_sys_about_luosela",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 995313867,
-                "MediaPathName": "Media/ko/995313867.wem",
+                "MediaId": 95721435,
+                "MediaPathName": "Media/95721435.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_sys_about_luosela_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_sys_about_luosela_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feixue_sys_about_luosela"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3382617798,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3382617798,
-                "SoundBankPathName": "Event/zh/play_favor_word_feixue_sys_about_luosela.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feixue_sys_about_luosela",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 414197342,
-                "MediaPathName": "Media/zh/414197342.wem",
+                "MediaId": 432002353,
+                "MediaPathName": "Media/432002353.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_sys_about_luosela_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_sys_about_luosela_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_feixue_sys_about_luosela",
       "EventId": 3382617798
     },
-    "MaximumDuration": 28.1485,
+    "MaximumDuration": 48.125523,
     "MinimumDuration": 28.1485,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

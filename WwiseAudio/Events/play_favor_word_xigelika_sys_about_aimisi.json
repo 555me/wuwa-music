@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3875142847,
             "SoundBanks": [
               {
                 "SoundBankId": 3875142847,
-                "SoundBankPathName": "Event/en/play_favor_word_xigelika_sys_about_aimisi.bnk",
+                "SoundBankPathName": "Event/play_favor_word_xigelika_sys_about_aimisi.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 604801343,
-                "MediaPathName": "Media/en/604801343.wem",
+                "MediaId": 132156588,
+                "MediaPathName": "Media/132156588.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\en_vo_xigelika_sys_about_aimisi_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,2\\xigelika\\ko_vo_xigelika_sys_about_aimisi_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xigelika_sys_about_aimisi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3875142847,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3875142847,
-                "SoundBankPathName": "Event/ja/play_favor_word_xigelika_sys_about_aimisi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xigelika_sys_about_aimisi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 560695676,
-                "MediaPathName": "Media/ja/560695676.wem",
+                "MediaId": 1029532064,
+                "MediaPathName": "Media/1029532064.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\ja_vo_xigelika_sys_about_aimisi_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,2\\xigelika\\en_vo_xigelika_sys_about_aimisi_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xigelika_sys_about_aimisi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3875142847,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3875142847,
-                "SoundBankPathName": "Event/ko/play_favor_word_xigelika_sys_about_aimisi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xigelika_sys_about_aimisi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 475566724,
-                "MediaPathName": "Media/ko/475566724.wem",
+                "MediaId": 52454169,
+                "MediaPathName": "Media/52454169.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\ko_vo_xigelika_sys_about_aimisi_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,2\\xigelika\\zh_vo_xigelika_sys_about_aimisi_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xigelika_sys_about_aimisi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3875142847,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3875142847,
-                "SoundBankPathName": "Event/zh/play_favor_word_xigelika_sys_about_aimisi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xigelika_sys_about_aimisi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 198463987,
-                "MediaPathName": "Media/zh/198463987.wem",
+                "MediaId": 40437664,
+                "MediaPathName": "Media/40437664.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,2\\xigelika\\zh_vo_xigelika_sys_about_aimisi_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,2\\xigelika\\ja_vo_xigelika_sys_about_aimisi_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_xigelika_sys_about_aimisi",
       "EventId": 3875142847
     },
-    "MaximumDuration": 13.796437,
+    "MaximumDuration": 19.237,
     "MinimumDuration": 13.796437,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

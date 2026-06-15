@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1425165106,
             "SoundBanks": [
               {
                 "SoundBankId": 1425165106,
-                "SoundBankPathName": "Event/en/play_favor_word_bulante_burst_burst01_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_bulante_burst_burst01_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 325637177,
-                "MediaPathName": "Media/en/325637177.wem",
+                "MediaId": 308237783,
+                "MediaPathName": "Media/308237783.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\en_vo_bulante_burst_burst01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\bulante\\zh_vo_bulante_burst_burst01_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_bulante_burst_burst01_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1425165106,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1425165106,
-                "SoundBankPathName": "Event/ja/play_favor_word_bulante_burst_burst01_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_bulante_burst_burst01_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 480844713,
-                "MediaPathName": "Media/ja/480844713.wem",
+                "MediaId": 698038193,
+                "MediaPathName": "Media/698038193.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ja_vo_bulante_burst_burst01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\bulante\\ja_vo_bulante_burst_burst01_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_bulante_burst_burst01_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1425165106,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1425165106,
-                "SoundBankPathName": "Event/ko/play_favor_word_bulante_burst_burst01_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_bulante_burst_burst01_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 41735045,
-                "MediaPathName": "Media/ko/41735045.wem",
+                "MediaId": 881591986,
+                "MediaPathName": "Media/881591986.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ko_vo_bulante_burst_burst01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\bulante\\en_vo_bulante_burst_burst01_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_bulante_burst_burst01_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1425165106,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1425165106,
-                "SoundBankPathName": "Event/zh/play_favor_word_bulante_burst_burst01_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_bulante_burst_burst01_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 188188500,
-                "MediaPathName": "Media/zh/188188500.wem",
+                "MediaId": 599626499,
+                "MediaPathName": "Media/599626499.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\zh_vo_bulante_burst_burst01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\bulante\\ko_vo_bulante_burst_burst01_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_bulante_burst_burst01_01",
       "EventId": 1425165106
     },
-    "MaximumDuration": 0.993375,
-    "MinimumDuration": 0.993375,
+    "MaximumDuration": 1.5743333,
+    "MinimumDuration": 0.95027083,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

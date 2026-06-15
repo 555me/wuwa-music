@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3289408344,
             "SoundBanks": [
               {
                 "SoundBankId": 3289408344,
-                "SoundBankPathName": "Event/en/play_favor_word_jinxi_com_openbox_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_jinxi_com_openbox_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 294277482,
-                "MediaPathName": "Media/en/294277482.wem",
+                "MediaId": 693811705,
+                "MediaPathName": "Media/693811705.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,1\\jinxi\\en_vo_jinxi_com_openbox_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 573061067,
+                "MediaPathName": "Media/573061067.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\jinxi\\ko_vo_jinxi_com_openbox_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 811420220,
+                "MediaPathName": "Media/811420220.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\jinxi\\zh_vo_jinxi_com_openbox_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 274424685,
+                "MediaPathName": "Media/274424685.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_com_openbox_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_com_openbox_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3289408344,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3289408344,
-                "SoundBankPathName": "Event/ja/play_favor_word_jinxi_com_openbox_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_com_openbox_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 881628557,
-                "MediaPathName": "Media/ja/881628557.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_com_openbox_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_com_openbox_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3289408344,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3289408344,
-                "SoundBankPathName": "Event/ko/play_favor_word_jinxi_com_openbox_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_com_openbox_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 698250468,
-                "MediaPathName": "Media/ko/698250468.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_com_openbox_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_com_openbox_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3289408344,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3289408344,
-                "SoundBankPathName": "Event/zh/play_favor_word_jinxi_com_openbox_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_com_openbox_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 579724194,
-                "MediaPathName": "Media/zh/579724194.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_com_openbox_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\jinxi\\ja_vo_jinxi_com_openbox_01.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_jinxi_com_openbox_01",
       "EventId": 3289408344
     },
-    "MaximumDuration": 1.061,
+    "MaximumDuration": 2.059,
     "MinimumDuration": 1.061,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

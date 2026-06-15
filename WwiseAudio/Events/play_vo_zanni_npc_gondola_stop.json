@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 90831052,
             "SoundBanks": [
               {
                 "SoundBankId": 90831052,
-                "SoundBankPathName": "Event/en/play_vo_zanni_npc_gondola_stop.bnk",
+                "SoundBankPathName": "Event/play_vo_zanni_npc_gondola_stop.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 178070282,
-                "MediaPathName": "Media/en/178070282.wem",
+                "MediaId": 91731254,
+                "MediaPathName": "Media/91731254.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\zanni\\ja_vo_zanni_npc_gondola_stop_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 493407075,
+                "MediaPathName": "Media/493407075.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,3\\zanni\\en_vo_zanni_npc_gondola_stop_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1066593672,
+                "MediaPathName": "Media/1066593672.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\en_vo_zanni_npc_gondola_stop_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\zanni\\zh_vo_zanni_npc_gondola_stop_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zanni_npc_gondola_stop"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 90831052,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 90831052,
-                "SoundBankPathName": "Event/ja/play_vo_zanni_npc_gondola_stop.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zanni_npc_gondola_stop",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 940771089,
-                "MediaPathName": "Media/ja/940771089.wem",
+                "MediaId": 1019449764,
+                "MediaPathName": "Media/1019449764.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ja_vo_zanni_npc_gondola_stop_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zanni_npc_gondola_stop"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 90831052,
-            "SoundBanks": [
-              {
-                "SoundBankId": 90831052,
-                "SoundBankPathName": "Event/ko/play_vo_zanni_npc_gondola_stop.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zanni_npc_gondola_stop",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 765500418,
-                "MediaPathName": "Media/ko/765500418.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ko_vo_zanni_npc_gondola_stop_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zanni_npc_gondola_stop"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 90831052,
-            "SoundBanks": [
-              {
-                "SoundBankId": 90831052,
-                "SoundBankPathName": "Event/zh/play_vo_zanni_npc_gondola_stop.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zanni_npc_gondola_stop",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1027264849,
-                "MediaPathName": "Media/zh/1027264849.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\zh_vo_zanni_npc_gondola_stop_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\zanni\\ko_vo_zanni_npc_gondola_stop_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_zanni_npc_gondola_stop",
       "EventId": 90831052
     },
-    "MaximumDuration": 2.9437292,
-    "MinimumDuration": 2.9437292,
+    "MaximumDuration": 3.2925625,
+    "MinimumDuration": 1.5045834,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

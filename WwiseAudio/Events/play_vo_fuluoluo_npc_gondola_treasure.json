@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 510061258,
             "SoundBanks": [
               {
                 "SoundBankId": 510061258,
-                "SoundBankPathName": "Event/en/play_vo_fuluoluo_npc_gondola_treasure.bnk",
+                "SoundBankPathName": "Event/play_vo_fuluoluo_npc_gondola_treasure.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 658520976,
-                "MediaPathName": "Media/en/658520976.wem",
+                "MediaId": 991233257,
+                "MediaPathName": "Media/991233257.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\en_vo_fuluoluo_sys_gondola_treasure_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,5\\fuluoluo\\ja_vo_fuluoluo_sys_gondola_treasure_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_fuluoluo_npc_gondola_treasure"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 510061258,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 510061258,
-                "SoundBankPathName": "Event/ja/play_vo_fuluoluo_npc_gondola_treasure.bnk",
+                "MediaId": 550339845,
+                "MediaPathName": "Media/550339845.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_fuluoluo_npc_gondola_treasure",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,5\\fuluoluo\\en_vo_fuluoluo_sys_gondola_treasure_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 251026623,
-                "MediaPathName": "Media/ja/251026623.wem",
+                "MediaId": 1050702685,
+                "MediaPathName": "Media/1050702685.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\ja_vo_fuluoluo_sys_gondola_treasure_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,5\\fuluoluo\\zh_vo_fuluoluo_sys_gondola_treasure_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_fuluoluo_npc_gondola_treasure"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 510061258,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 510061258,
-                "SoundBankPathName": "Event/ko/play_vo_fuluoluo_npc_gondola_treasure.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_fuluoluo_npc_gondola_treasure",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 580688565,
-                "MediaPathName": "Media/ko/580688565.wem",
+                "MediaId": 1039260750,
+                "MediaPathName": "Media/1039260750.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\ko_vo_fuluoluo_sys_gondola_treasure_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_fuluoluo_npc_gondola_treasure"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 510061258,
-            "SoundBanks": [
-              {
-                "SoundBankId": 510061258,
-                "SoundBankPathName": "Event/zh/play_vo_fuluoluo_npc_gondola_treasure.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_fuluoluo_npc_gondola_treasure",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 63433389,
-                "MediaPathName": "Media/zh/63433389.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,5\\fuluoluo\\zh_vo_fuluoluo_sys_gondola_treasure_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,5\\fuluoluo\\ko_vo_fuluoluo_sys_gondola_treasure_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_fuluoluo_npc_gondola_treasure",
       "EventId": 510061258
     },
-    "MaximumDuration": 2.6154583,
-    "MinimumDuration": 2.6154583,
+    "MaximumDuration": 2.986271,
+    "MinimumDuration": 1.6347083,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

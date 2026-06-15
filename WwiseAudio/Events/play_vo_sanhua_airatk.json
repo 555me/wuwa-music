@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2074919371,
             "SoundBanks": [
               {
                 "SoundBankId": 2074919371,
-                "SoundBankPathName": "Event/en/play_vo_sanhua_airatk.bnk",
+                "SoundBankPathName": "Event/play_vo_sanhua_airatk.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 364520146,
-                "MediaPathName": "Media/en/364520146.wem",
+                "MediaId": 195504159,
+                "MediaPathName": "Media/195504159.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\sanhua\\en_vo_sanhua_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 408549004,
-                "MediaPathName": "Media/en/408549004.wem",
+                "MediaId": 812882055,
+                "MediaPathName": "Media/812882055.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\sanhua\\ko_vo_sanhua_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 674419925,
-                "MediaPathName": "Media/en/674419925.wem",
+                "MediaId": 228281275,
+                "MediaPathName": "Media/228281275.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_airatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_sanhua_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2074919371,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2074919371,
-                "SoundBankPathName": "Event/ja/play_vo_sanhua_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_sanhua_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 278799213,
-                "MediaPathName": "Media/ja/278799213.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\sanhua\\zh_vo_sanhua_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 510679545,
-                "MediaPathName": "Media/ja/510679545.wem",
+                "MediaId": 335190882,
+                "MediaPathName": "Media/335190882.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\sanhua\\ja_vo_sanhua_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 686824685,
-                "MediaPathName": "Media/ja/686824685.wem",
+                "MediaId": 497667742,
+                "MediaPathName": "Media/497667742.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_airatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_sanhua_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2074919371,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2074919371,
-                "SoundBankPathName": "Event/ko/play_vo_sanhua_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_sanhua_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 52825792,
-                "MediaPathName": "Media/ko/52825792.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\sanhua\\en_vo_sanhua_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 589669099,
-                "MediaPathName": "Media/ko/589669099.wem",
+                "MediaId": 724784140,
+                "MediaPathName": "Media/724784140.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\sanhua\\ko_vo_sanhua_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1019243476,
-                "MediaPathName": "Media/ko/1019243476.wem",
+                "MediaId": 394856782,
+                "MediaPathName": "Media/394856782.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_airatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_sanhua_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2074919371,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2074919371,
-                "SoundBankPathName": "Event/zh/play_vo_sanhua_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_sanhua_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 113499363,
-                "MediaPathName": "Media/zh/113499363.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\sanhua\\zh_vo_sanhua_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 656863486,
-                "MediaPathName": "Media/zh/656863486.wem",
+                "MediaId": 877261255,
+                "MediaPathName": "Media/877261255.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\sanhua\\ja_vo_sanhua_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 688095255,
-                "MediaPathName": "Media/zh/688095255.wem",
+                "MediaId": 647380036,
+                "MediaPathName": "Media/647380036.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_airatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\sanhua\\en_vo_sanhua_airatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 142340042,
+                "MediaPathName": "Media/142340042.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\sanhua\\ko_vo_sanhua_airatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 234490320,
+                "MediaPathName": "Media/234490320.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\sanhua\\zh_vo_sanhua_airatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 515175617,
+                "MediaPathName": "Media/515175617.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\sanhua\\ja_vo_sanhua_airatk_01.wav",
                 "PackagedFile": null
               }
             ],

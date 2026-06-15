@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3669125904,
             "SoundBanks": [
               {
                 "SoundBankId": 3669125904,
-                "SoundBankPathName": "Event/en/play_favor_word_sanhua_heavyatk02_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_sanhua_heavyatk02_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 149470319,
-                "MediaPathName": "Media/en/149470319.wem",
+                "MediaId": 699276127,
+                "MediaPathName": "Media/699276127.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_heavyatk02_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\sanhua\\en_vo_sanhua_heavyatk02_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_sanhua_heavyatk02_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3669125904,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3669125904,
-                "SoundBankPathName": "Event/ja/play_favor_word_sanhua_heavyatk02_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_sanhua_heavyatk02_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 718739604,
-                "MediaPathName": "Media/ja/718739604.wem",
+                "MediaId": 232747163,
+                "MediaPathName": "Media/232747163.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_heavyatk02_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\sanhua\\ko_vo_sanhua_heavyatk02_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_sanhua_heavyatk02_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3669125904,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3669125904,
-                "SoundBankPathName": "Event/ko/play_favor_word_sanhua_heavyatk02_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_sanhua_heavyatk02_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 551992949,
-                "MediaPathName": "Media/ko/551992949.wem",
+                "MediaId": 918768270,
+                "MediaPathName": "Media/918768270.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_heavyatk02_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\sanhua\\zh_vo_sanhua_heavyatk02_03.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_sanhua_heavyatk02_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3669125904,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3669125904,
-                "SoundBankPathName": "Event/zh/play_favor_word_sanhua_heavyatk02_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_sanhua_heavyatk02_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 933465159,
-                "MediaPathName": "Media/zh/933465159.wem",
+                "MediaId": 604179299,
+                "MediaPathName": "Media/604179299.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_heavyatk02_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\sanhua\\ja_vo_sanhua_heavyatk02_03.wav",
                 "PackagedFile": null
               }
             ],

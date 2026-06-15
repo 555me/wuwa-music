@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2071994695,
             "SoundBanks": [
               {
                 "SoundBankId": 2071994695,
-                "SoundBankPathName": "Event/en/play_favor_word_aimisi_humanform_skill_qte.bnk",
+                "SoundBankPathName": "Event/play_favor_word_aimisi_humanform_skill_qte.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1065127743,
-                "MediaPathName": "Media/en/1065127743.wem",
+                "MediaId": 680981326,
+                "MediaPathName": "Media/680981326.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\en_vo_aimisi_humanform_skill_qte_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\aimisi\\ja_vo_aimisi_humanform_skill_qte_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_humanform_skill_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2071994695,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2071994695,
-                "SoundBankPathName": "Event/ja/play_favor_word_aimisi_humanform_skill_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_humanform_skill_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 10950764,
-                "MediaPathName": "Media/ja/10950764.wem",
+                "MediaId": 958960548,
+                "MediaPathName": "Media/958960548.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ja_vo_aimisi_humanform_skill_qte_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\aimisi\\en_vo_aimisi_humanform_skill_qte_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_humanform_skill_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2071994695,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2071994695,
-                "SoundBankPathName": "Event/ko/play_favor_word_aimisi_humanform_skill_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_humanform_skill_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 507147767,
-                "MediaPathName": "Media/ko/507147767.wem",
+                "MediaId": 66570341,
+                "MediaPathName": "Media/66570341.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ko_vo_aimisi_humanform_skill_qte_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\aimisi\\zh_vo_aimisi_humanform_skill_qte_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_humanform_skill_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2071994695,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2071994695,
-                "SoundBankPathName": "Event/zh/play_favor_word_aimisi_humanform_skill_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_humanform_skill_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 659165318,
-                "MediaPathName": "Media/zh/659165318.wem",
+                "MediaId": 486800332,
+                "MediaPathName": "Media/486800332.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\zh_vo_aimisi_humanform_skill_qte_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\aimisi\\ko_vo_aimisi_humanform_skill_qte_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_aimisi_humanform_skill_qte",
       "EventId": 2071994695
     },
-    "MaximumDuration": 0.8954375,
+    "MaximumDuration": 1.4523125,
     "MinimumDuration": 0.8954375,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

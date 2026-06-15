@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2408157223,
             "SoundBanks": [
               {
                 "SoundBankId": 2408157223,
-                "SoundBankPathName": "Event/en/play_vo_yinlin_atk03.bnk",
+                "SoundBankPathName": "Event/play_vo_yinlin_atk03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 509115960,
-                "MediaPathName": "Media/en/509115960.wem",
+                "MediaId": 268831926,
+                "MediaPathName": "Media/268831926.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_atk03_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yinlin\\en_vo_yinlin_atk03_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 566483697,
-                "MediaPathName": "Media/en/566483697.wem",
+                "MediaId": 924284546,
+                "MediaPathName": "Media/924284546.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_atk03_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yinlin\\zh_vo_yinlin_atk03_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 914259898,
-                "MediaPathName": "Media/en/914259898.wem",
+                "MediaId": 42764552,
+                "MediaPathName": "Media/42764552.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_atk03_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_yinlin_atk03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2408157223,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2408157223,
-                "SoundBankPathName": "Event/ja/play_vo_yinlin_atk03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_yinlin_atk03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 126160181,
-                "MediaPathName": "Media/ja/126160181.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_atk03_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yinlin\\ja_vo_yinlin_atk03_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 495141536,
-                "MediaPathName": "Media/ja/495141536.wem",
+                "MediaId": 580100184,
+                "MediaPathName": "Media/580100184.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_atk03_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yinlin\\ko_vo_yinlin_atk03_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1029522258,
-                "MediaPathName": "Media/ja/1029522258.wem",
+                "MediaId": 612948957,
+                "MediaPathName": "Media/612948957.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_atk03_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_yinlin_atk03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2408157223,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2408157223,
-                "SoundBankPathName": "Event/ko/play_vo_yinlin_atk03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_yinlin_atk03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 209900657,
-                "MediaPathName": "Media/ko/209900657.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_atk03_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yinlin\\en_vo_yinlin_atk03_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 487489254,
-                "MediaPathName": "Media/ko/487489254.wem",
+                "MediaId": 40975491,
+                "MediaPathName": "Media/40975491.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_atk03_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yinlin\\zh_vo_yinlin_atk03_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 950627475,
-                "MediaPathName": "Media/ko/950627475.wem",
+                "MediaId": 250909221,
+                "MediaPathName": "Media/250909221.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_atk03_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_yinlin_atk03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2408157223,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2408157223,
-                "SoundBankPathName": "Event/zh/play_vo_yinlin_atk03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_yinlin_atk03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 298254756,
-                "MediaPathName": "Media/zh/298254756.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_atk03_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yinlin\\ja_vo_yinlin_atk03_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 737344742,
-                "MediaPathName": "Media/zh/737344742.wem",
+                "MediaId": 13799428,
+                "MediaPathName": "Media/13799428.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_atk03_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yinlin\\ko_vo_yinlin_atk03_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 783857731,
-                "MediaPathName": "Media/zh/783857731.wem",
+                "MediaId": 226179508,
+                "MediaPathName": "Media/226179508.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yinlin\\vo_yinlin_atk03_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yinlin\\en_vo_yinlin_atk03_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 169452159,
+                "MediaPathName": "Media/169452159.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yinlin\\zh_vo_yinlin_atk03_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 454371777,
+                "MediaPathName": "Media/454371777.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yinlin\\ja_vo_yinlin_atk03_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 21479863,
+                "MediaPathName": "Media/21479863.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yinlin\\ko_vo_yinlin_atk03_02.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2300062502,
             "SoundBanks": [
               {
                 "SoundBankId": 2300062502,
-                "SoundBankPathName": "Event/en/play_vo_changli_bat_burst01.bnk",
+                "SoundBankPathName": "Event/play_vo_changli_bat_burst01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 393283096,
-                "MediaPathName": "Media/en/393283096.wem",
+                "MediaId": 1065467336,
+                "MediaPathName": "Media/1065467336.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_burst01_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\changli\\zh_vo_changli_bat_burst01_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 480619367,
-                "MediaPathName": "Media/en/480619367.wem",
+                "MediaId": 574628536,
+                "MediaPathName": "Media/574628536.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_burst01_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\changli\\ja_vo_changli_bat_burst01_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 801895606,
-                "MediaPathName": "Media/en/801895606.wem",
+                "MediaId": 5794976,
+                "MediaPathName": "Media/5794976.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_burst01_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_changli_bat_burst01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2300062502,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2300062502,
-                "SoundBankPathName": "Event/ja/play_vo_changli_bat_burst01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_changli_bat_burst01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 183139502,
-                "MediaPathName": "Media/ja/183139502.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_burst01_01.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\changli\\ko_vo_changli_bat_burst01_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 269757532,
-                "MediaPathName": "Media/ja/269757532.wem",
+                "MediaId": 562947460,
+                "MediaPathName": "Media/562947460.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_burst01_03.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,1\\changli\\en_vo_changli_bat_burst01_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1033781247,
-                "MediaPathName": "Media/ja/1033781247.wem",
+                "MediaId": 937112106,
+                "MediaPathName": "Media/937112106.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_burst01_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_changli_bat_burst01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2300062502,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2300062502,
-                "SoundBankPathName": "Event/ko/play_vo_changli_bat_burst01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_changli_bat_burst01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 3319500,
-                "MediaPathName": "Media/ko/3319500.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_burst01_01.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\changli\\zh_vo_changli_bat_burst01_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 523338404,
-                "MediaPathName": "Media/ko/523338404.wem",
+                "MediaId": 109920779,
+                "MediaPathName": "Media/109920779.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_burst01_02.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\changli\\ja_vo_changli_bat_burst01_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1054642691,
-                "MediaPathName": "Media/ko/1054642691.wem",
+                "MediaId": 356370604,
+                "MediaPathName": "Media/356370604.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_burst01_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_changli_bat_burst01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2300062502,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2300062502,
-                "SoundBankPathName": "Event/zh/play_vo_changli_bat_burst01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_changli_bat_burst01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 508012876,
-                "MediaPathName": "Media/zh/508012876.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_burst01_03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\changli\\ko_vo_changli_bat_burst01_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 668570195,
-                "MediaPathName": "Media/zh/668570195.wem",
+                "MediaId": 395641734,
+                "MediaPathName": "Media/395641734.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_burst01_01.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,1\\changli\\en_vo_changli_bat_burst01_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 960300266,
-                "MediaPathName": "Media/zh/960300266.wem",
+                "MediaId": 125194740,
+                "MediaPathName": "Media/125194740.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_burst01_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\changli\\zh_vo_changli_bat_burst01_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 36379839,
+                "MediaPathName": "Media/36379839.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\changli\\ja_vo_changli_bat_burst01_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 752198053,
+                "MediaPathName": "Media/752198053.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\changli\\ko_vo_changli_bat_burst01_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 13217922,
+                "MediaPathName": "Media/13217922.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_1,1\\changli\\en_vo_changli_bat_burst01_01.wav",
                 "PackagedFile": null
               }
             ],

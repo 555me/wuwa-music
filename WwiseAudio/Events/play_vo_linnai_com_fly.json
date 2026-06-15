@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2162558549,
             "SoundBanks": [
               {
                 "SoundBankId": 2162558549,
-                "SoundBankPathName": "Event/en/play_vo_linnai_com_fly.bnk",
+                "SoundBankPathName": "Event/play_vo_linnai_com_fly.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 247381638,
-                "MediaPathName": "Media/en/247381638.wem",
+                "MediaId": 248308498,
+                "MediaPathName": "Media/248308498.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\en_vo_linnai_com_fly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\linnai\\ja_vo_linnai_com_fly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 688256517,
-                "MediaPathName": "Media/en/688256517.wem",
+                "MediaId": 46066470,
+                "MediaPathName": "Media/46066470.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\en_vo_linnai_com_fly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\linnai\\en_vo_linnai_com_fly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 725160671,
-                "MediaPathName": "Media/en/725160671.wem",
+                "MediaId": 16059265,
+                "MediaPathName": "Media/16059265.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\en_vo_linnai_com_fly_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_linnai_com_fly"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2162558549,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2162558549,
-                "SoundBankPathName": "Event/ja/play_vo_linnai_com_fly.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_linnai_com_fly",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 206469800,
-                "MediaPathName": "Media/ja/206469800.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ja_vo_linnai_com_fly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\linnai\\zh_vo_linnai_com_fly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 260848279,
-                "MediaPathName": "Media/ja/260848279.wem",
+                "MediaId": 342617239,
+                "MediaPathName": "Media/342617239.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ja_vo_linnai_com_fly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\linnai\\ko_vo_linnai_com_fly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 535862220,
-                "MediaPathName": "Media/ja/535862220.wem",
+                "MediaId": 315198583,
+                "MediaPathName": "Media/315198583.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ja_vo_linnai_com_fly_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_linnai_com_fly"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2162558549,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2162558549,
-                "SoundBankPathName": "Event/ko/play_vo_linnai_com_fly.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_linnai_com_fly",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 241488459,
-                "MediaPathName": "Media/ko/241488459.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ko_vo_linnai_com_fly_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\linnai\\ja_vo_linnai_com_fly_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 298092074,
-                "MediaPathName": "Media/ko/298092074.wem",
+                "MediaId": 984521718,
+                "MediaPathName": "Media/984521718.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ko_vo_linnai_com_fly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\linnai\\en_vo_linnai_com_fly_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 764040905,
-                "MediaPathName": "Media/ko/764040905.wem",
+                "MediaId": 875833745,
+                "MediaPathName": "Media/875833745.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ko_vo_linnai_com_fly_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_linnai_com_fly"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2162558549,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2162558549,
-                "SoundBankPathName": "Event/zh/play_vo_linnai_com_fly.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_linnai_com_fly",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 331504750,
-                "MediaPathName": "Media/zh/331504750.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\zh_vo_linnai_com_fly_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\linnai\\zh_vo_linnai_com_fly_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 659532322,
-                "MediaPathName": "Media/zh/659532322.wem",
+                "MediaId": 565841570,
+                "MediaPathName": "Media/565841570.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\zh_vo_linnai_com_fly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\linnai\\ko_vo_linnai_com_fly_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 718225207,
-                "MediaPathName": "Media/zh/718225207.wem",
+                "MediaId": 903422372,
+                "MediaPathName": "Media/903422372.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\zh_vo_linnai_com_fly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\linnai\\ja_vo_linnai_com_fly_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 422339668,
+                "MediaPathName": "Media/422339668.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\linnai\\en_vo_linnai_com_fly_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 22447544,
+                "MediaPathName": "Media/22447544.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\linnai\\zh_vo_linnai_com_fly_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 384654210,
+                "MediaPathName": "Media/384654210.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\linnai\\ko_vo_linnai_com_fly_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,7 +160,7 @@
       "DebugName": "play_vo_linnai_com_fly",
       "EventId": 2162558549
     },
-    "MaximumDuration": 1.6472292,
+    "MaximumDuration": 1.9341875,
     "MinimumDuration": 0.20689583,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0

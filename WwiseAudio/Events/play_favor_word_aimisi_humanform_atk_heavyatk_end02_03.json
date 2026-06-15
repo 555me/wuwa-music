@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4147347001,
             "SoundBanks": [
               {
                 "SoundBankId": 4147347001,
-                "SoundBankPathName": "Event/en/play_favor_word_aimisi_humanform_atk_heavyatk_end02_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_aimisi_humanform_atk_heavyatk_end02_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 194703703,
-                "MediaPathName": "Media/en/194703703.wem",
+                "MediaId": 359353057,
+                "MediaPathName": "Media/359353057.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\en_vo_aimisi_humanform_atk_heavyatk_end02_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\aimisi\\ja_vo_aimisi_humanform_atk_heavyatk_end02_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_humanform_atk_heavyatk_end02_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4147347001,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4147347001,
-                "SoundBankPathName": "Event/ja/play_favor_word_aimisi_humanform_atk_heavyatk_end02_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_humanform_atk_heavyatk_end02_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 83182530,
-                "MediaPathName": "Media/ja/83182530.wem",
+                "MediaId": 309651956,
+                "MediaPathName": "Media/309651956.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ja_vo_aimisi_humanform_atk_heavyatk_end02_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\aimisi\\en_vo_aimisi_humanform_atk_heavyatk_end02_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_humanform_atk_heavyatk_end02_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4147347001,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4147347001,
-                "SoundBankPathName": "Event/ko/play_favor_word_aimisi_humanform_atk_heavyatk_end02_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_humanform_atk_heavyatk_end02_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 535862327,
-                "MediaPathName": "Media/ko/535862327.wem",
+                "MediaId": 1068193211,
+                "MediaPathName": "Media/1068193211.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ko_vo_aimisi_humanform_atk_heavyatk_end02_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\aimisi\\zh_vo_aimisi_humanform_atk_heavyatk_end02_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_humanform_atk_heavyatk_end02_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4147347001,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4147347001,
-                "SoundBankPathName": "Event/zh/play_favor_word_aimisi_humanform_atk_heavyatk_end02_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_humanform_atk_heavyatk_end02_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1026813440,
-                "MediaPathName": "Media/zh/1026813440.wem",
+                "MediaId": 942154407,
+                "MediaPathName": "Media/942154407.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\zh_vo_aimisi_humanform_atk_heavyatk_end02_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\aimisi\\ko_vo_aimisi_humanform_atk_heavyatk_end02_03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_aimisi_humanform_atk_heavyatk_end02_03",
       "EventId": 4147347001
     },
-    "MaximumDuration": 0.72966665,
-    "MinimumDuration": 0.72966665,
+    "MaximumDuration": 1.1086667,
+    "MinimumDuration": 0.55,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 22446205,
             "SoundBanks": [
               {
                 "SoundBankId": 22446205,
-                "SoundBankPathName": "Event/en/play_favor_word_buling_com_hxsummon.bnk",
+                "SoundBankPathName": "Event/play_favor_word_buling_com_hxsummon.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 306891043,
-                "MediaPathName": "Media/en/306891043.wem",
+                "MediaId": 379552420,
+                "MediaPathName": "Media/379552420.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,8\\buling\\zh_vo_buling_com_hxsummon_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 747602654,
+                "MediaPathName": "Media/747602654.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\en_vo_buling_com_hxsummon_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,8\\buling\\en_vo_buling_com_hxsummon_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_com_hxsummon"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 22446205,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 22446205,
-                "SoundBankPathName": "Event/ja/play_favor_word_buling_com_hxsummon.bnk",
+                "MediaId": 439060169,
+                "MediaPathName": "Media/439060169.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_com_hxsummon",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,8\\buling\\ko_vo_buling_com_hxsummon_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 614222309,
-                "MediaPathName": "Media/ja/614222309.wem",
+                "MediaId": 504944120,
+                "MediaPathName": "Media/504944120.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ja_vo_buling_com_hxsummon_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_com_hxsummon"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 22446205,
-            "SoundBanks": [
-              {
-                "SoundBankId": 22446205,
-                "SoundBankPathName": "Event/ko/play_favor_word_buling_com_hxsummon.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_com_hxsummon",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 496066287,
-                "MediaPathName": "Media/ko/496066287.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ko_vo_buling_com_hxsummon_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_com_hxsummon"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 22446205,
-            "SoundBanks": [
-              {
-                "SoundBankId": 22446205,
-                "SoundBankPathName": "Event/zh/play_favor_word_buling_com_hxsummon.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_com_hxsummon",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 301031580,
-                "MediaPathName": "Media/zh/301031580.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\zh_vo_buling_com_hxsummon_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,8\\buling\\ja_vo_buling_com_hxsummon_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_buling_com_hxsummon",
       "EventId": 22446205
     },
-    "MaximumDuration": 0.7366458,
+    "MaximumDuration": 2.3087292,
     "MinimumDuration": 0.7366458,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

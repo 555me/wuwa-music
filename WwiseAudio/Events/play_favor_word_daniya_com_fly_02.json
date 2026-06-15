@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2800968593,
             "SoundBanks": [
               {
                 "SoundBankId": 2800968593,
-                "SoundBankPathName": "Event/en/play_favor_word_daniya_com_fly_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_daniya_com_fly_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 266135148,
-                "MediaPathName": "Media/en/266135148.wem",
+                "MediaId": 870584565,
+                "MediaPathName": "Media/870584565.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\en_vo_daniya_com_fly_02_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,3\\daniya\\en_vo_daniya_com_fly_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_daniya_com_fly_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2800968593,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2800968593,
-                "SoundBankPathName": "Event/ja/play_favor_word_daniya_com_fly_02.bnk",
+                "MediaId": 378241988,
+                "MediaPathName": "Media/378241988.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_daniya_com_fly_02",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\daniya\\zh_vo_daniya_com_fly_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 132741282,
-                "MediaPathName": "Media/ja/132741282.wem",
+                "MediaId": 517004284,
+                "MediaPathName": "Media/517004284.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\ja_vo_daniya_com_fly_02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\daniya\\ko_vo_daniya_com_fly_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_daniya_com_fly_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2800968593,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2800968593,
-                "SoundBankPathName": "Event/ko/play_favor_word_daniya_com_fly_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_daniya_com_fly_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 70135966,
-                "MediaPathName": "Media/ko/70135966.wem",
+                "MediaId": 157465805,
+                "MediaPathName": "Media/157465805.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\ko_vo_daniya_com_fly_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_daniya_com_fly_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2800968593,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2800968593,
-                "SoundBankPathName": "Event/zh/play_favor_word_daniya_com_fly_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_daniya_com_fly_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 95610164,
-                "MediaPathName": "Media/zh/95610164.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\daniya\\zh_vo_daniya_com_fly_02_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\daniya\\ja_vo_daniya_com_fly_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_daniya_com_fly_02",
       "EventId": 2800968593
     },
-    "MaximumDuration": 1.5626667,
+    "MaximumDuration": 6.595625,
     "MinimumDuration": 1.5626667,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

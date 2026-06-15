@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2800019626,
             "SoundBanks": [
               {
                 "SoundBankId": 2800019626,
-                "SoundBankPathName": "Event/en/play_vo_motefei_airatk.bnk",
+                "SoundBankPathName": "Event/play_vo_motefei_airatk.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 151676978,
-                "MediaPathName": "Media/en/151676978.wem",
+                "MediaId": 119513570,
+                "MediaPathName": "Media/119513570.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_airatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\motefei\\zh_vo_motefei_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 292390773,
-                "MediaPathName": "Media/en/292390773.wem",
+                "MediaId": 959629900,
+                "MediaPathName": "Media/959629900.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\motefei\\en_vo_motefei_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 742494825,
-                "MediaPathName": "Media/en/742494825.wem",
+                "MediaId": 608886648,
+                "MediaPathName": "Media/608886648.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_airatk_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_motefei_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2800019626,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2800019626,
-                "SoundBankPathName": "Event/ja/play_vo_motefei_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_motefei_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 17335522,
-                "MediaPathName": "Media/ja/17335522.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_airatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\motefei\\ja_vo_motefei_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1017610440,
-                "MediaPathName": "Media/ja/1017610440.wem",
+                "MediaId": 624581391,
+                "MediaPathName": "Media/624581391.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\motefei\\ko_vo_motefei_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1059017245,
-                "MediaPathName": "Media/ja/1059017245.wem",
+                "MediaId": 855559606,
+                "MediaPathName": "Media/855559606.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_airatk_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_motefei_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2800019626,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2800019626,
-                "SoundBankPathName": "Event/ko/play_vo_motefei_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_motefei_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 149945224,
-                "MediaPathName": "Media/ko/149945224.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\motefei\\zh_vo_motefei_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 614122289,
-                "MediaPathName": "Media/ko/614122289.wem",
+                "MediaId": 595396689,
+                "MediaPathName": "Media/595396689.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\motefei\\en_vo_motefei_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 689886335,
-                "MediaPathName": "Media/ko/689886335.wem",
+                "MediaId": 99861620,
+                "MediaPathName": "Media/99861620.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_airatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_motefei_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2800019626,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2800019626,
-                "SoundBankPathName": "Event/zh/play_vo_motefei_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_motefei_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 172116086,
-                "MediaPathName": "Media/zh/172116086.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_airatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\motefei\\ja_vo_motefei_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 655195651,
-                "MediaPathName": "Media/zh/655195651.wem",
+                "MediaId": 636480686,
+                "MediaPathName": "Media/636480686.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\motefei\\ko_vo_motefei_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 914572961,
-                "MediaPathName": "Media/zh/914572961.wem",
+                "MediaId": 1028319151,
+                "MediaPathName": "Media/1028319151.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\motefei\\vo_motefei_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\motefei\\zh_vo_motefei_airatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 542323597,
+                "MediaPathName": "Media/542323597.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\motefei\\en_vo_motefei_airatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 822938945,
+                "MediaPathName": "Media/822938945.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\motefei\\ja_vo_motefei_airatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 703727789,
+                "MediaPathName": "Media/703727789.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\motefei\\ko_vo_motefei_airatk_01.wav",
                 "PackagedFile": null
               }
             ],

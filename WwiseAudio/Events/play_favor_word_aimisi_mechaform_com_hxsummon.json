@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3855014945,
             "SoundBanks": [
               {
                 "SoundBankId": 3855014945,
-                "SoundBankPathName": "Event/en/play_favor_word_aimisi_mechaform_com_hxsummon.bnk",
+                "SoundBankPathName": "Event/play_favor_word_aimisi_mechaform_com_hxsummon.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 4699623,
-                "MediaPathName": "Media/en/4699623.wem",
+                "MediaId": 349998889,
+                "MediaPathName": "Media/349998889.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\en_vo_aimisi_mechaform_com_hxsummon_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\aimisi\\ja_vo_aimisi_mechaform_com_hxsummon_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_mechaform_com_hxsummon"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3855014945,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3855014945,
-                "SoundBankPathName": "Event/ja/play_favor_word_aimisi_mechaform_com_hxsummon.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_mechaform_com_hxsummon",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 697789744,
-                "MediaPathName": "Media/ja/697789744.wem",
+                "MediaId": 433593934,
+                "MediaPathName": "Media/433593934.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ja_vo_aimisi_mechaform_com_hxsummon_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,1\\aimisi\\en_vo_aimisi_mechaform_com_hxsummon_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_mechaform_com_hxsummon"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3855014945,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3855014945,
-                "SoundBankPathName": "Event/ko/play_favor_word_aimisi_mechaform_com_hxsummon.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_mechaform_com_hxsummon",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 584628292,
-                "MediaPathName": "Media/ko/584628292.wem",
+                "MediaId": 493669388,
+                "MediaPathName": "Media/493669388.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ko_vo_aimisi_mechaform_com_hxsummon_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\aimisi\\zh_vo_aimisi_mechaform_com_hxsummon_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aimisi_mechaform_com_hxsummon"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3855014945,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3855014945,
-                "SoundBankPathName": "Event/zh/play_favor_word_aimisi_mechaform_com_hxsummon.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aimisi_mechaform_com_hxsummon",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 760354468,
-                "MediaPathName": "Media/zh/760354468.wem",
+                "MediaId": 667766051,
+                "MediaPathName": "Media/667766051.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\zh_vo_aimisi_mechaform_com_hxsummon_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\aimisi\\ko_vo_aimisi_mechaform_com_hxsummon_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_aimisi_mechaform_com_hxsummon",
       "EventId": 3855014945
     },
-    "MaximumDuration": 1.5400833,
-    "MinimumDuration": 1.5400833,
+    "MaximumDuration": 1.8952917,
+    "MinimumDuration": 1.5079167,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

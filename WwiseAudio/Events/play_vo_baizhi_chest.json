@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2371734747,
             "SoundBanks": [
               {
                 "SoundBankId": 2371734747,
-                "SoundBankPathName": "Event/en/play_vo_baizhi_chest.bnk",
+                "SoundBankPathName": "Event/play_vo_baizhi_chest.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 198717870,
-                "MediaPathName": "Media/en/198717870.wem",
+                "MediaId": 675756939,
+                "MediaPathName": "Media/675756939.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_openbox_02.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\baizhi\\en_vo_baizhi_openbox_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 351381290,
-                "MediaPathName": "Media/en/351381290.wem",
+                "MediaId": 131757872,
+                "MediaPathName": "Media/131757872.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_openbox_01.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\baizhi\\ko_vo_baizhi_openbox_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 913614526,
-                "MediaPathName": "Media/en/913614526.wem",
+                "MediaId": 785710000,
+                "MediaPathName": "Media/785710000.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_openbox_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_baizhi_chest"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2371734747,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2371734747,
-                "SoundBankPathName": "Event/ja/play_vo_baizhi_chest.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_baizhi_chest",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 81296885,
-                "MediaPathName": "Media/ja/81296885.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_openbox_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\baizhi\\zh_vo_baizhi_openbox_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 547280474,
-                "MediaPathName": "Media/ja/547280474.wem",
+                "MediaId": 707098146,
+                "MediaPathName": "Media/707098146.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_openbox_03.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\baizhi\\ja_vo_baizhi_openbox_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 561305764,
-                "MediaPathName": "Media/ja/561305764.wem",
+                "MediaId": 173010893,
+                "MediaPathName": "Media/173010893.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_openbox_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_baizhi_chest"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2371734747,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2371734747,
-                "SoundBankPathName": "Event/ko/play_vo_baizhi_chest.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_baizhi_chest",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 87003562,
-                "MediaPathName": "Media/ko/87003562.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_openbox_02.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\baizhi\\en_vo_baizhi_openbox_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 327240365,
-                "MediaPathName": "Media/ko/327240365.wem",
+                "MediaId": 650609273,
+                "MediaPathName": "Media/650609273.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_openbox_01.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\baizhi\\ko_vo_baizhi_openbox_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 833782098,
-                "MediaPathName": "Media/ko/833782098.wem",
+                "MediaId": 402696610,
+                "MediaPathName": "Media/402696610.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_openbox_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_baizhi_chest"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2371734747,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2371734747,
-                "SoundBankPathName": "Event/zh/play_vo_baizhi_chest.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_baizhi_chest",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 14937274,
-                "MediaPathName": "Media/zh/14937274.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_openbox_01.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\baizhi\\zh_vo_baizhi_openbox_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 659766453,
-                "MediaPathName": "Media/zh/659766453.wem",
+                "MediaId": 846890031,
+                "MediaPathName": "Media/846890031.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_openbox_02.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\baizhi\\ja_vo_baizhi_openbox_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 827145327,
-                "MediaPathName": "Media/zh/827145327.wem",
+                "MediaId": 409404907,
+                "MediaPathName": "Media/409404907.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_openbox_03.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\baizhi\\en_vo_baizhi_openbox_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 518460978,
+                "MediaPathName": "Media/518460978.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\baizhi\\ko_vo_baizhi_openbox_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 495338928,
+                "MediaPathName": "Media/495338928.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\baizhi\\zh_vo_baizhi_openbox_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 886995881,
+                "MediaPathName": "Media/886995881.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\baizhi\\ja_vo_baizhi_openbox_02.wav",
                 "PackagedFile": null
               }
             ],

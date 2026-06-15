@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2180242133,
             "SoundBanks": [
               {
                 "SoundBankId": 2180242133,
-                "SoundBankPathName": "Event/en/play_favor_word_bulante_sys_worry.bnk",
+                "SoundBankPathName": "Event/play_favor_word_bulante_sys_worry.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 499574246,
-                "MediaPathName": "Media/en/499574246.wem",
+                "MediaId": 343940265,
+                "MediaPathName": "Media/343940265.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\bulante\\zh_vo_bulante_sys_worry_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 754158318,
+                "MediaPathName": "Media/754158318.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\en_vo_bulante_sys_worry_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\bulante\\ja_vo_bulante_sys_worry_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_bulante_sys_worry"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2180242133,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2180242133,
-                "SoundBankPathName": "Event/ja/play_favor_word_bulante_sys_worry.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_bulante_sys_worry",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 389399435,
-                "MediaPathName": "Media/ja/389399435.wem",
+                "MediaId": 958841119,
+                "MediaPathName": "Media/958841119.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ja_vo_bulante_sys_worry_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,1\\bulante\\en_vo_bulante_sys_worry_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_bulante_sys_worry"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2180242133,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2180242133,
-                "SoundBankPathName": "Event/ko/play_favor_word_bulante_sys_worry.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_bulante_sys_worry",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 634093749,
-                "MediaPathName": "Media/ko/634093749.wem",
+                "MediaId": 292733580,
+                "MediaPathName": "Media/292733580.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ko_vo_bulante_sys_worry_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_bulante_sys_worry"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2180242133,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2180242133,
-                "SoundBankPathName": "Event/zh/play_favor_word_bulante_sys_worry.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_bulante_sys_worry",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 28566109,
-                "MediaPathName": "Media/zh/28566109.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\zh_vo_bulante_sys_worry_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\bulante\\ko_vo_bulante_sys_worry_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_bulante_sys_worry",
       "EventId": 2180242133
     },
-    "MaximumDuration": 1.1327083,
+    "MaximumDuration": 3.8446457,
     "MinimumDuration": 1.1327083,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

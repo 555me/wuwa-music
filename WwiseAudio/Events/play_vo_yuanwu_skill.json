@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 51471271,
             "SoundBanks": [
               {
                 "SoundBankId": 51471271,
-                "SoundBankPathName": "Event/en/play_vo_yuanwu_skill.bnk",
+                "SoundBankPathName": "Event/play_vo_yuanwu_skill.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 278124416,
-                "MediaPathName": "Media/en/278124416.wem",
+                "MediaId": 237295701,
+                "MediaPathName": "Media/237295701.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yuanwu\\zh_vo_yuanwu_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 451790587,
-                "MediaPathName": "Media/en/451790587.wem",
+                "MediaId": 728189203,
+                "MediaPathName": "Media/728189203.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yuanwu\\ja_vo_yuanwu_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1039772878,
-                "MediaPathName": "Media/en/1039772878.wem",
+                "MediaId": 704075894,
+                "MediaPathName": "Media/704075894.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_yuanwu_skill"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 51471271,
-            "SoundBanks": [
-              {
-                "SoundBankId": 51471271,
-                "SoundBankPathName": "Event/ja/play_vo_yuanwu_skill.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_yuanwu_skill",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 653523615,
-                "MediaPathName": "Media/ja/653523615.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yuanwu\\ko_vo_yuanwu_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 666205145,
-                "MediaPathName": "Media/ja/666205145.wem",
+                "MediaId": 902478277,
+                "MediaPathName": "Media/902478277.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yuanwu\\en_vo_yuanwu_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1031726215,
-                "MediaPathName": "Media/ja/1031726215.wem",
+                "MediaId": 94438170,
+                "MediaPathName": "Media/94438170.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_yuanwu_skill"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 51471271,
-            "SoundBanks": [
-              {
-                "SoundBankId": 51471271,
-                "SoundBankPathName": "Event/ko/play_vo_yuanwu_skill.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_yuanwu_skill",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 457803405,
-                "MediaPathName": "Media/ko/457803405.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yuanwu\\zh_vo_yuanwu_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 578609509,
-                "MediaPathName": "Media/ko/578609509.wem",
+                "MediaId": 654390193,
+                "MediaPathName": "Media/654390193.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yuanwu\\ja_vo_yuanwu_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 725823490,
-                "MediaPathName": "Media/ko/725823490.wem",
+                "MediaId": 89462078,
+                "MediaPathName": "Media/89462078.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_yuanwu_skill"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 51471271,
-            "SoundBanks": [
-              {
-                "SoundBankId": 51471271,
-                "SoundBankPathName": "Event/zh/play_vo_yuanwu_skill.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_yuanwu_skill",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 233452687,
-                "MediaPathName": "Media/zh/233452687.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yuanwu\\ko_vo_yuanwu_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 499351551,
-                "MediaPathName": "Media/zh/499351551.wem",
+                "MediaId": 593145811,
+                "MediaPathName": "Media/593145811.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yuanwu\\en_vo_yuanwu_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 777161683,
-                "MediaPathName": "Media/zh/777161683.wem",
+                "MediaId": 603651589,
+                "MediaPathName": "Media/603651589.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yuanwu\\vo_yuanwu_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yuanwu\\zh_vo_yuanwu_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 881383910,
+                "MediaPathName": "Media/881383910.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yuanwu\\ja_vo_yuanwu_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 803303628,
+                "MediaPathName": "Media/803303628.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yuanwu\\ko_vo_yuanwu_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 383257373,
+                "MediaPathName": "Media/383257373.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yuanwu\\en_vo_yuanwu_skill_01.wav",
                 "PackagedFile": null
               }
             ],

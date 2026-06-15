@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 708370615,
             "SoundBanks": [
               {
                 "SoundBankId": 708370615,
-                "SoundBankPathName": "Event/en/play_vo_rogue_link_bulante.bnk",
+                "SoundBankPathName": "Event/play_vo_rogue_link_bulante.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 129629725,
-                "MediaPathName": "Media/en/129629725.wem",
+                "MediaId": 805790512,
+                "MediaPathName": "Media/805790512.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_bulante_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_bulante_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 918959736,
-                "MediaPathName": "Media/en/918959736.wem",
+                "MediaId": 808515343,
+                "MediaPathName": "Media/808515343.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_bulante_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_bulante"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 708370615,
-            "SoundBanks": [
-              {
-                "SoundBankId": 708370615,
-                "SoundBankPathName": "Event/ja/play_vo_rogue_link_bulante.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_bulante",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 272269215,
-                "MediaPathName": "Media/ja/272269215.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_bulante_02.wav",
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_bulante_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 319329663,
-                "MediaPathName": "Media/ja/319329663.wem",
+                "MediaId": 809902622,
+                "MediaPathName": "Media/809902622.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_bulante_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_bulante"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 708370615,
-            "SoundBanks": [
-              {
-                "SoundBankId": 708370615,
-                "SoundBankPathName": "Event/ko/play_vo_rogue_link_bulante.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_bulante",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 16442983,
-                "MediaPathName": "Media/ko/16442983.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_bulante_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_bulante_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 160055243,
-                "MediaPathName": "Media/ko/160055243.wem",
+                "MediaId": 351890231,
+                "MediaPathName": "Media/351890231.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_bulante_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_bulante"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 708370615,
-            "SoundBanks": [
-              {
-                "SoundBankId": 708370615,
-                "SoundBankPathName": "Event/zh/play_vo_rogue_link_bulante.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_bulante",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 137869710,
-                "MediaPathName": "Media/zh/137869710.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_bulante_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_bulante_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 200512787,
-                "MediaPathName": "Media/zh/200512787.wem",
+                "MediaId": 32215234,
+                "MediaPathName": "Media/32215234.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_bulante_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_bulante_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1045718369,
+                "MediaPathName": "Media/1045718369.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_bulante_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 389554564,
+                "MediaPathName": "Media/389554564.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_bulante_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 233671332,
+                "MediaPathName": "Media/233671332.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_bulante_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,8 +120,8 @@
       "DebugName": "play_vo_rogue_link_bulante",
       "EventId": 708370615
     },
-    "MaximumDuration": 1.9863334,
-    "MinimumDuration": 1.2431042,
+    "MaximumDuration": 2.9995,
+    "MinimumDuration": 1.0767916,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

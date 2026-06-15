@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1913236016,
             "SoundBanks": [
               {
                 "SoundBankId": 1913236016,
-                "SoundBankPathName": "Event/en/play_vo_nanzhu_character_switch_airatk.bnk",
+                "SoundBankPathName": "Event/play_vo_nanzhu_character_switch_airatk.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 821480530,
-                "MediaPathName": "Media/en/821480530.wem",
+                "MediaId": 734980179,
+                "MediaPathName": "Media/734980179.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_airatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_character_switch_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 996819373,
-                "MediaPathName": "Media/en/996819373.wem",
+                "MediaId": 493184783,
+                "MediaPathName": "Media/493184783.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_character_switch_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1051467682,
-                "MediaPathName": "Media/en/1051467682.wem",
+                "MediaId": 62039224,
+                "MediaPathName": "Media/62039224.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_airatk_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_nanzhu_character_switch_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1913236016,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1913236016,
-                "SoundBankPathName": "Event/ja/play_vo_nanzhu_character_switch_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_nanzhu_character_switch_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 13251239,
-                "MediaPathName": "Media/ja/13251239.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_character_switch_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 77283209,
-                "MediaPathName": "Media/ja/77283209.wem",
+                "MediaId": 814951370,
+                "MediaPathName": "Media/814951370.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_character_switch_airatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 966782522,
-                "MediaPathName": "Media/ja/966782522.wem",
+                "MediaId": 372472622,
+                "MediaPathName": "Media/372472622.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_airatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_nanzhu_character_switch_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1913236016,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1913236016,
-                "SoundBankPathName": "Event/ko/play_vo_nanzhu_character_switch_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_nanzhu_character_switch_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 358234514,
-                "MediaPathName": "Media/ko/358234514.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_character_switch_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 472051024,
-                "MediaPathName": "Media/ko/472051024.wem",
+                "MediaId": 690584464,
+                "MediaPathName": "Media/690584464.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_character_switch_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 609064812,
-                "MediaPathName": "Media/ko/609064812.wem",
+                "MediaId": 113170039,
+                "MediaPathName": "Media/113170039.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_airatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_nanzhu_character_switch_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1913236016,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1913236016,
-                "SoundBankPathName": "Event/zh/play_vo_nanzhu_character_switch_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_nanzhu_character_switch_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 123994934,
-                "MediaPathName": "Media/zh/123994934.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_airatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_character_switch_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 610577398,
-                "MediaPathName": "Media/zh/610577398.wem",
+                "MediaId": 563523308,
+                "MediaPathName": "Media/563523308.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_airatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_character_switch_airatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 870462941,
-                "MediaPathName": "Media/zh/870462941.wem",
+                "MediaId": 1046837900,
+                "MediaPathName": "Media/1046837900.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_character_switch_airatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_character_switch_airatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1010377585,
+                "MediaPathName": "Media/1010377585.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_character_switch_airatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 809821060,
+                "MediaPathName": "Media/809821060.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_character_switch_airatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 681751064,
+                "MediaPathName": "Media/681751064.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_character_switch_airatk_01.wav",
                 "PackagedFile": null
               }
             ],

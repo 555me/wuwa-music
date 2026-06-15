@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3460127936,
             "SoundBanks": [
               {
                 "SoundBankId": 3460127936,
-                "SoundBankPathName": "Event/en/play_favor_word_weilinai_about_anke.bnk",
+                "SoundBankPathName": "Event/play_favor_word_weilinai_about_anke.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 436227712,
-                "MediaPathName": "Media/en/436227712.wem",
+                "MediaId": 712374899,
+                "MediaPathName": "Media/712374899.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_about_anke.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\weilinai\\ja_vo_weilinai_about_anke.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_weilinai_about_anke"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3460127936,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3460127936,
-                "SoundBankPathName": "Event/ja/play_favor_word_weilinai_about_anke.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_weilinai_about_anke",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 445674336,
-                "MediaPathName": "Media/ja/445674336.wem",
+                "MediaId": 961375348,
+                "MediaPathName": "Media/961375348.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_about_anke.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\weilinai\\zh_vo_weilinai_about_anke.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_weilinai_about_anke"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3460127936,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3460127936,
-                "SoundBankPathName": "Event/ko/play_favor_word_weilinai_about_anke.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_weilinai_about_anke",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1039646004,
-                "MediaPathName": "Media/ko/1039646004.wem",
+                "MediaId": 593914788,
+                "MediaPathName": "Media/593914788.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_about_anke.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\weilinai\\ko_vo_weilinai_about_anke.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_weilinai_about_anke"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3460127936,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3460127936,
-                "SoundBankPathName": "Event/zh/play_favor_word_weilinai_about_anke.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_weilinai_about_anke",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 556098068,
-                "MediaPathName": "Media/zh/556098068.wem",
+                "MediaId": 392479568,
+                "MediaPathName": "Media/392479568.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_about_anke.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\weilinai\\en_vo_weilinai_about_anke.wav",
                 "PackagedFile": null
               }
             ],

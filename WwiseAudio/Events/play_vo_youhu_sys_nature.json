@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2461091890,
             "SoundBanks": [
               {
                 "SoundBankId": 2461091890,
-                "SoundBankPathName": "Event/en/play_vo_youhu_sys_nature.bnk",
+                "SoundBankPathName": "Event/play_vo_youhu_sys_nature.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 583844995,
-                "MediaPathName": "Media/en/583844995.wem",
+                "MediaId": 105389348,
+                "MediaPathName": "Media/105389348.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_idle_idle03_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_idle_idle03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_sys_nature"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2461091890,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2461091890,
-                "SoundBankPathName": "Event/ja/play_vo_youhu_sys_nature.bnk",
+                "MediaId": 109124695,
+                "MediaPathName": "Media/109124695.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_sys_nature",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_idle_idle03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 502982272,
-                "MediaPathName": "Media/ja/502982272.wem",
+                "MediaId": 367900886,
+                "MediaPathName": "Media/367900886.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_idle_idle03_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_idle_idle03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_sys_nature"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2461091890,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2461091890,
-                "SoundBankPathName": "Event/ko/play_vo_youhu_sys_nature.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_sys_nature",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 7401011,
-                "MediaPathName": "Media/ko/7401011.wem",
+                "MediaId": 410947890,
+                "MediaPathName": "Media/410947890.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_idle_idle03_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_sys_nature"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2461091890,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2461091890,
-                "SoundBankPathName": "Event/zh/play_vo_youhu_sys_nature.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_sys_nature",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 38150706,
-                "MediaPathName": "Media/zh/38150706.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_idle_idle03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_idle_idle03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_youhu_sys_nature",
       "EventId": 2461091890
     },
-    "MaximumDuration": 1.9997249,
-    "MinimumDuration": 1.9997249,
+    "MaximumDuration": 2.283354,
+    "MinimumDuration": 1.7689297,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

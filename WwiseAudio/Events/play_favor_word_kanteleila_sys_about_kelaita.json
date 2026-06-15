@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4240234568,
             "SoundBanks": [
               {
                 "SoundBankId": 4240234568,
-                "SoundBankPathName": "Event/en/play_favor_word_kanteleila_sys_about_kelaita.bnk",
+                "SoundBankPathName": "Event/play_favor_word_kanteleila_sys_about_kelaita.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 980011429,
-                "MediaPathName": "Media/en/980011429.wem",
+                "MediaId": 806061673,
+                "MediaPathName": "Media/806061673.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\en_vo_kanteleila_sys_about_kelaita_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_sys_about_kelaita_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_sys_about_kelaita"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4240234568,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4240234568,
-                "SoundBankPathName": "Event/ja/play_favor_word_kanteleila_sys_about_kelaita.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_sys_about_kelaita",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 103213520,
-                "MediaPathName": "Media/ja/103213520.wem",
+                "MediaId": 262770943,
+                "MediaPathName": "Media/262770943.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_sys_about_kelaita_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_sys_about_kelaita_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_sys_about_kelaita"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4240234568,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4240234568,
-                "SoundBankPathName": "Event/ko/play_favor_word_kanteleila_sys_about_kelaita.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_sys_about_kelaita",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 560310252,
-                "MediaPathName": "Media/ko/560310252.wem",
+                "MediaId": 731562138,
+                "MediaPathName": "Media/731562138.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_sys_about_kelaita_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_sys_about_kelaita_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_sys_about_kelaita"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4240234568,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4240234568,
-                "SoundBankPathName": "Event/zh/play_favor_word_kanteleila_sys_about_kelaita.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_sys_about_kelaita",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 667022814,
-                "MediaPathName": "Media/zh/667022814.wem",
+                "MediaId": 699238125,
+                "MediaPathName": "Media/699238125.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_sys_about_kelaita_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,2\\kanteleila\\en_vo_kanteleila_sys_about_kelaita_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_kanteleila_sys_about_kelaita",
       "EventId": 4240234568
     },
-    "MaximumDuration": 22.698668,
-    "MinimumDuration": 22.698668,
+    "MaximumDuration": 25.754333,
+    "MinimumDuration": 17.88902,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

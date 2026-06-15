@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2031477008,
             "SoundBanks": [
               {
                 "SoundBankId": 2031477008,
-                "SoundBankPathName": "Event/en/play_favor_word_fuludelisi_com_die_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_fuludelisi_com_die_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1061530815,
-                "MediaPathName": "Media/en/1061530815.wem",
+                "MediaId": 890878224,
+                "MediaPathName": "Media/890878224.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\fuludelisi\\en_vo_fuludelisi_com_die_02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,4\\fuludelisi\\ko_vo_fuludelisi_com_die_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_fuludelisi_com_die_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2031477008,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2031477008,
-                "SoundBankPathName": "Event/ja/play_favor_word_fuludelisi_com_die_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_fuludelisi_com_die_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 502471669,
-                "MediaPathName": "Media/ja/502471669.wem",
+                "MediaId": 474204017,
+                "MediaPathName": "Media/474204017.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\fuludelisi\\ja_vo_fuludelisi_com_die_02_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,4\\fuludelisi\\zh_vo_fuludelisi_com_die_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_fuludelisi_com_die_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2031477008,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2031477008,
-                "SoundBankPathName": "Event/ko/play_favor_word_fuludelisi_com_die_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_fuludelisi_com_die_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 519924262,
-                "MediaPathName": "Media/ko/519924262.wem",
+                "MediaId": 5214480,
+                "MediaPathName": "Media/5214480.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\fuludelisi\\ko_vo_fuludelisi_com_die_02_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,4\\fuludelisi\\en_vo_fuludelisi_com_die_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_fuludelisi_com_die_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2031477008,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2031477008,
-                "SoundBankPathName": "Event/zh/play_favor_word_fuludelisi_com_die_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_fuludelisi_com_die_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 21469789,
-                "MediaPathName": "Media/zh/21469789.wem",
+                "MediaId": 885921510,
+                "MediaPathName": "Media/885921510.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\fuludelisi\\zh_vo_fuludelisi_com_die_02_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,4\\fuludelisi\\ja_vo_fuludelisi_com_die_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_fuludelisi_com_die_02",
       "EventId": 2031477008
     },
-    "MaximumDuration": 3.45975,
-    "MinimumDuration": 3.45975,
+    "MaximumDuration": 3.7067292,
+    "MinimumDuration": 2.2078333,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

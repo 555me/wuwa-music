@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 384129149,
             "SoundBanks": [
               {
                 "SoundBankId": 384129149,
-                "SoundBankPathName": "Event/en/play_favor_word_aogusita_com_hpdown03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_aogusita_com_hpdown03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 742913468,
-                "MediaPathName": "Media/en/742913468.wem",
+                "MediaId": 387239086,
+                "MediaPathName": "Media/387239086.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,6\\aogusita\\en_vo_aogusita_com_hpdown03_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,6\\aogusita\\zh_vo_aogusita_com_hpdown03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aogusita_com_hpdown03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 384129149,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 384129149,
-                "SoundBankPathName": "Event/ja/play_favor_word_aogusita_com_hpdown03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aogusita_com_hpdown03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 542073261,
-                "MediaPathName": "Media/ja/542073261.wem",
+                "MediaId": 674445022,
+                "MediaPathName": "Media/674445022.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,6\\aogusita\\ja_vo_aogusita_com_hpdown03_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,6\\aogusita\\ko_vo_aogusita_com_hpdown03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aogusita_com_hpdown03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 384129149,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 384129149,
-                "SoundBankPathName": "Event/ko/play_favor_word_aogusita_com_hpdown03.bnk",
+                "MediaId": 331303766,
+                "MediaPathName": "Media/331303766.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aogusita_com_hpdown03",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,6\\aogusita\\en_vo_aogusita_com_hpdown03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 376932672,
-                "MediaPathName": "Media/ko/376932672.wem",
+                "MediaId": 363858540,
+                "MediaPathName": "Media/363858540.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,6\\aogusita\\ko_vo_aogusita_com_hpdown03_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aogusita_com_hpdown03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 384129149,
-            "SoundBanks": [
-              {
-                "SoundBankId": 384129149,
-                "SoundBankPathName": "Event/zh/play_favor_word_aogusita_com_hpdown03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aogusita_com_hpdown03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 432957406,
-                "MediaPathName": "Media/zh/432957406.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,6\\aogusita\\zh_vo_aogusita_com_hpdown03_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,6\\aogusita\\ja_vo_aogusita_com_hpdown03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_aogusita_com_hpdown03",
       "EventId": 384129149
     },
-    "MaximumDuration": 2.5985,
-    "MinimumDuration": 2.5985,
+    "MaximumDuration": 2.758604,
+    "MinimumDuration": 1.5946667,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

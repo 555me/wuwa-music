@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 531263876,
             "SoundBanks": [
               {
                 "SoundBankId": 531263876,
-                "SoundBankPathName": "Event/en/play_vo_yangyang_skill.bnk",
+                "SoundBankPathName": "Event/play_vo_yangyang_skill.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 13981603,
-                "MediaPathName": "Media/en/13981603.wem",
+                "MediaId": 1066929837,
+                "MediaPathName": "Media/1066929837.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yangyang\\ko_vo_yangyang_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 558472826,
-                "MediaPathName": "Media/en/558472826.wem",
+                "MediaId": 862197964,
+                "MediaPathName": "Media/862197964.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yangyang\\en_vo_yangyang_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 781891428,
-                "MediaPathName": "Media/en/781891428.wem",
+                "MediaId": 498985754,
+                "MediaPathName": "Media/498985754.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_yangyang_skill"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 531263876,
-            "SoundBanks": [
-              {
-                "SoundBankId": 531263876,
-                "SoundBankPathName": "Event/ja/play_vo_yangyang_skill.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_yangyang_skill",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 108647023,
-                "MediaPathName": "Media/ja/108647023.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yangyang\\ja_vo_yangyang_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 125907465,
-                "MediaPathName": "Media/ja/125907465.wem",
+                "MediaId": 721173944,
+                "MediaPathName": "Media/721173944.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yangyang\\zh_vo_yangyang_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 562807640,
-                "MediaPathName": "Media/ja/562807640.wem",
+                "MediaId": 76435177,
+                "MediaPathName": "Media/76435177.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_yangyang_skill"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 531263876,
-            "SoundBanks": [
-              {
-                "SoundBankId": 531263876,
-                "SoundBankPathName": "Event/ko/play_vo_yangyang_skill.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_yangyang_skill",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 222452499,
-                "MediaPathName": "Media/ko/222452499.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yangyang\\ko_vo_yangyang_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 600304126,
-                "MediaPathName": "Media/ko/600304126.wem",
+                "MediaId": 692419245,
+                "MediaPathName": "Media/692419245.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yangyang\\en_vo_yangyang_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 745403447,
-                "MediaPathName": "Media/ko/745403447.wem",
+                "MediaId": 869991972,
+                "MediaPathName": "Media/869991972.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_yangyang_skill"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 531263876,
-            "SoundBanks": [
-              {
-                "SoundBankId": 531263876,
-                "SoundBankPathName": "Event/zh/play_vo_yangyang_skill.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_yangyang_skill",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 353399907,
-                "MediaPathName": "Media/zh/353399907.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yangyang\\ja_vo_yangyang_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1010474626,
-                "MediaPathName": "Media/zh/1010474626.wem",
+                "MediaId": 256003543,
+                "MediaPathName": "Media/256003543.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yangyang\\zh_vo_yangyang_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1072737762,
-                "MediaPathName": "Media/zh/1072737762.wem",
+                "MediaId": 195681143,
+                "MediaPathName": "Media/195681143.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\yangyang\\vo_yangyang_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\yangyang\\ko_vo_yangyang_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 567364115,
+                "MediaPathName": "Media/567364115.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\yangyang\\en_vo_yangyang_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 178327317,
+                "MediaPathName": "Media/178327317.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\yangyang\\ja_vo_yangyang_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 812562181,
+                "MediaPathName": "Media/812562181.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\yangyang\\zh_vo_yangyang_skill_01.wav",
                 "PackagedFile": null
               }
             ],

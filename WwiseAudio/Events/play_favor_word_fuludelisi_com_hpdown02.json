@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 142065305,
             "SoundBanks": [
               {
                 "SoundBankId": 142065305,
-                "SoundBankPathName": "Event/en/play_favor_word_fuludelisi_com_hpdown02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_fuludelisi_com_hpdown02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 941644325,
-                "MediaPathName": "Media/en/941644325.wem",
+                "MediaId": 43193873,
+                "MediaPathName": "Media/43193873.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\fuludelisi\\en_vo_fuludelisi_com_hpdown02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,4\\fuludelisi\\ko_vo_fuludelisi_com_hpdown02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_fuludelisi_com_hpdown02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 142065305,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 142065305,
-                "SoundBankPathName": "Event/ja/play_favor_word_fuludelisi_com_hpdown02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_fuludelisi_com_hpdown02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 420414154,
-                "MediaPathName": "Media/ja/420414154.wem",
+                "MediaId": 149007566,
+                "MediaPathName": "Media/149007566.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\fuludelisi\\ja_vo_fuludelisi_com_hpdown02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,4\\fuludelisi\\zh_vo_fuludelisi_com_hpdown02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_fuludelisi_com_hpdown02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 142065305,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 142065305,
-                "SoundBankPathName": "Event/ko/play_favor_word_fuludelisi_com_hpdown02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_fuludelisi_com_hpdown02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 410515348,
-                "MediaPathName": "Media/ko/410515348.wem",
+                "MediaId": 872289772,
+                "MediaPathName": "Media/872289772.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\fuludelisi\\ko_vo_fuludelisi_com_hpdown02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,4\\fuludelisi\\en_vo_fuludelisi_com_hpdown02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_fuludelisi_com_hpdown02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 142065305,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 142065305,
-                "SoundBankPathName": "Event/zh/play_favor_word_fuludelisi_com_hpdown02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_fuludelisi_com_hpdown02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 717207470,
-                "MediaPathName": "Media/zh/717207470.wem",
+                "MediaId": 314017005,
+                "MediaPathName": "Media/314017005.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\fuludelisi\\zh_vo_fuludelisi_com_hpdown02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,4\\fuludelisi\\ja_vo_fuludelisi_com_hpdown02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_fuludelisi_com_hpdown02",
       "EventId": 142065305
     },
-    "MaximumDuration": 1.2251667,
+    "MaximumDuration": 1.9048958,
     "MinimumDuration": 1.2251667,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

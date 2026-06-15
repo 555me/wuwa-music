@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3048922776,
             "SoundBanks": [
               {
                 "SoundBankId": 3048922776,
-                "SoundBankPathName": "Event/en/play_favor_word_buling_sys_storyexp.bnk",
+                "SoundBankPathName": "Event/play_favor_word_buling_sys_storyexp.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 740498145,
-                "MediaPathName": "Media/en/740498145.wem",
+                "MediaId": 968161605,
+                "MediaPathName": "Media/968161605.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\en_vo_buling_sys_storyexp_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,8\\buling\\zh_vo_buling_sys_storyexp_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_sys_storyexp"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3048922776,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3048922776,
-                "SoundBankPathName": "Event/ja/play_favor_word_buling_sys_storyexp.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_sys_storyexp",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 502115930,
-                "MediaPathName": "Media/ja/502115930.wem",
+                "MediaId": 466208180,
+                "MediaPathName": "Media/466208180.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ja_vo_buling_sys_storyexp_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,8\\buling\\en_vo_buling_sys_storyexp_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_sys_storyexp"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3048922776,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3048922776,
-                "SoundBankPathName": "Event/ko/play_favor_word_buling_sys_storyexp.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_sys_storyexp",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 842154026,
-                "MediaPathName": "Media/ko/842154026.wem",
+                "MediaId": 310769753,
+                "MediaPathName": "Media/310769753.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ko_vo_buling_sys_storyexp_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,8\\buling\\ko_vo_buling_sys_storyexp_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_buling_sys_storyexp"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3048922776,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3048922776,
-                "SoundBankPathName": "Event/zh/play_favor_word_buling_sys_storyexp.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_buling_sys_storyexp",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 236444858,
-                "MediaPathName": "Media/zh/236444858.wem",
+                "MediaId": 153075470,
+                "MediaPathName": "Media/153075470.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\zh_vo_buling_sys_storyexp_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,8\\buling\\ja_vo_buling_sys_storyexp_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_buling_sys_storyexp",
       "EventId": 3048922776
     },
-    "MaximumDuration": 20.673605,
+    "MaximumDuration": 28.787043,
     "MinimumDuration": 20.673605,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

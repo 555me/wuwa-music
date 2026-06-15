@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2183319645,
             "SoundBanks": [
               {
                 "SoundBankId": 2183319645,
-                "SoundBankPathName": "Event/en/play_favor_word_qiuyuan_sys_foodhate.bnk",
+                "SoundBankPathName": "Event/play_favor_word_qiuyuan_sys_foodhate.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 561257371,
-                "MediaPathName": "Media/en/561257371.wem",
+                "MediaId": 765263043,
+                "MediaPathName": "Media/765263043.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_sys_foodhate_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_sys_foodhate_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_sys_foodhate"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2183319645,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2183319645,
-                "SoundBankPathName": "Event/ja/play_favor_word_qiuyuan_sys_foodhate.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_sys_foodhate",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 380754064,
-                "MediaPathName": "Media/ja/380754064.wem",
+                "MediaId": 689614280,
+                "MediaPathName": "Media/689614280.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_sys_foodhate_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_sys_foodhate_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_sys_foodhate"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2183319645,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2183319645,
-                "SoundBankPathName": "Event/ko/play_favor_word_qiuyuan_sys_foodhate.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_sys_foodhate",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 709160750,
-                "MediaPathName": "Media/ko/709160750.wem",
+                "MediaId": 375615010,
+                "MediaPathName": "Media/375615010.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_sys_foodhate_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_sys_foodhate_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_sys_foodhate"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2183319645,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2183319645,
-                "SoundBankPathName": "Event/zh/play_favor_word_qiuyuan_sys_foodhate.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_sys_foodhate",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 272096293,
-                "MediaPathName": "Media/zh/272096293.wem",
+                "MediaId": 239227491,
+                "MediaPathName": "Media/239227491.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_sys_foodhate_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_sys_foodhate_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_qiuyuan_sys_foodhate",
       "EventId": 2183319645
     },
-    "MaximumDuration": 14.19975,
-    "MinimumDuration": 14.19975,
+    "MaximumDuration": 19.743208,
+    "MinimumDuration": 9.547021,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

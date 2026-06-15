@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4008421683,
             "SoundBanks": [
               {
                 "SoundBankId": 4008421683,
-                "SoundBankPathName": "Event/en/play_vo_feibi_atk_airatk.bnk",
+                "SoundBankPathName": "Event/play_vo_feibi_atk_airatk.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 190770452,
-                "MediaPathName": "Media/en/190770452.wem",
+                "MediaId": 904986570,
+                "MediaPathName": "Media/904986570.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\en_vo_feibi_atk_airatk_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\feibi\\ko_vo_feibi_atk_airatk_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 550399647,
-                "MediaPathName": "Media/en/550399647.wem",
+                "MediaId": 1017485202,
+                "MediaPathName": "Media/1017485202.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\en_vo_feibi_atk_airatk_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\feibi\\en_vo_feibi_atk_airatk_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 703818677,
-                "MediaPathName": "Media/en/703818677.wem",
+                "MediaId": 331329874,
+                "MediaPathName": "Media/331329874.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\en_vo_feibi_atk_airatk_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feibi_atk_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4008421683,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4008421683,
-                "SoundBankPathName": "Event/ja/play_vo_feibi_atk_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feibi_atk_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 70216873,
-                "MediaPathName": "Media/ja/70216873.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ja_vo_feibi_atk_airatk_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\feibi\\zh_vo_feibi_atk_airatk_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 457707626,
-                "MediaPathName": "Media/ja/457707626.wem",
+                "MediaId": 682226096,
+                "MediaPathName": "Media/682226096.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ja_vo_feibi_atk_airatk_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\feibi\\ja_vo_feibi_atk_airatk_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 693110067,
-                "MediaPathName": "Media/ja/693110067.wem",
+                "MediaId": 250638790,
+                "MediaPathName": "Media/250638790.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ja_vo_feibi_atk_airatk_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feibi_atk_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4008421683,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4008421683,
-                "SoundBankPathName": "Event/ko/play_vo_feibi_atk_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feibi_atk_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 186780685,
-                "MediaPathName": "Media/ko/186780685.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ko_vo_feibi_atk_airatk_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\feibi\\ko_vo_feibi_atk_airatk_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 412463482,
-                "MediaPathName": "Media/ko/412463482.wem",
+                "MediaId": 720779591,
+                "MediaPathName": "Media/720779591.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ko_vo_feibi_atk_airatk_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\feibi\\en_vo_feibi_atk_airatk_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 801584070,
-                "MediaPathName": "Media/ko/801584070.wem",
+                "MediaId": 475604361,
+                "MediaPathName": "Media/475604361.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ko_vo_feibi_atk_airatk_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feibi_atk_airatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4008421683,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4008421683,
-                "SoundBankPathName": "Event/zh/play_vo_feibi_atk_airatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feibi_atk_airatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 418468836,
-                "MediaPathName": "Media/zh/418468836.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\zh_vo_feibi_atk_airatk_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\feibi\\zh_vo_feibi_atk_airatk_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 471340258,
-                "MediaPathName": "Media/zh/471340258.wem",
+                "MediaId": 526181567,
+                "MediaPathName": "Media/526181567.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\zh_vo_feibi_atk_airatk_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\feibi\\ja_vo_feibi_atk_airatk_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 844681776,
-                "MediaPathName": "Media/zh/844681776.wem",
+                "MediaId": 234314979,
+                "MediaPathName": "Media/234314979.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\zh_vo_feibi_atk_airatk_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\feibi\\ko_vo_feibi_atk_airatk_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 421994244,
+                "MediaPathName": "Media/421994244.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\feibi\\en_vo_feibi_atk_airatk_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 731695860,
+                "MediaPathName": "Media/731695860.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\feibi\\zh_vo_feibi_atk_airatk_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 278771910,
+                "MediaPathName": "Media/278771910.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\feibi\\ja_vo_feibi_atk_airatk_02_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,7 +160,7 @@
       "DebugName": "play_vo_feibi_atk_airatk",
       "EventId": 4008421683
     },
-    "MaximumDuration": 0.6949792,
+    "MaximumDuration": 0.7498958,
     "MinimumDuration": 0.40639582,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0

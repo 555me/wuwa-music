@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1286431599,
             "SoundBanks": [
               {
                 "SoundBankId": 1286431599,
-                "SoundBankPathName": "Event/en/play_vo_nanzhu_behit.bnk",
+                "SoundBankPathName": "Event/play_vo_nanzhu_behit.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 488840939,
-                "MediaPathName": "Media/en/488840939.wem",
+                "MediaId": 969251949,
+                "MediaPathName": "Media/969251949.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behit_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_behit_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 504708296,
-                "MediaPathName": "Media/en/504708296.wem",
+                "MediaId": 423679426,
+                "MediaPathName": "Media/423679426.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behit_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_behit_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1052709999,
-                "MediaPathName": "Media/en/1052709999.wem",
+                "MediaId": 269010496,
+                "MediaPathName": "Media/269010496.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behit_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_nanzhu_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1286431599,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1286431599,
-                "SoundBankPathName": "Event/ja/play_vo_nanzhu_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_nanzhu_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 446883982,
-                "MediaPathName": "Media/ja/446883982.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behit_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_behit_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 589255411,
-                "MediaPathName": "Media/ja/589255411.wem",
+                "MediaId": 931154637,
+                "MediaPathName": "Media/931154637.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behit_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_behit_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 660071509,
-                "MediaPathName": "Media/ja/660071509.wem",
+                "MediaId": 980973692,
+                "MediaPathName": "Media/980973692.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behit_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_nanzhu_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1286431599,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1286431599,
-                "SoundBankPathName": "Event/ko/play_vo_nanzhu_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_nanzhu_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 562515262,
-                "MediaPathName": "Media/ko/562515262.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behit_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_behit_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 723666544,
-                "MediaPathName": "Media/ko/723666544.wem",
+                "MediaId": 20297099,
+                "MediaPathName": "Media/20297099.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behit_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_behit_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 821358160,
-                "MediaPathName": "Media/ko/821358160.wem",
+                "MediaId": 784874888,
+                "MediaPathName": "Media/784874888.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behit_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_nanzhu_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1286431599,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1286431599,
-                "SoundBankPathName": "Event/zh/play_vo_nanzhu_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_nanzhu_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 370835527,
-                "MediaPathName": "Media/zh/370835527.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behit_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_behit_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 584787161,
-                "MediaPathName": "Media/zh/584787161.wem",
+                "MediaId": 435088549,
+                "MediaPathName": "Media/435088549.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behit_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_behit_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 770792905,
-                "MediaPathName": "Media/zh/770792905.wem",
+                "MediaId": 880828057,
+                "MediaPathName": "Media/880828057.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_behit_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_behit_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 59983077,
+                "MediaPathName": "Media/59983077.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_behit_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 749274609,
+                "MediaPathName": "Media/749274609.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_behit_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 991128621,
+                "MediaPathName": "Media/991128621.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_behit_03.wav",
                 "PackagedFile": null
               }
             ],

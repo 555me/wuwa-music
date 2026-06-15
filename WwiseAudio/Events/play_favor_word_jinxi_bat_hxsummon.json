@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 859018404,
             "SoundBanks": [
               {
                 "SoundBankId": 859018404,
-                "SoundBankPathName": "Event/en/play_favor_word_jinxi_bat_hxsummon.bnk",
+                "SoundBankPathName": "Event/play_favor_word_jinxi_bat_hxsummon.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 223095788,
-                "MediaPathName": "Media/en/223095788.wem",
+                "MediaId": 453715861,
+                "MediaPathName": "Media/453715861.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_bat_hxsummon.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,1\\jinxi\\en_vo_jinxi_bat_hxsummon.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_bat_hxsummon"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 859018404,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 859018404,
-                "SoundBankPathName": "Event/ja/play_favor_word_jinxi_bat_hxsummon.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_bat_hxsummon",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 298619080,
-                "MediaPathName": "Media/ja/298619080.wem",
+                "MediaId": 846947636,
+                "MediaPathName": "Media/846947636.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_bat_hxsummon.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\jinxi\\ko_vo_jinxi_bat_hxsummon.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_bat_hxsummon"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 859018404,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 859018404,
-                "SoundBankPathName": "Event/ko/play_favor_word_jinxi_bat_hxsummon.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_bat_hxsummon",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 59054359,
-                "MediaPathName": "Media/ko/59054359.wem",
+                "MediaId": 556257155,
+                "MediaPathName": "Media/556257155.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_bat_hxsummon.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\jinxi\\zh_vo_jinxi_bat_hxsummon.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_jinxi_bat_hxsummon"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 859018404,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 859018404,
-                "SoundBankPathName": "Event/zh/play_favor_word_jinxi_bat_hxsummon.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_jinxi_bat_hxsummon",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 274771609,
-                "MediaPathName": "Media/zh/274771609.wem",
+                "MediaId": 870865928,
+                "MediaPathName": "Media/870865928.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\jinxi\\vo_jinxi_bat_hxsummon.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\jinxi\\ja_vo_jinxi_bat_hxsummon.wav",
                 "PackagedFile": null
               }
             ],

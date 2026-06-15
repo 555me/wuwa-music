@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3513561904,
             "SoundBanks": [
               {
                 "SoundBankId": 3513561904,
-                "SoundBankPathName": "Event/en/play_vo_linnai_atk_atk01.bnk",
+                "SoundBankPathName": "Event/play_vo_linnai_atk_atk01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 636212546,
-                "MediaPathName": "Media/en/636212546.wem",
+                "MediaId": 816486870,
+                "MediaPathName": "Media/816486870.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\en_vo_linnai_atk_atk01_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\linnai\\ja_vo_linnai_atk_atk01_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 774496953,
-                "MediaPathName": "Media/en/774496953.wem",
+                "MediaId": 877204379,
+                "MediaPathName": "Media/877204379.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\en_vo_linnai_atk_atk01_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\linnai\\en_vo_linnai_atk_atk01_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 785259806,
-                "MediaPathName": "Media/en/785259806.wem",
+                "MediaId": 921811297,
+                "MediaPathName": "Media/921811297.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\en_vo_linnai_atk_atk01_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_linnai_atk_atk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3513561904,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3513561904,
-                "SoundBankPathName": "Event/ja/play_vo_linnai_atk_atk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_linnai_atk_atk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 581241284,
-                "MediaPathName": "Media/ja/581241284.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ja_vo_linnai_atk_atk01_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\linnai\\zh_vo_linnai_atk_atk01_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 587889541,
-                "MediaPathName": "Media/ja/587889541.wem",
+                "MediaId": 330549521,
+                "MediaPathName": "Media/330549521.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ja_vo_linnai_atk_atk01_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\linnai\\ko_vo_linnai_atk_atk01_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 786897057,
-                "MediaPathName": "Media/ja/786897057.wem",
+                "MediaId": 198717860,
+                "MediaPathName": "Media/198717860.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ja_vo_linnai_atk_atk01_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_linnai_atk_atk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3513561904,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3513561904,
-                "SoundBankPathName": "Event/ko/play_vo_linnai_atk_atk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_linnai_atk_atk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 318546605,
-                "MediaPathName": "Media/ko/318546605.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ko_vo_linnai_atk_atk01_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\linnai\\ja_vo_linnai_atk_atk01_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 616528334,
-                "MediaPathName": "Media/ko/616528334.wem",
+                "MediaId": 516945609,
+                "MediaPathName": "Media/516945609.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ko_vo_linnai_atk_atk01_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\linnai\\en_vo_linnai_atk_atk01_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 919599127,
-                "MediaPathName": "Media/ko/919599127.wem",
+                "MediaId": 39354579,
+                "MediaPathName": "Media/39354579.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ko_vo_linnai_atk_atk01_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_linnai_atk_atk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3513561904,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3513561904,
-                "SoundBankPathName": "Event/zh/play_vo_linnai_atk_atk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_linnai_atk_atk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 61727910,
-                "MediaPathName": "Media/zh/61727910.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\zh_vo_linnai_atk_atk01_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\linnai\\zh_vo_linnai_atk_atk01_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 712472418,
-                "MediaPathName": "Media/zh/712472418.wem",
+                "MediaId": 419867335,
+                "MediaPathName": "Media/419867335.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\zh_vo_linnai_atk_atk01_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\linnai\\ko_vo_linnai_atk_atk01_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1062827631,
-                "MediaPathName": "Media/zh/1062827631.wem",
+                "MediaId": 630076180,
+                "MediaPathName": "Media/630076180.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\zh_vo_linnai_atk_atk01_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\linnai\\ja_vo_linnai_atk_atk01_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 143284019,
+                "MediaPathName": "Media/143284019.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\linnai\\en_vo_linnai_atk_atk01_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 177924530,
+                "MediaPathName": "Media/177924530.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\linnai\\zh_vo_linnai_atk_atk01_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 864522791,
+                "MediaPathName": "Media/864522791.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\linnai\\ko_vo_linnai_atk_atk01_03_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -248,7 +161,7 @@
       "EventId": 3513561904
     },
     "MaximumDuration": 0.31197917,
-    "MinimumDuration": 0.14475,
+    "MinimumDuration": 0.13333334,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

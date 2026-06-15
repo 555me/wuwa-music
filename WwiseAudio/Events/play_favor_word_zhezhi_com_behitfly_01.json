@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 744724440,
             "SoundBanks": [
               {
                 "SoundBankId": 744724440,
-                "SoundBankPathName": "Event/en/play_favor_word_zhezhi_com_behitfly_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_zhezhi_com_behitfly_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 693344023,
-                "MediaPathName": "Media/en/693344023.wem",
+                "MediaId": 8917154,
+                "MediaPathName": "Media/8917154.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_behit_fly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\zhezhi\\ja_vo_zhezhi_behit_fly_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zhezhi_com_behitfly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 744724440,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 744724440,
-                "SoundBankPathName": "Event/ja/play_favor_word_zhezhi_com_behitfly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zhezhi_com_behitfly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 95091246,
-                "MediaPathName": "Media/ja/95091246.wem",
+                "MediaId": 788248295,
+                "MediaPathName": "Media/788248295.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_behit_fly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\zhezhi\\ko_vo_zhezhi_behit_fly_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zhezhi_com_behitfly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 744724440,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 744724440,
-                "SoundBankPathName": "Event/ko/play_favor_word_zhezhi_com_behitfly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zhezhi_com_behitfly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 22218353,
-                "MediaPathName": "Media/ko/22218353.wem",
+                "MediaId": 898762055,
+                "MediaPathName": "Media/898762055.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_behit_fly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.2\\zhezhi\\en_vo_zhezhi_behit_fly_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zhezhi_com_behitfly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 744724440,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 744724440,
-                "SoundBankPathName": "Event/zh/play_favor_word_zhezhi_com_behitfly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zhezhi_com_behitfly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 56738366,
-                "MediaPathName": "Media/zh/56738366.wem",
+                "MediaId": 464697905,
+                "MediaPathName": "Media/464697905.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_behit_fly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\zhezhi\\zh_vo_zhezhi_behit_fly_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 744724440
     },
     "MaximumDuration": 1.5522916,
-    "MinimumDuration": 1.5522916,
+    "MinimumDuration": 1.4731041,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

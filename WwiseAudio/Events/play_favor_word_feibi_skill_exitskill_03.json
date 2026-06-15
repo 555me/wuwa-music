@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2385377397,
             "SoundBanks": [
               {
                 "SoundBankId": 2385377397,
-                "SoundBankPathName": "Event/en/play_favor_word_feibi_skill_exitskill_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_feibi_skill_exitskill_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 706767299,
-                "MediaPathName": "Media/en/706767299.wem",
+                "MediaId": 927166505,
+                "MediaPathName": "Media/927166505.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\en_vo_feibi_skill_exitskill_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\feibi\\ko_vo_feibi_skill_exitskill_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_skill_exitskill_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2385377397,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2385377397,
-                "SoundBankPathName": "Event/ja/play_favor_word_feibi_skill_exitskill_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_skill_exitskill_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 877975629,
-                "MediaPathName": "Media/ja/877975629.wem",
+                "MediaId": 902906313,
+                "MediaPathName": "Media/902906313.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ja_vo_feibi_skill_exitskill_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\feibi\\en_vo_feibi_skill_exitskill_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_skill_exitskill_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2385377397,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2385377397,
-                "SoundBankPathName": "Event/ko/play_favor_word_feibi_skill_exitskill_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_skill_exitskill_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 423381642,
-                "MediaPathName": "Media/ko/423381642.wem",
+                "MediaId": 883323831,
+                "MediaPathName": "Media/883323831.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ko_vo_feibi_skill_exitskill_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\feibi\\zh_vo_feibi_skill_exitskill_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_skill_exitskill_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2385377397,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2385377397,
-                "SoundBankPathName": "Event/zh/play_favor_word_feibi_skill_exitskill_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_skill_exitskill_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 168886894,
-                "MediaPathName": "Media/zh/168886894.wem",
+                "MediaId": 646397256,
+                "MediaPathName": "Media/646397256.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\zh_vo_feibi_skill_exitskill_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\feibi\\ja_vo_feibi_skill_exitskill_03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_feibi_skill_exitskill_03",
       "EventId": 2385377397
     },
-    "MaximumDuration": 1.68325,
+    "MaximumDuration": 1.8918333,
     "MinimumDuration": 1.68325,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

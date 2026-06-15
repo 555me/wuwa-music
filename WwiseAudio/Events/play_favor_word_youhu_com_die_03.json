@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2037248539,
             "SoundBanks": [
               {
                 "SoundBankId": 2037248539,
-                "SoundBankPathName": "Event/en/play_favor_word_youhu_com_die_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_youhu_com_die_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 267358497,
-                "MediaPathName": "Media/en/267358497.wem",
+                "MediaId": 1047795204,
+                "MediaPathName": "Media/1047795204.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_com_die_03_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 990064422,
+                "MediaPathName": "Media/990064422.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_com_die_03_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 597692347,
+                "MediaPathName": "Media/597692347.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_com_die_03_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_com_die_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_youhu_com_die_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2037248539,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2037248539,
-                "SoundBankPathName": "Event/ja/play_favor_word_youhu_com_die_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_youhu_com_die_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 639007805,
-                "MediaPathName": "Media/ja/639007805.wem",
+                "MediaId": 455542297,
+                "MediaPathName": "Media/455542297.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_com_die_03_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_youhu_com_die_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2037248539,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2037248539,
-                "SoundBankPathName": "Event/ko/play_favor_word_youhu_com_die_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_youhu_com_die_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 685782940,
-                "MediaPathName": "Media/ko/685782940.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_com_die_03_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_youhu_com_die_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2037248539,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2037248539,
-                "SoundBankPathName": "Event/zh/play_favor_word_youhu_com_die_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_youhu_com_die_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 542961835,
-                "MediaPathName": "Media/zh/542961835.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_com_die_03_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_com_die_03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_youhu_com_die_03",
       "EventId": 2037248539
     },
-    "MaximumDuration": 2.439479,
-    "MinimumDuration": 2.439479,
+    "MaximumDuration": 4.058125,
+    "MinimumDuration": 1.6082292,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

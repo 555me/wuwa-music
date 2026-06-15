@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1255314405,
             "SoundBanks": [
               {
                 "SoundBankId": 1255314405,
-                "SoundBankPathName": "Event/en/play_vo_feibi_com_scan.bnk",
+                "SoundBankPathName": "Event/play_vo_feibi_com_scan.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 875934857,
-                "MediaPathName": "Media/en/875934857.wem",
+                "MediaId": 298439942,
+                "MediaPathName": "Media/298439942.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\en_vo_feibi_com_scan_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\feibi\\ko_vo_feibi_com_scan_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feibi_com_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1255314405,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1255314405,
-                "SoundBankPathName": "Event/ja/play_vo_feibi_com_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feibi_com_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 780308666,
-                "MediaPathName": "Media/ja/780308666.wem",
+                "MediaId": 804242676,
+                "MediaPathName": "Media/804242676.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ja_vo_feibi_com_scan_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\feibi\\en_vo_feibi_com_scan_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feibi_com_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1255314405,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1255314405,
-                "SoundBankPathName": "Event/ko/play_vo_feibi_com_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feibi_com_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 808608490,
-                "MediaPathName": "Media/ko/808608490.wem",
+                "MediaId": 1040753443,
+                "MediaPathName": "Media/1040753443.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ko_vo_feibi_com_scan_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\feibi\\zh_vo_feibi_com_scan_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feibi_com_scan"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1255314405,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1255314405,
-                "SoundBankPathName": "Event/zh/play_vo_feibi_com_scan.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feibi_com_scan",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 313751004,
-                "MediaPathName": "Media/zh/313751004.wem",
+                "MediaId": 428122171,
+                "MediaPathName": "Media/428122171.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\zh_vo_feibi_com_scan_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\feibi\\ja_vo_feibi_com_scan_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_feibi_com_scan",
       "EventId": 1255314405
     },
-    "MaximumDuration": 1.4360625,
-    "MinimumDuration": 1.4360625,
+    "MaximumDuration": 1.7531042,
+    "MinimumDuration": 1.3239375,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

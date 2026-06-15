@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 95448084,
             "SoundBanks": [
               {
                 "SoundBankId": 95448084,
-                "SoundBankPathName": "Event/en/play_vo_jiyan_behit.bnk",
+                "SoundBankPathName": "Event/play_vo_jiyan_behit.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 222894452,
-                "MediaPathName": "Media/en/222894452.wem",
+                "MediaId": 873808173,
+                "MediaPathName": "Media/873808173.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_behit_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_behit_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 497856145,
-                "MediaPathName": "Media/en/497856145.wem",
+                "MediaId": 365994226,
+                "MediaPathName": "Media/365994226.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_behit_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_behit_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 916752140,
-                "MediaPathName": "Media/en/916752140.wem",
+                "MediaId": 246688750,
+                "MediaPathName": "Media/246688750.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_behit_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 95448084,
-            "SoundBanks": [
-              {
-                "SoundBankId": 95448084,
-                "SoundBankPathName": "Event/ja/play_vo_jiyan_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 89964022,
-                "MediaPathName": "Media/ja/89964022.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_behit_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_behit_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 548030961,
-                "MediaPathName": "Media/ja/548030961.wem",
+                "MediaId": 348620600,
+                "MediaPathName": "Media/348620600.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_behit_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_behit_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 646343652,
-                "MediaPathName": "Media/ja/646343652.wem",
+                "MediaId": 585513240,
+                "MediaPathName": "Media/585513240.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_behit_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 95448084,
-            "SoundBanks": [
-              {
-                "SoundBankId": 95448084,
-                "SoundBankPathName": "Event/ko/play_vo_jiyan_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 207852163,
-                "MediaPathName": "Media/ko/207852163.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_behit_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_behit_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 397979357,
-                "MediaPathName": "Media/ko/397979357.wem",
+                "MediaId": 802257125,
+                "MediaPathName": "Media/802257125.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_behit_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_behit_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 463226614,
-                "MediaPathName": "Media/ko/463226614.wem",
+                "MediaId": 1019326348,
+                "MediaPathName": "Media/1019326348.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_behit_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiyan_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 95448084,
-            "SoundBanks": [
-              {
-                "SoundBankId": 95448084,
-                "SoundBankPathName": "Event/zh/play_vo_jiyan_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiyan_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 57773249,
-                "MediaPathName": "Media/zh/57773249.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_behit_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_behit_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 212576213,
-                "MediaPathName": "Media/zh/212576213.wem",
+                "MediaId": 1024338931,
+                "MediaPathName": "Media/1024338931.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_behit_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_behit_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 861384409,
-                "MediaPathName": "Media/zh/861384409.wem",
+                "MediaId": 247022710,
+                "MediaPathName": "Media/247022710.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\jiyan\\vo_jiyan_behit_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\jiyan\\zh_vo_jiyan_behit_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 647904420,
+                "MediaPathName": "Media/647904420.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\jiyan\\ja_vo_jiyan_behit_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 512730748,
+                "MediaPathName": "Media/512730748.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\jiyan\\ko_vo_jiyan_behit_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 186588771,
+                "MediaPathName": "Media/186588771.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\jiyan\\en_vo_jiyan_behit_01.wav",
                 "PackagedFile": null
               }
             ],

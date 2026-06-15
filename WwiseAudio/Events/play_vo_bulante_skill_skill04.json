@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3074811823,
             "SoundBanks": [
               {
                 "SoundBankId": 3074811823,
-                "SoundBankPathName": "Event/en/play_vo_bulante_skill_skill04.bnk",
+                "SoundBankPathName": "Event/play_vo_bulante_skill_skill04.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 123347546,
-                "MediaPathName": "Media/en/123347546.wem",
+                "MediaId": 80270980,
+                "MediaPathName": "Media/80270980.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\en_vo_bulante_skill_skill04_01_tone.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\bulante\\zh_vo_bulante_skill_skill04_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 135889132,
-                "MediaPathName": "Media/en/135889132.wem",
+                "MediaId": 347286855,
+                "MediaPathName": "Media/347286855.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\en_vo_bulante_skill_skill04_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\bulante\\ja_vo_bulante_skill_skill04_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 605599968,
-                "MediaPathName": "Media/en/605599968.wem",
+                "MediaId": 996685525,
+                "MediaPathName": "Media/996685525.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\en_vo_bulante_skill_skill04_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_bulante_skill_skill04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3074811823,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3074811823,
-                "SoundBankPathName": "Event/ja/play_vo_bulante_skill_skill04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_bulante_skill_skill04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 199152129,
-                "MediaPathName": "Media/ja/199152129.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ja_vo_bulante_skill_skill04_02_tone.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,1\\bulante\\en_vo_bulante_skill_skill04_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 246567051,
-                "MediaPathName": "Media/ja/246567051.wem",
+                "MediaId": 1055796614,
+                "MediaPathName": "Media/1055796614.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ja_vo_bulante_skill_skill04_03_tone.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\bulante\\ko_vo_bulante_skill_skill04_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 464180116,
-                "MediaPathName": "Media/ja/464180116.wem",
+                "MediaId": 86288656,
+                "MediaPathName": "Media/86288656.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ja_vo_bulante_skill_skill04_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_bulante_skill_skill04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3074811823,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3074811823,
-                "SoundBankPathName": "Event/ko/play_vo_bulante_skill_skill04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_bulante_skill_skill04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 411311958,
-                "MediaPathName": "Media/ko/411311958.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ko_vo_bulante_skill_skill04_03_tone.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\bulante\\zh_vo_bulante_skill_skill04_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 420731747,
-                "MediaPathName": "Media/ko/420731747.wem",
+                "MediaId": 320157885,
+                "MediaPathName": "Media/320157885.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ko_vo_bulante_skill_skill04_01_tone.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\bulante\\ja_vo_bulante_skill_skill04_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 453586363,
-                "MediaPathName": "Media/ko/453586363.wem",
+                "MediaId": 581983959,
+                "MediaPathName": "Media/581983959.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\ko_vo_bulante_skill_skill04_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_bulante_skill_skill04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3074811823,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3074811823,
-                "SoundBankPathName": "Event/zh/play_vo_bulante_skill_skill04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_bulante_skill_skill04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 315013994,
-                "MediaPathName": "Media/zh/315013994.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\zh_vo_bulante_skill_skill04_02_tone.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,1\\bulante\\en_vo_bulante_skill_skill04_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 508998695,
-                "MediaPathName": "Media/zh/508998695.wem",
+                "MediaId": 353467884,
+                "MediaPathName": "Media/353467884.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\zh_vo_bulante_skill_skill04_03_tone.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\bulante\\ko_vo_bulante_skill_skill04_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 555628905,
-                "MediaPathName": "Media/zh/555628905.wem",
+                "MediaId": 421341356,
+                "MediaPathName": "Media/421341356.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\bulante\\zh_vo_bulante_skill_skill04_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 24095496,
+                "MediaPathName": "Media/24095496.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\bulante\\ja_vo_bulante_skill_skill04_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 626911425,
+                "MediaPathName": "Media/626911425.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\bulante\\zh_vo_bulante_skill_skill04_01_tone.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,1\\bulante\\en_vo_bulante_skill_skill04_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 33260561,
+                "MediaPathName": "Media/33260561.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\bulante\\ko_vo_bulante_skill_skill04_02_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,8 +160,8 @@
       "DebugName": "play_vo_bulante_skill_skill04",
       "EventId": 3074811823
     },
-    "MaximumDuration": 2.6727707,
-    "MinimumDuration": 1.9955833,
+    "MaximumDuration": 3.047625,
+    "MinimumDuration": 1.81025,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

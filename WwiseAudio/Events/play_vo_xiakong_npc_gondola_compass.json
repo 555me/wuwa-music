@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3532939185,
             "SoundBanks": [
               {
                 "SoundBankId": 3532939185,
-                "SoundBankPathName": "Event/en/play_vo_xiakong_npc_gondola_compass.bnk",
+                "SoundBankPathName": "Event/play_vo_xiakong_npc_gondola_compass.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 52341793,
-                "MediaPathName": "Media/en/52341793.wem",
+                "MediaId": 291257752,
+                "MediaPathName": "Media/291257752.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\en_vo_xiakong_npc_gondola_compass_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\xiakong\\ja_vo_xiakong_npc_gondola_compass_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_xiakong_npc_gondola_compass"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3532939185,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3532939185,
-                "SoundBankPathName": "Event/ja/play_vo_xiakong_npc_gondola_compass.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_xiakong_npc_gondola_compass",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 524982662,
-                "MediaPathName": "Media/ja/524982662.wem",
+                "MediaId": 8478313,
+                "MediaPathName": "Media/8478313.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\ja_vo_xiakong_npc_gondola_compass_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,3\\xiakong\\en_vo_xiakong_npc_gondola_compass_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_xiakong_npc_gondola_compass"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3532939185,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3532939185,
-                "SoundBankPathName": "Event/ko/play_vo_xiakong_npc_gondola_compass.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_xiakong_npc_gondola_compass",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 249447640,
-                "MediaPathName": "Media/ko/249447640.wem",
+                "MediaId": 993652026,
+                "MediaPathName": "Media/993652026.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\ko_vo_xiakong_npc_gondola_compass_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\xiakong\\zh_vo_xiakong_npc_gondola_compass_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_xiakong_npc_gondola_compass"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3532939185,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3532939185,
-                "SoundBankPathName": "Event/zh/play_vo_xiakong_npc_gondola_compass.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_xiakong_npc_gondola_compass",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1024707987,
-                "MediaPathName": "Media/zh/1024707987.wem",
+                "MediaId": 449353588,
+                "MediaPathName": "Media/449353588.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\zh_vo_xiakong_npc_gondola_compass_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\xiakong\\ko_vo_xiakong_npc_gondola_compass_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_vo_xiakong_npc_gondola_compass",
       "EventId": 3532939185
     },
-    "MaximumDuration": 0.8561042,
+    "MaximumDuration": 1.7069792,
     "MinimumDuration": 0.8561042,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4017145785,
             "SoundBanks": [
               {
                 "SoundBankId": 4017145785,
-                "SoundBankPathName": "Event/en/play_vo_feibi_burst_burst.bnk",
+                "SoundBankPathName": "Event/play_vo_feibi_burst_burst.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 106124144,
-                "MediaPathName": "Media/en/106124144.wem",
+                "MediaId": 861336110,
+                "MediaPathName": "Media/861336110.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\en_vo_feibi_burst_burst_02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\feibi\\ko_vo_feibi_burst_burst_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 274787201,
-                "MediaPathName": "Media/en/274787201.wem",
+                "MediaId": 830969803,
+                "MediaPathName": "Media/830969803.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\en_vo_feibi_burst_burst_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\feibi\\en_vo_feibi_burst_burst_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 838160112,
-                "MediaPathName": "Media/en/838160112.wem",
+                "MediaId": 630710922,
+                "MediaPathName": "Media/630710922.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\en_vo_feibi_burst_burst_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feibi_burst_burst"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4017145785,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4017145785,
-                "SoundBankPathName": "Event/ja/play_vo_feibi_burst_burst.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feibi_burst_burst",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 440271590,
-                "MediaPathName": "Media/ja/440271590.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ja_vo_feibi_burst_burst_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\feibi\\zh_vo_feibi_burst_burst_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 915068082,
-                "MediaPathName": "Media/ja/915068082.wem",
+                "MediaId": 423108981,
+                "MediaPathName": "Media/423108981.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ja_vo_feibi_burst_burst_03_tone.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\feibi\\ja_vo_feibi_burst_burst_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1040604732,
-                "MediaPathName": "Media/ja/1040604732.wem",
+                "MediaId": 1045949942,
+                "MediaPathName": "Media/1045949942.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ja_vo_feibi_burst_burst_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feibi_burst_burst"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4017145785,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4017145785,
-                "SoundBankPathName": "Event/ko/play_vo_feibi_burst_burst.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feibi_burst_burst",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 391477874,
-                "MediaPathName": "Media/ko/391477874.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ko_vo_feibi_burst_burst_01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\feibi\\ko_vo_feibi_burst_burst_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 649440561,
-                "MediaPathName": "Media/ko/649440561.wem",
+                "MediaId": 185860784,
+                "MediaPathName": "Media/185860784.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ko_vo_feibi_burst_burst_03_tone.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,1\\feibi\\en_vo_feibi_burst_burst_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 767856440,
-                "MediaPathName": "Media/ko/767856440.wem",
+                "MediaId": 281362361,
+                "MediaPathName": "Media/281362361.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ko_vo_feibi_burst_burst_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feibi_burst_burst"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4017145785,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4017145785,
-                "SoundBankPathName": "Event/zh/play_vo_feibi_burst_burst.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feibi_burst_burst",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 459534928,
-                "MediaPathName": "Media/zh/459534928.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\zh_vo_feibi_burst_burst_03_tone.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\feibi\\zh_vo_feibi_burst_burst_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 713207220,
-                "MediaPathName": "Media/zh/713207220.wem",
+                "MediaId": 731273892,
+                "MediaPathName": "Media/731273892.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\zh_vo_feibi_burst_burst_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\feibi\\ja_vo_feibi_burst_burst_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 967657370,
-                "MediaPathName": "Media/zh/967657370.wem",
+                "MediaId": 437975890,
+                "MediaPathName": "Media/437975890.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\zh_vo_feibi_burst_burst_02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\feibi\\ko_vo_feibi_burst_burst_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 428304874,
+                "MediaPathName": "Media/428304874.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_2,1\\feibi\\en_vo_feibi_burst_burst_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 526244352,
+                "MediaPathName": "Media/526244352.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\feibi\\zh_vo_feibi_burst_burst_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 355875062,
+                "MediaPathName": "Media/355875062.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\feibi\\ja_vo_feibi_burst_burst_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,7 +160,7 @@
       "DebugName": "play_vo_feibi_burst_burst",
       "EventId": 4017145785
     },
-    "MaximumDuration": 3.1158543,
+    "MaximumDuration": 3.2007291,
     "MinimumDuration": 1.9918333,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0

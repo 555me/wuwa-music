@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1162325184,
             "SoundBanks": [
               {
                 "SoundBankId": 1162325184,
-                "SoundBankPathName": "Event/en/play_vo_jiabeilina_npc_gondola_idle.bnk",
+                "SoundBankPathName": "Event/play_vo_jiabeilina_npc_gondola_idle.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 309823381,
-                "MediaPathName": "Media/en/309823381.wem",
+                "MediaId": 1073416602,
+                "MediaPathName": "Media/1073416602.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_npc_gondola_idle_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_npc_gondola_idle_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_idle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1162325184,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1162325184,
-                "SoundBankPathName": "Event/ja/play_vo_jiabeilina_npc_gondola_idle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_idle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 411846868,
-                "MediaPathName": "Media/ja/411846868.wem",
+                "MediaId": 22520231,
+                "MediaPathName": "Media/22520231.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_npc_gondola_idle_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_npc_gondola_idle_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_idle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1162325184,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1162325184,
-                "SoundBankPathName": "Event/ko/play_vo_jiabeilina_npc_gondola_idle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_idle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 268427916,
-                "MediaPathName": "Media/ko/268427916.wem",
+                "MediaId": 48828126,
+                "MediaPathName": "Media/48828126.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_npc_gondola_idle_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_npc_gondola_idle_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_idle"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1162325184,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1162325184,
-                "SoundBankPathName": "Event/zh/play_vo_jiabeilina_npc_gondola_idle.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_idle",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 572067667,
-                "MediaPathName": "Media/zh/572067667.wem",
+                "MediaId": 713901643,
+                "MediaPathName": "Media/713901643.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_npc_gondola_idle_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_npc_gondola_idle_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 1162325184
     },
     "MaximumDuration": 4.883333,
-    "MinimumDuration": 4.883333,
+    "MinimumDuration": 2.1615207,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

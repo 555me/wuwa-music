@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3905333065,
             "SoundBanks": [
               {
                 "SoundBankId": 3905333065,
-                "SoundBankPathName": "Event/en/play_vo_shouanren_atk_atk04.bnk",
+                "SoundBankPathName": "Event/play_vo_shouanren_atk_atk04.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 388915999,
-                "MediaPathName": "Media/en/388915999.wem",
+                "MediaId": 348759603,
+                "MediaPathName": "Media/348759603.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\en_vo_shouanren_atk_atk04_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\shouanren\\ja_vo_shouanren_atk_atk04_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 615325406,
-                "MediaPathName": "Media/en/615325406.wem",
+                "MediaId": 406859044,
+                "MediaPathName": "Media/406859044.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\en_vo_shouanren_atk_atk04_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\shouanren\\zh_vo_shouanren_atk_atk04_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 834747656,
-                "MediaPathName": "Media/en/834747656.wem",
+                "MediaId": 312991003,
+                "MediaPathName": "Media/312991003.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\en_vo_shouanren_atk_atk04_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_shouanren_atk_atk04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3905333065,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3905333065,
-                "SoundBankPathName": "Event/ja/play_vo_shouanren_atk_atk04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_shouanren_atk_atk04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 419021921,
-                "MediaPathName": "Media/ja/419021921.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\ja_vo_shouanren_atk_atk04_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\shouanren\\en_vo_shouanren_atk_atk04_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 575664369,
-                "MediaPathName": "Media/ja/575664369.wem",
+                "MediaId": 697209646,
+                "MediaPathName": "Media/697209646.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\ja_vo_shouanren_atk_atk04_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\shouanren\\ko_vo_shouanren_atk_atk04_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 677305254,
-                "MediaPathName": "Media/ja/677305254.wem",
+                "MediaId": 284914038,
+                "MediaPathName": "Media/284914038.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\ja_vo_shouanren_atk_atk04_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_shouanren_atk_atk04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3905333065,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3905333065,
-                "SoundBankPathName": "Event/ko/play_vo_shouanren_atk_atk04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_shouanren_atk_atk04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 74768129,
-                "MediaPathName": "Media/ko/74768129.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\ko_vo_shouanren_atk_atk04_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\shouanren\\ja_vo_shouanren_atk_atk04_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 180194146,
-                "MediaPathName": "Media/ko/180194146.wem",
+                "MediaId": 286091227,
+                "MediaPathName": "Media/286091227.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\ko_vo_shouanren_atk_atk04_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\shouanren\\zh_vo_shouanren_atk_atk04_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 254700396,
-                "MediaPathName": "Media/ko/254700396.wem",
+                "MediaId": 937260865,
+                "MediaPathName": "Media/937260865.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\ko_vo_shouanren_atk_atk04_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_shouanren_atk_atk04"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3905333065,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3905333065,
-                "SoundBankPathName": "Event/zh/play_vo_shouanren_atk_atk04.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_shouanren_atk_atk04",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 195782613,
-                "MediaPathName": "Media/zh/195782613.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\zh_vo_shouanren_atk_atk04_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\shouanren\\en_vo_shouanren_atk_atk04_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 278072128,
-                "MediaPathName": "Media/zh/278072128.wem",
+                "MediaId": 575833663,
+                "MediaPathName": "Media/575833663.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\zh_vo_shouanren_atk_atk04_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\shouanren\\ko_vo_shouanren_atk_atk04_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 821364291,
-                "MediaPathName": "Media/zh/821364291.wem",
+                "MediaId": 777011895,
+                "MediaPathName": "Media/777011895.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\zh_vo_shouanren_atk_atk04_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\shouanren\\ja_vo_shouanren_atk_atk04_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 95745783,
+                "MediaPathName": "Media/95745783.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\shouanren\\zh_vo_shouanren_atk_atk04_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 309104600,
+                "MediaPathName": "Media/309104600.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\shouanren\\en_vo_shouanren_atk_atk04_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 123454211,
+                "MediaPathName": "Media/123454211.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\shouanren\\ko_vo_shouanren_atk_atk04_01_tone.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1115058032,
             "SoundBanks": [
               {
                 "SoundBankId": 1115058032,
-                "SoundBankPathName": "Event/en/play_favor_word_luokeke_com_openbox_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_luokeke_com_openbox_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 865465129,
-                "MediaPathName": "Media/en/865465129.wem",
+                "MediaId": 610588812,
+                "MediaPathName": "Media/610588812.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\en_vo_luokeke_com_openbox_03_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\luokeke\\ja_vo_luokeke_com_openbox_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_luokeke_com_openbox_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1115058032,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1115058032,
-                "SoundBankPathName": "Event/ja/play_favor_word_luokeke_com_openbox_03.bnk",
+                "MediaId": 445928107,
+                "MediaPathName": "Media/445928107.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_luokeke_com_openbox_03",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\luokeke\\en_vo_luokeke_com_openbox_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 194503394,
-                "MediaPathName": "Media/ja/194503394.wem",
+                "MediaId": 885160383,
+                "MediaPathName": "Media/885160383.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ja_vo_luokeke_com_openbox_03_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\luokeke\\ko_vo_luokeke_com_openbox_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_luokeke_com_openbox_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1115058032,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1115058032,
-                "SoundBankPathName": "Event/ko/play_favor_word_luokeke_com_openbox_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_luokeke_com_openbox_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 408825033,
-                "MediaPathName": "Media/ko/408825033.wem",
+                "MediaId": 114427963,
+                "MediaPathName": "Media/114427963.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ko_vo_luokeke_com_openbox_03_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_luokeke_com_openbox_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1115058032,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1115058032,
-                "SoundBankPathName": "Event/zh/play_favor_word_luokeke_com_openbox_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_luokeke_com_openbox_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 930250593,
-                "MediaPathName": "Media/zh/930250593.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\zh_vo_luokeke_com_openbox_03_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\luokeke\\zh_vo_luokeke_com_openbox_03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_luokeke_com_openbox_03",
       "EventId": 1115058032
     },
-    "MaximumDuration": 2.4297292,
-    "MinimumDuration": 2.4297292,
+    "MaximumDuration": 2.7111666,
+    "MinimumDuration": 0.97554165,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

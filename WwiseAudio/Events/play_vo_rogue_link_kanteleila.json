@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3115349508,
             "SoundBanks": [
               {
                 "SoundBankId": 3115349508,
-                "SoundBankPathName": "Event/en/play_vo_rogue_link_kanteleila.bnk",
+                "SoundBankPathName": "Event/play_vo_rogue_link_kanteleila.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 539994339,
-                "MediaPathName": "Media/en/539994339.wem",
+                "MediaId": 471167414,
+                "MediaPathName": "Media/471167414.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_kanteleila_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_kanteleila_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 984400912,
-                "MediaPathName": "Media/en/984400912.wem",
+                "MediaId": 713418667,
+                "MediaPathName": "Media/713418667.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_kanteleila_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_kanteleila"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3115349508,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3115349508,
-                "SoundBankPathName": "Event/ja/play_vo_rogue_link_kanteleila.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_kanteleila",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 422341640,
-                "MediaPathName": "Media/ja/422341640.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_kanteleila_01.wav",
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_kanteleila_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 445555795,
-                "MediaPathName": "Media/ja/445555795.wem",
+                "MediaId": 839348604,
+                "MediaPathName": "Media/839348604.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_kanteleila_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_kanteleila"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3115349508,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3115349508,
-                "SoundBankPathName": "Event/ko/play_vo_rogue_link_kanteleila.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_kanteleila",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 126261028,
-                "MediaPathName": "Media/ko/126261028.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_kanteleila_01.wav",
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_kanteleila_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 139858119,
-                "MediaPathName": "Media/ko/139858119.wem",
+                "MediaId": 977911292,
+                "MediaPathName": "Media/977911292.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_kanteleila_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_kanteleila"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3115349508,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3115349508,
-                "SoundBankPathName": "Event/zh/play_vo_rogue_link_kanteleila.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_kanteleila",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 167048462,
-                "MediaPathName": "Media/zh/167048462.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_kanteleila_02.wav",
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_kanteleila_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 845070477,
-                "MediaPathName": "Media/zh/845070477.wem",
+                "MediaId": 211866685,
+                "MediaPathName": "Media/211866685.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_kanteleila_01.wav",
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_kanteleila_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 733897999,
+                "MediaPathName": "Media/733897999.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_kanteleila_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 803218615,
+                "MediaPathName": "Media/803218615.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_kanteleila_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 454351145,
+                "MediaPathName": "Media/454351145.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_kanteleila_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,8 +120,8 @@
       "DebugName": "play_vo_rogue_link_kanteleila",
       "EventId": 3115349508
     },
-    "MaximumDuration": 2.2915416,
-    "MinimumDuration": 2.0586667,
+    "MaximumDuration": 3.0,
+    "MinimumDuration": 1.991625,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

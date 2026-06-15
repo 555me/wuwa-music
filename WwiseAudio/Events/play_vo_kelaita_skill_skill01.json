@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2181458512,
             "SoundBanks": [
               {
                 "SoundBankId": 2181458512,
-                "SoundBankPathName": "Event/en/play_vo_kelaita_skill_skill01.bnk",
+                "SoundBankPathName": "Event/play_vo_kelaita_skill_skill01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 456931661,
-                "MediaPathName": "Media/en/456931661.wem",
+                "MediaId": 546122902,
+                "MediaPathName": "Media/546122902.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\en_vo_kelaita_skill_skill01_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\kelaita\\ja_vo_kelaita_skill_skill01_03_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 818683850,
-                "MediaPathName": "Media/en/818683850.wem",
+                "MediaId": 841482873,
+                "MediaPathName": "Media/841482873.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\en_vo_kelaita_skill_skill01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\kelaita\\ko_vo_kelaita_skill_skill01_03_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1046259062,
-                "MediaPathName": "Media/en/1046259062.wem",
+                "MediaId": 614360089,
+                "MediaPathName": "Media/614360089.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\en_vo_kelaita_skill_skill01_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kelaita_skill_skill01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2181458512,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2181458512,
-                "SoundBankPathName": "Event/ja/play_vo_kelaita_skill_skill01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kelaita_skill_skill01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 18173215,
-                "MediaPathName": "Media/ja/18173215.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ja_vo_kelaita_skill_skill01_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\kelaita\\zh_vo_kelaita_skill_skill01_03_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 552522579,
-                "MediaPathName": "Media/ja/552522579.wem",
+                "MediaId": 579474113,
+                "MediaPathName": "Media/579474113.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ja_vo_kelaita_skill_skill01_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\kelaita\\en_vo_kelaita_skill_skill01_03_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 653255521,
-                "MediaPathName": "Media/ja/653255521.wem",
+                "MediaId": 908329790,
+                "MediaPathName": "Media/908329790.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ja_vo_kelaita_skill_skill01_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kelaita_skill_skill01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2181458512,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2181458512,
-                "SoundBankPathName": "Event/ko/play_vo_kelaita_skill_skill01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kelaita_skill_skill01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 520101595,
-                "MediaPathName": "Media/ko/520101595.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ko_vo_kelaita_skill_skill01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\kelaita\\ja_vo_kelaita_skill_skill01_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 907757020,
-                "MediaPathName": "Media/ko/907757020.wem",
+                "MediaId": 552893786,
+                "MediaPathName": "Media/552893786.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ko_vo_kelaita_skill_skill01_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\kelaita\\ko_vo_kelaita_skill_skill01_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1066115429,
-                "MediaPathName": "Media/ko/1066115429.wem",
+                "MediaId": 536124932,
+                "MediaPathName": "Media/536124932.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ko_vo_kelaita_skill_skill01_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kelaita_skill_skill01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2181458512,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2181458512,
-                "SoundBankPathName": "Event/zh/play_vo_kelaita_skill_skill01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kelaita_skill_skill01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 114913377,
-                "MediaPathName": "Media/zh/114913377.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\zh_vo_kelaita_skill_skill01_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\kelaita\\zh_vo_kelaita_skill_skill01_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 760709851,
-                "MediaPathName": "Media/zh/760709851.wem",
+                "MediaId": 258584181,
+                "MediaPathName": "Media/258584181.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\zh_vo_kelaita_skill_skill01_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\kelaita\\en_vo_kelaita_skill_skill01_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 827992229,
-                "MediaPathName": "Media/zh/827992229.wem",
+                "MediaId": 607438222,
+                "MediaPathName": "Media/607438222.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\zh_vo_kelaita_skill_skill01_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\kelaita\\ja_vo_kelaita_skill_skill01_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 399345439,
+                "MediaPathName": "Media/399345439.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\kelaita\\ko_vo_kelaita_skill_skill01_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 862131993,
+                "MediaPathName": "Media/862131993.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\kelaita\\zh_vo_kelaita_skill_skill01_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 825393393,
+                "MediaPathName": "Media/825393393.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\kelaita\\en_vo_kelaita_skill_skill01_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,8 +160,8 @@
       "DebugName": "play_vo_kelaita_skill_skill01",
       "EventId": 2181458512
     },
-    "MaximumDuration": 0.6231458,
-    "MinimumDuration": 0.50633335,
+    "MaximumDuration": 0.93483335,
+    "MinimumDuration": 0.36889583,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

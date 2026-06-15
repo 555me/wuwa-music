@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4173383213,
             "SoundBanks": [
               {
                 "SoundBankId": 4173383213,
-                "SoundBankPathName": "Event/en/play_favor_word_xiangliyao_sys_foodlike.bnk",
+                "SoundBankPathName": "Event/play_favor_word_xiangliyao_sys_foodlike.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 115453870,
-                "MediaPathName": "Media/en/115453870.wem",
+                "MediaId": 170501287,
+                "MediaPathName": "Media/170501287.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_food_favor_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\xiangliyao\\ko_vo_xiangliyao_food_favor_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_sys_foodlike"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4173383213,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4173383213,
-                "SoundBankPathName": "Event/ja/play_favor_word_xiangliyao_sys_foodlike.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_sys_foodlike",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 920062413,
-                "MediaPathName": "Media/ja/920062413.wem",
+                "MediaId": 307353209,
+                "MediaPathName": "Media/307353209.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_food_favor_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\xiangliyao\\zh_vo_xiangliyao_food_favor_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_sys_foodlike"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4173383213,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4173383213,
-                "SoundBankPathName": "Event/ko/play_favor_word_xiangliyao_sys_foodlike.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_sys_foodlike",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 875159751,
-                "MediaPathName": "Media/ko/875159751.wem",
+                "MediaId": 117690866,
+                "MediaPathName": "Media/117690866.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_food_favor_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.2\\xiangliyao\\en_vo_xiangliyao_food_favor_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_sys_foodlike"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4173383213,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4173383213,
-                "SoundBankPathName": "Event/zh/play_favor_word_xiangliyao_sys_foodlike.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_sys_foodlike",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 489116539,
-                "MediaPathName": "Media/zh/489116539.wem",
+                "MediaId": 881999552,
+                "MediaPathName": "Media/881999552.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_food_favor_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\xiangliyao\\ja_vo_xiangliyao_food_favor_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_xiangliyao_sys_foodlike",
       "EventId": 4173383213
     },
-    "MaximumDuration": 9.212313,
+    "MaximumDuration": 14.403292,
     "MinimumDuration": 9.212313,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

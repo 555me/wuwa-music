@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3435895146,
             "SoundBanks": [
               {
                 "SoundBankId": 3435895146,
-                "SoundBankPathName": "Event/en/play_favor_word_xiangliyao_com_hpdown02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_xiangliyao_com_hpdown02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 880727162,
-                "MediaPathName": "Media/en/880727162.wem",
+                "MediaId": 484460892,
+                "MediaPathName": "Media/484460892.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_hp50_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\xiangliyao\\ko_vo_xiangliyao_hp50_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_com_hpdown02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3435895146,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3435895146,
-                "SoundBankPathName": "Event/ja/play_favor_word_xiangliyao_com_hpdown02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_com_hpdown02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 655012550,
-                "MediaPathName": "Media/ja/655012550.wem",
+                "MediaId": 785985840,
+                "MediaPathName": "Media/785985840.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_hp50_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\xiangliyao\\zh_vo_xiangliyao_hp50_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_com_hpdown02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3435895146,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3435895146,
-                "SoundBankPathName": "Event/ko/play_favor_word_xiangliyao_com_hpdown02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_com_hpdown02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 566210006,
-                "MediaPathName": "Media/ko/566210006.wem",
+                "MediaId": 698404855,
+                "MediaPathName": "Media/698404855.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_hp50_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.2\\xiangliyao\\en_vo_xiangliyao_hp50_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_com_hpdown02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3435895146,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3435895146,
-                "SoundBankPathName": "Event/zh/play_favor_word_xiangliyao_com_hpdown02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_com_hpdown02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 693856656,
-                "MediaPathName": "Media/zh/693856656.wem",
+                "MediaId": 1040109975,
+                "MediaPathName": "Media/1040109975.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_hp50_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\xiangliyao\\ja_vo_xiangliyao_hp50_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_xiangliyao_com_hpdown02",
       "EventId": 3435895146
     },
-    "MaximumDuration": 0.885125,
-    "MinimumDuration": 0.885125,
+    "MaximumDuration": 1.452,
+    "MinimumDuration": 0.80614585,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

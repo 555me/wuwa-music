@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4121869534,
             "SoundBanks": [
               {
                 "SoundBankId": 4121869534,
-                "SoundBankPathName": "Event/en/play_vo_chixia_tired_low.bnk",
+                "SoundBankPathName": "Event/play_vo_chixia_tired_low.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,230 +29,143 @@
             ],
             "Media": [
               {
-                "MediaId": 22439961,
-                "MediaPathName": "Media/en/22439961.wem",
+                "MediaId": 660877460,
+                "MediaPathName": "Media/660877460.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_01.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\chixia\\en_vo_chixia_tired_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 307694013,
-                "MediaPathName": "Media/en/307694013.wem",
+                "MediaId": 1027911265,
+                "MediaPathName": "Media/1027911265.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_02.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\chixia\\ko_vo_chixia_tired_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 869537571,
-                "MediaPathName": "Media/en/869537571.wem",
+                "MediaId": 837366681,
+                "MediaPathName": "Media/837366681.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chixia_tired_low"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4121869534,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4121869534,
-                "SoundBankPathName": "Event/ja/play_vo_chixia_tired_low.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chixia_tired_low",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 128488632,
-                "MediaPathName": "Media/ja/128488632.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\chixia\\zh_vo_chixia_tired_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 503891619,
-                "MediaPathName": "Media/ja/503891619.wem",
+                "MediaId": 53304139,
+                "MediaPathName": "Media/53304139.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\chixia\\ja_vo_chixia_tired_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 936669431,
-                "MediaPathName": "Media/ja/936669431.wem",
+                "MediaId": 433886653,
+                "MediaPathName": "Media/433886653.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chixia_tired_low"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4121869534,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4121869534,
-                "SoundBankPathName": "Event/ko/play_vo_chixia_tired_low.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chixia_tired_low",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 17385787,
-                "MediaPathName": "Media/ko/17385787.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_01.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\chixia\\en_vo_chixia_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 556600977,
-                "MediaPathName": "Media/ko/556600977.wem",
+                "MediaId": 619169505,
+                "MediaPathName": "Media/619169505.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_02.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\chixia\\ko_vo_chixia_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1038847358,
-                "MediaPathName": "Media/ko/1038847358.wem",
+                "MediaId": 217843549,
+                "MediaPathName": "Media/217843549.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chixia_tired_low"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4121869534,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4121869534,
-                "SoundBankPathName": "Event/zh/play_vo_chixia_tired_low.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chixia_tired_low",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 762314664,
-                "MediaPathName": "Media/zh/762314664.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\chixia\\zh_vo_chixia_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 927805926,
-                "MediaPathName": "Media/zh/927805926.wem",
+                "MediaId": 291318383,
+                "MediaPathName": "Media/291318383.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_02.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\chixia\\ja_vo_chixia_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1012531612,
-                "MediaPathName": "Media/zh/1012531612.wem",
+                "MediaId": 33613620,
+                "MediaPathName": "Media/33613620.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_01.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\chixia\\en_vo_chixia_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 65140627,
-                "MediaPathName": "Media/zh/65140627.wem",
+                "MediaId": 238261559,
+                "MediaPathName": "Media/238261559.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\chixia\\ko_vo_chixia_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 96124149,
-                "MediaPathName": "Media/zh/96124149.wem",
+                "MediaId": 920364025,
+                "MediaPathName": "Media/920364025.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_tired_01.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\chixia\\zh_vo_chixia_tired_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 336908634,
+                "MediaPathName": "Media/336908634.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\chixia\\ja_vo_chixia_tired_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 33593475,
+                "MediaPathName": "Media/33593475.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\chixia\\zh_vo_chixia_tired_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 546687367,
+                "MediaPathName": "Media/546687367.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\chixia\\zh_vo_chixia_tired_03.wav",
                 "PackagedFile": null
               }
             ],

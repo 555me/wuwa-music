@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2648480759,
             "SoundBanks": [
               {
                 "SoundBankId": 2648480759,
-                "SoundBankPathName": "Event/en/play_vo_rogue_link_xiakong.bnk",
+                "SoundBankPathName": "Event/play_vo_rogue_link_xiakong.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 42749286,
-                "MediaPathName": "Media/en/42749286.wem",
+                "MediaId": 414873687,
+                "MediaPathName": "Media/414873687.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_xiakong_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_xiakong_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 299650153,
-                "MediaPathName": "Media/en/299650153.wem",
+                "MediaId": 401651610,
+                "MediaPathName": "Media/401651610.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_xiakong_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_xiakong"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2648480759,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2648480759,
-                "SoundBankPathName": "Event/ja/play_vo_rogue_link_xiakong.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_xiakong",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 216493406,
-                "MediaPathName": "Media/ja/216493406.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_xiakong_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_xiakong_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1025260343,
-                "MediaPathName": "Media/ja/1025260343.wem",
+                "MediaId": 263191664,
+                "MediaPathName": "Media/263191664.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_xiakong_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_xiakong"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2648480759,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2648480759,
-                "SoundBankPathName": "Event/ko/play_vo_rogue_link_xiakong.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_xiakong",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 394074047,
-                "MediaPathName": "Media/ko/394074047.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_xiakong_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_xiakong_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 995385637,
-                "MediaPathName": "Media/ko/995385637.wem",
+                "MediaId": 726566387,
+                "MediaPathName": "Media/726566387.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_xiakong_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_xiakong"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2648480759,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2648480759,
-                "SoundBankPathName": "Event/zh/play_vo_rogue_link_xiakong.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_xiakong",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 172286644,
-                "MediaPathName": "Media/zh/172286644.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_xiakong_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_xiakong_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 815784400,
-                "MediaPathName": "Media/zh/815784400.wem",
+                "MediaId": 65218240,
+                "MediaPathName": "Media/65218240.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_xiakong_01.wav",
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_2,3\\zh_vo_rogue_link_xiakong_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 378279547,
+                "MediaPathName": "Media/378279547.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_2,3\\ko_vo_rogue_link_xiakong_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 3210045,
+                "MediaPathName": "Media/3210045.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_2,3\\en_vo_rogue_link_xiakong_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 936526700,
+                "MediaPathName": "Media/936526700.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_2,3\\ja_vo_rogue_link_xiakong_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -208,7 +121,7 @@
       "EventId": 2648480759
     },
     "MaximumDuration": 2.5030625,
-    "MinimumDuration": 1.1368333,
+    "MinimumDuration": 0.0,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

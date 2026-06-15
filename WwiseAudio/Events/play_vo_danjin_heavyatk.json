@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2159204228,
             "SoundBanks": [
               {
                 "SoundBankId": 2159204228,
-                "SoundBankPathName": "Event/en/play_vo_danjin_heavyatk.bnk",
+                "SoundBankPathName": "Event/play_vo_danjin_heavyatk.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 218452170,
-                "MediaPathName": "Media/en/218452170.wem",
+                "MediaId": 182165163,
+                "MediaPathName": "Media/182165163.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_heavyatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_heavyatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 691633829,
-                "MediaPathName": "Media/en/691633829.wem",
+                "MediaId": 997162556,
+                "MediaPathName": "Media/997162556.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_heavyatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_heavyatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 985108469,
-                "MediaPathName": "Media/en/985108469.wem",
+                "MediaId": 594646302,
+                "MediaPathName": "Media/594646302.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_heavyatk_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_heavyatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2159204228,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2159204228,
-                "SoundBankPathName": "Event/ja/play_vo_danjin_heavyatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_heavyatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 123039594,
-                "MediaPathName": "Media/ja/123039594.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_heavyatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_heavyatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 468589757,
-                "MediaPathName": "Media/ja/468589757.wem",
+                "MediaId": 948190522,
+                "MediaPathName": "Media/948190522.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_heavyatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_heavyatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 969697447,
-                "MediaPathName": "Media/ja/969697447.wem",
+                "MediaId": 729379528,
+                "MediaPathName": "Media/729379528.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_heavyatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_heavyatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2159204228,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2159204228,
-                "SoundBankPathName": "Event/ko/play_vo_danjin_heavyatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_heavyatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 579894988,
-                "MediaPathName": "Media/ko/579894988.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_heavyatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_heavyatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 852676788,
-                "MediaPathName": "Media/ko/852676788.wem",
+                "MediaId": 910958716,
+                "MediaPathName": "Media/910958716.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_heavyatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_heavyatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 879011809,
-                "MediaPathName": "Media/ko/879011809.wem",
+                "MediaId": 720069522,
+                "MediaPathName": "Media/720069522.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_heavyatk_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_heavyatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2159204228,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2159204228,
-                "SoundBankPathName": "Event/zh/play_vo_danjin_heavyatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_heavyatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 540483765,
-                "MediaPathName": "Media/zh/540483765.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_heavyatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_heavyatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 821456718,
-                "MediaPathName": "Media/zh/821456718.wem",
+                "MediaId": 735219425,
+                "MediaPathName": "Media/735219425.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_heavyatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_heavyatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1041368846,
-                "MediaPathName": "Media/zh/1041368846.wem",
+                "MediaId": 48019660,
+                "MediaPathName": "Media/48019660.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_heavyatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_heavyatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 21167370,
+                "MediaPathName": "Media/21167370.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_heavyatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 406570290,
+                "MediaPathName": "Media/406570290.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_heavyatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 455446401,
+                "MediaPathName": "Media/455446401.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_heavyatk_01.wav",
                 "PackagedFile": null
               }
             ],

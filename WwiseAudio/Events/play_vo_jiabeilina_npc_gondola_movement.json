@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 737491485,
             "SoundBanks": [
               {
                 "SoundBankId": 737491485,
-                "SoundBankPathName": "Event/en/play_vo_jiabeilina_npc_gondola_movement.bnk",
+                "SoundBankPathName": "Event/play_vo_jiabeilina_npc_gondola_movement.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1062514245,
-                "MediaPathName": "Media/en/1062514245.wem",
+                "MediaId": 391180069,
+                "MediaPathName": "Media/391180069.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_npc_gondola_movement_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_npc_gondola_movement_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_movement"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 737491485,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 737491485,
-                "SoundBankPathName": "Event/ja/play_vo_jiabeilina_npc_gondola_movement.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_movement",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 197025902,
-                "MediaPathName": "Media/ja/197025902.wem",
+                "MediaId": 94134778,
+                "MediaPathName": "Media/94134778.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_npc_gondola_movement_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_npc_gondola_movement_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_movement"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 737491485,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 737491485,
-                "SoundBankPathName": "Event/ko/play_vo_jiabeilina_npc_gondola_movement.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_movement",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 269376756,
-                "MediaPathName": "Media/ko/269376756.wem",
+                "MediaId": 69453382,
+                "MediaPathName": "Media/69453382.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_npc_gondola_movement_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_npc_gondola_movement_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_movement"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 737491485,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 737491485,
-                "SoundBankPathName": "Event/zh/play_vo_jiabeilina_npc_gondola_movement.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_movement",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 554833898,
-                "MediaPathName": "Media/zh/554833898.wem",
+                "MediaId": 35616983,
+                "MediaPathName": "Media/35616983.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_npc_gondola_movement_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_npc_gondola_movement_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_vo_jiabeilina_npc_gondola_movement",
       "EventId": 737491485
     },
-    "MaximumDuration": 1.1022084,
+    "MaximumDuration": 1.4029375,
     "MinimumDuration": 1.1022084,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

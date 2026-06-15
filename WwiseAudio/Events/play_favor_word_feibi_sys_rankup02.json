@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 722729011,
             "SoundBanks": [
               {
                 "SoundBankId": 722729011,
-                "SoundBankPathName": "Event/en/play_favor_word_feibi_sys_rankup02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_feibi_sys_rankup02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 763495781,
-                "MediaPathName": "Media/en/763495781.wem",
+                "MediaId": 297878702,
+                "MediaPathName": "Media/297878702.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\en_vo_feibi_sys_rankup02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\feibi\\ko_vo_feibi_sys_rankup02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_sys_rankup02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 722729011,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 722729011,
-                "SoundBankPathName": "Event/ja/play_favor_word_feibi_sys_rankup02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_sys_rankup02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 164981786,
-                "MediaPathName": "Media/ja/164981786.wem",
+                "MediaId": 89570083,
+                "MediaPathName": "Media/89570083.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ja_vo_feibi_sys_rankup02_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,1\\feibi\\en_vo_feibi_sys_rankup02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_sys_rankup02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 722729011,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 722729011,
-                "SoundBankPathName": "Event/ko/play_favor_word_feibi_sys_rankup02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_sys_rankup02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 943939972,
-                "MediaPathName": "Media/ko/943939972.wem",
+                "MediaId": 605832789,
+                "MediaPathName": "Media/605832789.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ko_vo_feibi_sys_rankup02_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\feibi\\zh_vo_feibi_sys_rankup02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_sys_rankup02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 722729011,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 722729011,
-                "SoundBankPathName": "Event/zh/play_favor_word_feibi_sys_rankup02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_sys_rankup02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1044001103,
-                "MediaPathName": "Media/zh/1044001103.wem",
+                "MediaId": 447551102,
+                "MediaPathName": "Media/447551102.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\zh_vo_feibi_sys_rankup02_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\feibi\\ja_vo_feibi_sys_rankup02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_feibi_sys_rankup02",
       "EventId": 722729011
     },
-    "MaximumDuration": 5.9920626,
-    "MinimumDuration": 5.9920626,
+    "MaximumDuration": 6.012,
+    "MinimumDuration": 3.6623333,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

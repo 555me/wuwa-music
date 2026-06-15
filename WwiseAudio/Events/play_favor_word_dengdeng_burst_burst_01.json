@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 636813718,
             "SoundBanks": [
               {
                 "SoundBankId": 636813718,
-                "SoundBankPathName": "Event/en/play_favor_word_dengdeng_burst_burst_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_dengdeng_burst_burst_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1065036577,
-                "MediaPathName": "Media/en/1065036577.wem",
+                "MediaId": 510246540,
+                "MediaPathName": "Media/510246540.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.4\\dengdeng\\en_vo_dengdeng_burst_burst_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 48452069,
+                "MediaPathName": "Media/48452069.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.4\\dengdeng\\zh_vo_dengdeng_burst_burst_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 984276518,
+                "MediaPathName": "Media/984276518.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\dengdeng\\en_vo_dengdeng_burst_burst_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.4\\dengdeng\\ja_vo_dengdeng_burst_burst_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dengdeng_burst_burst_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 636813718,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 636813718,
-                "SoundBankPathName": "Event/ja/play_favor_word_dengdeng_burst_burst_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dengdeng_burst_burst_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 654532645,
-                "MediaPathName": "Media/ja/654532645.wem",
+                "MediaId": 201872444,
+                "MediaPathName": "Media/201872444.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\dengdeng\\ja_vo_dengdeng_burst_burst_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dengdeng_burst_burst_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 636813718,
-            "SoundBanks": [
-              {
-                "SoundBankId": 636813718,
-                "SoundBankPathName": "Event/ko/play_favor_word_dengdeng_burst_burst_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dengdeng_burst_burst_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 801718888,
-                "MediaPathName": "Media/ko/801718888.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\dengdeng\\ko_vo_dengdeng_burst_burst_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dengdeng_burst_burst_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 636813718,
-            "SoundBanks": [
-              {
-                "SoundBankId": 636813718,
-                "SoundBankPathName": "Event/zh/play_favor_word_dengdeng_burst_burst_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dengdeng_burst_burst_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 76229047,
-                "MediaPathName": "Media/zh/76229047.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\dengdeng\\zh_vo_dengdeng_burst_burst_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.4\\dengdeng\\ko_vo_dengdeng_burst_burst_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_dengdeng_burst_burst_01",
       "EventId": 636813718
     },
-    "MaximumDuration": 1.8362083,
-    "MinimumDuration": 1.8362083,
+    "MaximumDuration": 2.0981042,
+    "MinimumDuration": 1.7978542,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

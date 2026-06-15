@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1982592260,
             "SoundBanks": [
               {
                 "SoundBankId": 1982592260,
-                "SoundBankPathName": "Event/en/play_favor_word_xiangliyao_sys_jointeam_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_xiangliyao_sys_jointeam_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 520403850,
-                "MediaPathName": "Media/en/520403850.wem",
+                "MediaId": 130369391,
+                "MediaPathName": "Media/130369391.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_join_team_02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\xiangliyao\\ko_vo_xiangliyao_join_team_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_sys_jointeam_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1982592260,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1982592260,
-                "SoundBankPathName": "Event/ja/play_favor_word_xiangliyao_sys_jointeam_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_sys_jointeam_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 209031715,
-                "MediaPathName": "Media/ja/209031715.wem",
+                "MediaId": 100154607,
+                "MediaPathName": "Media/100154607.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_join_team_02_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\xiangliyao\\zh_vo_xiangliyao_join_team_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_sys_jointeam_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1982592260,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1982592260,
-                "SoundBankPathName": "Event/ko/play_favor_word_xiangliyao_sys_jointeam_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_sys_jointeam_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 60356461,
-                "MediaPathName": "Media/ko/60356461.wem",
+                "MediaId": 96143471,
+                "MediaPathName": "Media/96143471.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_join_team_02_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.2\\xiangliyao\\en_vo_xiangliyao_join_team_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiangliyao_sys_jointeam_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1982592260,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1982592260,
-                "SoundBankPathName": "Event/zh/play_favor_word_xiangliyao_sys_jointeam_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiangliyao_sys_jointeam_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 719934529,
-                "MediaPathName": "Media/zh/719934529.wem",
+                "MediaId": 595530855,
+                "MediaPathName": "Media/595530855.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_join_team_02_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\xiangliyao\\ja_vo_xiangliyao_join_team_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_xiangliyao_sys_jointeam_02",
       "EventId": 1982592260
     },
-    "MaximumDuration": 3.186375,
+    "MaximumDuration": 4.126896,
     "MinimumDuration": 3.186375,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

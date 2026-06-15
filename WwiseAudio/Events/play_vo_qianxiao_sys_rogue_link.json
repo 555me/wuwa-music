@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1538477104,
             "SoundBanks": [
               {
                 "SoundBankId": 1538477104,
-                "SoundBankPathName": "Event/en/play_vo_qianxiao_sys_rogue_link.bnk",
+                "SoundBankPathName": "Event/play_vo_qianxiao_sys_rogue_link.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 556272238,
-                "MediaPathName": "Media/en/556272238.wem",
+                "MediaId": 823417280,
+                "MediaPathName": "Media/823417280.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\en_vo_qianxiao_sys_rogue_link_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,8\\qianxiao\\en_vo_qianxiao_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1063038576,
-                "MediaPathName": "Media/en/1063038576.wem",
+                "MediaId": 1039405624,
+                "MediaPathName": "Media/1039405624.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\en_vo_qianxiao_sys_rogue_link_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qianxiao_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1538477104,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1538477104,
-                "SoundBankPathName": "Event/ja/play_vo_qianxiao_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qianxiao_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 581399815,
-                "MediaPathName": "Media/ja/581399815.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\ja_vo_qianxiao_sys_rogue_link_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,8\\qianxiao\\ja_vo_qianxiao_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 756193400,
-                "MediaPathName": "Media/ja/756193400.wem",
+                "MediaId": 940740953,
+                "MediaPathName": "Media/940740953.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\ja_vo_qianxiao_sys_rogue_link_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qianxiao_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1538477104,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1538477104,
-                "SoundBankPathName": "Event/ko/play_vo_qianxiao_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qianxiao_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 571089144,
-                "MediaPathName": "Media/ko/571089144.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\ko_vo_qianxiao_sys_rogue_link_01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,8\\qianxiao\\ko_vo_qianxiao_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 945691187,
-                "MediaPathName": "Media/ko/945691187.wem",
+                "MediaId": 724875979,
+                "MediaPathName": "Media/724875979.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\ko_vo_qianxiao_sys_rogue_link_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qianxiao_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1538477104,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1538477104,
-                "SoundBankPathName": "Event/zh/play_vo_qianxiao_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qianxiao_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 906750783,
-                "MediaPathName": "Media/zh/906750783.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\zh_vo_qianxiao_sys_rogue_link_01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,8\\qianxiao\\zh_vo_qianxiao_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1004219248,
-                "MediaPathName": "Media/zh/1004219248.wem",
+                "MediaId": 266410846,
+                "MediaPathName": "Media/266410846.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,8\\qianxiao\\en_vo_qianxiao_sys_rogue_link_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 905015011,
+                "MediaPathName": "Media/905015011.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,8\\qianxiao\\ja_vo_qianxiao_sys_rogue_link_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 708855542,
+                "MediaPathName": "Media/708855542.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\zh_vo_qianxiao_sys_rogue_link_02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,8\\qianxiao\\ko_vo_qianxiao_sys_rogue_link_02_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1064626888,
+                "MediaPathName": "Media/1064626888.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_2,8\\qianxiao\\zh_vo_qianxiao_sys_rogue_link_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,8 +120,8 @@
       "DebugName": "play_vo_qianxiao_sys_rogue_link",
       "EventId": 1538477104
     },
-    "MaximumDuration": 2.1704583,
-    "MinimumDuration": 2.1190624,
+    "MaximumDuration": 2.630875,
+    "MinimumDuration": 1.372625,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

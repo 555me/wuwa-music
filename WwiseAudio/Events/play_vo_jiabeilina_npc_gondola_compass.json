@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1845967230,
             "SoundBanks": [
               {
                 "SoundBankId": 1845967230,
-                "SoundBankPathName": "Event/en/play_vo_jiabeilina_npc_gondola_compass.bnk",
+                "SoundBankPathName": "Event/play_vo_jiabeilina_npc_gondola_compass.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 950073507,
-                "MediaPathName": "Media/en/950073507.wem",
+                "MediaId": 351564534,
+                "MediaPathName": "Media/351564534.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_npc_gondola_compass_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_npc_gondola_compass_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_compass"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1845967230,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1845967230,
-                "SoundBankPathName": "Event/ja/play_vo_jiabeilina_npc_gondola_compass.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_compass",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 471627595,
-                "MediaPathName": "Media/ja/471627595.wem",
+                "MediaId": 693781342,
+                "MediaPathName": "Media/693781342.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_npc_gondola_compass_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_npc_gondola_compass_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_compass"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1845967230,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1845967230,
-                "SoundBankPathName": "Event/ko/play_vo_jiabeilina_npc_gondola_compass.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_compass",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 802478142,
-                "MediaPathName": "Media/ko/802478142.wem",
+                "MediaId": 703845909,
+                "MediaPathName": "Media/703845909.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_npc_gondola_compass_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_npc_gondola_compass_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_compass"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1845967230,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1845967230,
-                "SoundBankPathName": "Event/zh/play_vo_jiabeilina_npc_gondola_compass.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_compass",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 231992861,
-                "MediaPathName": "Media/zh/231992861.wem",
+                "MediaId": 710308141,
+                "MediaPathName": "Media/710308141.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_npc_gondola_compass_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_npc_gondola_compass_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_vo_jiabeilina_npc_gondola_compass",
       "EventId": 1845967230
     },
-    "MaximumDuration": 1.5616459,
+    "MaximumDuration": 1.8270833,
     "MinimumDuration": 1.5616459,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

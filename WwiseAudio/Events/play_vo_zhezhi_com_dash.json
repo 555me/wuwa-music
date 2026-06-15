@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2008912173,
             "SoundBanks": [
               {
                 "SoundBankId": 2008912173,
-                "SoundBankPathName": "Event/en/play_vo_zhezhi_com_dash.bnk",
+                "SoundBankPathName": "Event/play_vo_zhezhi_com_dash.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 476739245,
-                "MediaPathName": "Media/en/476739245.wem",
+                "MediaId": 443877584,
+                "MediaPathName": "Media/443877584.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_dash_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\zhezhi\\ja_vo_zhezhi_dash_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 794885476,
-                "MediaPathName": "Media/en/794885476.wem",
+                "MediaId": 275773572,
+                "MediaPathName": "Media/275773572.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_dash_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\zhezhi\\ko_vo_zhezhi_dash_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 888954092,
-                "MediaPathName": "Media/en/888954092.wem",
+                "MediaId": 88642689,
+                "MediaPathName": "Media/88642689.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_dash_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zhezhi_com_dash"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2008912173,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2008912173,
-                "SoundBankPathName": "Event/ja/play_vo_zhezhi_com_dash.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zhezhi_com_dash",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 26998548,
-                "MediaPathName": "Media/ja/26998548.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_dash_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.2\\zhezhi\\en_vo_zhezhi_dash_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 344837648,
-                "MediaPathName": "Media/ja/344837648.wem",
+                "MediaId": 787330465,
+                "MediaPathName": "Media/787330465.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_dash_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\zhezhi\\zh_vo_zhezhi_dash_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 424197670,
-                "MediaPathName": "Media/ja/424197670.wem",
+                "MediaId": 174241478,
+                "MediaPathName": "Media/174241478.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_dash_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zhezhi_com_dash"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2008912173,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2008912173,
-                "SoundBankPathName": "Event/ko/play_vo_zhezhi_com_dash.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zhezhi_com_dash",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 213905460,
-                "MediaPathName": "Media/ko/213905460.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_dash_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\zhezhi\\ja_vo_zhezhi_dash_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 747545238,
-                "MediaPathName": "Media/ko/747545238.wem",
+                "MediaId": 980101732,
+                "MediaPathName": "Media/980101732.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_dash_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\zhezhi\\ko_vo_zhezhi_dash_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 990462499,
-                "MediaPathName": "Media/ko/990462499.wem",
+                "MediaId": 838325056,
+                "MediaPathName": "Media/838325056.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_dash_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zhezhi_com_dash"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2008912173,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2008912173,
-                "SoundBankPathName": "Event/zh/play_vo_zhezhi_com_dash.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zhezhi_com_dash",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 158191768,
-                "MediaPathName": "Media/zh/158191768.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_dash_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.2\\zhezhi\\en_vo_zhezhi_dash_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 492754462,
-                "MediaPathName": "Media/zh/492754462.wem",
+                "MediaId": 361466769,
+                "MediaPathName": "Media/361466769.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_dash_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\zhezhi\\zh_vo_zhezhi_dash_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 760780485,
-                "MediaPathName": "Media/zh/760780485.wem",
+                "MediaId": 789709783,
+                "MediaPathName": "Media/789709783.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_dash_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\zhezhi\\ja_vo_zhezhi_dash_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 215262578,
+                "MediaPathName": "Media/215262578.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\zhezhi\\ko_vo_zhezhi_dash_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 396471895,
+                "MediaPathName": "Media/396471895.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.2\\zhezhi\\en_vo_zhezhi_dash_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 627117518,
+                "MediaPathName": "Media/627117518.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\zhezhi\\zh_vo_zhezhi_dash_03_tone.wav",
                 "PackagedFile": null
               }
             ],

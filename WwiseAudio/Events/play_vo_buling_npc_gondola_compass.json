@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1400699419,
             "SoundBanks": [
               {
                 "SoundBankId": 1400699419,
-                "SoundBankPathName": "Event/en/play_vo_buling_npc_gondola_compass.bnk",
+                "SoundBankPathName": "Event/play_vo_buling_npc_gondola_compass.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 369076429,
-                "MediaPathName": "Media/en/369076429.wem",
+                "MediaId": 719113041,
+                "MediaPathName": "Media/719113041.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\en_vo_buling_npc_gondola_compass_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,8\\buling\\ja_vo_buling_npc_gondola_compass_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_buling_npc_gondola_compass"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1400699419,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1400699419,
-                "SoundBankPathName": "Event/ja/play_vo_buling_npc_gondola_compass.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_buling_npc_gondola_compass",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 174552463,
-                "MediaPathName": "Media/ja/174552463.wem",
+                "MediaId": 281284934,
+                "MediaPathName": "Media/281284934.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ja_vo_buling_npc_gondola_compass_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,8\\buling\\en_vo_buling_npc_gondola_compass_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_buling_npc_gondola_compass"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1400699419,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1400699419,
-                "SoundBankPathName": "Event/ko/play_vo_buling_npc_gondola_compass.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_buling_npc_gondola_compass",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 482531464,
-                "MediaPathName": "Media/ko/482531464.wem",
+                "MediaId": 263566270,
+                "MediaPathName": "Media/263566270.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\ko_vo_buling_npc_gondola_compass_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,8\\buling\\zh_vo_buling_npc_gondola_compass_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_buling_npc_gondola_compass"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1400699419,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1400699419,
-                "SoundBankPathName": "Event/zh/play_vo_buling_npc_gondola_compass.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_buling_npc_gondola_compass",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 162734588,
-                "MediaPathName": "Media/zh/162734588.wem",
+                "MediaId": 703908154,
+                "MediaPathName": "Media/703908154.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\buling\\zh_vo_buling_npc_gondola_compass_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,8\\buling\\ko_vo_buling_npc_gondola_compass_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_vo_buling_npc_gondola_compass",
       "EventId": 1400699419
     },
-    "MaximumDuration": 3.626625,
+    "MaximumDuration": 5.4483123,
     "MinimumDuration": 3.626625,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

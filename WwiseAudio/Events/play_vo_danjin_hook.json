@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 338679600,
             "SoundBanks": [
               {
                 "SoundBankId": 338679600,
-                "SoundBankPathName": "Event/en/play_vo_danjin_hook.bnk",
+                "SoundBankPathName": "Event/play_vo_danjin_hook.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 58694249,
-                "MediaPathName": "Media/en/58694249.wem",
+                "MediaId": 770598861,
+                "MediaPathName": "Media/770598861.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hook_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_hook_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 366053810,
-                "MediaPathName": "Media/en/366053810.wem",
+                "MediaId": 150059953,
+                "MediaPathName": "Media/150059953.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hook_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_hook_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 373581276,
-                "MediaPathName": "Media/en/373581276.wem",
+                "MediaId": 37669731,
+                "MediaPathName": "Media/37669731.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hook_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_hook"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 338679600,
-            "SoundBanks": [
-              {
-                "SoundBankId": 338679600,
-                "SoundBankPathName": "Event/ja/play_vo_danjin_hook.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_hook",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 205977392,
-                "MediaPathName": "Media/ja/205977392.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hook_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_hook_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 498008284,
-                "MediaPathName": "Media/ja/498008284.wem",
+                "MediaId": 640033162,
+                "MediaPathName": "Media/640033162.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hook_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_hook_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 919021715,
-                "MediaPathName": "Media/ja/919021715.wem",
+                "MediaId": 620592867,
+                "MediaPathName": "Media/620592867.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hook_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_hook"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 338679600,
-            "SoundBanks": [
-              {
-                "SoundBankId": 338679600,
-                "SoundBankPathName": "Event/ko/play_vo_danjin_hook.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_hook",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 533510370,
-                "MediaPathName": "Media/ko/533510370.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hook_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_hook_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 713125784,
-                "MediaPathName": "Media/ko/713125784.wem",
+                "MediaId": 595994321,
+                "MediaPathName": "Media/595994321.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hook_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_hook_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 985208501,
-                "MediaPathName": "Media/ko/985208501.wem",
+                "MediaId": 45881020,
+                "MediaPathName": "Media/45881020.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hook_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_hook"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 338679600,
-            "SoundBanks": [
-              {
-                "SoundBankId": 338679600,
-                "SoundBankPathName": "Event/zh/play_vo_danjin_hook.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_hook",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 283956941,
-                "MediaPathName": "Media/zh/283956941.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hook_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_hook_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 878014776,
-                "MediaPathName": "Media/zh/878014776.wem",
+                "MediaId": 1042429855,
+                "MediaPathName": "Media/1042429855.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hook_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_hook_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 945452200,
-                "MediaPathName": "Media/zh/945452200.wem",
+                "MediaId": 829386744,
+                "MediaPathName": "Media/829386744.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hook_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_hook_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 523210795,
+                "MediaPathName": "Media/523210795.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_hook_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 493155467,
+                "MediaPathName": "Media/493155467.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_hook_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 984467828,
+                "MediaPathName": "Media/984467828.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_hook_03.wav",
                 "PackagedFile": null
               }
             ],

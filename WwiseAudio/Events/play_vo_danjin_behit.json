@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3458682645,
             "SoundBanks": [
               {
                 "SoundBankId": 3458682645,
-                "SoundBankPathName": "Event/en/play_vo_danjin_behit.bnk",
+                "SoundBankPathName": "Event/play_vo_danjin_behit.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 168259871,
-                "MediaPathName": "Media/en/168259871.wem",
+                "MediaId": 1062235853,
+                "MediaPathName": "Media/1062235853.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_behit_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_behit_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 336851702,
-                "MediaPathName": "Media/en/336851702.wem",
+                "MediaId": 996566748,
+                "MediaPathName": "Media/996566748.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_behit_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_behit_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 457555855,
-                "MediaPathName": "Media/en/457555855.wem",
+                "MediaId": 893655634,
+                "MediaPathName": "Media/893655634.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_behit_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3458682645,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3458682645,
-                "SoundBankPathName": "Event/ja/play_vo_danjin_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 331058841,
-                "MediaPathName": "Media/ja/331058841.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_behit_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_behit_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 741085889,
-                "MediaPathName": "Media/ja/741085889.wem",
+                "MediaId": 255076055,
+                "MediaPathName": "Media/255076055.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_behit_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_behit_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 774431325,
-                "MediaPathName": "Media/ja/774431325.wem",
+                "MediaId": 925208415,
+                "MediaPathName": "Media/925208415.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_behit_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3458682645,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3458682645,
-                "SoundBankPathName": "Event/ko/play_vo_danjin_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 128392267,
-                "MediaPathName": "Media/ko/128392267.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_behit_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_behit_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 250225666,
-                "MediaPathName": "Media/ko/250225666.wem",
+                "MediaId": 374609308,
+                "MediaPathName": "Media/374609308.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_behit_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_behit_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1027892990,
-                "MediaPathName": "Media/ko/1027892990.wem",
+                "MediaId": 226142838,
+                "MediaPathName": "Media/226142838.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_behit_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_danjin_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3458682645,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3458682645,
-                "SoundBankPathName": "Event/zh/play_vo_danjin_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_danjin_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 87364251,
-                "MediaPathName": "Media/zh/87364251.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_behit_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_behit_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 566415409,
-                "MediaPathName": "Media/zh/566415409.wem",
+                "MediaId": 287011854,
+                "MediaPathName": "Media/287011854.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_behit_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_behit_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 603036437,
-                "MediaPathName": "Media/zh/603036437.wem",
+                "MediaId": 1068301983,
+                "MediaPathName": "Media/1068301983.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_behit_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_behit_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 346561222,
+                "MediaPathName": "Media/346561222.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_behit_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 342247783,
+                "MediaPathName": "Media/342247783.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_behit_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 482011873,
+                "MediaPathName": "Media/482011873.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_behit_02.wav",
                 "PackagedFile": null
               }
             ],

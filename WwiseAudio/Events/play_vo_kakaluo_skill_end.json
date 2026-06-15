@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 784899258,
             "SoundBanks": [
               {
                 "SoundBankId": 784899258,
-                "SoundBankPathName": "Event/en/play_vo_kakaluo_skill_end.bnk",
+                "SoundBankPathName": "Event/play_vo_kakaluo_skill_end.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 92243447,
-                "MediaPathName": "Media/en/92243447.wem",
+                "MediaId": 613988671,
+                "MediaPathName": "Media/613988671.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_skill_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_skill_end_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 324050618,
-                "MediaPathName": "Media/en/324050618.wem",
+                "MediaId": 439275040,
+                "MediaPathName": "Media/439275040.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_skill_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_skill_end_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1037491585,
-                "MediaPathName": "Media/en/1037491585.wem",
+                "MediaId": 22006882,
+                "MediaPathName": "Media/22006882.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_skill_end_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kakaluo_skill_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 784899258,
-            "SoundBanks": [
-              {
-                "SoundBankId": 784899258,
-                "SoundBankPathName": "Event/ja/play_vo_kakaluo_skill_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kakaluo_skill_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 295322025,
-                "MediaPathName": "Media/ja/295322025.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_skill_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_skill_end_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 301403479,
-                "MediaPathName": "Media/ja/301403479.wem",
+                "MediaId": 101070246,
+                "MediaPathName": "Media/101070246.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_skill_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_skill_end_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 318626158,
-                "MediaPathName": "Media/ja/318626158.wem",
+                "MediaId": 271538099,
+                "MediaPathName": "Media/271538099.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_skill_end_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kakaluo_skill_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 784899258,
-            "SoundBanks": [
-              {
-                "SoundBankId": 784899258,
-                "SoundBankPathName": "Event/ko/play_vo_kakaluo_skill_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kakaluo_skill_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 925751484,
-                "MediaPathName": "Media/ko/925751484.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_skill_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_skill_end_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 996034954,
-                "MediaPathName": "Media/ko/996034954.wem",
+                "MediaId": 770657560,
+                "MediaPathName": "Media/770657560.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_skill_end_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_skill_end_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1056561619,
-                "MediaPathName": "Media/ko/1056561619.wem",
+                "MediaId": 195507666,
+                "MediaPathName": "Media/195507666.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_skill_end_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kakaluo_skill_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 784899258,
-            "SoundBanks": [
-              {
-                "SoundBankId": 784899258,
-                "SoundBankPathName": "Event/zh/play_vo_kakaluo_skill_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kakaluo_skill_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 348212924,
-                "MediaPathName": "Media/zh/348212924.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_skill_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_skill_end_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 622368379,
-                "MediaPathName": "Media/zh/622368379.wem",
+                "MediaId": 330589951,
+                "MediaPathName": "Media/330589951.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_skill_end_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_skill_end_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1059330206,
-                "MediaPathName": "Media/zh/1059330206.wem",
+                "MediaId": 449634077,
+                "MediaPathName": "Media/449634077.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_skill_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_skill_end_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 482090101,
+                "MediaPathName": "Media/482090101.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_skill_end_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 128674103,
+                "MediaPathName": "Media/128674103.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_skill_end_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 328800870,
+                "MediaPathName": "Media/328800870.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_skill_end_02.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2293960899,
             "SoundBanks": [
               {
                 "SoundBankId": 2293960899,
-                "SoundBankPathName": "Event/en/play_favor_word_chun_sys_rankup03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_chun_sys_rankup03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 190171978,
-                "MediaPathName": "Media/en/190171978.wem",
+                "MediaId": 276363381,
+                "MediaPathName": "Media/276363381.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\en_vo_chun_sys_rankup03_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.4\\chun\\zh_vo_chun_sys_rankup03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chun_sys_rankup03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2293960899,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2293960899,
-                "SoundBankPathName": "Event/ja/play_favor_word_chun_sys_rankup03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chun_sys_rankup03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 640970353,
-                "MediaPathName": "Media/ja/640970353.wem",
+                "MediaId": 944589823,
+                "MediaPathName": "Media/944589823.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ja_vo_chun_sys_rankup03_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.4\\chun\\en_vo_chun_sys_rankup03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chun_sys_rankup03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2293960899,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2293960899,
-                "SoundBankPathName": "Event/ko/play_favor_word_chun_sys_rankup03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chun_sys_rankup03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 446109959,
-                "MediaPathName": "Media/ko/446109959.wem",
+                "MediaId": 249336896,
+                "MediaPathName": "Media/249336896.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ko_vo_chun_sys_rankup03_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.4\\chun\\ko_vo_chun_sys_rankup03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chun_sys_rankup03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2293960899,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2293960899,
-                "SoundBankPathName": "Event/zh/play_favor_word_chun_sys_rankup03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chun_sys_rankup03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 958534186,
-                "MediaPathName": "Media/zh/958534186.wem",
+                "MediaId": 923788999,
+                "MediaPathName": "Media/923788999.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\zh_vo_chun_sys_rankup03_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.4\\chun\\ja_vo_chun_sys_rankup03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 2293960899
     },
     "MaximumDuration": 10.662354,
-    "MinimumDuration": 10.662354,
+    "MinimumDuration": 6.277146,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3107953012,
             "SoundBanks": [
               {
                 "SoundBankId": 3107953012,
-                "SoundBankPathName": "Event/en/play_favor_word_dengdeng_com_openbox_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_dengdeng_com_openbox_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 936629791,
-                "MediaPathName": "Media/en/936629791.wem",
+                "MediaId": 514287677,
+                "MediaPathName": "Media/514287677.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\dengdeng\\en_vo_dengdeng_com_openbox_03_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.4\\dengdeng\\en_vo_dengdeng_com_openbox_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dengdeng_com_openbox_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3107953012,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3107953012,
-                "SoundBankPathName": "Event/ja/play_favor_word_dengdeng_com_openbox_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dengdeng_com_openbox_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 668663807,
-                "MediaPathName": "Media/ja/668663807.wem",
+                "MediaId": 589531668,
+                "MediaPathName": "Media/589531668.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\dengdeng\\ja_vo_dengdeng_com_openbox_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.4\\dengdeng\\zh_vo_dengdeng_com_openbox_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dengdeng_com_openbox_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3107953012,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3107953012,
-                "SoundBankPathName": "Event/ko/play_favor_word_dengdeng_com_openbox_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dengdeng_com_openbox_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 503393977,
-                "MediaPathName": "Media/ko/503393977.wem",
+                "MediaId": 701335143,
+                "MediaPathName": "Media/701335143.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\dengdeng\\ko_vo_dengdeng_com_openbox_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.4\\dengdeng\\ja_vo_dengdeng_com_openbox_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_dengdeng_com_openbox_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3107953012,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3107953012,
-                "SoundBankPathName": "Event/zh/play_favor_word_dengdeng_com_openbox_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_dengdeng_com_openbox_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 555624154,
-                "MediaPathName": "Media/zh/555624154.wem",
+                "MediaId": 769398436,
+                "MediaPathName": "Media/769398436.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\dengdeng\\zh_vo_dengdeng_com_openbox_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.4\\dengdeng\\ko_vo_dengdeng_com_openbox_03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_dengdeng_com_openbox_03",
       "EventId": 3107953012
     },
-    "MaximumDuration": 1.0181042,
+    "MaximumDuration": 2.006271,
     "MinimumDuration": 1.0181042,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

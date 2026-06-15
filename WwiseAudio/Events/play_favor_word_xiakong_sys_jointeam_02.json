@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1020055714,
             "SoundBanks": [
               {
                 "SoundBankId": 1020055714,
-                "SoundBankPathName": "Event/en/play_favor_word_xiakong_sys_jointeam_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_xiakong_sys_jointeam_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 581321049,
-                "MediaPathName": "Media/en/581321049.wem",
+                "MediaId": 818036675,
+                "MediaPathName": "Media/818036675.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\en_vo_xiakong_sys_jointeam_02_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\xiakong\\zh_vo_xiakong_sys_jointeam_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiakong_sys_jointeam_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1020055714,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1020055714,
-                "SoundBankPathName": "Event/ja/play_favor_word_xiakong_sys_jointeam_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiakong_sys_jointeam_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 704806012,
-                "MediaPathName": "Media/ja/704806012.wem",
+                "MediaId": 353238811,
+                "MediaPathName": "Media/353238811.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\ja_vo_xiakong_sys_jointeam_02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\xiakong\\ko_vo_xiakong_sys_jointeam_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiakong_sys_jointeam_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1020055714,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1020055714,
-                "SoundBankPathName": "Event/ko/play_favor_word_xiakong_sys_jointeam_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiakong_sys_jointeam_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 97223439,
-                "MediaPathName": "Media/ko/97223439.wem",
+                "MediaId": 762058294,
+                "MediaPathName": "Media/762058294.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\ko_vo_xiakong_sys_jointeam_02_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,3\\xiakong\\en_vo_xiakong_sys_jointeam_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiakong_sys_jointeam_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1020055714,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1020055714,
-                "SoundBankPathName": "Event/zh/play_favor_word_xiakong_sys_jointeam_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiakong_sys_jointeam_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 395589202,
-                "MediaPathName": "Media/zh/395589202.wem",
+                "MediaId": 654276987,
+                "MediaPathName": "Media/654276987.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\zh_vo_xiakong_sys_jointeam_02_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\xiakong\\ja_vo_xiakong_sys_jointeam_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_xiakong_sys_jointeam_02",
       "EventId": 1020055714
     },
-    "MaximumDuration": 4.4590206,
+    "MaximumDuration": 4.75775,
     "MinimumDuration": 4.4590206,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

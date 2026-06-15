@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3416771222,
             "SoundBanks": [
               {
                 "SoundBankId": 3416771222,
-                "SoundBankPathName": "Event/en/play_favor_word_danjin_hp70.bnk",
+                "SoundBankPathName": "Event/play_favor_word_danjin_hp70.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 168659270,
-                "MediaPathName": "Media/en/168659270.wem",
+                "MediaId": 259419069,
+                "MediaPathName": "Media/259419069.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hpdown01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_hpdown01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_danjin_hp70"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3416771222,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3416771222,
-                "SoundBankPathName": "Event/ja/play_favor_word_danjin_hp70.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_danjin_hp70",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 670986805,
-                "MediaPathName": "Media/ja/670986805.wem",
+                "MediaId": 379896970,
+                "MediaPathName": "Media/379896970.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hpdown01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_hpdown01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_danjin_hp70"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3416771222,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3416771222,
-                "SoundBankPathName": "Event/ko/play_favor_word_danjin_hp70.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_danjin_hp70",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 545705296,
-                "MediaPathName": "Media/ko/545705296.wem",
+                "MediaId": 753702948,
+                "MediaPathName": "Media/753702948.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hpdown01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_hpdown01.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_danjin_hp70"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3416771222,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3416771222,
-                "SoundBankPathName": "Event/zh/play_favor_word_danjin_hp70.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_danjin_hp70",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 706778840,
-                "MediaPathName": "Media/zh/706778840.wem",
+                "MediaId": 184288032,
+                "MediaPathName": "Media/184288032.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_hpdown01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_hpdown01.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_danjin_hp70",
       "EventId": 3416771222
     },
-    "MaximumDuration": 1.5944217,
-    "MinimumDuration": 1.5944217,
+    "MaximumDuration": 2.276,
+    "MinimumDuration": 0.42441666,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

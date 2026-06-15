@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1510744550,
             "SoundBanks": [
               {
                 "SoundBankId": 1510744550,
-                "SoundBankPathName": "Event/en/play_vo_kelaita_com_jump.bnk",
+                "SoundBankPathName": "Event/play_vo_kelaita_com_jump.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 944174353,
-                "MediaPathName": "Media/en/944174353.wem",
+                "MediaId": 659225349,
+                "MediaPathName": "Media/659225349.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\en_vo_kelaita_com_jump_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\kelaita\\ja_vo_kelaita_com_jump_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 948964533,
-                "MediaPathName": "Media/en/948964533.wem",
+                "MediaId": 659301650,
+                "MediaPathName": "Media/659301650.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\en_vo_kelaita_com_jump_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\kelaita\\ko_vo_kelaita_com_jump_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1047509313,
-                "MediaPathName": "Media/en/1047509313.wem",
+                "MediaId": 656012813,
+                "MediaPathName": "Media/656012813.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\en_vo_kelaita_com_jump_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kelaita_com_jump"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1510744550,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1510744550,
-                "SoundBankPathName": "Event/ja/play_vo_kelaita_com_jump.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kelaita_com_jump",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 261711822,
-                "MediaPathName": "Media/ja/261711822.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ja_vo_kelaita_com_jump_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\kelaita\\zh_vo_kelaita_com_jump_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 647721486,
-                "MediaPathName": "Media/ja/647721486.wem",
+                "MediaId": 400741150,
+                "MediaPathName": "Media/400741150.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ja_vo_kelaita_com_jump_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\kelaita\\en_vo_kelaita_com_jump_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 669949960,
-                "MediaPathName": "Media/ja/669949960.wem",
+                "MediaId": 486276766,
+                "MediaPathName": "Media/486276766.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ja_vo_kelaita_com_jump_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kelaita_com_jump"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1510744550,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1510744550,
-                "SoundBankPathName": "Event/ko/play_vo_kelaita_com_jump.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kelaita_com_jump",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 4511143,
-                "MediaPathName": "Media/ko/4511143.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ko_vo_kelaita_com_jump_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\kelaita\\ja_vo_kelaita_com_jump_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 247112278,
-                "MediaPathName": "Media/ko/247112278.wem",
+                "MediaId": 83159778,
+                "MediaPathName": "Media/83159778.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ko_vo_kelaita_com_jump_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\kelaita\\ko_vo_kelaita_com_jump_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 976541049,
-                "MediaPathName": "Media/ko/976541049.wem",
+                "MediaId": 720982415,
+                "MediaPathName": "Media/720982415.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ko_vo_kelaita_com_jump_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_kelaita_com_jump"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1510744550,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1510744550,
-                "SoundBankPathName": "Event/zh/play_vo_kelaita_com_jump.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_kelaita_com_jump",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 54883776,
-                "MediaPathName": "Media/zh/54883776.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\zh_vo_kelaita_com_jump_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\kelaita\\zh_vo_kelaita_com_jump_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 385531116,
-                "MediaPathName": "Media/zh/385531116.wem",
+                "MediaId": 288906457,
+                "MediaPathName": "Media/288906457.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\zh_vo_kelaita_com_jump_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\kelaita\\en_vo_kelaita_com_jump_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 829941763,
-                "MediaPathName": "Media/zh/829941763.wem",
+                "MediaId": 187811428,
+                "MediaPathName": "Media/187811428.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\zh_vo_kelaita_com_jump_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\kelaita\\ja_vo_kelaita_com_jump_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 324655744,
+                "MediaPathName": "Media/324655744.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\kelaita\\ko_vo_kelaita_com_jump_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 233866842,
+                "MediaPathName": "Media/233866842.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\kelaita\\zh_vo_kelaita_com_jump_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 387058627,
+                "MediaPathName": "Media/387058627.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\kelaita\\en_vo_kelaita_com_jump_02_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,8 +160,8 @@
       "DebugName": "play_vo_kelaita_com_jump",
       "EventId": 1510744550
     },
-    "MaximumDuration": 0.23547916,
-    "MinimumDuration": 0.20558333,
+    "MaximumDuration": 0.80439585,
+    "MinimumDuration": 0.15385416,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

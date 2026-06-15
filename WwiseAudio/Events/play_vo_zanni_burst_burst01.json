@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3089646863,
             "SoundBanks": [
               {
                 "SoundBankId": 3089646863,
-                "SoundBankPathName": "Event/en/play_vo_zanni_burst_burst01.bnk",
+                "SoundBankPathName": "Event/play_vo_zanni_burst_burst01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 298307807,
-                "MediaPathName": "Media/en/298307807.wem",
+                "MediaId": 758138268,
+                "MediaPathName": "Media/758138268.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\en_vo_zanni_burst_burst01_03_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\zanni\\ko_vo_zanni_burst_burst01_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 301606403,
-                "MediaPathName": "Media/en/301606403.wem",
+                "MediaId": 713230925,
+                "MediaPathName": "Media/713230925.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\en_vo_zanni_burst_burst01_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\zanni\\ja_vo_zanni_burst_burst01_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 367342471,
-                "MediaPathName": "Media/en/367342471.wem",
+                "MediaId": 25565767,
+                "MediaPathName": "Media/25565767.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\en_vo_zanni_burst_burst01_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zanni_burst_burst01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3089646863,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3089646863,
-                "SoundBankPathName": "Event/ja/play_vo_zanni_burst_burst01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zanni_burst_burst01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 582604081,
-                "MediaPathName": "Media/ja/582604081.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ja_vo_zanni_burst_burst01_02_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,3\\zanni\\en_vo_zanni_burst_burst01_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 686648419,
-                "MediaPathName": "Media/ja/686648419.wem",
+                "MediaId": 870650661,
+                "MediaPathName": "Media/870650661.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ja_vo_zanni_burst_burst01_01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\zanni\\zh_vo_zanni_burst_burst01_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1018552693,
-                "MediaPathName": "Media/ja/1018552693.wem",
+                "MediaId": 214523765,
+                "MediaPathName": "Media/214523765.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ja_vo_zanni_burst_burst01_03_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zanni_burst_burst01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3089646863,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3089646863,
-                "SoundBankPathName": "Event/ko/play_vo_zanni_burst_burst01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zanni_burst_burst01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 455029558,
-                "MediaPathName": "Media/ko/455029558.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ko_vo_zanni_burst_burst01_03_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\zanni\\ko_vo_zanni_burst_burst01_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 478047340,
-                "MediaPathName": "Media/ko/478047340.wem",
+                "MediaId": 29443647,
+                "MediaPathName": "Media/29443647.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ko_vo_zanni_burst_burst01_02_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\zanni\\ja_vo_zanni_burst_burst01_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 949437216,
-                "MediaPathName": "Media/ko/949437216.wem",
+                "MediaId": 573238312,
+                "MediaPathName": "Media/573238312.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ko_vo_zanni_burst_burst01_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zanni_burst_burst01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3089646863,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3089646863,
-                "SoundBankPathName": "Event/zh/play_vo_zanni_burst_burst01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zanni_burst_burst01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 54137396,
-                "MediaPathName": "Media/zh/54137396.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\zh_vo_zanni_burst_burst01_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,3\\zanni\\en_vo_zanni_burst_burst01_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 304777479,
-                "MediaPathName": "Media/zh/304777479.wem",
+                "MediaId": 549373,
+                "MediaPathName": "Media/549373.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\zh_vo_zanni_burst_burst01_03_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\zanni\\zh_vo_zanni_burst_burst01_01_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 449697880,
-                "MediaPathName": "Media/zh/449697880.wem",
+                "MediaId": 142596437,
+                "MediaPathName": "Media/142596437.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\zh_vo_zanni_burst_burst01_01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\zanni\\ko_vo_zanni_burst_burst01_03_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1067590772,
+                "MediaPathName": "Media/1067590772.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\zanni\\ja_vo_zanni_burst_burst01_03_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 439687579,
+                "MediaPathName": "Media/439687579.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_2,3\\zanni\\en_vo_zanni_burst_burst01_03_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 843471465,
+                "MediaPathName": "Media/843471465.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\zanni\\zh_vo_zanni_burst_burst01_03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -248,7 +161,7 @@
       "EventId": 3089646863
     },
     "MaximumDuration": 3.215896,
-    "MinimumDuration": 2.856625,
+    "MinimumDuration": 1.5088125,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

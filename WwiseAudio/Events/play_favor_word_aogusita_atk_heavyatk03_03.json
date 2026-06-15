@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4202954909,
             "SoundBanks": [
               {
                 "SoundBankId": 4202954909,
-                "SoundBankPathName": "Event/en/play_favor_word_aogusita_atk_heavyatk03_03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_aogusita_atk_heavyatk03_03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 770628310,
-                "MediaPathName": "Media/en/770628310.wem",
+                "MediaId": 741075834,
+                "MediaPathName": "Media/741075834.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,6\\aogusita\\zh_vo_aogusita_atk_heavyatk03_03_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 254894839,
+                "MediaPathName": "Media/254894839.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,6\\aogusita\\ko_vo_aogusita_atk_heavyatk03_03_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 938762968,
+                "MediaPathName": "Media/938762968.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,6\\aogusita\\en_vo_aogusita_atk_heavyatk03_03_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,6\\aogusita\\en_vo_aogusita_atk_heavyatk03_03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aogusita_atk_heavyatk03_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4202954909,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4202954909,
-                "SoundBankPathName": "Event/ja/play_favor_word_aogusita_atk_heavyatk03_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aogusita_atk_heavyatk03_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 67231803,
-                "MediaPathName": "Media/ja/67231803.wem",
+                "MediaId": 223683107,
+                "MediaPathName": "Media/223683107.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,6\\aogusita\\ja_vo_aogusita_atk_heavyatk03_03_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aogusita_atk_heavyatk03_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4202954909,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4202954909,
-                "SoundBankPathName": "Event/ko/play_favor_word_aogusita_atk_heavyatk03_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aogusita_atk_heavyatk03_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 501873813,
-                "MediaPathName": "Media/ko/501873813.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,6\\aogusita\\ko_vo_aogusita_atk_heavyatk03_03_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_aogusita_atk_heavyatk03_03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4202954909,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4202954909,
-                "SoundBankPathName": "Event/zh/play_favor_word_aogusita_atk_heavyatk03_03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_aogusita_atk_heavyatk03_03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 416001288,
-                "MediaPathName": "Media/zh/416001288.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,6\\aogusita\\zh_vo_aogusita_atk_heavyatk03_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,6\\aogusita\\ja_vo_aogusita_atk_heavyatk03_03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_aogusita_atk_heavyatk03_03",
       "EventId": 4202954909
     },
-    "MaximumDuration": 1.3906667,
-    "MinimumDuration": 1.3906667,
+    "MaximumDuration": 2.0446668,
+    "MinimumDuration": 1.0862083,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

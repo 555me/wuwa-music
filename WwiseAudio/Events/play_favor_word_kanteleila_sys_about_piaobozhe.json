@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1538212740,
             "SoundBanks": [
               {
                 "SoundBankId": 1538212740,
-                "SoundBankPathName": "Event/en/play_favor_word_kanteleila_sys_about_piaobozhe.bnk",
+                "SoundBankPathName": "Event/play_favor_word_kanteleila_sys_about_piaobozhe.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,150 +29,63 @@
             ],
             "Media": [
               {
-                "MediaId": 806062060,
-                "MediaPathName": "Media/en/806062060.wem",
+                "MediaId": 757783327,
+                "MediaPathName": "Media/757783327.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\en_vo_kanteleila_sys_about_piaobozhe_m_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_sys_about_piaobozhe_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 802259099,
-                "MediaPathName": "Media/en/802259099.wem",
+                "MediaId": 689759916,
+                "MediaPathName": "Media/689759916.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\en_vo_kanteleila_sys_about_piaobozhe_f_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_sys_about_piaobozhe"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1538212740,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1538212740,
-                "SoundBankPathName": "Event/ja/play_favor_word_kanteleila_sys_about_piaobozhe.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_sys_about_piaobozhe",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 5600304,
-                "MediaPathName": "Media/ja/5600304.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_sys_about_piaobozhe_m_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_sys_about_piaobozhe_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 196914021,
-                "MediaPathName": "Media/ja/196914021.wem",
+                "MediaId": 591712109,
+                "MediaPathName": "Media/591712109.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_sys_about_piaobozhe_f_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_sys_about_piaobozhe_m_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_sys_about_piaobozhe"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1538212740,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1538212740,
-                "SoundBankPathName": "Event/ko/play_favor_word_kanteleila_sys_about_piaobozhe.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_sys_about_piaobozhe",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 456992191,
-                "MediaPathName": "Media/ko/456992191.wem",
+                "MediaId": 546282967,
+                "MediaPathName": "Media/546282967.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\ko_vo_kanteleila_sys_about_piaobozhe_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,2\\kanteleila\\en_vo_kanteleila_sys_about_piaobozhe_m_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kanteleila_sys_about_piaobozhe"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1538212740,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1538212740,
-                "SoundBankPathName": "Event/zh/play_favor_word_kanteleila_sys_about_piaobozhe.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kanteleila_sys_about_piaobozhe",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 924402668,
-                "MediaPathName": "Media/zh/924402668.wem",
+                "MediaId": 256442191,
+                "MediaPathName": "Media/256442191.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\kanteleila\\zh_vo_kanteleila_sys_about_piaobozhe_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,2\\kanteleila\\ja_vo_kanteleila_sys_about_piaobozhe_f_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 364923341,
+                "MediaPathName": "Media/364923341.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_2,2\\kanteleila\\en_vo_kanteleila_sys_about_piaobozhe_f_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -188,7 +101,7 @@
       "EventId": 1538212740
     },
     "MaximumDuration": 35.013397,
-    "MinimumDuration": 35.013397,
+    "MinimumDuration": 22.007917,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

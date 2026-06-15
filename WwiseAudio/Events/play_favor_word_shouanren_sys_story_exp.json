@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1380140215,
             "SoundBanks": [
               {
                 "SoundBankId": 1380140215,
-                "SoundBankPathName": "Event/en/play_favor_word_shouanren_sys_story_exp.bnk",
+                "SoundBankPathName": "Event/play_favor_word_shouanren_sys_story_exp.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,140 +29,53 @@
             ],
             "Media": [
               {
-                "MediaId": 707242712,
-                "MediaPathName": "Media/en/707242712.wem",
+                "MediaId": 539385878,
+                "MediaPathName": "Media/539385878.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\en_vo_shouanren_sys_story_exp_word_m.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\shouanren\\ja_vo_shouanren_sys_story_exp_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 463091921,
-                "MediaPathName": "Media/en/463091921.wem",
+                "MediaId": 863547715,
+                "MediaPathName": "Media/863547715.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\en_vo_shouanren_sys_story_exp_word_f.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\shouanren\\zh_vo_shouanren_sys_story_exp_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_shouanren_sys_story_exp"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1380140215,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1380140215,
-                "SoundBankPathName": "Event/ja/play_favor_word_shouanren_sys_story_exp.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_shouanren_sys_story_exp",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 571015489,
-                "MediaPathName": "Media/ja/571015489.wem",
+                "MediaId": 660332882,
+                "MediaPathName": "Media/660332882.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\ja_vo_shouanren_sys_story_exp_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.3\\shouanren\\en_vo_shouanren_sys_story_exp_word_m.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_shouanren_sys_story_exp"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1380140215,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1380140215,
-                "SoundBankPathName": "Event/ko/play_favor_word_shouanren_sys_story_exp.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_shouanren_sys_story_exp",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 822986147,
-                "MediaPathName": "Media/ko/822986147.wem",
+                "MediaId": 53306029,
+                "MediaPathName": "Media/53306029.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\ko_vo_shouanren_sys_story_exp_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\shouanren\\ko_vo_shouanren_sys_story_exp_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_shouanren_sys_story_exp"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1380140215,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1380140215,
-                "SoundBankPathName": "Event/zh/play_favor_word_shouanren_sys_story_exp.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_shouanren_sys_story_exp",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 562188115,
-                "MediaPathName": "Media/zh/562188115.wem",
+                "MediaId": 761816227,
+                "MediaPathName": "Media/761816227.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\shouanren\\zh_vo_shouanren_sys_story_exp_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.3\\shouanren\\en_vo_shouanren_sys_story_exp_word_f.wav",
                 "PackagedFile": null
               }
             ],
@@ -177,8 +90,8 @@
       "DebugName": "play_favor_word_shouanren_sys_story_exp",
       "EventId": 1380140215
     },
-    "MaximumDuration": 28.217188,
-    "MinimumDuration": 28.217188,
+    "MaximumDuration": 34.652626,
+    "MinimumDuration": 27.046959,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

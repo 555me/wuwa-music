@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 544572802,
             "SoundBanks": [
               {
                 "SoundBankId": 544572802,
-                "SoundBankPathName": "Event/en/play_vo_rogue_link_weilinai.bnk",
+                "SoundBankPathName": "Event/play_vo_rogue_link_weilinai.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 842459637,
-                "MediaPathName": "Media/en/842459637.wem",
+                "MediaId": 42739384,
+                "MediaPathName": "Media/42739384.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_burst_skill_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\weilinai\\ja_vo_weilinai_burst_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 630837681,
-                "MediaPathName": "Media/en/630837681.wem",
+                "MediaId": 926108325,
+                "MediaPathName": "Media/926108325.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_burst_skill_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\weilinai\\zh_vo_weilinai_burst_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 456031603,
-                "MediaPathName": "Media/en/456031603.wem",
+                "MediaId": 321640105,
+                "MediaPathName": "Media/321640105.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_burst_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_weilinai"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 544572802,
-            "SoundBanks": [
-              {
-                "SoundBankId": 544572802,
-                "SoundBankPathName": "Event/ja/play_vo_rogue_link_weilinai.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_weilinai",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 628289350,
-                "MediaPathName": "Media/ja/628289350.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_burst_skill_03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\weilinai\\ko_vo_weilinai_burst_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 705347229,
-                "MediaPathName": "Media/ja/705347229.wem",
+                "MediaId": 862812814,
+                "MediaPathName": "Media/862812814.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_burst_skill_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\weilinai\\en_vo_weilinai_burst_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 736730024,
-                "MediaPathName": "Media/ja/736730024.wem",
+                "MediaId": 60766945,
+                "MediaPathName": "Media/60766945.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_burst_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_weilinai"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 544572802,
-            "SoundBanks": [
-              {
-                "SoundBankId": 544572802,
-                "SoundBankPathName": "Event/ko/play_vo_rogue_link_weilinai.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_weilinai",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 559454388,
-                "MediaPathName": "Media/ko/559454388.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_burst_skill_03.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\weilinai\\ja_vo_weilinai_burst_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1035579230,
-                "MediaPathName": "Media/ko/1035579230.wem",
+                "MediaId": 361404944,
+                "MediaPathName": "Media/361404944.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_burst_skill_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\weilinai\\zh_vo_weilinai_burst_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 878333535,
-                "MediaPathName": "Media/ko/878333535.wem",
+                "MediaId": 420736676,
+                "MediaPathName": "Media/420736676.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_burst_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_weilinai"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 544572802,
-            "SoundBanks": [
-              {
-                "SoundBankId": 544572802,
-                "SoundBankPathName": "Event/zh/play_vo_rogue_link_weilinai.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_weilinai",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 554373367,
-                "MediaPathName": "Media/zh/554373367.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_burst_skill_03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\weilinai\\ko_vo_weilinai_burst_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 758161503,
-                "MediaPathName": "Media/zh/758161503.wem",
+                "MediaId": 306553021,
+                "MediaPathName": "Media/306553021.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_burst_skill_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\weilinai\\en_vo_weilinai_burst_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 717281585,
-                "MediaPathName": "Media/zh/717281585.wem",
+                "MediaId": 54394045,
+                "MediaPathName": "Media/54394045.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_burst_skill_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\weilinai\\ja_vo_weilinai_burst_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 161862874,
+                "MediaPathName": "Media/161862874.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\weilinai\\zh_vo_weilinai_burst_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 364798564,
+                "MediaPathName": "Media/364798564.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\weilinai\\ko_vo_weilinai_burst_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 918800710,
+                "MediaPathName": "Media/918800710.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\weilinai\\en_vo_weilinai_burst_skill_01.wav",
                 "PackagedFile": null
               }
             ],
@@ -248,7 +161,7 @@
       "EventId": 544572802
     },
     "MaximumDuration": 3.5,
-    "MinimumDuration": 2.5,
+    "MinimumDuration": 1.2297083,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

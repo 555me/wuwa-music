@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1230974514,
             "SoundBanks": [
               {
                 "SoundBankId": 1230974514,
-                "SoundBankPathName": "Event/en/play_vo_aimisi_humanform_skill_burst02ready.bnk",
+                "SoundBankPathName": "Event/play_vo_aimisi_humanform_skill_burst02ready.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 148786197,
-                "MediaPathName": "Media/en/148786197.wem",
+                "MediaId": 612467657,
+                "MediaPathName": "Media/612467657.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\aimisi\\ja_vo_aimisi_humanform_com_burst02ready_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 487828012,
+                "MediaPathName": "Media/487828012.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\en_vo_aimisi_humanform_com_burst02ready_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,1\\aimisi\\en_vo_aimisi_humanform_com_burst02ready_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_humanform_skill_burst02ready"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1230974514,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1230974514,
-                "SoundBankPathName": "Event/ja/play_vo_aimisi_humanform_skill_burst02ready.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_humanform_skill_burst02ready",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 198869677,
-                "MediaPathName": "Media/ja/198869677.wem",
+                "MediaId": 701302140,
+                "MediaPathName": "Media/701302140.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ja_vo_aimisi_humanform_com_burst02ready_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\aimisi\\zh_vo_aimisi_humanform_com_burst02ready_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_humanform_skill_burst02ready"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1230974514,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1230974514,
-                "SoundBankPathName": "Event/ko/play_vo_aimisi_humanform_skill_burst02ready.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_humanform_skill_burst02ready",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 773439304,
-                "MediaPathName": "Media/ko/773439304.wem",
+                "MediaId": 222680689,
+                "MediaPathName": "Media/222680689.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\ko_vo_aimisi_humanform_com_burst02ready_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_aimisi_humanform_skill_burst02ready"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1230974514,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1230974514,
-                "SoundBankPathName": "Event/zh/play_vo_aimisi_humanform_skill_burst02ready.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_aimisi_humanform_skill_burst02ready",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 285066687,
-                "MediaPathName": "Media/zh/285066687.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\aimisi\\zh_vo_aimisi_humanform_com_burst02ready_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\aimisi\\ko_vo_aimisi_humanform_com_burst02ready_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_aimisi_humanform_skill_burst02ready",
       "EventId": 1230974514
     },
-    "MaximumDuration": 2.565625,
-    "MinimumDuration": 2.565625,
+    "MaximumDuration": 2.570396,
+    "MinimumDuration": 1.9728125,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

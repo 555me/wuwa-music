@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2177235110,
             "SoundBanks": [
               {
                 "SoundBankId": 2177235110,
-                "SoundBankPathName": "Event/en/play_vo_nanzhu_heavyatk.bnk",
+                "SoundBankPathName": "Event/play_vo_nanzhu_heavyatk.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 198926239,
-                "MediaPathName": "Media/en/198926239.wem",
+                "MediaId": 178449552,
+                "MediaPathName": "Media/178449552.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_heavyatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_heavyatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 763919692,
-                "MediaPathName": "Media/en/763919692.wem",
+                "MediaId": 52585367,
+                "MediaPathName": "Media/52585367.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_heavyatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_heavyatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 893165266,
-                "MediaPathName": "Media/en/893165266.wem",
+                "MediaId": 175672108,
+                "MediaPathName": "Media/175672108.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_heavyatk_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_nanzhu_heavyatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2177235110,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2177235110,
-                "SoundBankPathName": "Event/ja/play_vo_nanzhu_heavyatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_nanzhu_heavyatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 154683615,
-                "MediaPathName": "Media/ja/154683615.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_heavyatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_heavyatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 169556903,
-                "MediaPathName": "Media/ja/169556903.wem",
+                "MediaId": 443719341,
+                "MediaPathName": "Media/443719341.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_heavyatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_heavyatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 451292906,
-                "MediaPathName": "Media/ja/451292906.wem",
+                "MediaId": 526748032,
+                "MediaPathName": "Media/526748032.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_heavyatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_nanzhu_heavyatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2177235110,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2177235110,
-                "SoundBankPathName": "Event/ko/play_vo_nanzhu_heavyatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_nanzhu_heavyatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 125834347,
-                "MediaPathName": "Media/ko/125834347.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_heavyatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_heavyatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 806057309,
-                "MediaPathName": "Media/ko/806057309.wem",
+                "MediaId": 757740993,
+                "MediaPathName": "Media/757740993.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_heavyatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_heavyatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1018382032,
-                "MediaPathName": "Media/ko/1018382032.wem",
+                "MediaId": 441417542,
+                "MediaPathName": "Media/441417542.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_heavyatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_nanzhu_heavyatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2177235110,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2177235110,
-                "SoundBankPathName": "Event/zh/play_vo_nanzhu_heavyatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_nanzhu_heavyatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 509237191,
-                "MediaPathName": "Media/zh/509237191.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_heavyatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_heavyatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 772620384,
-                "MediaPathName": "Media/zh/772620384.wem",
+                "MediaId": 28445389,
+                "MediaPathName": "Media/28445389.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_heavyatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_heavyatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1036889060,
-                "MediaPathName": "Media/zh/1036889060.wem",
+                "MediaId": 163958183,
+                "MediaPathName": "Media/163958183.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\nanzhu\\vo_nanzhu_heavyatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\nanzhu\\en_vo_nanzhu_heavyatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 464177351,
+                "MediaPathName": "Media/464177351.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\nanzhu\\zh_vo_nanzhu_heavyatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 193731270,
+                "MediaPathName": "Media/193731270.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\nanzhu\\ja_vo_nanzhu_heavyatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 320072680,
+                "MediaPathName": "Media/320072680.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\nanzhu\\ko_vo_nanzhu_heavyatk_01.wav",
                 "PackagedFile": null
               }
             ],

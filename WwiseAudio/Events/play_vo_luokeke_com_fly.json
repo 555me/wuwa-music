@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2449364466,
             "SoundBanks": [
               {
                 "SoundBankId": 2449364466,
-                "SoundBankPathName": "Event/en/play_vo_luokeke_com_fly.bnk",
+                "SoundBankPathName": "Event/play_vo_luokeke_com_fly.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 121000653,
-                "MediaPathName": "Media/en/121000653.wem",
+                "MediaId": 943397207,
+                "MediaPathName": "Media/943397207.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\en_vo_luokeke_com_fly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\luokeke\\ja_vo_luokeke_com_fly_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 179748318,
-                "MediaPathName": "Media/en/179748318.wem",
+                "MediaId": 636300443,
+                "MediaPathName": "Media/636300443.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\en_vo_luokeke_com_fly_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\luokeke\\en_vo_luokeke_com_fly_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 990886068,
-                "MediaPathName": "Media/en/990886068.wem",
+                "MediaId": 22179589,
+                "MediaPathName": "Media/22179589.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\en_vo_luokeke_com_fly_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luokeke_com_fly"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2449364466,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2449364466,
-                "SoundBankPathName": "Event/ja/play_vo_luokeke_com_fly.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luokeke_com_fly",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 118313033,
-                "MediaPathName": "Media/ja/118313033.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ja_vo_luokeke_com_fly_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\luokeke\\ko_vo_luokeke_com_fly_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 269389336,
-                "MediaPathName": "Media/ja/269389336.wem",
+                "MediaId": 356364892,
+                "MediaPathName": "Media/356364892.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ja_vo_luokeke_com_fly_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\luokeke\\zh_vo_luokeke_com_fly_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 299650163,
-                "MediaPathName": "Media/ja/299650163.wem",
+                "MediaId": 172330473,
+                "MediaPathName": "Media/172330473.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ja_vo_luokeke_com_fly_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luokeke_com_fly"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2449364466,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2449364466,
-                "SoundBankPathName": "Event/ko/play_vo_luokeke_com_fly.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luokeke_com_fly",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 88584342,
-                "MediaPathName": "Media/ko/88584342.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ko_vo_luokeke_com_fly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\luokeke\\ja_vo_luokeke_com_fly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1061645473,
-                "MediaPathName": "Media/ko/1061645473.wem",
+                "MediaId": 818322220,
+                "MediaPathName": "Media/818322220.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ko_vo_luokeke_com_fly_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\luokeke\\en_vo_luokeke_com_fly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1068775046,
-                "MediaPathName": "Media/ko/1068775046.wem",
+                "MediaId": 1042145995,
+                "MediaPathName": "Media/1042145995.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\ko_vo_luokeke_com_fly_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_luokeke_com_fly"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2449364466,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2449364466,
-                "SoundBankPathName": "Event/zh/play_vo_luokeke_com_fly.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_luokeke_com_fly",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 133789115,
-                "MediaPathName": "Media/zh/133789115.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\zh_vo_luokeke_com_fly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\luokeke\\ko_vo_luokeke_com_fly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 380152181,
-                "MediaPathName": "Media/zh/380152181.wem",
+                "MediaId": 670853753,
+                "MediaPathName": "Media/670853753.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\zh_vo_luokeke_com_fly_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\luokeke\\zh_vo_luokeke_com_fly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 973038404,
-                "MediaPathName": "Media/zh/973038404.wem",
+                "MediaId": 860595154,
+                "MediaPathName": "Media/860595154.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\luokeke\\zh_vo_luokeke_com_fly_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\luokeke\\ja_vo_luokeke_com_fly_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 962653753,
+                "MediaPathName": "Media/962653753.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\luokeke\\en_vo_luokeke_com_fly_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 559545488,
+                "MediaPathName": "Media/559545488.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\luokeke\\ko_vo_luokeke_com_fly_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 51807750,
+                "MediaPathName": "Media/51807750.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\luokeke\\zh_vo_luokeke_com_fly_01_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,8 +160,8 @@
       "DebugName": "play_vo_luokeke_com_fly",
       "EventId": 2449364466
     },
-    "MaximumDuration": 0.5031458,
-    "MinimumDuration": 0.37808332,
+    "MaximumDuration": 0.84639585,
+    "MinimumDuration": 0.20735417,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

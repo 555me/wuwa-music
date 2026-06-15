@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3015803750,
             "SoundBanks": [
               {
                 "SoundBankId": 3015803750,
-                "SoundBankPathName": "Event/en/play_vo_lupa_com_fly.bnk",
+                "SoundBankPathName": "Event/play_vo_lupa_com_fly.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 57634276,
-                "MediaPathName": "Media/en/57634276.wem",
+                "MediaId": 185636987,
+                "MediaPathName": "Media/185636987.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\lupa\\en_vo_lupa_com_fly_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,4\\lupa\\zh_vo_lupa_com_fly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 62064816,
-                "MediaPathName": "Media/en/62064816.wem",
+                "MediaId": 573591437,
+                "MediaPathName": "Media/573591437.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\lupa\\en_vo_lupa_com_fly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,4\\lupa\\en_vo_lupa_com_fly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 907465237,
-                "MediaPathName": "Media/en/907465237.wem",
+                "MediaId": 1045916573,
+                "MediaPathName": "Media/1045916573.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\lupa\\en_vo_lupa_com_fly_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_lupa_com_fly"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3015803750,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3015803750,
-                "SoundBankPathName": "Event/ja/play_vo_lupa_com_fly.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_lupa_com_fly",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 214489786,
-                "MediaPathName": "Media/ja/214489786.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\lupa\\ja_vo_lupa_com_fly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,4\\lupa\\ko_vo_lupa_com_fly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 347619673,
-                "MediaPathName": "Media/ja/347619673.wem",
+                "MediaId": 766093330,
+                "MediaPathName": "Media/766093330.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\lupa\\ja_vo_lupa_com_fly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,4\\lupa\\ja_vo_lupa_com_fly_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 692218478,
-                "MediaPathName": "Media/ja/692218478.wem",
+                "MediaId": 85505176,
+                "MediaPathName": "Media/85505176.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\lupa\\ja_vo_lupa_com_fly_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_lupa_com_fly"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3015803750,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3015803750,
-                "SoundBankPathName": "Event/ko/play_vo_lupa_com_fly.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_lupa_com_fly",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 292188838,
-                "MediaPathName": "Media/ko/292188838.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\lupa\\ko_vo_lupa_com_fly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,4\\lupa\\zh_vo_lupa_com_fly_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 463367033,
-                "MediaPathName": "Media/ko/463367033.wem",
+                "MediaId": 536275124,
+                "MediaPathName": "Media/536275124.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\lupa\\ko_vo_lupa_com_fly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,4\\lupa\\en_vo_lupa_com_fly_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 625093860,
-                "MediaPathName": "Media/ko/625093860.wem",
+                "MediaId": 973077188,
+                "MediaPathName": "Media/973077188.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\lupa\\ko_vo_lupa_com_fly_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_lupa_com_fly"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3015803750,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3015803750,
-                "SoundBankPathName": "Event/zh/play_vo_lupa_com_fly.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_lupa_com_fly",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 14298839,
-                "MediaPathName": "Media/zh/14298839.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\lupa\\zh_vo_lupa_com_fly_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,4\\lupa\\ko_vo_lupa_com_fly_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 371728357,
-                "MediaPathName": "Media/zh/371728357.wem",
+                "MediaId": 383984648,
+                "MediaPathName": "Media/383984648.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\lupa\\zh_vo_lupa_com_fly_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,4\\lupa\\ja_vo_lupa_com_fly_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 630584979,
-                "MediaPathName": "Media/zh/630584979.wem",
+                "MediaId": 431510927,
+                "MediaPathName": "Media/431510927.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\lupa\\zh_vo_lupa_com_fly_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,4\\lupa\\zh_vo_lupa_com_fly_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 504303168,
+                "MediaPathName": "Media/504303168.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,4\\lupa\\en_vo_lupa_com_fly_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 161973742,
+                "MediaPathName": "Media/161973742.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,4\\lupa\\ko_vo_lupa_com_fly_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 980704989,
+                "MediaPathName": "Media/980704989.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,4\\lupa\\ja_vo_lupa_com_fly_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,8 +160,8 @@
       "DebugName": "play_vo_lupa_com_fly",
       "EventId": 3015803750
     },
-    "MaximumDuration": 1.0413958,
-    "MinimumDuration": 0.34635416,
+    "MaximumDuration": 1.7952708,
+    "MinimumDuration": 0.2963125,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

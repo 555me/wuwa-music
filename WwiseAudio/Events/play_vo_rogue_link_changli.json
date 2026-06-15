@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2023079016,
             "SoundBanks": [
               {
                 "SoundBankId": 2023079016,
-                "SoundBankPathName": "Event/en/play_vo_rogue_link_changli.bnk",
+                "SoundBankPathName": "Event/play_vo_rogue_link_changli.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 456566285,
-                "MediaPathName": "Media/en/456566285.wem",
+                "MediaId": 572242744,
+                "MediaPathName": "Media/572242744.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_changli_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_changli_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 926453566,
-                "MediaPathName": "Media/en/926453566.wem",
+                "MediaId": 985827626,
+                "MediaPathName": "Media/985827626.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_changli_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_changli"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2023079016,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2023079016,
-                "SoundBankPathName": "Event/ja/play_vo_rogue_link_changli.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_changli",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 262687022,
-                "MediaPathName": "Media/ja/262687022.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_changli_02.wav",
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_changli_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 990088311,
-                "MediaPathName": "Media/ja/990088311.wem",
+                "MediaId": 141826709,
+                "MediaPathName": "Media/141826709.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_changli_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_changli"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2023079016,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2023079016,
-                "SoundBankPathName": "Event/ko/play_vo_rogue_link_changli.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_changli",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 176627936,
-                "MediaPathName": "Media/ko/176627936.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_changli_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_changli_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 387139885,
-                "MediaPathName": "Media/ko/387139885.wem",
+                "MediaId": 990759319,
+                "MediaPathName": "Media/990759319.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_changli_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_changli"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2023079016,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2023079016,
-                "SoundBankPathName": "Event/zh/play_vo_rogue_link_changli.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_changli",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 106391039,
-                "MediaPathName": "Media/zh/106391039.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_changli_01.wav",
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_changli_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 302542811,
-                "MediaPathName": "Media/zh/302542811.wem",
+                "MediaId": 919095282,
+                "MediaPathName": "Media/919095282.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_changli_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_changli_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 561350937,
+                "MediaPathName": "Media/561350937.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_changli_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 70612868,
+                "MediaPathName": "Media/70612868.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_changli_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 258606178,
+                "MediaPathName": "Media/258606178.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_changli_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,8 +120,8 @@
       "DebugName": "play_vo_rogue_link_changli",
       "EventId": 2023079016
     },
-    "MaximumDuration": 1.3105834,
-    "MinimumDuration": 1.1974375,
+    "MaximumDuration": 2.9278958,
+    "MinimumDuration": 1.1382709,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

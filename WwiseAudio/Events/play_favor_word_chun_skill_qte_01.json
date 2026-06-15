@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3853338923,
             "SoundBanks": [
               {
                 "SoundBankId": 3853338923,
-                "SoundBankPathName": "Event/en/play_favor_word_chun_skill_qte_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_chun_skill_qte_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 570652945,
-                "MediaPathName": "Media/en/570652945.wem",
+                "MediaId": 370116607,
+                "MediaPathName": "Media/370116607.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.4\\chun\\zh_vo_chun_skill_qte_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 885379363,
+                "MediaPathName": "Media/885379363.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\en_vo_chun_skill_qte_01_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.4\\chun\\en_vo_chun_skill_qte_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chun_skill_qte_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3853338923,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3853338923,
-                "SoundBankPathName": "Event/ja/play_favor_word_chun_skill_qte_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chun_skill_qte_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 929169398,
-                "MediaPathName": "Media/ja/929169398.wem",
+                "MediaId": 22169371,
+                "MediaPathName": "Media/22169371.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ja_vo_chun_skill_qte_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.4\\chun\\ko_vo_chun_skill_qte_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chun_skill_qte_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3853338923,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3853338923,
-                "SoundBankPathName": "Event/ko/play_favor_word_chun_skill_qte_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chun_skill_qte_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 912587472,
-                "MediaPathName": "Media/ko/912587472.wem",
+                "MediaId": 976075327,
+                "MediaPathName": "Media/976075327.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ko_vo_chun_skill_qte_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chun_skill_qte_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3853338923,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3853338923,
-                "SoundBankPathName": "Event/zh/play_favor_word_chun_skill_qte_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chun_skill_qte_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 638183332,
-                "MediaPathName": "Media/zh/638183332.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\zh_vo_chun_skill_qte_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.4\\chun\\ja_vo_chun_skill_qte_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_chun_skill_qte_01",
       "EventId": 3853338923
     },
-    "MaximumDuration": 1.627625,
-    "MinimumDuration": 1.627625,
+    "MaximumDuration": 2.122,
+    "MinimumDuration": 1.1805625,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

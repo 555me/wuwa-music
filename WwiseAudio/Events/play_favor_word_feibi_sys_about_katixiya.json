@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1174609532,
             "SoundBanks": [
               {
                 "SoundBankId": 1174609532,
-                "SoundBankPathName": "Event/en/play_favor_word_feibi_sys_about_katixiya.bnk",
+                "SoundBankPathName": "Event/play_favor_word_feibi_sys_about_katixiya.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 45147725,
-                "MediaPathName": "Media/en/45147725.wem",
+                "MediaId": 23555642,
+                "MediaPathName": "Media/23555642.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\en_vo_feibi_sys_about_katixiya_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,1\\feibi\\ko_vo_feibi_sys_about_katixiya_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_sys_about_katixiya"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1174609532,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1174609532,
-                "SoundBankPathName": "Event/ja/play_favor_word_feibi_sys_about_katixiya.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_sys_about_katixiya",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 530223266,
-                "MediaPathName": "Media/ja/530223266.wem",
+                "MediaId": 719411884,
+                "MediaPathName": "Media/719411884.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ja_vo_feibi_sys_about_katixiya_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,1\\feibi\\en_vo_feibi_sys_about_katixiya_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_sys_about_katixiya"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1174609532,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1174609532,
-                "SoundBankPathName": "Event/ko/play_favor_word_feibi_sys_about_katixiya.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_sys_about_katixiya",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 828778506,
-                "MediaPathName": "Media/ko/828778506.wem",
+                "MediaId": 315016455,
+                "MediaPathName": "Media/315016455.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\ko_vo_feibi_sys_about_katixiya_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,1\\feibi\\zh_vo_feibi_sys_about_katixiya_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_feibi_sys_about_katixiya"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1174609532,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1174609532,
-                "SoundBankPathName": "Event/zh/play_favor_word_feibi_sys_about_katixiya.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_feibi_sys_about_katixiya",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1031549291,
-                "MediaPathName": "Media/zh/1031549291.wem",
+                "MediaId": 990611431,
+                "MediaPathName": "Media/990611431.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2p1\\feibi\\zh_vo_feibi_sys_about_katixiya_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,1\\feibi\\ja_vo_feibi_sys_about_katixiya_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_feibi_sys_about_katixiya",
       "EventId": 1174609532
     },
-    "MaximumDuration": 19.439041,
-    "MinimumDuration": 19.439041,
+    "MaximumDuration": 23.72098,
+    "MinimumDuration": 18.9,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2526154229,
             "SoundBanks": [
               {
                 "SoundBankId": 2526154229,
-                "SoundBankPathName": "Event/en/play_favor_word_katixiya_sys_about_lupa.bnk",
+                "SoundBankPathName": "Event/play_favor_word_katixiya_sys_about_lupa.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 919169220,
-                "MediaPathName": "Media/en/919169220.wem",
+                "MediaId": 473722750,
+                "MediaPathName": "Media/473722750.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\en_vo_katixiya_sys_about_lupa_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,4\\katixiya\\ko_vo_katixiya_sys_about_lupa_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_katixiya_sys_about_lupa"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2526154229,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2526154229,
-                "SoundBankPathName": "Event/ja/play_favor_word_katixiya_sys_about_lupa.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_katixiya_sys_about_lupa",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 23433026,
-                "MediaPathName": "Media/ja/23433026.wem",
+                "MediaId": 1027667166,
+                "MediaPathName": "Media/1027667166.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\ja_vo_katixiya_sys_about_lupa_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,4\\katixiya\\zh_vo_katixiya_sys_about_lupa_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_katixiya_sys_about_lupa"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2526154229,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2526154229,
-                "SoundBankPathName": "Event/ko/play_favor_word_katixiya_sys_about_lupa.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_katixiya_sys_about_lupa",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 609927425,
-                "MediaPathName": "Media/ko/609927425.wem",
+                "MediaId": 108157897,
+                "MediaPathName": "Media/108157897.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\ko_vo_katixiya_sys_about_lupa_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,4\\katixiya\\en_vo_katixiya_sys_about_lupa_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_katixiya_sys_about_lupa"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2526154229,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2526154229,
-                "SoundBankPathName": "Event/zh/play_favor_word_katixiya_sys_about_lupa.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_katixiya_sys_about_lupa",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 925324960,
-                "MediaPathName": "Media/zh/925324960.wem",
+                "MediaId": 521256747,
+                "MediaPathName": "Media/521256747.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\zh_vo_katixiya_sys_about_lupa_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,4\\katixiya\\ja_vo_katixiya_sys_about_lupa_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_katixiya_sys_about_lupa",
       "EventId": 2526154229
     },
-    "MaximumDuration": 27.388563,
+    "MaximumDuration": 37.19325,
     "MinimumDuration": 27.388563,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

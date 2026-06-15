@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4069359337,
             "SoundBanks": [
               {
                 "SoundBankId": 4069359337,
-                "SoundBankPathName": "Event/en/play_vo_jiabeilina_npc_gondola_treasure.bnk",
+                "SoundBankPathName": "Event/play_vo_jiabeilina_npc_gondola_treasure.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 996719256,
-                "MediaPathName": "Media/en/996719256.wem",
+                "MediaId": 776711726,
+                "MediaPathName": "Media/776711726.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_npc_gondola_treasure_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_npc_gondola_treasure_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_treasure"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4069359337,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4069359337,
-                "SoundBankPathName": "Event/ja/play_vo_jiabeilina_npc_gondola_treasure.bnk",
+                "MediaId": 581696962,
+                "MediaPathName": "Media/581696962.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_treasure",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_npc_gondola_treasure_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 218214072,
-                "MediaPathName": "Media/ja/218214072.wem",
+                "MediaId": 832664681,
+                "MediaPathName": "Media/832664681.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_npc_gondola_treasure_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_npc_gondola_treasure_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_treasure"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4069359337,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4069359337,
-                "SoundBankPathName": "Event/ko/play_vo_jiabeilina_npc_gondola_treasure.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_treasure",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 258476853,
-                "MediaPathName": "Media/ko/258476853.wem",
+                "MediaId": 1008207622,
+                "MediaPathName": "Media/1008207622.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_npc_gondola_treasure_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_treasure"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4069359337,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4069359337,
-                "SoundBankPathName": "Event/zh/play_vo_jiabeilina_npc_gondola_treasure.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_treasure",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 387465711,
-                "MediaPathName": "Media/zh/387465711.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_npc_gondola_treasure_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_npc_gondola_treasure_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_jiabeilina_npc_gondola_treasure",
       "EventId": 4069359337
     },
-    "MaximumDuration": 2.0453334,
-    "MinimumDuration": 2.0453334,
+    "MaximumDuration": 2.3433542,
+    "MinimumDuration": 0.96464586,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

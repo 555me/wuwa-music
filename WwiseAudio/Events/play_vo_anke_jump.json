@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 857268182,
             "SoundBanks": [
               {
                 "SoundBankId": 857268182,
-                "SoundBankPathName": "Event/en/play_vo_anke_jump.bnk",
+                "SoundBankPathName": "Event/play_vo_anke_jump.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 153451345,
-                "MediaPathName": "Media/en/153451345.wem",
+                "MediaId": 157481456,
+                "MediaPathName": "Media/157481456.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_jump_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\anke\\ja_vo_anke_jump_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 451816483,
-                "MediaPathName": "Media/en/451816483.wem",
+                "MediaId": 619145259,
+                "MediaPathName": "Media/619145259.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_jump_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\anke\\en_vo_anke_jump_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1010954506,
-                "MediaPathName": "Media/en/1010954506.wem",
+                "MediaId": 16597538,
+                "MediaPathName": "Media/16597538.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_jump_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_anke_jump"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 857268182,
-            "SoundBanks": [
-              {
-                "SoundBankId": 857268182,
-                "SoundBankPathName": "Event/ja/play_vo_anke_jump.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_anke_jump",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 29112358,
-                "MediaPathName": "Media/ja/29112358.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_jump_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\anke\\ko_vo_anke_jump_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 399847417,
-                "MediaPathName": "Media/ja/399847417.wem",
+                "MediaId": 556409385,
+                "MediaPathName": "Media/556409385.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_jump_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\anke\\zh_vo_anke_jump_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 449889451,
-                "MediaPathName": "Media/ja/449889451.wem",
+                "MediaId": 821796236,
+                "MediaPathName": "Media/821796236.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_jump_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_anke_jump"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 857268182,
-            "SoundBanks": [
-              {
-                "SoundBankId": 857268182,
-                "SoundBankPathName": "Event/ko/play_vo_anke_jump.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_anke_jump",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 71081816,
-                "MediaPathName": "Media/ko/71081816.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_jump_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\anke\\ja_vo_anke_jump_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 106231924,
-                "MediaPathName": "Media/ko/106231924.wem",
+                "MediaId": 945209884,
+                "MediaPathName": "Media/945209884.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_jump_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\anke\\en_vo_anke_jump_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 791187996,
-                "MediaPathName": "Media/ko/791187996.wem",
+                "MediaId": 460265133,
+                "MediaPathName": "Media/460265133.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_jump_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_anke_jump"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 857268182,
-            "SoundBanks": [
-              {
-                "SoundBankId": 857268182,
-                "SoundBankPathName": "Event/zh/play_vo_anke_jump.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_anke_jump",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 380310042,
-                "MediaPathName": "Media/zh/380310042.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_jump_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\anke\\ko_vo_anke_jump_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 450313313,
-                "MediaPathName": "Media/zh/450313313.wem",
+                "MediaId": 539027879,
+                "MediaPathName": "Media/539027879.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_jump_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\anke\\zh_vo_anke_jump_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 521166475,
-                "MediaPathName": "Media/zh/521166475.wem",
+                "MediaId": 260376080,
+                "MediaPathName": "Media/260376080.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_jump_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\anke\\ja_vo_anke_jump_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 792463877,
+                "MediaPathName": "Media/792463877.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\anke\\en_vo_anke_jump_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 987780857,
+                "MediaPathName": "Media/987780857.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\anke\\ko_vo_anke_jump_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 921342071,
+                "MediaPathName": "Media/921342071.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\anke\\zh_vo_anke_jump_03.wav",
                 "PackagedFile": null
               }
             ],

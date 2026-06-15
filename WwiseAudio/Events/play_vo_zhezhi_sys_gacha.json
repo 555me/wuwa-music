@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1421938445,
             "SoundBanks": [
               {
                 "SoundBankId": 1421938445,
-                "SoundBankPathName": "Event/en/play_vo_zhezhi_sys_gacha.bnk",
+                "SoundBankPathName": "Event/play_vo_zhezhi_sys_gacha.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 664019325,
-                "MediaPathName": "Media/en/664019325.wem",
+                "MediaId": 507829882,
+                "MediaPathName": "Media/507829882.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_get_card_tone.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\zhezhi\\ja_vo_zhezhi_get_card_tone.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zhezhi_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1421938445,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1421938445,
-                "SoundBankPathName": "Event/ja/play_vo_zhezhi_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zhezhi_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 643256685,
-                "MediaPathName": "Media/ja/643256685.wem",
+                "MediaId": 920281738,
+                "MediaPathName": "Media/920281738.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_get_card_tone.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\zhezhi\\ko_vo_zhezhi_get_card_tone.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zhezhi_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1421938445,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1421938445,
-                "SoundBankPathName": "Event/ko/play_vo_zhezhi_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zhezhi_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 758833344,
-                "MediaPathName": "Media/ko/758833344.wem",
+                "MediaId": 766896936,
+                "MediaPathName": "Media/766896936.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_get_card_tone.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.2\\zhezhi\\en_vo_zhezhi_get_card_tone.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zhezhi_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1421938445,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1421938445,
-                "SoundBankPathName": "Event/zh/play_vo_zhezhi_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zhezhi_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 800011173,
-                "MediaPathName": "Media/zh/800011173.wem",
+                "MediaId": 99748852,
+                "MediaPathName": "Media/99748852.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\zhezhi\\vo_zhezhi_get_card_tone.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\zhezhi\\zh_vo_zhezhi_get_card_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_zhezhi_sys_gacha",
       "EventId": 1421938445
     },
-    "MaximumDuration": 8.458125,
-    "MinimumDuration": 8.458125,
+    "MaximumDuration": 8.477646,
+    "MinimumDuration": 7.754,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

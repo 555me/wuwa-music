@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1691141232,
             "SoundBanks": [
               {
                 "SoundBankId": 1691141232,
-                "SoundBankPathName": "Event/en/play_vo_feixue_sys_rogue_link.bnk",
+                "SoundBankPathName": "Event/play_vo_feixue_sys_rogue_link.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 259909920,
-                "MediaPathName": "Media/en/259909920.wem",
+                "MediaId": 1022445044,
+                "MediaPathName": "Media/1022445044.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_sys_rogue_link_02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_sys_rogue_link_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 669787921,
-                "MediaPathName": "Media/en/669787921.wem",
+                "MediaId": 702473420,
+                "MediaPathName": "Media/702473420.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_sys_rogue_link_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feixue_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1691141232,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1691141232,
-                "SoundBankPathName": "Event/ja/play_vo_feixue_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feixue_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 280643878,
-                "MediaPathName": "Media/ja/280643878.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_sys_rogue_link_01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_sys_rogue_link_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1037480354,
-                "MediaPathName": "Media/ja/1037480354.wem",
+                "MediaId": 282122121,
+                "MediaPathName": "Media/282122121.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_sys_rogue_link_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feixue_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1691141232,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1691141232,
-                "SoundBankPathName": "Event/ko/play_vo_feixue_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feixue_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 757266841,
-                "MediaPathName": "Media/ko/757266841.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_sys_rogue_link_02_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_sys_rogue_link_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 800615242,
-                "MediaPathName": "Media/ko/800615242.wem",
+                "MediaId": 183877926,
+                "MediaPathName": "Media/183877926.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_sys_rogue_link_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feixue_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1691141232,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1691141232,
-                "SoundBankPathName": "Event/zh/play_vo_feixue_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feixue_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 164534399,
-                "MediaPathName": "Media/zh/164534399.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_sys_rogue_link_02_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_sys_rogue_link_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 380655712,
-                "MediaPathName": "Media/zh/380655712.wem",
+                "MediaId": 957044307,
+                "MediaPathName": "Media/957044307.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_sys_rogue_link_01_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_sys_rogue_link_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 403403153,
+                "MediaPathName": "Media/403403153.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_sys_rogue_link_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 312954466,
+                "MediaPathName": "Media/312954466.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_sys_rogue_link_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 214340260,
+                "MediaPathName": "Media/214340260.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_sys_rogue_link_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,8 +120,8 @@
       "DebugName": "play_vo_feixue_sys_rogue_link",
       "EventId": 1691141232
     },
-    "MaximumDuration": 2.7013333,
-    "MinimumDuration": 0.97627085,
+    "MaximumDuration": 3.0331042,
+    "MinimumDuration": 0.806375,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

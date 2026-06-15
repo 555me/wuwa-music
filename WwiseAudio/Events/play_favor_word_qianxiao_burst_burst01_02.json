@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3653045244,
             "SoundBanks": [
               {
                 "SoundBankId": 3653045244,
-                "SoundBankPathName": "Event/en/play_favor_word_qianxiao_burst_burst01_02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_qianxiao_burst_burst01_02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 987425873,
-                "MediaPathName": "Media/en/987425873.wem",
+                "MediaId": 836648948,
+                "MediaPathName": "Media/836648948.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\en_vo_qianxiao_burst_burst01_02_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,8\\qianxiao\\en_vo_qianxiao_burst_burst01_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qianxiao_burst_burst01_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3653045244,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3653045244,
-                "SoundBankPathName": "Event/ja/play_favor_word_qianxiao_burst_burst01_02.bnk",
+                "MediaId": 925579460,
+                "MediaPathName": "Media/925579460.wem",
+                "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qianxiao_burst_burst01_02",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,8\\qianxiao\\ja_vo_qianxiao_burst_burst01_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "Media": [
+              },
               {
-                "MediaId": 155213918,
-                "MediaPathName": "Media/ja/155213918.wem",
+                "MediaId": 354481928,
+                "MediaPathName": "Media/354481928.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\ja_vo_qianxiao_burst_burst01_02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,8\\qianxiao\\ko_vo_qianxiao_burst_burst01_02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qianxiao_burst_burst01_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3653045244,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3653045244,
-                "SoundBankPathName": "Event/ko/play_favor_word_qianxiao_burst_burst01_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qianxiao_burst_burst01_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 149755240,
-                "MediaPathName": "Media/ko/149755240.wem",
+                "MediaId": 37582724,
+                "MediaPathName": "Media/37582724.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\ko_vo_qianxiao_burst_burst01_02_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qianxiao_burst_burst01_02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3653045244,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3653045244,
-                "SoundBankPathName": "Event/zh/play_favor_word_qianxiao_burst_burst01_02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qianxiao_burst_burst01_02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 834293702,
-                "MediaPathName": "Media/zh/834293702.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\zh_vo_qianxiao_burst_burst01_02_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,8\\qianxiao\\zh_vo_qianxiao_burst_burst01_02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_qianxiao_burst_burst01_02",
       "EventId": 3653045244
     },
-    "MaximumDuration": 2.258479,
-    "MinimumDuration": 2.258479,
+    "MaximumDuration": 2.3953543,
+    "MinimumDuration": 1.5087292,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

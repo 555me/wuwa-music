@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 469574814,
             "SoundBanks": [
               {
                 "SoundBankId": 469574814,
-                "SoundBankPathName": "Event/en/play_vo_baizhi_die.bnk",
+                "SoundBankPathName": "Event/play_vo_baizhi_die.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 334764095,
-                "MediaPathName": "Media/en/334764095.wem",
+                "MediaId": 351221146,
+                "MediaPathName": "Media/351221146.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_die_03.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\baizhi\\en_vo_baizhi_die_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 960370469,
-                "MediaPathName": "Media/en/960370469.wem",
+                "MediaId": 463166359,
+                "MediaPathName": "Media/463166359.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_die_02.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\baizhi\\ko_vo_baizhi_die_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1005275828,
-                "MediaPathName": "Media/en/1005275828.wem",
+                "MediaId": 459770806,
+                "MediaPathName": "Media/459770806.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_die_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_baizhi_die"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 469574814,
-            "SoundBanks": [
-              {
-                "SoundBankId": 469574814,
-                "SoundBankPathName": "Event/ja/play_vo_baizhi_die.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_baizhi_die",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 359173981,
-                "MediaPathName": "Media/ja/359173981.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_die_01.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\baizhi\\zh_vo_baizhi_die_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 396029185,
-                "MediaPathName": "Media/ja/396029185.wem",
+                "MediaId": 10281893,
+                "MediaPathName": "Media/10281893.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_die_02.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\baizhi\\ja_vo_baizhi_die_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 642462300,
-                "MediaPathName": "Media/ja/642462300.wem",
+                "MediaId": 561191451,
+                "MediaPathName": "Media/561191451.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_die_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_baizhi_die"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 469574814,
-            "SoundBanks": [
-              {
-                "SoundBankId": 469574814,
-                "SoundBankPathName": "Event/ko/play_vo_baizhi_die.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_baizhi_die",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 214993634,
-                "MediaPathName": "Media/ko/214993634.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_die_02.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\baizhi\\en_vo_baizhi_die_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 500693573,
-                "MediaPathName": "Media/ko/500693573.wem",
+                "MediaId": 350017536,
+                "MediaPathName": "Media/350017536.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_die_01.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\baizhi\\ko_vo_baizhi_die_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 938257805,
-                "MediaPathName": "Media/ko/938257805.wem",
+                "MediaId": 843165735,
+                "MediaPathName": "Media/843165735.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_die_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_baizhi_die"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 469574814,
-            "SoundBanks": [
-              {
-                "SoundBankId": 469574814,
-                "SoundBankPathName": "Event/zh/play_vo_baizhi_die.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_baizhi_die",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 364858197,
-                "MediaPathName": "Media/zh/364858197.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_die_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\baizhi\\zh_vo_baizhi_die_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 579871440,
-                "MediaPathName": "Media/zh/579871440.wem",
+                "MediaId": 68079419,
+                "MediaPathName": "Media/68079419.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_die_02.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\baizhi\\ja_vo_baizhi_die_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 948062297,
-                "MediaPathName": "Media/zh/948062297.wem",
+                "MediaId": 649553530,
+                "MediaPathName": "Media/649553530.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\baizhi\\vo_baizhi_die_01.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\baizhi\\en_vo_baizhi_die_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 271800402,
+                "MediaPathName": "Media/271800402.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\baizhi\\ko_vo_baizhi_die_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 580202528,
+                "MediaPathName": "Media/580202528.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\baizhi\\zh_vo_baizhi_die_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 918585312,
+                "MediaPathName": "Media/918585312.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\baizhi\\ja_vo_baizhi_die_01.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1298036777,
             "SoundBanks": [
               {
                 "SoundBankId": 1298036777,
-                "SoundBankPathName": "Event/en/play_vo_feixue_com_parry.bnk",
+                "SoundBankPathName": "Event/play_vo_feixue_com_parry.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 543030766,
-                "MediaPathName": "Media/en/543030766.wem",
+                "MediaId": 459212890,
+                "MediaPathName": "Media/459212890.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_com_parry_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_com_parry_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 767666020,
-                "MediaPathName": "Media/en/767666020.wem",
+                "MediaId": 792138671,
+                "MediaPathName": "Media/792138671.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_com_parry_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_com_parry_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1026278597,
-                "MediaPathName": "Media/en/1026278597.wem",
+                "MediaId": 1003485913,
+                "MediaPathName": "Media/1003485913.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_com_parry_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feixue_com_parry"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1298036777,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1298036777,
-                "SoundBankPathName": "Event/ja/play_vo_feixue_com_parry.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feixue_com_parry",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 137734896,
-                "MediaPathName": "Media/ja/137734896.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_com_parry_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_com_parry_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 250866884,
-                "MediaPathName": "Media/ja/250866884.wem",
+                "MediaId": 569052169,
+                "MediaPathName": "Media/569052169.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_com_parry_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_com_parry_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 867181310,
-                "MediaPathName": "Media/ja/867181310.wem",
+                "MediaId": 668157467,
+                "MediaPathName": "Media/668157467.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_com_parry_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feixue_com_parry"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1298036777,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1298036777,
-                "SoundBankPathName": "Event/ko/play_vo_feixue_com_parry.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feixue_com_parry",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 67382485,
-                "MediaPathName": "Media/ko/67382485.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_com_parry_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_com_parry_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 224893119,
-                "MediaPathName": "Media/ko/224893119.wem",
+                "MediaId": 246909098,
+                "MediaPathName": "Media/246909098.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_com_parry_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_com_parry_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 429714708,
-                "MediaPathName": "Media/ko/429714708.wem",
+                "MediaId": 15164826,
+                "MediaPathName": "Media/15164826.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_com_parry_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feixue_com_parry"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1298036777,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1298036777,
-                "SoundBankPathName": "Event/zh/play_vo_feixue_com_parry.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feixue_com_parry",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 89046432,
-                "MediaPathName": "Media/zh/89046432.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_com_parry_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_com_parry_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 362091896,
-                "MediaPathName": "Media/zh/362091896.wem",
+                "MediaId": 16428863,
+                "MediaPathName": "Media/16428863.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_com_parry_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_com_parry_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 790874018,
-                "MediaPathName": "Media/zh/790874018.wem",
+                "MediaId": 115033183,
+                "MediaPathName": "Media/115033183.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_com_parry_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_com_parry_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 68340917,
+                "MediaPathName": "Media/68340917.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_com_parry_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 975338480,
+                "MediaPathName": "Media/975338480.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_com_parry_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 344107872,
+                "MediaPathName": "Media/344107872.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_com_parry_01_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,8 +160,8 @@
       "DebugName": "play_vo_feixue_com_parry",
       "EventId": 1298036777
     },
-    "MaximumDuration": 0.292,
-    "MinimumDuration": 0.19791667,
+    "MaximumDuration": 0.35170832,
+    "MinimumDuration": 0.12739584,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

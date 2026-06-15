@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3588459661,
             "SoundBanks": [
               {
                 "SoundBankId": 3588459661,
-                "SoundBankPathName": "Event/en/play_vo_dark_nanzhu_burst_atk04_end.bnk",
+                "SoundBankPathName": "Event/play_vo_dark_nanzhu_burst_atk04_end.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 462476828,
-                "MediaPathName": "Media/en/462476828.wem",
+                "MediaId": 202448523,
+                "MediaPathName": "Media/202448523.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nanzhu\\vo_dark_nanzhu_burst_atk04_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\dark_nanzhu\\en_vo_dark_nanzhu_burst_atk04_end_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 740446875,
-                "MediaPathName": "Media/en/740446875.wem",
+                "MediaId": 322765469,
+                "MediaPathName": "Media/322765469.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nanzhu\\vo_dark_nanzhu_burst_atk04_end_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_dark_nanzhu_burst_atk04_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3588459661,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3588459661,
-                "SoundBankPathName": "Event/ja/play_vo_dark_nanzhu_burst_atk04_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_dark_nanzhu_burst_atk04_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 541858086,
-                "MediaPathName": "Media/ja/541858086.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nanzhu\\vo_dark_nanzhu_burst_atk04_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\dark_nanzhu\\zh_vo_dark_nanzhu_burst_atk04_end_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 543227451,
-                "MediaPathName": "Media/ja/543227451.wem",
+                "MediaId": 371390035,
+                "MediaPathName": "Media/371390035.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nanzhu\\vo_dark_nanzhu_burst_atk04_end_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_dark_nanzhu_burst_atk04_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3588459661,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3588459661,
-                "SoundBankPathName": "Event/ko/play_vo_dark_nanzhu_burst_atk04_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_dark_nanzhu_burst_atk04_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 606929390,
-                "MediaPathName": "Media/ko/606929390.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nanzhu\\vo_dark_nanzhu_burst_atk04_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\dark_nanzhu\\ja_vo_dark_nanzhu_burst_atk04_end_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 615407194,
-                "MediaPathName": "Media/ko/615407194.wem",
+                "MediaId": 713653208,
+                "MediaPathName": "Media/713653208.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nanzhu\\vo_dark_nanzhu_burst_atk04_end_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_dark_nanzhu_burst_atk04_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3588459661,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3588459661,
-                "SoundBankPathName": "Event/zh/play_vo_dark_nanzhu_burst_atk04_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_dark_nanzhu_burst_atk04_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 60720044,
-                "MediaPathName": "Media/zh/60720044.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nanzhu\\vo_dark_nanzhu_burst_atk04_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\dark_nanzhu\\ko_vo_dark_nanzhu_burst_atk04_end_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 178459374,
-                "MediaPathName": "Media/zh/178459374.wem",
+                "MediaId": 899180787,
+                "MediaPathName": "Media/899180787.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nanzhu\\vo_dark_nanzhu_burst_atk04_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\dark_nanzhu\\en_vo_dark_nanzhu_burst_atk04_end_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 632807941,
+                "MediaPathName": "Media/632807941.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\dark_nanzhu\\zh_vo_dark_nanzhu_burst_atk04_end_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 121162611,
+                "MediaPathName": "Media/121162611.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\dark_nanzhu\\ja_vo_dark_nanzhu_burst_atk04_end_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 755592921,
+                "MediaPathName": "Media/755592921.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\dark_nanzhu\\ko_vo_dark_nanzhu_burst_atk04_end_02.wav",
                 "PackagedFile": null
               }
             ],

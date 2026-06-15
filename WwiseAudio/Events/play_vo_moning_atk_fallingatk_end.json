@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2662426229,
             "SoundBanks": [
               {
                 "SoundBankId": 2662426229,
-                "SoundBankPathName": "Event/en/play_vo_moning_atk_fallingatk_end.bnk",
+                "SoundBankPathName": "Event/play_vo_moning_atk_fallingatk_end.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 191998597,
-                "MediaPathName": "Media/en/191998597.wem",
+                "MediaId": 440849098,
+                "MediaPathName": "Media/440849098.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\en_vo_moning_atk_fallingatk_end_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\moning\\ja_vo_moning_atk_fallingatk_end_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 539709315,
-                "MediaPathName": "Media/en/539709315.wem",
+                "MediaId": 28887098,
+                "MediaPathName": "Media/28887098.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\en_vo_moning_atk_fallingatk_end_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\moning\\ko_vo_moning_atk_fallingatk_end_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 760485599,
-                "MediaPathName": "Media/en/760485599.wem",
+                "MediaId": 656554440,
+                "MediaPathName": "Media/656554440.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\en_vo_moning_atk_fallingatk_end_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_moning_atk_fallingatk_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2662426229,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2662426229,
-                "SoundBankPathName": "Event/ja/play_vo_moning_atk_fallingatk_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_moning_atk_fallingatk_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 333886985,
-                "MediaPathName": "Media/ja/333886985.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ja_vo_moning_atk_fallingatk_end_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\moning\\en_vo_moning_atk_fallingatk_end_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 391199676,
-                "MediaPathName": "Media/ja/391199676.wem",
+                "MediaId": 546512223,
+                "MediaPathName": "Media/546512223.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ja_vo_moning_atk_fallingatk_end_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\moning\\zh_vo_moning_atk_fallingatk_end_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 674403632,
-                "MediaPathName": "Media/ja/674403632.wem",
+                "MediaId": 1042279567,
+                "MediaPathName": "Media/1042279567.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ja_vo_moning_atk_fallingatk_end_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_moning_atk_fallingatk_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2662426229,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2662426229,
-                "SoundBankPathName": "Event/ko/play_vo_moning_atk_fallingatk_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_moning_atk_fallingatk_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 555716259,
-                "MediaPathName": "Media/ko/555716259.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ko_vo_moning_atk_fallingatk_end_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\moning\\ja_vo_moning_atk_fallingatk_end_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 965380428,
-                "MediaPathName": "Media/ko/965380428.wem",
+                "MediaId": 870952068,
+                "MediaPathName": "Media/870952068.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ko_vo_moning_atk_fallingatk_end_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\moning\\ko_vo_moning_atk_fallingatk_end_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 986730345,
-                "MediaPathName": "Media/ko/986730345.wem",
+                "MediaId": 598117467,
+                "MediaPathName": "Media/598117467.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ko_vo_moning_atk_fallingatk_end_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_moning_atk_fallingatk_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2662426229,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2662426229,
-                "SoundBankPathName": "Event/zh/play_vo_moning_atk_fallingatk_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_moning_atk_fallingatk_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 296658211,
-                "MediaPathName": "Media/zh/296658211.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\zh_vo_moning_atk_fallingatk_end_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\moning\\en_vo_moning_atk_fallingatk_end_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 650666340,
-                "MediaPathName": "Media/zh/650666340.wem",
+                "MediaId": 1062960744,
+                "MediaPathName": "Media/1062960744.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\zh_vo_moning_atk_fallingatk_end_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\moning\\zh_vo_moning_atk_fallingatk_end_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 902622392,
-                "MediaPathName": "Media/zh/902622392.wem",
+                "MediaId": 936010594,
+                "MediaPathName": "Media/936010594.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\zh_vo_moning_atk_fallingatk_end_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\moning\\ja_vo_moning_atk_fallingatk_end_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 618265974,
+                "MediaPathName": "Media/618265974.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\moning\\ko_vo_moning_atk_fallingatk_end_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 421137997,
+                "MediaPathName": "Media/421137997.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_3,0\\moning\\en_vo_moning_atk_fallingatk_end_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 158478927,
+                "MediaPathName": "Media/158478927.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\moning\\zh_vo_moning_atk_fallingatk_end_01_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,7 +160,7 @@
       "DebugName": "play_vo_moning_atk_fallingatk_end",
       "EventId": 2662426229
     },
-    "MaximumDuration": 0.3040625,
+    "MaximumDuration": 0.45514584,
     "MinimumDuration": 0.2434375,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0

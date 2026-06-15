@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3015134690,
             "SoundBanks": [
               {
                 "SoundBankId": 3015134690,
-                "SoundBankPathName": "Event/en/play_favor_word_chun_burst_burst_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_chun_burst_burst_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 309052946,
-                "MediaPathName": "Media/en/309052946.wem",
+                "MediaId": 535956998,
+                "MediaPathName": "Media/535956998.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\en_vo_chun_burst_burst_01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.4\\chun\\zh_vo_chun_burst_burst_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chun_burst_burst_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3015134690,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3015134690,
-                "SoundBankPathName": "Event/ja/play_favor_word_chun_burst_burst_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chun_burst_burst_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 215139608,
-                "MediaPathName": "Media/ja/215139608.wem",
+                "MediaId": 143758234,
+                "MediaPathName": "Media/143758234.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ja_vo_chun_burst_burst_01_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.4\\chun\\en_vo_chun_burst_burst_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chun_burst_burst_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3015134690,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3015134690,
-                "SoundBankPathName": "Event/ko/play_favor_word_chun_burst_burst_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chun_burst_burst_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 964514922,
-                "MediaPathName": "Media/ko/964514922.wem",
+                "MediaId": 863061869,
+                "MediaPathName": "Media/863061869.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ko_vo_chun_burst_burst_01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.4\\chun\\ko_vo_chun_burst_burst_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_chun_burst_burst_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3015134690,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3015134690,
-                "SoundBankPathName": "Event/zh/play_favor_word_chun_burst_burst_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_chun_burst_burst_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 289748454,
-                "MediaPathName": "Media/zh/289748454.wem",
+                "MediaId": 610851902,
+                "MediaPathName": "Media/610851902.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\zh_vo_chun_burst_burst_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.4\\chun\\ja_vo_chun_burst_burst_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_chun_burst_burst_01",
       "EventId": 3015134690
     },
-    "MaximumDuration": 3.3161666,
-    "MinimumDuration": 3.3161666,
+    "MaximumDuration": 3.956,
+    "MinimumDuration": 2.1909792,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

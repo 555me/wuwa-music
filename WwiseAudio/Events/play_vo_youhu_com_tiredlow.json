@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1359128551,
             "SoundBanks": [
               {
                 "SoundBankId": 1359128551,
-                "SoundBankPathName": "Event/en/play_vo_youhu_com_tiredlow.bnk",
+                "SoundBankPathName": "Event/play_vo_youhu_com_tiredlow.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 230847847,
-                "MediaPathName": "Media/en/230847847.wem",
+                "MediaId": 192548971,
+                "MediaPathName": "Media/192548971.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_com_tired_02_tone.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_com_tired_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 877849435,
-                "MediaPathName": "Media/en/877849435.wem",
+                "MediaId": 257799678,
+                "MediaPathName": "Media/257799678.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_com_tired_03_tone.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_com_tired_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 968415521,
-                "MediaPathName": "Media/en/968415521.wem",
+                "MediaId": 936292320,
+                "MediaPathName": "Media/936292320.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_com_tired_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_com_tiredlow"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1359128551,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1359128551,
-                "SoundBankPathName": "Event/ja/play_vo_youhu_com_tiredlow.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_com_tiredlow",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 20448480,
-                "MediaPathName": "Media/ja/20448480.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_com_tired_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_com_tired_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 67277292,
-                "MediaPathName": "Media/ja/67277292.wem",
+                "MediaId": 251523853,
+                "MediaPathName": "Media/251523853.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_com_tired_02_tone.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_com_tired_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 96896212,
-                "MediaPathName": "Media/ja/96896212.wem",
+                "MediaId": 822882809,
+                "MediaPathName": "Media/822882809.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_com_tired_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_com_tiredlow"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1359128551,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1359128551,
-                "SoundBankPathName": "Event/ko/play_vo_youhu_com_tiredlow.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_com_tiredlow",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 515942350,
-                "MediaPathName": "Media/ko/515942350.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_com_tired_02_tone.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_com_tired_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 637444721,
-                "MediaPathName": "Media/ko/637444721.wem",
+                "MediaId": 611105407,
+                "MediaPathName": "Media/611105407.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_com_tired_03_tone.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_com_tired_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 654430230,
-                "MediaPathName": "Media/ko/654430230.wem",
+                "MediaId": 274192189,
+                "MediaPathName": "Media/274192189.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_com_tired_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_com_tiredlow"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1359128551,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1359128551,
-                "SoundBankPathName": "Event/zh/play_vo_youhu_com_tiredlow.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_com_tiredlow",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 434873853,
-                "MediaPathName": "Media/zh/434873853.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_com_tired_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_com_tired_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 752978502,
-                "MediaPathName": "Media/zh/752978502.wem",
+                "MediaId": 501201262,
+                "MediaPathName": "Media/501201262.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_com_tired_01_tone.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_com_tired_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 837471205,
-                "MediaPathName": "Media/zh/837471205.wem",
+                "MediaId": 669540687,
+                "MediaPathName": "Media/669540687.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_com_tired_03_tone.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_com_tired_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 933110292,
+                "MediaPathName": "Media/933110292.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_com_tired_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 606409093,
+                "MediaPathName": "Media/606409093.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_com_tired_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 744190478,
+                "MediaPathName": "Media/744190478.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_com_tired_01_tone.wav",
                 "PackagedFile": null
               }
             ],

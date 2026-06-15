@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 544079521,
             "SoundBanks": [
               {
                 "SoundBankId": 544079521,
-                "SoundBankPathName": "Event/en/play_vo_changli_com_dash.bnk",
+                "SoundBankPathName": "Event/play_vo_changli_com_dash.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 110150677,
-                "MediaPathName": "Media/en/110150677.wem",
+                "MediaId": 955331825,
+                "MediaPathName": "Media/955331825.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_com_dash_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\changli\\zh_vo_changli_com_dash_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 642965170,
-                "MediaPathName": "Media/en/642965170.wem",
+                "MediaId": 391440757,
+                "MediaPathName": "Media/391440757.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_com_dash_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_changli_com_dash"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 544079521,
-            "SoundBanks": [
-              {
-                "SoundBankId": 544079521,
-                "SoundBankPathName": "Event/ja/play_vo_changli_com_dash.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_changli_com_dash",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 886298283,
-                "MediaPathName": "Media/ja/886298283.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_com_dash_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\changli\\ja_vo_changli_com_dash_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 969745562,
-                "MediaPathName": "Media/ja/969745562.wem",
+                "MediaId": 272501561,
+                "MediaPathName": "Media/272501561.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_com_dash_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_changli_com_dash"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 544079521,
-            "SoundBanks": [
-              {
-                "SoundBankId": 544079521,
-                "SoundBankPathName": "Event/ko/play_vo_changli_com_dash.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_changli_com_dash",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 15564525,
-                "MediaPathName": "Media/ko/15564525.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_com_dash_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\changli\\ko_vo_changli_com_dash_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 658785710,
-                "MediaPathName": "Media/ko/658785710.wem",
+                "MediaId": 226952395,
+                "MediaPathName": "Media/226952395.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_com_dash_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_changli_com_dash"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 544079521,
-            "SoundBanks": [
-              {
-                "SoundBankId": 544079521,
-                "SoundBankPathName": "Event/zh/play_vo_changli_com_dash.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_changli_com_dash",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 13220388,
-                "MediaPathName": "Media/zh/13220388.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_com_dash_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,1\\changli\\en_vo_changli_com_dash_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 481828287,
-                "MediaPathName": "Media/zh/481828287.wem",
+                "MediaId": 730472152,
+                "MediaPathName": "Media/730472152.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_com_dash_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\changli\\zh_vo_changli_com_dash_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 369819598,
+                "MediaPathName": "Media/369819598.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\changli\\ja_vo_changli_com_dash_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 459730071,
+                "MediaPathName": "Media/459730071.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\changli\\ko_vo_changli_com_dash_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 818048811,
+                "MediaPathName": "Media/818048811.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,1\\changli\\en_vo_changli_com_dash_02.wav",
                 "PackagedFile": null
               }
             ],

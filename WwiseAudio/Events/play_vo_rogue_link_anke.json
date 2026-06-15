@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 216597343,
             "SoundBanks": [
               {
                 "SoundBankId": 216597343,
-                "SoundBankPathName": "Event/en/play_vo_rogue_link_anke.bnk",
+                "SoundBankPathName": "Event/play_vo_rogue_link_anke.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 91170699,
-                "MediaPathName": "Media/en/91170699.wem",
+                "MediaId": 661484121,
+                "MediaPathName": "Media/661484121.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_anke_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_anke_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 807193629,
-                "MediaPathName": "Media/en/807193629.wem",
+                "MediaId": 697597131,
+                "MediaPathName": "Media/697597131.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_anke_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_anke"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 216597343,
-            "SoundBanks": [
-              {
-                "SoundBankId": 216597343,
-                "SoundBankPathName": "Event/ja/play_vo_rogue_link_anke.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_anke",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 159012870,
-                "MediaPathName": "Media/ja/159012870.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_anke_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_anke_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 745213094,
-                "MediaPathName": "Media/ja/745213094.wem",
+                "MediaId": 172675764,
+                "MediaPathName": "Media/172675764.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_anke_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_anke"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 216597343,
-            "SoundBanks": [
-              {
-                "SoundBankId": 216597343,
-                "SoundBankPathName": "Event/ko/play_vo_rogue_link_anke.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_anke",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 230198233,
-                "MediaPathName": "Media/ko/230198233.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_anke_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_anke_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 947393923,
-                "MediaPathName": "Media/ko/947393923.wem",
+                "MediaId": 665311068,
+                "MediaPathName": "Media/665311068.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_anke_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_anke"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 216597343,
-            "SoundBanks": [
-              {
-                "SoundBankId": 216597343,
-                "SoundBankPathName": "Event/zh/play_vo_rogue_link_anke.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_anke",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 827749110,
-                "MediaPathName": "Media/zh/827749110.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_anke_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_anke_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 863952071,
-                "MediaPathName": "Media/zh/863952071.wem",
+                "MediaId": 293714287,
+                "MediaPathName": "Media/293714287.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_anke_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_anke_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 498697239,
+                "MediaPathName": "Media/498697239.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_anke_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 268271074,
+                "MediaPathName": "Media/268271074.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_anke_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 835838826,
+                "MediaPathName": "Media/835838826.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_anke_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,8 +120,8 @@
       "DebugName": "play_vo_rogue_link_anke",
       "EventId": 216597343
     },
-    "MaximumDuration": 1.2472917,
-    "MinimumDuration": 0.98541665,
+    "MaximumDuration": 1.4582083,
+    "MinimumDuration": 0.87833333,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2787181466,
             "SoundBanks": [
               {
                 "SoundBankId": 2787181466,
-                "SoundBankPathName": "Event/en/play_favor_word_qiuyuan_sys_taste.bnk",
+                "SoundBankPathName": "Event/play_favor_word_qiuyuan_sys_taste.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 855465920,
-                "MediaPathName": "Media/en/855465920.wem",
+                "MediaId": 35879913,
+                "MediaPathName": "Media/35879913.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_sys_taste_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_sys_taste_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_sys_taste"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2787181466,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2787181466,
-                "SoundBankPathName": "Event/ja/play_favor_word_qiuyuan_sys_taste.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_sys_taste",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 759539555,
-                "MediaPathName": "Media/ja/759539555.wem",
+                "MediaId": 898051931,
+                "MediaPathName": "Media/898051931.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_sys_taste_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_sys_taste_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_sys_taste"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2787181466,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2787181466,
-                "SoundBankPathName": "Event/ko/play_favor_word_qiuyuan_sys_taste.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_sys_taste",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 304824611,
-                "MediaPathName": "Media/ko/304824611.wem",
+                "MediaId": 772427339,
+                "MediaPathName": "Media/772427339.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_sys_taste_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_sys_taste_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_sys_taste"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2787181466,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2787181466,
-                "SoundBankPathName": "Event/zh/play_favor_word_qiuyuan_sys_taste.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_sys_taste",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 740712051,
-                "MediaPathName": "Media/zh/740712051.wem",
+                "MediaId": 172878467,
+                "MediaPathName": "Media/172878467.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_sys_taste_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_sys_taste_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_qiuyuan_sys_taste",
       "EventId": 2787181466
     },
-    "MaximumDuration": 20.28525,
-    "MinimumDuration": 20.28525,
+    "MaximumDuration": 31.723478,
+    "MinimumDuration": 17.681875,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

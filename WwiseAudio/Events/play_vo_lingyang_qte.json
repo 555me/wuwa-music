@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1098348280,
             "SoundBanks": [
               {
                 "SoundBankId": 1098348280,
-                "SoundBankPathName": "Event/en/play_vo_lingyang_qte.bnk",
+                "SoundBankPathName": "Event/play_vo_lingyang_qte.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 14577432,
-                "MediaPathName": "Media/en/14577432.wem",
+                "MediaId": 40658711,
+                "MediaPathName": "Media/40658711.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_qte_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\lingyang\\zh_vo_lingyang_qte_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 215007668,
-                "MediaPathName": "Media/en/215007668.wem",
+                "MediaId": 544427251,
+                "MediaPathName": "Media/544427251.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_qte_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_lingyang_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1098348280,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1098348280,
-                "SoundBankPathName": "Event/ja/play_vo_lingyang_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_lingyang_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 173206195,
-                "MediaPathName": "Media/ja/173206195.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_qte_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\lingyang\\ko_vo_lingyang_qte_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 990849592,
-                "MediaPathName": "Media/ja/990849592.wem",
+                "MediaId": 531318943,
+                "MediaPathName": "Media/531318943.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_qte_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_lingyang_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1098348280,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1098348280,
-                "SoundBankPathName": "Event/ko/play_vo_lingyang_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_lingyang_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 86567276,
-                "MediaPathName": "Media/ko/86567276.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_qte_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\lingyang\\ja_vo_lingyang_qte_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 563627108,
-                "MediaPathName": "Media/ko/563627108.wem",
+                "MediaId": 709033882,
+                "MediaPathName": "Media/709033882.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_qte_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_lingyang_qte"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1098348280,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1098348280,
-                "SoundBankPathName": "Event/zh/play_vo_lingyang_qte.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_lingyang_qte",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 453154876,
-                "MediaPathName": "Media/zh/453154876.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_qte_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\lingyang\\en_vo_lingyang_qte_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 877649314,
-                "MediaPathName": "Media/zh/877649314.wem",
+                "MediaId": 232799977,
+                "MediaPathName": "Media/232799977.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_qte_01.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\lingyang\\zh_vo_lingyang_qte_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 253016708,
+                "MediaPathName": "Media/253016708.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\lingyang\\ko_vo_lingyang_qte_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 532722921,
+                "MediaPathName": "Media/532722921.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\lingyang\\ja_vo_lingyang_qte_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 710347336,
+                "MediaPathName": "Media/710347336.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\lingyang\\en_vo_lingyang_qte_02.wav",
                 "PackagedFile": null
               }
             ],

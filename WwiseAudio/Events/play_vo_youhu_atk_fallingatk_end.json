@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4010419999,
             "SoundBanks": [
               {
                 "SoundBankId": 4010419999,
-                "SoundBankPathName": "Event/en/play_vo_youhu_atk_fallingatk_end.bnk",
+                "SoundBankPathName": "Event/play_vo_youhu_atk_fallingatk_end.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 721393012,
-                "MediaPathName": "Media/en/721393012.wem",
+                "MediaId": 405402163,
+                "MediaPathName": "Media/405402163.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_atk_fallingatk_end_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_atk_fallingatk_end_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 737704749,
-                "MediaPathName": "Media/en/737704749.wem",
+                "MediaId": 452486522,
+                "MediaPathName": "Media/452486522.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_atk_fallingatk_end_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_atk_fallingatk_end_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 836068595,
-                "MediaPathName": "Media/en/836068595.wem",
+                "MediaId": 564730762,
+                "MediaPathName": "Media/564730762.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_atk_fallingatk_end_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_atk_fallingatk_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4010419999,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4010419999,
-                "SoundBankPathName": "Event/ja/play_vo_youhu_atk_fallingatk_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_atk_fallingatk_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 213943354,
-                "MediaPathName": "Media/ja/213943354.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_atk_fallingatk_end_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_atk_fallingatk_end_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 679123109,
-                "MediaPathName": "Media/ja/679123109.wem",
+                "MediaId": 508118274,
+                "MediaPathName": "Media/508118274.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_atk_fallingatk_end_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_atk_fallingatk_end_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 963218352,
-                "MediaPathName": "Media/ja/963218352.wem",
+                "MediaId": 969433603,
+                "MediaPathName": "Media/969433603.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_atk_fallingatk_end_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_atk_fallingatk_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4010419999,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4010419999,
-                "SoundBankPathName": "Event/ko/play_vo_youhu_atk_fallingatk_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_atk_fallingatk_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 309413844,
-                "MediaPathName": "Media/ko/309413844.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_atk_fallingatk_end_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_atk_fallingatk_end_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 455199312,
-                "MediaPathName": "Media/ko/455199312.wem",
+                "MediaId": 252875223,
+                "MediaPathName": "Media/252875223.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_atk_fallingatk_end_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_atk_fallingatk_end_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 464339976,
-                "MediaPathName": "Media/ko/464339976.wem",
+                "MediaId": 985739665,
+                "MediaPathName": "Media/985739665.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_atk_fallingatk_end_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_atk_fallingatk_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4010419999,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4010419999,
-                "SoundBankPathName": "Event/zh/play_vo_youhu_atk_fallingatk_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_atk_fallingatk_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 39552480,
-                "MediaPathName": "Media/zh/39552480.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_atk_fallingatk_end_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_atk_fallingatk_end_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 460635723,
-                "MediaPathName": "Media/zh/460635723.wem",
+                "MediaId": 586699190,
+                "MediaPathName": "Media/586699190.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_atk_fallingatk_end_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_atk_fallingatk_end_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 897092770,
-                "MediaPathName": "Media/zh/897092770.wem",
+                "MediaId": 755693822,
+                "MediaPathName": "Media/755693822.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_atk_fallingatk_end_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_atk_fallingatk_end_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 707348606,
+                "MediaPathName": "Media/707348606.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_atk_fallingatk_end_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 78173176,
+                "MediaPathName": "Media/78173176.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_atk_fallingatk_end_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 587620142,
+                "MediaPathName": "Media/587620142.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_atk_fallingatk_end_03_tone.wav",
                 "PackagedFile": null
               }
             ],

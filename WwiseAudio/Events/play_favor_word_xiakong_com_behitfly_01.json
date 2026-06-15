@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1402499787,
             "SoundBanks": [
               {
                 "SoundBankId": 1402499787,
-                "SoundBankPathName": "Event/en/play_favor_word_xiakong_com_behitfly_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_xiakong_com_behitfly_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 203829714,
-                "MediaPathName": "Media/en/203829714.wem",
+                "MediaId": 267103400,
+                "MediaPathName": "Media/267103400.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\xiakong\\zh_vo_xiakong_com_behitfly_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 505912765,
+                "MediaPathName": "Media/505912765.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\xiakong\\ko_vo_xiakong_com_behitfly_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 128406590,
+                "MediaPathName": "Media/128406590.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,3\\xiakong\\en_vo_xiakong_com_behitfly_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 357371898,
+                "MediaPathName": "Media/357371898.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\en_vo_xiakong_com_behitfly_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiakong_com_behitfly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1402499787,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1402499787,
-                "SoundBankPathName": "Event/ja/play_favor_word_xiakong_com_behitfly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiakong_com_behitfly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 261917733,
-                "MediaPathName": "Media/ja/261917733.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\ja_vo_xiakong_com_behitfly_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiakong_com_behitfly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1402499787,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1402499787,
-                "SoundBankPathName": "Event/ko/play_favor_word_xiakong_com_behitfly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiakong_com_behitfly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 276365266,
-                "MediaPathName": "Media/ko/276365266.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\ko_vo_xiakong_com_behitfly_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_xiakong_com_behitfly_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1402499787,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1402499787,
-                "SoundBankPathName": "Event/zh/play_favor_word_xiakong_com_behitfly_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_xiakong_com_behitfly_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 458066325,
-                "MediaPathName": "Media/zh/458066325.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\xiakong\\zh_vo_xiakong_com_behitfly_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\xiakong\\ja_vo_xiakong_com_behitfly_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_xiakong_com_behitfly_01",
       "EventId": 1402499787
     },
-    "MaximumDuration": 1.6206459,
-    "MinimumDuration": 1.6206459,
+    "MaximumDuration": 2.2457292,
+    "MinimumDuration": 1.5989584,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

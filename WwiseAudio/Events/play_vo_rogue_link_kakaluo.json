@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3390191018,
             "SoundBanks": [
               {
                 "SoundBankId": 3390191018,
-                "SoundBankPathName": "Event/en/play_vo_rogue_link_kakaluo.bnk",
+                "SoundBankPathName": "Event/play_vo_rogue_link_kakaluo.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 688023818,
-                "MediaPathName": "Media/en/688023818.wem",
+                "MediaId": 337689281,
+                "MediaPathName": "Media/337689281.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_burst_skill_03.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_burst_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 15675516,
-                "MediaPathName": "Media/en/15675516.wem",
+                "MediaId": 645448398,
+                "MediaPathName": "Media/645448398.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_burst_skill_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_burst_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 693219093,
-                "MediaPathName": "Media/en/693219093.wem",
+                "MediaId": 316582949,
+                "MediaPathName": "Media/316582949.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_burst_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_kakaluo"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3390191018,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3390191018,
-                "SoundBankPathName": "Event/ja/play_vo_rogue_link_kakaluo.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_kakaluo",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 100550218,
-                "MediaPathName": "Media/ja/100550218.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_burst_skill_03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_burst_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 393622141,
-                "MediaPathName": "Media/ja/393622141.wem",
+                "MediaId": 246055337,
+                "MediaPathName": "Media/246055337.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_burst_skill_02.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_burst_skill_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 732962322,
-                "MediaPathName": "Media/ja/732962322.wem",
+                "MediaId": 955239422,
+                "MediaPathName": "Media/955239422.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_burst_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_kakaluo"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3390191018,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3390191018,
-                "SoundBankPathName": "Event/ko/play_vo_rogue_link_kakaluo.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_kakaluo",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 969592802,
-                "MediaPathName": "Media/ko/969592802.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_burst_skill_03.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_burst_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 53776995,
-                "MediaPathName": "Media/ko/53776995.wem",
+                "MediaId": 358282945,
+                "MediaPathName": "Media/358282945.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_burst_skill_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_burst_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 623095615,
-                "MediaPathName": "Media/ko/623095615.wem",
+                "MediaId": 42620940,
+                "MediaPathName": "Media/42620940.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_burst_skill_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_kakaluo"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3390191018,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3390191018,
-                "SoundBankPathName": "Event/zh/play_vo_rogue_link_kakaluo.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_kakaluo",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 521957636,
-                "MediaPathName": "Media/zh/521957636.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_burst_skill_03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_burst_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 579461129,
-                "MediaPathName": "Media/zh/579461129.wem",
+                "MediaId": 1020623848,
+                "MediaPathName": "Media/1020623848.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_burst_skill_02.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_burst_skill_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 171412614,
-                "MediaPathName": "Media/zh/171412614.wem",
+                "MediaId": 944649682,
+                "MediaPathName": "Media/944649682.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\kakaluo\\vo_kakaluo_burst_skill_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\kakaluo\\ja_vo_kakaluo_burst_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 777995252,
+                "MediaPathName": "Media/777995252.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\kakaluo\\zh_vo_kakaluo_burst_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 577253822,
+                "MediaPathName": "Media/577253822.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\kakaluo\\ko_vo_kakaluo_burst_skill_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 547554347,
+                "MediaPathName": "Media/547554347.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\kakaluo\\en_vo_kakaluo_burst_skill_01.wav",
                 "PackagedFile": null
               }
             ],

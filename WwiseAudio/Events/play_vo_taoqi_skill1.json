@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3015158115,
             "SoundBanks": [
               {
                 "SoundBankId": 3015158115,
-                "SoundBankPathName": "Event/en/play_vo_taoqi_skill1.bnk",
+                "SoundBankPathName": "Event/play_vo_taoqi_skill1.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 787401948,
-                "MediaPathName": "Media/en/787401948.wem",
+                "MediaId": 328333870,
+                "MediaPathName": "Media/328333870.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_skill1_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\taoqi\\ko_vo_taoqi_skill1_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 792124314,
-                "MediaPathName": "Media/en/792124314.wem",
+                "MediaId": 1045199850,
+                "MediaPathName": "Media/1045199850.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_skill1_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\taoqi\\zh_vo_taoqi_skill1_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 811415225,
-                "MediaPathName": "Media/en/811415225.wem",
+                "MediaId": 1051613897,
+                "MediaPathName": "Media/1051613897.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_skill1_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_taoqi_skill1"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3015158115,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3015158115,
-                "SoundBankPathName": "Event/ja/play_vo_taoqi_skill1.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_taoqi_skill1",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 614731617,
-                "MediaPathName": "Media/ja/614731617.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_skill1_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\taoqi\\ja_vo_taoqi_skill1_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1012236404,
-                "MediaPathName": "Media/ja/1012236404.wem",
+                "MediaId": 983059175,
+                "MediaPathName": "Media/983059175.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_skill1_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\taoqi\\en_vo_taoqi_skill1_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1054276013,
-                "MediaPathName": "Media/ja/1054276013.wem",
+                "MediaId": 485090523,
+                "MediaPathName": "Media/485090523.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_skill1_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_taoqi_skill1"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3015158115,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3015158115,
-                "SoundBankPathName": "Event/ko/play_vo_taoqi_skill1.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_taoqi_skill1",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 136457674,
-                "MediaPathName": "Media/ko/136457674.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_skill1_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\taoqi\\ko_vo_taoqi_skill1_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 224322532,
-                "MediaPathName": "Media/ko/224322532.wem",
+                "MediaId": 229365412,
+                "MediaPathName": "Media/229365412.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_skill1_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\taoqi\\zh_vo_taoqi_skill1_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 978860979,
-                "MediaPathName": "Media/ko/978860979.wem",
+                "MediaId": 129681057,
+                "MediaPathName": "Media/129681057.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_skill1_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_taoqi_skill1"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3015158115,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3015158115,
-                "SoundBankPathName": "Event/zh/play_vo_taoqi_skill1.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_taoqi_skill1",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 712061527,
-                "MediaPathName": "Media/zh/712061527.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_skill1_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\taoqi\\ja_vo_taoqi_skill1_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1051477887,
-                "MediaPathName": "Media/zh/1051477887.wem",
+                "MediaId": 293648788,
+                "MediaPathName": "Media/293648788.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_skill1_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\taoqi\\en_vo_taoqi_skill1_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1053894334,
-                "MediaPathName": "Media/zh/1053894334.wem",
+                "MediaId": 351606598,
+                "MediaPathName": "Media/351606598.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\taoqi\\vo_taoqi_skill1_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\taoqi\\ko_vo_taoqi_skill1_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 87285604,
+                "MediaPathName": "Media/87285604.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\taoqi\\zh_vo_taoqi_skill1_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 652228127,
+                "MediaPathName": "Media/652228127.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\taoqi\\ja_vo_taoqi_skill1_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 146415875,
+                "MediaPathName": "Media/146415875.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\taoqi\\en_vo_taoqi_skill1_01.wav",
                 "PackagedFile": null
               }
             ],

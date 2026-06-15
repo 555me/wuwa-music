@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1038978509,
             "SoundBanks": [
               {
                 "SoundBankId": 1038978509,
-                "SoundBankPathName": "Event/en/play_vo_feixue_com_die.bnk",
+                "SoundBankPathName": "Event/play_vo_feixue_com_die.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 473919582,
-                "MediaPathName": "Media/en/473919582.wem",
+                "MediaId": 367161290,
+                "MediaPathName": "Media/367161290.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_com_die_01_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_com_die_03_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 547551861,
-                "MediaPathName": "Media/en/547551861.wem",
+                "MediaId": 57953345,
+                "MediaPathName": "Media/57953345.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_com_die_02_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_com_die_03_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 797071966,
-                "MediaPathName": "Media/en/797071966.wem",
+                "MediaId": 34304660,
+                "MediaPathName": "Media/34304660.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\en_vo_feixue_com_die_03_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feixue_com_die"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1038978509,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1038978509,
-                "SoundBankPathName": "Event/ja/play_vo_feixue_com_die.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feixue_com_die",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 295071934,
-                "MediaPathName": "Media/ja/295071934.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_com_die_02_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_com_die_03_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 404678189,
-                "MediaPathName": "Media/ja/404678189.wem",
+                "MediaId": 1042956604,
+                "MediaPathName": "Media/1042956604.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_com_die_03_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_com_die_03_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 744216268,
-                "MediaPathName": "Media/ja/744216268.wem",
+                "MediaId": 1040622799,
+                "MediaPathName": "Media/1040622799.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ja_vo_feixue_com_die_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feixue_com_die"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1038978509,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1038978509,
-                "SoundBankPathName": "Event/ko/play_vo_feixue_com_die.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feixue_com_die",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 111096087,
-                "MediaPathName": "Media/ko/111096087.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_com_die_02_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_com_die_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 334264290,
-                "MediaPathName": "Media/ko/334264290.wem",
+                "MediaId": 725905434,
+                "MediaPathName": "Media/725905434.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_com_die_03_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_com_die_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 988867459,
-                "MediaPathName": "Media/ko/988867459.wem",
+                "MediaId": 918558647,
+                "MediaPathName": "Media/918558647.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\ko_vo_feixue_com_die_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_feixue_com_die"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1038978509,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1038978509,
-                "SoundBankPathName": "Event/zh/play_vo_feixue_com_die.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_feixue_com_die",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 46668974,
-                "MediaPathName": "Media/zh/46668974.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_com_die_02_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_com_die_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 327985617,
-                "MediaPathName": "Media/zh/327985617.wem",
+                "MediaId": 779854682,
+                "MediaPathName": "Media/779854682.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_com_die_01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_com_die_02_word.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 422499562,
-                "MediaPathName": "Media/zh/422499562.wem",
+                "MediaId": 373352791,
+                "MediaPathName": "Media/373352791.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,3\\feixue\\zh_vo_feixue_com_die_03_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,3\\feixue\\en_vo_feixue_com_die_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1039395165,
+                "MediaPathName": "Media/1039395165.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_3,3\\feixue\\ko_vo_feixue_com_die_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 104717707,
+                "MediaPathName": "Media/104717707.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\role\\branch_3,3\\feixue\\ja_vo_feixue_com_die_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 326349578,
+                "MediaPathName": "Media/326349578.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_3,3\\feixue\\zh_vo_feixue_com_die_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,7 +160,7 @@
       "DebugName": "play_vo_feixue_com_die",
       "EventId": 1038978509
     },
-    "MaximumDuration": 2.9527917,
+    "MaximumDuration": 3.9330208,
     "MinimumDuration": 1.8151875,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0

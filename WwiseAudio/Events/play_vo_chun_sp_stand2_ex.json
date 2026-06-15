@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3891860743,
             "SoundBanks": [
               {
                 "SoundBankId": 3891860743,
-                "SoundBankPathName": "Event/en/play_vo_chun_sp_stand2_ex.bnk",
+                "SoundBankPathName": "Event/play_vo_chun_sp_stand2_ex.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1067360572,
-                "MediaPathName": "Media/en/1067360572.wem",
+                "MediaId": 32283226,
+                "MediaPathName": "Media/32283226.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\en_vo_chun_sp_stand2_ex_tone.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.4\\chun\\zh_vo_chun_sp_stand2_ex_tone.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chun_sp_stand2_ex"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3891860743,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3891860743,
-                "SoundBankPathName": "Event/ja/play_vo_chun_sp_stand2_ex.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chun_sp_stand2_ex",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 696865609,
-                "MediaPathName": "Media/ja/696865609.wem",
+                "MediaId": 1039439463,
+                "MediaPathName": "Media/1039439463.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ja_vo_chun_sp_stand2_ex_tone.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.4\\chun\\en_vo_chun_sp_stand2_ex_tone.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chun_sp_stand2_ex"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3891860743,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3891860743,
-                "SoundBankPathName": "Event/ko/play_vo_chun_sp_stand2_ex.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chun_sp_stand2_ex",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 286686522,
-                "MediaPathName": "Media/ko/286686522.wem",
+                "MediaId": 478355882,
+                "MediaPathName": "Media/478355882.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ko_vo_chun_sp_stand2_ex_tone.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.4\\chun\\ko_vo_chun_sp_stand2_ex_tone.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chun_sp_stand2_ex"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3891860743,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3891860743,
-                "SoundBankPathName": "Event/zh/play_vo_chun_sp_stand2_ex.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chun_sp_stand2_ex",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 956578253,
-                "MediaPathName": "Media/zh/956578253.wem",
+                "MediaId": 717296821,
+                "MediaPathName": "Media/717296821.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\zh_vo_chun_sp_stand2_ex_tone.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1.4\\chun\\ja_vo_chun_sp_stand2_ex_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_chun_sp_stand2_ex",
       "EventId": 3891860743
     },
-    "MaximumDuration": 9.33777,
-    "MinimumDuration": 9.33777,
+    "MaximumDuration": 12.831208,
+    "MinimumDuration": 9.07675,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1725765953,
             "SoundBanks": [
               {
                 "SoundBankId": 1725765953,
-                "SoundBankPathName": "Event/en/play_favor_word_qiuyuan_com_hxchange.bnk",
+                "SoundBankPathName": "Event/play_favor_word_qiuyuan_com_hxchange.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 615575999,
-                "MediaPathName": "Media/en/615575999.wem",
+                "MediaId": 530315140,
+                "MediaPathName": "Media/530315140.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_com_hxchange_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_com_hxchange_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_com_hxchange"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1725765953,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1725765953,
-                "SoundBankPathName": "Event/ja/play_favor_word_qiuyuan_com_hxchange.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_com_hxchange",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 895232407,
-                "MediaPathName": "Media/ja/895232407.wem",
+                "MediaId": 604190048,
+                "MediaPathName": "Media/604190048.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ja_vo_qiuyuan_com_hxchange_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_com_hxchange_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_com_hxchange"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1725765953,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1725765953,
-                "SoundBankPathName": "Event/ko/play_favor_word_qiuyuan_com_hxchange.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_com_hxchange",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 799461571,
-                "MediaPathName": "Media/ko/799461571.wem",
+                "MediaId": 437298796,
+                "MediaPathName": "Media/437298796.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_com_hxchange_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\qiuyuan\\ko_vo_qiuyuan_com_hxchange_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qiuyuan_com_hxchange"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1725765953,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1725765953,
-                "SoundBankPathName": "Event/zh/play_favor_word_qiuyuan_com_hxchange.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qiuyuan_com_hxchange",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 985193708,
-                "MediaPathName": "Media/zh/985193708.wem",
+                "MediaId": 610659294,
+                "MediaPathName": "Media/610659294.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\qiuyuan\\zh_vo_qiuyuan_com_hxchange_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,7\\qiuyuan\\en_vo_qiuyuan_com_hxchange_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_qiuyuan_com_hxchange",
       "EventId": 1725765953
     },
-    "MaximumDuration": 0.8121458,
+    "MaximumDuration": 1.6636667,
     "MinimumDuration": 0.8121458,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

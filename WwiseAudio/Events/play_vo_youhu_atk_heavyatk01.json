@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 328734308,
             "SoundBanks": [
               {
                 "SoundBankId": 328734308,
-                "SoundBankPathName": "Event/en/play_vo_youhu_atk_heavyatk01.bnk",
+                "SoundBankPathName": "Event/play_vo_youhu_atk_heavyatk01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 536076517,
-                "MediaPathName": "Media/en/536076517.wem",
+                "MediaId": 637821036,
+                "MediaPathName": "Media/637821036.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_atk_heavyatk01_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_atk_heavyatk01_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 604461264,
-                "MediaPathName": "Media/en/604461264.wem",
+                "MediaId": 585118467,
+                "MediaPathName": "Media/585118467.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_atk_heavyatk01_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_atk_heavyatk01_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 832559290,
-                "MediaPathName": "Media/en/832559290.wem",
+                "MediaId": 49757479,
+                "MediaPathName": "Media/49757479.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\en_vo_youhu_atk_heavyatk01_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_atk_heavyatk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 328734308,
-            "SoundBanks": [
-              {
-                "SoundBankId": 328734308,
-                "SoundBankPathName": "Event/ja/play_vo_youhu_atk_heavyatk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_atk_heavyatk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 220038797,
-                "MediaPathName": "Media/ja/220038797.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_atk_heavyatk01_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_atk_heavyatk01_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 363138359,
-                "MediaPathName": "Media/ja/363138359.wem",
+                "MediaId": 380536488,
+                "MediaPathName": "Media/380536488.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_atk_heavyatk01_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_atk_heavyatk01_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 424553673,
-                "MediaPathName": "Media/ja/424553673.wem",
+                "MediaId": 81354570,
+                "MediaPathName": "Media/81354570.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ja_vo_youhu_atk_heavyatk01_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_atk_heavyatk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 328734308,
-            "SoundBanks": [
-              {
-                "SoundBankId": 328734308,
-                "SoundBankPathName": "Event/ko/play_vo_youhu_atk_heavyatk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_atk_heavyatk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 24616362,
-                "MediaPathName": "Media/ko/24616362.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_atk_heavyatk01_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_atk_heavyatk01_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 70923991,
-                "MediaPathName": "Media/ko/70923991.wem",
+                "MediaId": 234373832,
+                "MediaPathName": "Media/234373832.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_atk_heavyatk01_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_atk_heavyatk01_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 542947788,
-                "MediaPathName": "Media/ko/542947788.wem",
+                "MediaId": 803269627,
+                "MediaPathName": "Media/803269627.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\ko_vo_youhu_atk_heavyatk01_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_youhu_atk_heavyatk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 328734308,
-            "SoundBanks": [
-              {
-                "SoundBankId": 328734308,
-                "SoundBankPathName": "Event/zh/play_vo_youhu_atk_heavyatk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_youhu_atk_heavyatk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 152400657,
-                "MediaPathName": "Media/zh/152400657.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_atk_heavyatk01_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_atk_heavyatk01_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 887524561,
-                "MediaPathName": "Media/zh/887524561.wem",
+                "MediaId": 386592538,
+                "MediaPathName": "Media/386592538.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_atk_heavyatk01_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_atk_heavyatk01_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1070097749,
-                "MediaPathName": "Media/zh/1070097749.wem",
+                "MediaId": 551099653,
+                "MediaPathName": "Media/551099653.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.3\\youhu\\zh_vo_youhu_atk_heavyatk01_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.3\\youhu\\ko_vo_youhu_atk_heavyatk01_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 349082129,
+                "MediaPathName": "Media/349082129.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.3\\youhu\\ja_vo_youhu_atk_heavyatk01_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 186250706,
+                "MediaPathName": "Media/186250706.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.3\\youhu\\en_vo_youhu_atk_heavyatk01_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 711123784,
+                "MediaPathName": "Media/711123784.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.3\\youhu\\zh_vo_youhu_atk_heavyatk01_02_tone.wav",
                 "PackagedFile": null
               }
             ],

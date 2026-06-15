@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 154482370,
             "SoundBanks": [
               {
                 "SoundBankId": 154482370,
-                "SoundBankPathName": "Event/en/play_favor_word_kelaita_sys_gacha.bnk",
+                "SoundBankPathName": "Event/play_favor_word_kelaita_sys_gacha.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 304364657,
-                "MediaPathName": "Media/en/304364657.wem",
+                "MediaId": 882959766,
+                "MediaPathName": "Media/882959766.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\en_vo_kelaita_sys_gacha_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\kelaita\\ja_vo_kelaita_sys_gacha_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 154482370,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 154482370,
-                "SoundBankPathName": "Event/ja/play_favor_word_kelaita_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 649918511,
-                "MediaPathName": "Media/ja/649918511.wem",
+                "MediaId": 915285837,
+                "MediaPathName": "Media/915285837.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ja_vo_kelaita_sys_gacha_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\kelaita\\ko_vo_kelaita_sys_gacha_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 154482370,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 154482370,
-                "SoundBankPathName": "Event/ko/play_favor_word_kelaita_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 399924385,
-                "MediaPathName": "Media/ko/399924385.wem",
+                "MediaId": 690642057,
+                "MediaPathName": "Media/690642057.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ko_vo_kelaita_sys_gacha_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\kelaita\\zh_vo_kelaita_sys_gacha_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 154482370,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 154482370,
-                "SoundBankPathName": "Event/zh/play_favor_word_kelaita_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 26530507,
-                "MediaPathName": "Media/zh/26530507.wem",
+                "MediaId": 46210892,
+                "MediaPathName": "Media/46210892.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\zh_vo_kelaita_sys_gacha_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,0\\kelaita\\en_vo_kelaita_sys_gacha_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_kelaita_sys_gacha",
       "EventId": 154482370
     },
-    "MaximumDuration": 13.534667,
+    "MaximumDuration": 14.25,
     "MinimumDuration": 13.534667,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

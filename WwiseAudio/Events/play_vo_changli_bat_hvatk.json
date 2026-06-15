@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 563736081,
             "SoundBanks": [
               {
                 "SoundBankId": 563736081,
-                "SoundBankPathName": "Event/en/play_vo_changli_bat_hvatk.bnk",
+                "SoundBankPathName": "Event/play_vo_changli_bat_hvatk.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 109088933,
-                "MediaPathName": "Media/en/109088933.wem",
+                "MediaId": 855691006,
+                "MediaPathName": "Media/855691006.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_hvatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\changli\\zh_vo_changli_bat_hvatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 676473129,
-                "MediaPathName": "Media/en/676473129.wem",
+                "MediaId": 855619630,
+                "MediaPathName": "Media/855619630.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_hvatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\changli\\ja_vo_changli_bat_hvatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1020676505,
-                "MediaPathName": "Media/en/1020676505.wem",
+                "MediaId": 200592719,
+                "MediaPathName": "Media/200592719.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_hvatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_changli_bat_hvatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 563736081,
-            "SoundBanks": [
-              {
-                "SoundBankId": 563736081,
-                "SoundBankPathName": "Event/ja/play_vo_changli_bat_hvatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_changli_bat_hvatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 411616352,
-                "MediaPathName": "Media/ja/411616352.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_hvatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\changli\\ko_vo_changli_bat_hvatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 471383411,
-                "MediaPathName": "Media/ja/471383411.wem",
+                "MediaId": 823477591,
+                "MediaPathName": "Media/823477591.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_hvatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,1\\changli\\en_vo_changli_bat_hvatk_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 548637105,
-                "MediaPathName": "Media/ja/548637105.wem",
+                "MediaId": 713105820,
+                "MediaPathName": "Media/713105820.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_hvatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_changli_bat_hvatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 563736081,
-            "SoundBanks": [
-              {
-                "SoundBankId": 563736081,
-                "SoundBankPathName": "Event/ko/play_vo_changli_bat_hvatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_changli_bat_hvatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 828906072,
-                "MediaPathName": "Media/ko/828906072.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_hvatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\changli\\zh_vo_changli_bat_hvatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1037230308,
-                "MediaPathName": "Media/ko/1037230308.wem",
+                "MediaId": 410999666,
+                "MediaPathName": "Media/410999666.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_hvatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\changli\\ja_vo_changli_bat_hvatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1068866859,
-                "MediaPathName": "Media/ko/1068866859.wem",
+                "MediaId": 164783891,
+                "MediaPathName": "Media/164783891.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_hvatk_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_changli_bat_hvatk"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 563736081,
-            "SoundBanks": [
-              {
-                "SoundBankId": 563736081,
-                "SoundBankPathName": "Event/zh/play_vo_changli_bat_hvatk.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_changli_bat_hvatk",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 246427856,
-                "MediaPathName": "Media/zh/246427856.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_hvatk_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\changli\\ko_vo_changli_bat_hvatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 454736458,
-                "MediaPathName": "Media/zh/454736458.wem",
+                "MediaId": 1013788260,
+                "MediaPathName": "Media/1013788260.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_hvatk_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,1\\changli\\en_vo_changli_bat_hvatk_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 944627473,
-                "MediaPathName": "Media/zh/944627473.wem",
+                "MediaId": 942820577,
+                "MediaPathName": "Media/942820577.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.1\\changli\\vo_changli_bat_hvatk_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,1\\changli\\zh_vo_changli_bat_hvatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 61921768,
+                "MediaPathName": "Media/61921768.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,1\\changli\\ja_vo_changli_bat_hvatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 23085357,
+                "MediaPathName": "Media/23085357.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,1\\changli\\ko_vo_changli_bat_hvatk_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 816094692,
+                "MediaPathName": "Media/816094692.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,1\\changli\\en_vo_changli_bat_hvatk_01.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1669170901,
             "SoundBanks": [
               {
                 "SoundBankId": 1669170901,
-                "SoundBankPathName": "Event/en/play_vo_sanhua_fast_run.bnk",
+                "SoundBankPathName": "Event/play_vo_sanhua_fast_run.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 264288592,
-                "MediaPathName": "Media/en/264288592.wem",
+                "MediaId": 195151631,
+                "MediaPathName": "Media/195151631.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\sanhua\\en_vo_sanhua_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 458062174,
-                "MediaPathName": "Media/en/458062174.wem",
+                "MediaId": 1071007597,
+                "MediaPathName": "Media/1071007597.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_fastclimb_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\sanhua\\ko_vo_sanhua_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 462566588,
-                "MediaPathName": "Media/en/462566588.wem",
+                "MediaId": 734995204,
+                "MediaPathName": "Media/734995204.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_fastclimb_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_sanhua_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1669170901,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1669170901,
-                "SoundBankPathName": "Event/ja/play_vo_sanhua_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_sanhua_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 181549013,
-                "MediaPathName": "Media/ja/181549013.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\sanhua\\zh_vo_sanhua_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 692972363,
-                "MediaPathName": "Media/ja/692972363.wem",
+                "MediaId": 417646377,
+                "MediaPathName": "Media/417646377.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\sanhua\\ja_vo_sanhua_fastclimb_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 971732912,
-                "MediaPathName": "Media/ja/971732912.wem",
+                "MediaId": 347109003,
+                "MediaPathName": "Media/347109003.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_fastclimb_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_sanhua_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1669170901,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1669170901,
-                "SoundBankPathName": "Event/ko/play_vo_sanhua_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_sanhua_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 300168461,
-                "MediaPathName": "Media/ko/300168461.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\sanhua\\en_vo_sanhua_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 656618751,
-                "MediaPathName": "Media/ko/656618751.wem",
+                "MediaId": 387038824,
+                "MediaPathName": "Media/387038824.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_fastclimb_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\sanhua\\ko_vo_sanhua_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 895659282,
-                "MediaPathName": "Media/ko/895659282.wem",
+                "MediaId": 1043371302,
+                "MediaPathName": "Media/1043371302.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_fastclimb_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_sanhua_fast_run"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1669170901,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1669170901,
-                "SoundBankPathName": "Event/zh/play_vo_sanhua_fast_run.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_sanhua_fast_run",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 149520373,
-                "MediaPathName": "Media/zh/149520373.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_fastclimb_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\sanhua\\zh_vo_sanhua_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 618305823,
-                "MediaPathName": "Media/zh/618305823.wem",
+                "MediaId": 294910824,
+                "MediaPathName": "Media/294910824.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_fastclimb_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\sanhua\\ja_vo_sanhua_fastclimb_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 889888703,
-                "MediaPathName": "Media/zh/889888703.wem",
+                "MediaId": 910304400,
+                "MediaPathName": "Media/910304400.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\sanhua\\vo_sanhua_fastclimb_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\sanhua\\en_vo_sanhua_fastclimb_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 541099926,
+                "MediaPathName": "Media/541099926.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\sanhua\\ko_vo_sanhua_fastclimb_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 109740315,
+                "MediaPathName": "Media/109740315.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\sanhua\\zh_vo_sanhua_fastclimb_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 673806011,
+                "MediaPathName": "Media/673806011.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\sanhua\\ja_vo_sanhua_fastclimb_01.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1355606216,
             "SoundBanks": [
               {
                 "SoundBankId": 1355606216,
-                "SoundBankPathName": "Event/en/play_favor_word_qianxiao_com_openbox_01.bnk",
+                "SoundBankPathName": "Event/play_favor_word_qianxiao_com_openbox_01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1045050521,
-                "MediaPathName": "Media/en/1045050521.wem",
+                "MediaId": 27354833,
+                "MediaPathName": "Media/27354833.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,8\\qianxiao\\en_vo_qianxiao_com_openbox_01_word.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 396629905,
+                "MediaPathName": "Media/396629905.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\en_vo_qianxiao_com_openbox_01_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,8\\qianxiao\\ja_vo_qianxiao_com_openbox_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qianxiao_com_openbox_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1355606216,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1355606216,
-                "SoundBankPathName": "Event/ja/play_favor_word_qianxiao_com_openbox_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qianxiao_com_openbox_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 660685387,
-                "MediaPathName": "Media/ja/660685387.wem",
+                "MediaId": 780618178,
+                "MediaPathName": "Media/780618178.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\ja_vo_qianxiao_com_openbox_01_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,8\\qianxiao\\ko_vo_qianxiao_com_openbox_01_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qianxiao_com_openbox_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1355606216,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1355606216,
-                "SoundBankPathName": "Event/ko/play_favor_word_qianxiao_com_openbox_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qianxiao_com_openbox_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 546251443,
-                "MediaPathName": "Media/ko/546251443.wem",
+                "MediaId": 682864664,
+                "MediaPathName": "Media/682864664.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\ko_vo_qianxiao_com_openbox_01_word.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_qianxiao_com_openbox_01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1355606216,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1355606216,
-                "SoundBankPathName": "Event/zh/play_favor_word_qianxiao_com_openbox_01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_qianxiao_com_openbox_01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 927268446,
-                "MediaPathName": "Media/zh/927268446.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,8\\qianxiao\\zh_vo_qianxiao_com_openbox_01_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,8\\qianxiao\\zh_vo_qianxiao_com_openbox_01_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_qianxiao_com_openbox_01",
       "EventId": 1355606216
     },
-    "MaximumDuration": 2.0593126,
-    "MinimumDuration": 2.0593126,
+    "MaximumDuration": 3.4503958,
+    "MinimumDuration": 0.9851875,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

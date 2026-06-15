@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3028423125,
             "SoundBanks": [
               {
                 "SoundBankId": 3028423125,
-                "SoundBankPathName": "Event/en/play_vo_chixia_die.bnk",
+                "SoundBankPathName": "Event/play_vo_chixia_die.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 69376938,
-                "MediaPathName": "Media/en/69376938.wem",
+                "MediaId": 490339015,
+                "MediaPathName": "Media/490339015.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_die_01.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\chixia\\en_vo_chixia_die_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 543695380,
-                "MediaPathName": "Media/en/543695380.wem",
+                "MediaId": 149686541,
+                "MediaPathName": "Media/149686541.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_die_02.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\chixia\\ko_vo_chixia_die_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 987236308,
-                "MediaPathName": "Media/en/987236308.wem",
+                "MediaId": 823535940,
+                "MediaPathName": "Media/823535940.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_die_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chixia_die"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3028423125,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3028423125,
-                "SoundBankPathName": "Event/ja/play_vo_chixia_die.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chixia_die",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 626841094,
-                "MediaPathName": "Media/ja/626841094.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_die_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\chixia\\zh_vo_chixia_die_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 855079842,
-                "MediaPathName": "Media/ja/855079842.wem",
+                "MediaId": 1035270608,
+                "MediaPathName": "Media/1035270608.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_die_02.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\chixia\\ja_vo_chixia_die_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 904761038,
-                "MediaPathName": "Media/ja/904761038.wem",
+                "MediaId": 338877804,
+                "MediaPathName": "Media/338877804.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_die_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chixia_die"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3028423125,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3028423125,
-                "SoundBankPathName": "Event/ko/play_vo_chixia_die.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chixia_die",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 409592563,
-                "MediaPathName": "Media/ko/409592563.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_die_03.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\chixia\\en_vo_chixia_die_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 567168324,
-                "MediaPathName": "Media/ko/567168324.wem",
+                "MediaId": 367586456,
+                "MediaPathName": "Media/367586456.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_die_01.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\chixia\\ko_vo_chixia_die_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 828016044,
-                "MediaPathName": "Media/ko/828016044.wem",
+                "MediaId": 280636242,
+                "MediaPathName": "Media/280636242.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_die_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chixia_die"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3028423125,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3028423125,
-                "SoundBankPathName": "Event/zh/play_vo_chixia_die.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chixia_die",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 182987421,
-                "MediaPathName": "Media/zh/182987421.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_die_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\chixia\\zh_vo_chixia_die_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 311677911,
-                "MediaPathName": "Media/zh/311677911.wem",
+                "MediaId": 931853899,
+                "MediaPathName": "Media/931853899.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_die_02.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\chixia\\ja_vo_chixia_die_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 738127858,
-                "MediaPathName": "Media/zh/738127858.wem",
+                "MediaId": 975731316,
+                "MediaPathName": "Media/975731316.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\chixia\\vo_chixia_die_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\chixia\\en_vo_chixia_die_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 869570931,
+                "MediaPathName": "Media/869570931.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\chixia\\ko_vo_chixia_die_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 777001063,
+                "MediaPathName": "Media/777001063.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\chixia\\zh_vo_chixia_die_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 725385642,
+                "MediaPathName": "Media/725385642.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\chixia\\ja_vo_chixia_die_02.wav",
                 "PackagedFile": null
               }
             ],

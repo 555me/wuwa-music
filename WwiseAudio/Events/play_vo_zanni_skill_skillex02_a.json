@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2519945399,
             "SoundBanks": [
               {
                 "SoundBankId": 2519945399,
-                "SoundBankPathName": "Event/en/play_vo_zanni_skill_skillex02_a.bnk",
+                "SoundBankPathName": "Event/play_vo_zanni_skill_skillex02_a.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 664750995,
-                "MediaPathName": "Media/en/664750995.wem",
+                "MediaId": 923430648,
+                "MediaPathName": "Media/923430648.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\en_vo_zanni_skill_skillex02_a_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\zanni\\ko_vo_zanni_skill_skillex02_a_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 679166705,
-                "MediaPathName": "Media/en/679166705.wem",
+                "MediaId": 860456184,
+                "MediaPathName": "Media/860456184.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\en_vo_zanni_skill_skillex02_a_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\zanni\\ja_vo_zanni_skill_skillex02_a_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 871530093,
-                "MediaPathName": "Media/en/871530093.wem",
+                "MediaId": 693909458,
+                "MediaPathName": "Media/693909458.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\en_vo_zanni_skill_skillex02_a_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zanni_skill_skillex02_a"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2519945399,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2519945399,
-                "SoundBankPathName": "Event/ja/play_vo_zanni_skill_skillex02_a.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zanni_skill_skillex02_a",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 829456783,
-                "MediaPathName": "Media/ja/829456783.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ja_vo_zanni_skill_skillex02_a_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,3\\zanni\\en_vo_zanni_skill_skillex02_a_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 937290980,
-                "MediaPathName": "Media/ja/937290980.wem",
+                "MediaId": 244907408,
+                "MediaPathName": "Media/244907408.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ja_vo_zanni_skill_skillex02_a_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\zanni\\zh_vo_zanni_skill_skillex02_a_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1059615437,
-                "MediaPathName": "Media/ja/1059615437.wem",
+                "MediaId": 624667997,
+                "MediaPathName": "Media/624667997.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ja_vo_zanni_skill_skillex02_a_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zanni_skill_skillex02_a"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2519945399,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2519945399,
-                "SoundBankPathName": "Event/ko/play_vo_zanni_skill_skillex02_a.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zanni_skill_skillex02_a",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 51013635,
-                "MediaPathName": "Media/ko/51013635.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ko_vo_zanni_skill_skillex02_a_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\zanni\\ko_vo_zanni_skill_skillex02_a_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 555883026,
-                "MediaPathName": "Media/ko/555883026.wem",
+                "MediaId": 600687867,
+                "MediaPathName": "Media/600687867.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ko_vo_zanni_skill_skillex02_a_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\zanni\\ja_vo_zanni_skill_skillex02_a_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 684213980,
-                "MediaPathName": "Media/ko/684213980.wem",
+                "MediaId": 12602093,
+                "MediaPathName": "Media/12602093.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ko_vo_zanni_skill_skillex02_a_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_zanni_skill_skillex02_a"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2519945399,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2519945399,
-                "SoundBankPathName": "Event/zh/play_vo_zanni_skill_skillex02_a.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_zanni_skill_skillex02_a",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 514430455,
-                "MediaPathName": "Media/zh/514430455.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\zh_vo_zanni_skill_skillex02_a_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,3\\zanni\\en_vo_zanni_skill_skillex02_a_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 525231933,
-                "MediaPathName": "Media/zh/525231933.wem",
+                "MediaId": 228498726,
+                "MediaPathName": "Media/228498726.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\zh_vo_zanni_skill_skillex02_a_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\zanni\\zh_vo_zanni_skill_skillex02_a_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 695483592,
-                "MediaPathName": "Media/zh/695483592.wem",
+                "MediaId": 403793312,
+                "MediaPathName": "Media/403793312.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\zh_vo_zanni_skill_skillex02_a_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\zanni\\ko_vo_zanni_skill_skillex02_a_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 695317947,
+                "MediaPathName": "Media/695317947.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\zanni\\ja_vo_zanni_skill_skillex02_a_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 930107816,
+                "MediaPathName": "Media/930107816.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,3\\zanni\\en_vo_zanni_skill_skillex02_a_02_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 916498082,
+                "MediaPathName": "Media/916498082.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\zanni\\zh_vo_zanni_skill_skillex02_a_02_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -248,7 +161,7 @@
       "EventId": 2519945399
     },
     "MaximumDuration": 0.5186667,
-    "MinimumDuration": 0.32441667,
+    "MinimumDuration": 0.24802083,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

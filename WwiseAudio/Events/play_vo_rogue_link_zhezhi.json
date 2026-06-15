@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1493514140,
             "SoundBanks": [
               {
                 "SoundBankId": 1493514140,
-                "SoundBankPathName": "Event/en/play_vo_rogue_link_zhezhi.bnk",
+                "SoundBankPathName": "Event/play_vo_rogue_link_zhezhi.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 32993444,
-                "MediaPathName": "Media/en/32993444.wem",
+                "MediaId": 868819607,
+                "MediaPathName": "Media/868819607.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_zhezhi_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_zhezhi_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1062762778,
-                "MediaPathName": "Media/en/1062762778.wem",
+                "MediaId": 686764171,
+                "MediaPathName": "Media/686764171.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_zhezhi_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_zhezhi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1493514140,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1493514140,
-                "SoundBankPathName": "Event/ja/play_vo_rogue_link_zhezhi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_zhezhi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 388701633,
-                "MediaPathName": "Media/ja/388701633.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_zhezhi_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_zhezhi_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 578468124,
-                "MediaPathName": "Media/ja/578468124.wem",
+                "MediaId": 401335663,
+                "MediaPathName": "Media/401335663.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_zhezhi_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_zhezhi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1493514140,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1493514140,
-                "SoundBankPathName": "Event/ko/play_vo_rogue_link_zhezhi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_zhezhi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 229832562,
-                "MediaPathName": "Media/ko/229832562.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_zhezhi_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_zhezhi_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 998524348,
-                "MediaPathName": "Media/ko/998524348.wem",
+                "MediaId": 223162249,
+                "MediaPathName": "Media/223162249.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_zhezhi_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_zhezhi"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1493514140,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1493514140,
-                "SoundBankPathName": "Event/zh/play_vo_rogue_link_zhezhi.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_zhezhi",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 603112311,
-                "MediaPathName": "Media/zh/603112311.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_zhezhi_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_zhezhi_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1050678710,
-                "MediaPathName": "Media/zh/1050678710.wem",
+                "MediaId": 75548924,
+                "MediaPathName": "Media/75548924.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_zhezhi_02.wav",
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_zhezhi_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 660332142,
+                "MediaPathName": "Media/660332142.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_zhezhi_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1000217605,
+                "MediaPathName": "Media/1000217605.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_zhezhi_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 171907554,
+                "MediaPathName": "Media/171907554.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_zhezhi_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,7 +120,7 @@
       "DebugName": "play_vo_rogue_link_zhezhi",
       "EventId": 1493514140
     },
-    "MaximumDuration": 1.014125,
+    "MaximumDuration": 2.0335624,
     "MinimumDuration": 0.99454165,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

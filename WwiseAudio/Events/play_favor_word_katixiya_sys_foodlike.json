@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 594838250,
             "SoundBanks": [
               {
                 "SoundBankId": 594838250,
-                "SoundBankPathName": "Event/en/play_favor_word_katixiya_sys_foodlike.bnk",
+                "SoundBankPathName": "Event/play_favor_word_katixiya_sys_foodlike.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 254655166,
-                "MediaPathName": "Media/en/254655166.wem",
+                "MediaId": 785993324,
+                "MediaPathName": "Media/785993324.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\en_vo_katixiya_sys_foodlike_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,4\\katixiya\\ko_vo_katixiya_sys_foodlike_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_katixiya_sys_foodlike"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 594838250,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 594838250,
-                "SoundBankPathName": "Event/ja/play_favor_word_katixiya_sys_foodlike.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_katixiya_sys_foodlike",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 672340414,
-                "MediaPathName": "Media/ja/672340414.wem",
+                "MediaId": 530843081,
+                "MediaPathName": "Media/530843081.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\ja_vo_katixiya_sys_foodlike_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,4\\katixiya\\zh_vo_katixiya_sys_foodlike_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_katixiya_sys_foodlike"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 594838250,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 594838250,
-                "SoundBankPathName": "Event/ko/play_favor_word_katixiya_sys_foodlike.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_katixiya_sys_foodlike",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 257552214,
-                "MediaPathName": "Media/ko/257552214.wem",
+                "MediaId": 810258377,
+                "MediaPathName": "Media/810258377.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\ko_vo_katixiya_sys_foodlike_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,4\\katixiya\\en_vo_katixiya_sys_foodlike_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_katixiya_sys_foodlike"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 594838250,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 594838250,
-                "SoundBankPathName": "Event/zh/play_favor_word_katixiya_sys_foodlike.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_katixiya_sys_foodlike",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 135978,
-                "MediaPathName": "Media/zh/135978.wem",
+                "MediaId": 480950460,
+                "MediaPathName": "Media/480950460.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\zh_vo_katixiya_sys_foodlike_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,4\\katixiya\\ja_vo_katixiya_sys_foodlike_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_katixiya_sys_foodlike",
       "EventId": 594838250
     },
-    "MaximumDuration": 18.696041,
+    "MaximumDuration": 28.184668,
     "MinimumDuration": 18.696041,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

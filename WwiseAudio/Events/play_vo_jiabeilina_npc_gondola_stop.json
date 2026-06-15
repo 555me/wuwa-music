@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1387365898,
             "SoundBanks": [
               {
                 "SoundBankId": 1387365898,
-                "SoundBankPathName": "Event/en/play_vo_jiabeilina_npc_gondola_stop.bnk",
+                "SoundBankPathName": "Event/play_vo_jiabeilina_npc_gondola_stop.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 797480189,
-                "MediaPathName": "Media/en/797480189.wem",
+                "MediaId": 431114472,
+                "MediaPathName": "Media/431114472.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_npc_gondola_stop_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_npc_gondola_stop_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_stop"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1387365898,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1387365898,
-                "SoundBankPathName": "Event/ja/play_vo_jiabeilina_npc_gondola_stop.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_stop",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 296992267,
-                "MediaPathName": "Media/ja/296992267.wem",
+                "MediaId": 960313625,
+                "MediaPathName": "Media/960313625.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_npc_gondola_stop_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_npc_gondola_stop_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_stop"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1387365898,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1387365898,
-                "SoundBankPathName": "Event/ko/play_vo_jiabeilina_npc_gondola_stop.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_stop",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 342532605,
-                "MediaPathName": "Media/ko/342532605.wem",
+                "MediaId": 1009364351,
+                "MediaPathName": "Media/1009364351.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_npc_gondola_stop_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_npc_gondola_stop_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_npc_gondola_stop"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1387365898,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1387365898,
-                "SoundBankPathName": "Event/zh/play_vo_jiabeilina_npc_gondola_stop.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_npc_gondola_stop",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 802024329,
-                "MediaPathName": "Media/zh/802024329.wem",
+                "MediaId": 899035514,
+                "MediaPathName": "Media/899035514.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_npc_gondola_stop_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_npc_gondola_stop_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_vo_jiabeilina_npc_gondola_stop",
       "EventId": 1387365898
     },
-    "MaximumDuration": 0.7569583,
+    "MaximumDuration": 1.5076874,
     "MinimumDuration": 0.7569583,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

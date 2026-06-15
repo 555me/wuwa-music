@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3425121456,
             "SoundBanks": [
               {
                 "SoundBankId": 3425121456,
-                "SoundBankPathName": "Event/en/play_favor_word_kelaita_skill_hxchange.bnk",
+                "SoundBankPathName": "Event/play_favor_word_kelaita_skill_hxchange.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 744714336,
-                "MediaPathName": "Media/en/744714336.wem",
+                "MediaId": 995290812,
+                "MediaPathName": "Media/995290812.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\en_vo_kelaita_skill_hxchange_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\kelaita\\ja_vo_kelaita_skill_hxchange_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_skill_hxchange"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3425121456,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3425121456,
-                "SoundBankPathName": "Event/ja/play_favor_word_kelaita_skill_hxchange.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_skill_hxchange",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 42627707,
-                "MediaPathName": "Media/ja/42627707.wem",
+                "MediaId": 913053004,
+                "MediaPathName": "Media/913053004.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ja_vo_kelaita_skill_hxchange_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\kelaita\\ko_vo_kelaita_skill_hxchange_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_skill_hxchange"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3425121456,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3425121456,
-                "SoundBankPathName": "Event/ko/play_favor_word_kelaita_skill_hxchange.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_skill_hxchange",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 625068894,
-                "MediaPathName": "Media/ko/625068894.wem",
+                "MediaId": 997149875,
+                "MediaPathName": "Media/997149875.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ko_vo_kelaita_skill_hxchange_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\kelaita\\zh_vo_kelaita_skill_hxchange_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_skill_hxchange"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3425121456,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3425121456,
-                "SoundBankPathName": "Event/zh/play_favor_word_kelaita_skill_hxchange.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_skill_hxchange",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 384396956,
-                "MediaPathName": "Media/zh/384396956.wem",
+                "MediaId": 8546932,
+                "MediaPathName": "Media/8546932.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\zh_vo_kelaita_skill_hxchange_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,0\\kelaita\\en_vo_kelaita_skill_hxchange_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_kelaita_skill_hxchange",
       "EventId": 3425121456
     },
-    "MaximumDuration": 1.1954376,
-    "MinimumDuration": 1.1954376,
+    "MaximumDuration": 1.8067083,
+    "MinimumDuration": 0.97497916,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 360513463,
             "SoundBanks": [
               {
                 "SoundBankId": 360513463,
-                "SoundBankPathName": "Event/en/play_vo_rogue_link_yinlin.bnk",
+                "SoundBankPathName": "Event/play_vo_rogue_link_yinlin.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 195649600,
-                "MediaPathName": "Media/en/195649600.wem",
+                "MediaId": 1038792043,
+                "MediaPathName": "Media/1038792043.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_yinlin_02.wav",
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_yinlin_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 801085291,
-                "MediaPathName": "Media/en/801085291.wem",
+                "MediaId": 313578718,
+                "MediaPathName": "Media/313578718.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_yinlin_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_yinlin"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 360513463,
-            "SoundBanks": [
-              {
-                "SoundBankId": 360513463,
-                "SoundBankPathName": "Event/ja/play_vo_rogue_link_yinlin.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_yinlin",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 674767090,
-                "MediaPathName": "Media/ja/674767090.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_yinlin_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_yinlin_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 733799597,
-                "MediaPathName": "Media/ja/733799597.wem",
+                "MediaId": 52860200,
+                "MediaPathName": "Media/52860200.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_yinlin_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_yinlin"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 360513463,
-            "SoundBanks": [
-              {
-                "SoundBankId": 360513463,
-                "SoundBankPathName": "Event/ko/play_vo_rogue_link_yinlin.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_yinlin",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 76309859,
-                "MediaPathName": "Media/ko/76309859.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_yinlin_01.wav",
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_yinlin_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 937623008,
-                "MediaPathName": "Media/ko/937623008.wem",
+                "MediaId": 304182259,
+                "MediaPathName": "Media/304182259.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_yinlin_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_rogue_link_yinlin"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 360513463,
-            "SoundBanks": [
-              {
-                "SoundBankId": 360513463,
-                "SoundBankPathName": "Event/zh/play_vo_rogue_link_yinlin.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_rogue_link_yinlin",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 325131352,
-                "MediaPathName": "Media/zh/325131352.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_yinlin_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_yinlin_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1071086657,
-                "MediaPathName": "Media/zh/1071086657.wem",
+                "MediaId": 715769478,
+                "MediaPathName": "Media/715769478.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_yinlin_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\sp_sys\\rogue_link\\branch_1.4\\en_vo_rogue_link_yinlin_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 771596270,
+                "MediaPathName": "Media/771596270.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\sp_sys\\rogue_link\\branch_1.4\\zh_vo_rogue_link_yinlin_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 121250412,
+                "MediaPathName": "Media/121250412.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\sp_sys\\rogue_link\\branch_1.4\\ja_vo_rogue_link_yinlin_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 485540992,
+                "MediaPathName": "Media/485540992.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\sp_sys\\rogue_link\\branch_1.4\\ko_vo_rogue_link_yinlin_02.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,8 +120,8 @@
       "DebugName": "play_vo_rogue_link_yinlin",
       "EventId": 360513463
     },
-    "MaximumDuration": 1.2506666,
-    "MinimumDuration": 1.2233334,
+    "MaximumDuration": 3.0789583,
+    "MinimumDuration": 0.6957292,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

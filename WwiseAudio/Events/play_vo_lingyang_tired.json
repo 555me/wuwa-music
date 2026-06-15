@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3200313786,
             "SoundBanks": [
               {
                 "SoundBankId": 3200313786,
-                "SoundBankPathName": "Event/en/play_vo_lingyang_tired.bnk",
+                "SoundBankPathName": "Event/play_vo_lingyang_tired.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 313324545,
-                "MediaPathName": "Media/en/313324545.wem",
+                "MediaId": 505863052,
+                "MediaPathName": "Media/505863052.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_tired_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\lingyang\\zh_vo_lingyang_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 427150894,
-                "MediaPathName": "Media/en/427150894.wem",
+                "MediaId": 246407052,
+                "MediaPathName": "Media/246407052.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_tired_02.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\lingyang\\ko_vo_lingyang_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 474635048,
-                "MediaPathName": "Media/en/474635048.wem",
+                "MediaId": 237111034,
+                "MediaPathName": "Media/237111034.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_tired_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_lingyang_tired"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3200313786,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3200313786,
-                "SoundBankPathName": "Event/ja/play_vo_lingyang_tired.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_lingyang_tired",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 50219678,
-                "MediaPathName": "Media/ja/50219678.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_tired_02.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\lingyang\\ja_vo_lingyang_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 311741055,
-                "MediaPathName": "Media/ja/311741055.wem",
+                "MediaId": 319803216,
+                "MediaPathName": "Media/319803216.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_tired_03.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\lingyang\\en_vo_lingyang_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 707917027,
-                "MediaPathName": "Media/ja/707917027.wem",
+                "MediaId": 467078939,
+                "MediaPathName": "Media/467078939.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_tired_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_lingyang_tired"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3200313786,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3200313786,
-                "SoundBankPathName": "Event/ko/play_vo_lingyang_tired.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_lingyang_tired",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 167038976,
-                "MediaPathName": "Media/ko/167038976.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_tired_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\lingyang\\zh_vo_lingyang_tired_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 518425885,
-                "MediaPathName": "Media/ko/518425885.wem",
+                "MediaId": 1032235144,
+                "MediaPathName": "Media/1032235144.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_tired_01.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\lingyang\\ko_vo_lingyang_tired_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 550833844,
-                "MediaPathName": "Media/ko/550833844.wem",
+                "MediaId": 25927608,
+                "MediaPathName": "Media/25927608.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_tired_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_lingyang_tired"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3200313786,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3200313786,
-                "SoundBankPathName": "Event/zh/play_vo_lingyang_tired.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_lingyang_tired",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 678411933,
-                "MediaPathName": "Media/zh/678411933.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_tired_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\lingyang\\ja_vo_lingyang_tired_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1032834249,
-                "MediaPathName": "Media/zh/1032834249.wem",
+                "MediaId": 871806312,
+                "MediaPathName": "Media/871806312.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_tired_02.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\lingyang\\en_vo_lingyang_tired_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1038828550,
-                "MediaPathName": "Media/zh/1038828550.wem",
+                "MediaId": 793445548,
+                "MediaPathName": "Media/793445548.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\lingyang\\vo_lingyang_tired_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\lingyang\\zh_vo_lingyang_tired_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 904068953,
+                "MediaPathName": "Media/904068953.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\lingyang\\ko_vo_lingyang_tired_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 891372178,
+                "MediaPathName": "Media/891372178.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\lingyang\\ja_vo_lingyang_tired_03.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 155091791,
+                "MediaPathName": "Media/155091791.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\lingyang\\en_vo_lingyang_tired_03.wav",
                 "PackagedFile": null
               }
             ],

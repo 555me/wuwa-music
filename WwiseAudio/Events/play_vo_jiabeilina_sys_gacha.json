@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1242296393,
             "SoundBanks": [
               {
                 "SoundBankId": 1242296393,
-                "SoundBankPathName": "Event/en/play_vo_jiabeilina_sys_gacha.bnk",
+                "SoundBankPathName": "Event/play_vo_jiabeilina_sys_gacha.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 917297542,
-                "MediaPathName": "Media/en/917297542.wem",
+                "MediaId": 104699824,
+                "MediaPathName": "Media/104699824.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_sys_gacha_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,7\\jiabeilina\\en_vo_jiabeilina_sys_gacha_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1242296393,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1242296393,
-                "SoundBankPathName": "Event/ja/play_vo_jiabeilina_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1049483129,
-                "MediaPathName": "Media/ja/1049483129.wem",
+                "MediaId": 760065994,
+                "MediaPathName": "Media/760065994.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_sys_gacha_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_sys_gacha_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1242296393,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1242296393,
-                "SoundBankPathName": "Event/ko/play_vo_jiabeilina_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 848524646,
-                "MediaPathName": "Media/ko/848524646.wem",
+                "MediaId": 1050283673,
+                "MediaPathName": "Media/1050283673.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\ko_vo_jiabeilina_sys_gacha_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,7\\jiabeilina\\ja_vo_jiabeilina_sys_gacha_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_jiabeilina_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1242296393,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1242296393,
-                "SoundBankPathName": "Event/zh/play_vo_jiabeilina_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_jiabeilina_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 61482316,
-                "MediaPathName": "Media/zh/61482316.wem",
+                "MediaId": 65674970,
+                "MediaPathName": "Media/65674970.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_sys_gacha_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,7\\jiabeilina\\zh_vo_jiabeilina_sys_gacha_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_vo_jiabeilina_sys_gacha",
       "EventId": 1242296393
     },
-    "MaximumDuration": 8.592021,
-    "MinimumDuration": 8.592021,
+    "MaximumDuration": 9.324166,
+    "MinimumDuration": 8.376458,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2024925842,
             "SoundBanks": [
               {
                 "SoundBankId": 2024925842,
-                "SoundBankPathName": "Event/en/play_favor_word_zanni_sys_story_obj.bnk",
+                "SoundBankPathName": "Event/play_favor_word_zanni_sys_story_obj.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 351484028,
-                "MediaPathName": "Media/en/351484028.wem",
+                "MediaId": 73345478,
+                "MediaPathName": "Media/73345478.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\en_vo_zanni_sys_story_obj_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,3\\zanni\\ko_vo_zanni_sys_story_obj_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zanni_sys_story_obj"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2024925842,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2024925842,
-                "SoundBankPathName": "Event/ja/play_favor_word_zanni_sys_story_obj.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zanni_sys_story_obj",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 708281530,
-                "MediaPathName": "Media/ja/708281530.wem",
+                "MediaId": 626025705,
+                "MediaPathName": "Media/626025705.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ja_vo_zanni_sys_story_obj_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,3\\zanni\\ja_vo_zanni_sys_story_obj_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zanni_sys_story_obj"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2024925842,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2024925842,
-                "SoundBankPathName": "Event/ko/play_favor_word_zanni_sys_story_obj.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zanni_sys_story_obj",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 75940574,
-                "MediaPathName": "Media/ko/75940574.wem",
+                "MediaId": 132197456,
+                "MediaPathName": "Media/132197456.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\ko_vo_zanni_sys_story_obj_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,3\\zanni\\en_vo_zanni_sys_story_obj_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_zanni_sys_story_obj"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2024925842,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2024925842,
-                "SoundBankPathName": "Event/zh/play_favor_word_zanni_sys_story_obj.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_zanni_sys_story_obj",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 58518359,
-                "MediaPathName": "Media/zh/58518359.wem",
+                "MediaId": 737959,
+                "MediaPathName": "Media/737959.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,3\\zanni\\zh_vo_zanni_sys_story_obj_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,3\\zanni\\zh_vo_zanni_sys_story_obj_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_zanni_sys_story_obj",
       "EventId": 2024925842
     },
-    "MaximumDuration": 20.195896,
-    "MinimumDuration": 20.195896,
+    "MaximumDuration": 27.628042,
+    "MinimumDuration": 18.658854,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

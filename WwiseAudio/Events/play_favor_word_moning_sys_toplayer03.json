@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4025242064,
             "SoundBanks": [
               {
                 "SoundBankId": 4025242064,
-                "SoundBankPathName": "Event/en/play_favor_word_moning_sys_toplayer03.bnk",
+                "SoundBankPathName": "Event/play_favor_word_moning_sys_toplayer03.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 1049829509,
-                "MediaPathName": "Media/en/1049829509.wem",
+                "MediaId": 37003930,
+                "MediaPathName": "Media/37003930.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\en_vo_moning_sys_toplayer03_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\moning\\ja_vo_moning_sys_toplayer03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_moning_sys_toplayer03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4025242064,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4025242064,
-                "SoundBankPathName": "Event/ja/play_favor_word_moning_sys_toplayer03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_moning_sys_toplayer03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 496161971,
-                "MediaPathName": "Media/ja/496161971.wem",
+                "MediaId": 470259251,
+                "MediaPathName": "Media/470259251.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ja_vo_moning_sys_toplayer03_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\moning\\ko_vo_moning_sys_toplayer03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_moning_sys_toplayer03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4025242064,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4025242064,
-                "SoundBankPathName": "Event/ko/play_favor_word_moning_sys_toplayer03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_moning_sys_toplayer03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 767552928,
-                "MediaPathName": "Media/ko/767552928.wem",
+                "MediaId": 546984385,
+                "MediaPathName": "Media/546984385.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\ko_vo_moning_sys_toplayer03_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,0\\moning\\en_vo_moning_sys_toplayer03_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_moning_sys_toplayer03"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4025242064,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 4025242064,
-                "SoundBankPathName": "Event/zh/play_favor_word_moning_sys_toplayer03.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_moning_sys_toplayer03",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 1049208016,
-                "MediaPathName": "Media/zh/1049208016.wem",
+                "MediaId": 83141275,
+                "MediaPathName": "Media/83141275.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\moning\\zh_vo_moning_sys_toplayer03_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\moning\\zh_vo_moning_sys_toplayer03_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_moning_sys_toplayer03",
       "EventId": 4025242064
     },
-    "MaximumDuration": 48.99527,
-    "MinimumDuration": 48.99527,
+    "MaximumDuration": 52.105396,
+    "MinimumDuration": 38.7805,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3227191954,
             "SoundBanks": [
               {
                 "SoundBankId": 3227191954,
-                "SoundBankPathName": "Event/en/play_favor_word_kelaita_sys_about_zanni.bnk",
+                "SoundBankPathName": "Event/play_favor_word_kelaita_sys_about_zanni.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 697965592,
-                "MediaPathName": "Media/en/697965592.wem",
+                "MediaId": 189325625,
+                "MediaPathName": "Media/189325625.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\en_vo_kelaita_sys_about_zanni_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,0\\kelaita\\ja_vo_kelaita_sys_about_zanni_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_sys_about_zanni"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3227191954,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3227191954,
-                "SoundBankPathName": "Event/ja/play_favor_word_kelaita_sys_about_zanni.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_sys_about_zanni",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 35453702,
-                "MediaPathName": "Media/ja/35453702.wem",
+                "MediaId": 1049163312,
+                "MediaPathName": "Media/1049163312.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ja_vo_kelaita_sys_about_zanni_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,0\\kelaita\\ko_vo_kelaita_sys_about_zanni_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_sys_about_zanni"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3227191954,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3227191954,
-                "SoundBankPathName": "Event/ko/play_favor_word_kelaita_sys_about_zanni.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_sys_about_zanni",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 708231945,
-                "MediaPathName": "Media/ko/708231945.wem",
+                "MediaId": 455947452,
+                "MediaPathName": "Media/455947452.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\ko_vo_kelaita_sys_about_zanni_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,0\\kelaita\\zh_vo_kelaita_sys_about_zanni_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_kelaita_sys_about_zanni"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3227191954,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 3227191954,
-                "SoundBankPathName": "Event/zh/play_favor_word_kelaita_sys_about_zanni.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_kelaita_sys_about_zanni",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 481470139,
-                "MediaPathName": "Media/zh/481470139.wem",
+                "MediaId": 867423382,
+                "MediaPathName": "Media/867423382.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2.0\\kelaita\\zh_vo_kelaita_sys_about_zanni_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,0\\kelaita\\en_vo_kelaita_sys_about_zanni_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,7 +80,7 @@
       "DebugName": "play_favor_word_kelaita_sys_about_zanni",
       "EventId": 3227191954
     },
-    "MaximumDuration": 24.625708,
+    "MaximumDuration": 35.536606,
     "MinimumDuration": 24.625708,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0

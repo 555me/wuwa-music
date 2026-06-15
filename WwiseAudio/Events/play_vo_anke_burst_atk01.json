@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4181642946,
             "SoundBanks": [
               {
                 "SoundBankId": 4181642946,
-                "SoundBankPathName": "Event/en/play_vo_anke_burst_atk01.bnk",
+                "SoundBankPathName": "Event/play_vo_anke_burst_atk01.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 459960650,
-                "MediaPathName": "Media/en/459960650.wem",
+                "MediaId": 751542905,
+                "MediaPathName": "Media/751542905.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_burst_atk01_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\anke\\ja_vo_anke_burst_atk01_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 490931228,
-                "MediaPathName": "Media/en/490931228.wem",
+                "MediaId": 290678467,
+                "MediaPathName": "Media/290678467.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_burst_atk01_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\anke\\en_vo_anke_burst_atk01_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 947044294,
-                "MediaPathName": "Media/en/947044294.wem",
+                "MediaId": 460719233,
+                "MediaPathName": "Media/460719233.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_burst_atk01_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_anke_burst_atk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4181642946,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4181642946,
-                "SoundBankPathName": "Event/ja/play_vo_anke_burst_atk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_anke_burst_atk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 232759485,
-                "MediaPathName": "Media/ja/232759485.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_burst_atk01_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\anke\\ko_vo_anke_burst_atk01_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 610537892,
-                "MediaPathName": "Media/ja/610537892.wem",
+                "MediaId": 334428989,
+                "MediaPathName": "Media/334428989.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_burst_atk01_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\anke\\zh_vo_anke_burst_atk01_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 699454456,
-                "MediaPathName": "Media/ja/699454456.wem",
+                "MediaId": 637999757,
+                "MediaPathName": "Media/637999757.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_burst_atk01_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_anke_burst_atk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4181642946,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4181642946,
-                "SoundBankPathName": "Event/ko/play_vo_anke_burst_atk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_anke_burst_atk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 56796869,
-                "MediaPathName": "Media/ko/56796869.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_burst_atk01_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\anke\\ja_vo_anke_burst_atk01_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 740109628,
-                "MediaPathName": "Media/ko/740109628.wem",
+                "MediaId": 230639878,
+                "MediaPathName": "Media/230639878.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_burst_atk01_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\anke\\en_vo_anke_burst_atk01_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 776354900,
-                "MediaPathName": "Media/ko/776354900.wem",
+                "MediaId": 1003476414,
+                "MediaPathName": "Media/1003476414.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_burst_atk01_03.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_anke_burst_atk01"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4181642946,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4181642946,
-                "SoundBankPathName": "Event/zh/play_vo_anke_burst_atk01.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_anke_burst_atk01",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 173344906,
-                "MediaPathName": "Media/zh/173344906.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_burst_atk01_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\anke\\ko_vo_anke_burst_atk01_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 414195975,
-                "MediaPathName": "Media/zh/414195975.wem",
+                "MediaId": 548678422,
+                "MediaPathName": "Media/548678422.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_burst_atk01_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\anke\\zh_vo_anke_burst_atk01_01.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 676577559,
-                "MediaPathName": "Media/zh/676577559.wem",
+                "MediaId": 475565511,
+                "MediaPathName": "Media/475565511.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\anke\\vo_anke_burst_atk01_03.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\anke\\ja_vo_anke_burst_atk01_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 208129211,
+                "MediaPathName": "Media/208129211.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\anke\\en_vo_anke_burst_atk01_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 615627122,
+                "MediaPathName": "Media/615627122.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\anke\\ko_vo_anke_burst_atk01_02.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 938078426,
+                "MediaPathName": "Media/938078426.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\anke\\zh_vo_anke_burst_atk01_02.wav",
                 "PackagedFile": null
               }
             ],

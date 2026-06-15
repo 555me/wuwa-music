@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 4108337016,
             "SoundBanks": [
               {
                 "SoundBankId": 4108337016,
-                "SoundBankPathName": "Event/en/play_vo_katixiya_sys_rogue_link.bnk",
+                "SoundBankPathName": "Event/play_vo_katixiya_sys_rogue_link.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 119996732,
-                "MediaPathName": "Media/en/119996732.wem",
+                "MediaId": 649866387,
+                "MediaPathName": "Media/649866387.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\en_vo_rogue_link_katixiya_02.wav",
+                "DebugName": "Voices\\ko\\role\\branch_2,4\\katixiya\\ko_vo_rogue_link_katixiya_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 585871712,
-                "MediaPathName": "Media/en/585871712.wem",
+                "MediaId": 634005295,
+                "MediaPathName": "Media/634005295.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\en_vo_rogue_link_katixiya_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_katixiya_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4108337016,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4108337016,
-                "SoundBankPathName": "Event/ja/play_vo_katixiya_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_katixiya_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 214683122,
-                "MediaPathName": "Media/ja/214683122.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\ja_vo_rogue_link_katixiya_01.wav",
+                "DebugName": "Voices\\zh\\role\\branch_2,4\\katixiya\\zh_vo_rogue_link_katixiya_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1071813806,
-                "MediaPathName": "Media/ja/1071813806.wem",
+                "MediaId": 490419261,
+                "MediaPathName": "Media/490419261.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\ja_vo_rogue_link_katixiya_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_katixiya_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 4108337016,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4108337016,
-                "SoundBankPathName": "Event/ko/play_vo_katixiya_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_katixiya_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 36899797,
-                "MediaPathName": "Media/ko/36899797.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\ko_vo_rogue_link_katixiya_02.wav",
+                "DebugName": "Voices\\en\\role\\branch_2,4\\katixiya\\en_vo_rogue_link_katixiya_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 345994109,
-                "MediaPathName": "Media/ko/345994109.wem",
+                "MediaId": 571526423,
+                "MediaPathName": "Media/571526423.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\ko_vo_rogue_link_katixiya_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_katixiya_sys_rogue_link"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 4108337016,
-            "SoundBanks": [
-              {
-                "SoundBankId": 4108337016,
-                "SoundBankPathName": "Event/zh/play_vo_katixiya_sys_rogue_link.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_katixiya_sys_rogue_link",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 231369813,
-                "MediaPathName": "Media/zh/231369813.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\zh_vo_rogue_link_katixiya_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_2,4\\katixiya\\ja_vo_rogue_link_katixiya_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1002943063,
-                "MediaPathName": "Media/zh/1002943063.wem",
+                "MediaId": 898549356,
+                "MediaPathName": "Media/898549356.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,4\\katixiya\\zh_vo_rogue_link_katixiya_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,4\\katixiya\\ko_vo_rogue_link_katixiya_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 967903336,
+                "MediaPathName": "Media/967903336.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,4\\katixiya\\zh_vo_rogue_link_katixiya_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 46015004,
+                "MediaPathName": "Media/46015004.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,4\\katixiya\\en_vo_rogue_link_katixiya_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 377299061,
+                "MediaPathName": "Media/377299061.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,4\\katixiya\\ja_vo_rogue_link_katixiya_01.wav",
                 "PackagedFile": null
               }
             ],
@@ -208,7 +121,7 @@
       "EventId": 4108337016
     },
     "MaximumDuration": 3.6364374,
-    "MinimumDuration": 1.38525,
+    "MinimumDuration": 1.300375,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

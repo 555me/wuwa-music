@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1327572943,
             "SoundBanks": [
               {
                 "SoundBankId": 1327572943,
-                "SoundBankPathName": "Event/en/play_vo_chun_com_tiredlow.bnk",
+                "SoundBankPathName": "Event/play_vo_chun_com_tiredlow.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 330322907,
-                "MediaPathName": "Media/en/330322907.wem",
+                "MediaId": 709855865,
+                "MediaPathName": "Media/709855865.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\en_vo_chun_com_tired_03_tone.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.4\\chun\\zh_vo_chun_com_tired_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 498321233,
-                "MediaPathName": "Media/en/498321233.wem",
+                "MediaId": 450324174,
+                "MediaPathName": "Media/450324174.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\en_vo_chun_com_tired_01_tone.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.4\\chun\\en_vo_chun_com_tired_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 927343166,
-                "MediaPathName": "Media/en/927343166.wem",
+                "MediaId": 725877219,
+                "MediaPathName": "Media/725877219.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\en_vo_chun_com_tired_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chun_com_tiredlow"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1327572943,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1327572943,
-                "SoundBankPathName": "Event/ja/play_vo_chun_com_tiredlow.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chun_com_tiredlow",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 153273944,
-                "MediaPathName": "Media/ja/153273944.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ja_vo_chun_com_tired_03_tone.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.4\\chun\\ko_vo_chun_com_tired_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 294264501,
-                "MediaPathName": "Media/ja/294264501.wem",
+                "MediaId": 697988980,
+                "MediaPathName": "Media/697988980.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ja_vo_chun_com_tired_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.4\\chun\\ja_vo_chun_com_tired_03_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 698798104,
-                "MediaPathName": "Media/ja/698798104.wem",
+                "MediaId": 822449998,
+                "MediaPathName": "Media/822449998.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ja_vo_chun_com_tired_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chun_com_tiredlow"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1327572943,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1327572943,
-                "SoundBankPathName": "Event/ko/play_vo_chun_com_tiredlow.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chun_com_tiredlow",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 315859748,
-                "MediaPathName": "Media/ko/315859748.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ko_vo_chun_com_tired_02_tone.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.4\\chun\\zh_vo_chun_com_tired_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 449515302,
-                "MediaPathName": "Media/ko/449515302.wem",
+                "MediaId": 268630077,
+                "MediaPathName": "Media/268630077.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ko_vo_chun_com_tired_01_tone.wav",
+                "DebugName": "Voices\\en\\role\\branch_1.4\\chun\\en_vo_chun_com_tired_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 858392727,
-                "MediaPathName": "Media/ko/858392727.wem",
+                "MediaId": 663574462,
+                "MediaPathName": "Media/663574462.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\ko_vo_chun_com_tired_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_chun_com_tiredlow"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1327572943,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1327572943,
-                "SoundBankPathName": "Event/zh/play_vo_chun_com_tiredlow.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_chun_com_tiredlow",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 453719383,
-                "MediaPathName": "Media/zh/453719383.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\zh_vo_chun_com_tired_02_tone.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1.4\\chun\\ko_vo_chun_com_tired_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 713632650,
-                "MediaPathName": "Media/zh/713632650.wem",
+                "MediaId": 453209260,
+                "MediaPathName": "Media/453209260.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\zh_vo_chun_com_tired_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.4\\chun\\ja_vo_chun_com_tired_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1017082435,
-                "MediaPathName": "Media/zh/1017082435.wem",
+                "MediaId": 641664718,
+                "MediaPathName": "Media/641664718.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1.4\\chun\\zh_vo_chun_com_tired_01_tone.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1.4\\chun\\zh_vo_chun_com_tired_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 617946760,
+                "MediaPathName": "Media/617946760.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_1.4\\chun\\en_vo_chun_com_tired_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 172673894,
+                "MediaPathName": "Media/172673894.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1.4\\chun\\ko_vo_chun_com_tired_01_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 1033043191,
+                "MediaPathName": "Media/1033043191.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.4\\chun\\ja_vo_chun_com_tired_01_tone.wav",
                 "PackagedFile": null
               }
             ],

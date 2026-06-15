@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2854058048,
             "SoundBanks": [
               {
                 "SoundBankId": 2854058048,
-                "SoundBankPathName": "Event/en/play_vo_xiangliyao_com_behit.bnk",
+                "SoundBankPathName": "Event/play_vo_xiangliyao_com_behit.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 40640154,
-                "MediaPathName": "Media/en/40640154.wem",
+                "MediaId": 348961926,
+                "MediaPathName": "Media/348961926.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\xiangliyao\\ko_vo_xiangliyao_behit_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 834180483,
-                "MediaPathName": "Media/en/834180483.wem",
+                "MediaId": 1068975610,
+                "MediaPathName": "Media/1068975610.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\xiangliyao\\zh_vo_xiangliyao_behit_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 879161080,
-                "MediaPathName": "Media/en/879161080.wem",
+                "MediaId": 724705360,
+                "MediaPathName": "Media/724705360.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_03_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_xiangliyao_com_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2854058048,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2854058048,
-                "SoundBankPathName": "Event/ja/play_vo_xiangliyao_com_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_xiangliyao_com_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 255944468,
-                "MediaPathName": "Media/ja/255944468.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.2\\xiangliyao\\en_vo_xiangliyao_behit_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 493091464,
-                "MediaPathName": "Media/ja/493091464.wem",
+                "MediaId": 386007757,
+                "MediaPathName": "Media/386007757.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\xiangliyao\\ja_vo_xiangliyao_behit_01_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 874159118,
-                "MediaPathName": "Media/ja/874159118.wem",
+                "MediaId": 496623620,
+                "MediaPathName": "Media/496623620.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_02_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_xiangliyao_com_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2854058048,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2854058048,
-                "SoundBankPathName": "Event/ko/play_vo_xiangliyao_com_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_xiangliyao_com_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 713064185,
-                "MediaPathName": "Media/ko/713064185.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\xiangliyao\\ko_vo_xiangliyao_behit_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 734375005,
-                "MediaPathName": "Media/ko/734375005.wem",
+                "MediaId": 364027574,
+                "MediaPathName": "Media/364027574.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\xiangliyao\\zh_vo_xiangliyao_behit_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1054706998,
-                "MediaPathName": "Media/ko/1054706998.wem",
+                "MediaId": 998541178,
+                "MediaPathName": "Media/998541178.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_01_tone.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_xiangliyao_com_behit"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2854058048,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2854058048,
-                "SoundBankPathName": "Event/zh/play_vo_xiangliyao_com_behit.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_xiangliyao_com_behit",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 180679484,
-                "MediaPathName": "Media/zh/180679484.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_02_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.2\\xiangliyao\\en_vo_xiangliyao_behit_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 835906456,
-                "MediaPathName": "Media/zh/835906456.wem",
+                "MediaId": 548599359,
+                "MediaPathName": "Media/548599359.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_01_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\xiangliyao\\ja_vo_xiangliyao_behit_02_tone.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1004056077,
-                "MediaPathName": "Media/zh/1004056077.wem",
+                "MediaId": 170037406,
+                "MediaPathName": "Media/170037406.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1.2\\xiangliyao\\vo_xiangliyao_behit_03_tone.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1.2\\xiangliyao\\ko_vo_xiangliyao_behit_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 791792477,
+                "MediaPathName": "Media/791792477.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1.2\\xiangliyao\\zh_vo_xiangliyao_behit_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 781768650,
+                "MediaPathName": "Media/781768650.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1.2\\xiangliyao\\en_vo_xiangliyao_behit_03_tone.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 662170450,
+                "MediaPathName": "Media/662170450.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1.2\\xiangliyao\\ja_vo_xiangliyao_behit_03_tone.wav",
                 "PackagedFile": null
               }
             ],
@@ -247,8 +160,8 @@
       "DebugName": "play_vo_xiangliyao_com_behit",
       "EventId": 2854058048
     },
-    "MaximumDuration": 0.55908334,
-    "MinimumDuration": 0.41747916,
+    "MaximumDuration": 0.6,
+    "MinimumDuration": 0.216,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0
   }

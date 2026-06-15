@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1275765889,
             "SoundBanks": [
               {
                 "SoundBankId": 1275765889,
-                "SoundBankPathName": "Event/en/play_favor_word_luhesi_sys_gacha.bnk",
+                "SoundBankPathName": "Event/play_favor_word_luhesi_sys_gacha.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 777976580,
-                "MediaPathName": "Media/en/777976580.wem",
+                "MediaId": 542304760,
+                "MediaPathName": "Media/542304760.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\en_vo_luhesi_sys_gacha_word_only.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,1\\luhesi\\ko_vo_luhesi_sys_gacha_word_only.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_luhesi_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1275765889,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1275765889,
-                "SoundBankPathName": "Event/ja/play_favor_word_luhesi_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_luhesi_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 465831822,
-                "MediaPathName": "Media/ja/465831822.wem",
+                "MediaId": 289671113,
+                "MediaPathName": "Media/289671113.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\ja_vo_luhesi_sys_gacha_word_only.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,1\\luhesi\\zh_vo_luhesi_sys_gacha_word_only.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_luhesi_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1275765889,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1275765889,
-                "SoundBankPathName": "Event/ko/play_favor_word_luhesi_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_luhesi_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 869413600,
-                "MediaPathName": "Media/ko/869413600.wem",
+                "MediaId": 860385600,
+                "MediaPathName": "Media/860385600.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\ko_vo_luhesi_sys_gacha_word_only.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,1\\luhesi\\ja_vo_luhesi_sys_gacha_word_only.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_luhesi_sys_gacha"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1275765889,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 1275765889,
-                "SoundBankPathName": "Event/zh/play_favor_word_luhesi_sys_gacha.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_luhesi_sys_gacha",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 118274697,
-                "MediaPathName": "Media/zh/118274697.wem",
+                "MediaId": 525184600,
+                "MediaPathName": "Media/525184600.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,1\\luhesi\\zh_vo_luhesi_sys_gacha_word_only.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,1\\luhesi\\en_vo_luhesi_sys_gacha_word_only.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_luhesi_sys_gacha",
       "EventId": 1275765889
     },
-    "MaximumDuration": 12.849167,
-    "MinimumDuration": 12.849167,
+    "MaximumDuration": 13.310333,
+    "MinimumDuration": 12.370584,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

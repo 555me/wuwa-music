@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 3382170164,
             "SoundBanks": [
               {
                 "SoundBankId": 3382170164,
-                "SoundBankPathName": "Event/en/play_vo_weilinai_heavyatk02_end.bnk",
+                "SoundBankPathName": "Event/play_vo_weilinai_heavyatk02_end.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 539790667,
-                "MediaPathName": "Media/en/539790667.wem",
+                "MediaId": 640788332,
+                "MediaPathName": "Media/640788332.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_heavyatk02_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\weilinai\\ja_vo_weilinai_heavyatk02_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 772231317,
-                "MediaPathName": "Media/en/772231317.wem",
+                "MediaId": 742724974,
+                "MediaPathName": "Media/742724974.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_heavyatk02_end_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_weilinai_heavyatk02_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3382170164,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3382170164,
-                "SoundBankPathName": "Event/ja/play_vo_weilinai_heavyatk02_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_weilinai_heavyatk02_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 213235225,
-                "MediaPathName": "Media/ja/213235225.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_heavyatk02_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\weilinai\\zh_vo_weilinai_heavyatk02_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 572781837,
-                "MediaPathName": "Media/ja/572781837.wem",
+                "MediaId": 194687837,
+                "MediaPathName": "Media/194687837.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_heavyatk02_end_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_weilinai_heavyatk02_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 3382170164,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3382170164,
-                "SoundBankPathName": "Event/ko/play_vo_weilinai_heavyatk02_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_weilinai_heavyatk02_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 106087444,
-                "MediaPathName": "Media/ko/106087444.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_heavyatk02_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\weilinai\\ko_vo_weilinai_heavyatk02_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 126526869,
-                "MediaPathName": "Media/ko/126526869.wem",
+                "MediaId": 585206752,
+                "MediaPathName": "Media/585206752.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_heavyatk02_end_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_weilinai_heavyatk02_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 3382170164,
-            "SoundBanks": [
-              {
-                "SoundBankId": 3382170164,
-                "SoundBankPathName": "Event/zh/play_vo_weilinai_heavyatk02_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_weilinai_heavyatk02_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 129345683,
-                "MediaPathName": "Media/zh/129345683.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_heavyatk02_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\weilinai\\en_vo_weilinai_heavyatk02_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 287222890,
-                "MediaPathName": "Media/zh/287222890.wem",
+                "MediaId": 747011254,
+                "MediaPathName": "Media/747011254.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\weilinai\\vo_weilinai_heavyatk02_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\weilinai\\ja_vo_weilinai_heavyatk02_end_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 884153983,
+                "MediaPathName": "Media/884153983.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\weilinai\\zh_vo_weilinai_heavyatk02_end_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 438940931,
+                "MediaPathName": "Media/438940931.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\weilinai\\ko_vo_weilinai_heavyatk02_end_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 366671031,
+                "MediaPathName": "Media/366671031.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\weilinai\\en_vo_weilinai_heavyatk02_end_01.wav",
                 "PackagedFile": null
               }
             ],

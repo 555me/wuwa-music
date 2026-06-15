@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 1064232918,
             "SoundBanks": [
               {
                 "SoundBankId": 1064232918,
-                "SoundBankPathName": "Event/en/play_vo_qiushui_tired_low.bnk",
+                "SoundBankPathName": "Event/play_vo_qiushui_tired_low.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,210 +29,123 @@
             ],
             "Media": [
               {
-                "MediaId": 234630630,
-                "MediaPathName": "Media/en/234630630.wem",
+                "MediaId": 1047913171,
+                "MediaPathName": "Media/1047913171.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_tired_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\qiushui\\ja_vo_qiushui_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 508309512,
-                "MediaPathName": "Media/en/508309512.wem",
+                "MediaId": 656431545,
+                "MediaPathName": "Media/656431545.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_tired_03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\qiushui\\ko_vo_qiushui_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1067648879,
-                "MediaPathName": "Media/en/1067648879.wem",
+                "MediaId": 63396449,
+                "MediaPathName": "Media/63396449.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_tired_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiushui_tired_low"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1064232918,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1064232918,
-                "SoundBankPathName": "Event/ja/play_vo_qiushui_tired_low.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiushui_tired_low",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 466719845,
-                "MediaPathName": "Media/ja/466719845.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_tired_02.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\qiushui\\en_vo_qiushui_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 584411618,
-                "MediaPathName": "Media/ja/584411618.wem",
+                "MediaId": 853177213,
+                "MediaPathName": "Media/853177213.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_tired_03.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\qiushui\\zh_vo_qiushui_tired_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 972389947,
-                "MediaPathName": "Media/ja/972389947.wem",
+                "MediaId": 558368797,
+                "MediaPathName": "Media/558368797.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_tired_01.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiushui_tired_low"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 1064232918,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1064232918,
-                "SoundBankPathName": "Event/ko/play_vo_qiushui_tired_low.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiushui_tired_low",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 509436608,
-                "MediaPathName": "Media/ko/509436608.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_tired_01.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\qiushui\\ja_vo_qiushui_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 519754089,
-                "MediaPathName": "Media/ko/519754089.wem",
+                "MediaId": 1026878046,
+                "MediaPathName": "Media/1026878046.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_tired_03.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\qiushui\\ko_vo_qiushui_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 740308606,
-                "MediaPathName": "Media/ko/740308606.wem",
+                "MediaId": 828990899,
+                "MediaPathName": "Media/828990899.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_tired_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_qiushui_tired_low"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 1064232918,
-            "SoundBanks": [
-              {
-                "SoundBankId": 1064232918,
-                "SoundBankPathName": "Event/zh/play_vo_qiushui_tired_low.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_qiushui_tired_low",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 45576767,
-                "MediaPathName": "Media/zh/45576767.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_tired_01.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\qiushui\\en_vo_qiushui_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 872656411,
-                "MediaPathName": "Media/zh/872656411.wem",
+                "MediaId": 668419179,
+                "MediaPathName": "Media/668419179.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_tired_02.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\qiushui\\zh_vo_qiushui_tired_03.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 1062541355,
-                "MediaPathName": "Media/zh/1062541355.wem",
+                "MediaId": 687950123,
+                "MediaPathName": "Media/687950123.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\qiushui\\vo_qiushui_tired_03.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\qiushui\\ja_vo_qiushui_tired_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 330772919,
+                "MediaPathName": "Media/330772919.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\qiushui\\ko_vo_qiushui_tired_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 470173201,
+                "MediaPathName": "Media/470173201.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\qiushui\\en_vo_qiushui_tired_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 258605885,
+                "MediaPathName": "Media/258605885.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": true,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\qiushui\\zh_vo_qiushui_tired_01.wav",
                 "PackagedFile": null
               }
             ],

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 934885784,
             "SoundBanks": [
               {
                 "SoundBankId": 934885784,
-                "SoundBankPathName": "Event/en/play_favor_word_danjin_about_zhujue.bnk",
+                "SoundBankPathName": "Event/play_favor_word_danjin_about_zhujue.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 123966072,
-                "MediaPathName": "Media/en/123966072.wem",
+                "MediaId": 34423751,
+                "MediaPathName": "Media/34423751.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_about_zhujue.wav",
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\danjin\\ja_vo_danjin_about_zhujue.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_danjin_about_zhujue"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 934885784,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 934885784,
-                "SoundBankPathName": "Event/ja/play_favor_word_danjin_about_zhujue.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_danjin_about_zhujue",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 681653070,
-                "MediaPathName": "Media/ja/681653070.wem",
+                "MediaId": 942063439,
+                "MediaPathName": "Media/942063439.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_about_zhujue.wav",
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\danjin\\zh_vo_danjin_about_zhujue.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_danjin_about_zhujue"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 934885784,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 934885784,
-                "SoundBankPathName": "Event/ko/play_favor_word_danjin_about_zhujue.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_danjin_about_zhujue",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 658977397,
-                "MediaPathName": "Media/ko/658977397.wem",
+                "MediaId": 703838572,
+                "MediaPathName": "Media/703838572.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_about_zhujue.wav",
+                "DebugName": "Voices\\en\\role\\branch_1,0\\danjin\\en_vo_danjin_about_zhujue.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_danjin_about_zhujue"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 934885784,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 934885784,
-                "SoundBankPathName": "Event/zh/play_favor_word_danjin_about_zhujue.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_danjin_about_zhujue",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 854603153,
-                "MediaPathName": "Media/zh/854603153.wem",
+                "MediaId": 656462601,
+                "MediaPathName": "Media/656462601.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\danjin\\vo_danjin_about_zhujue.wav",
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\danjin\\ko_vo_danjin_about_zhujue.wav",
                 "PackagedFile": null
               }
             ],
@@ -168,7 +81,7 @@
       "EventId": 934885784
     },
     "MaximumDuration": 13.155895,
-    "MinimumDuration": 13.155895,
+    "MinimumDuration": 12.136958,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

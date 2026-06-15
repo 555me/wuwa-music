@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2968321726,
             "SoundBanks": [
               {
                 "SoundBankId": 2968321726,
-                "SoundBankPathName": "Event/en/play_vo_dark_nvzhu_burst_atk04_end.bnk",
+                "SoundBankPathName": "Event/play_vo_dark_nvzhu_burst_atk04_end.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,170 +29,83 @@
             ],
             "Media": [
               {
-                "MediaId": 478205504,
-                "MediaPathName": "Media/en/478205504.wem",
+                "MediaId": 125786609,
+                "MediaPathName": "Media/125786609.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nvzhu\\vo_dark_nvzhu_burst_atk04_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\dark_nvzhu\\zh_vo_dark_nvzhu_burst_atk04_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 584500600,
-                "MediaPathName": "Media/en/584500600.wem",
+                "MediaId": 298385224,
+                "MediaPathName": "Media/298385224.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nvzhu\\vo_dark_nvzhu_burst_atk04_end_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_dark_nvzhu_burst_atk04_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2968321726,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2968321726,
-                "SoundBankPathName": "Event/ja/play_vo_dark_nvzhu_burst_atk04_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_dark_nvzhu_burst_atk04_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 95715854,
-                "MediaPathName": "Media/ja/95715854.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nvzhu\\vo_dark_nvzhu_burst_atk04_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\dark_nvzhu\\ko_vo_dark_nvzhu_burst_atk04_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 757997887,
-                "MediaPathName": "Media/ja/757997887.wem",
+                "MediaId": 831199126,
+                "MediaPathName": "Media/831199126.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nvzhu\\vo_dark_nvzhu_burst_atk04_end_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_dark_nvzhu_burst_atk04_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2968321726,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2968321726,
-                "SoundBankPathName": "Event/ko/play_vo_dark_nvzhu_burst_atk04_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_dark_nvzhu_burst_atk04_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 316397935,
-                "MediaPathName": "Media/ko/316397935.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nvzhu\\vo_dark_nvzhu_burst_atk04_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\dark_nvzhu\\en_vo_dark_nvzhu_burst_atk04_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 955058407,
-                "MediaPathName": "Media/ko/955058407.wem",
+                "MediaId": 607011846,
+                "MediaPathName": "Media/607011846.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nvzhu\\vo_dark_nvzhu_burst_atk04_end_02.wav",
-                "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_vo_dark_nvzhu_burst_atk04_end"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2968321726,
-            "SoundBanks": [
-              {
-                "SoundBankId": 2968321726,
-                "SoundBankPathName": "Event/zh/play_vo_dark_nvzhu_burst_atk04_end.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_vo_dark_nvzhu_burst_atk04_end",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 546967909,
-                "MediaPathName": "Media/zh/546967909.wem",
-                "PrefetchSize": 0,
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nvzhu\\vo_dark_nvzhu_burst_atk04_end_02.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\dark_nvzhu\\ja_vo_dark_nvzhu_burst_atk04_end_02.wav",
                 "PackagedFile": null
               },
               {
-                "MediaId": 671964187,
-                "MediaPathName": "Media/zh/671964187.wem",
+                "MediaId": 1027193470,
+                "MediaPathName": "Media/1027193470.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_1_0\\dark_nvzhu\\vo_dark_nvzhu_burst_atk04_end_01.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_1,0\\dark_nvzhu\\zh_vo_dark_nvzhu_burst_atk04_end_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 16360649,
+                "MediaPathName": "Media/16360649.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_1,0\\dark_nvzhu\\ko_vo_dark_nvzhu_burst_atk04_end_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 484928953,
+                "MediaPathName": "Media/484928953.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_1,0\\dark_nvzhu\\en_vo_dark_nvzhu_burst_atk04_end_01.wav",
+                "PackagedFile": null
+              },
+              {
+                "MediaId": 551434793,
+                "MediaPathName": "Media/551434793.wem",
+                "PrefetchSize": 0,
+                "MemoryAlignment": 16,
+                "bDeviceMemory": false,
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_1,0\\dark_nvzhu\\ja_vo_dark_nvzhu_burst_atk04_end_01.wav",
                 "PackagedFile": null
               }
             ],
@@ -207,7 +120,7 @@
       "DebugName": "play_vo_dark_nvzhu_burst_atk04_end",
       "EventId": 2968321726
     },
-    "MaximumDuration": 0.37333333,
+    "MaximumDuration": 0.601625,
     "MinimumDuration": 0.35133332,
     "IsInfinite": false,
     "MaxAttenuationRadius": 5000.0

@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 530658253,
             "SoundBanks": [
               {
                 "SoundBankId": 530658253,
-                "SoundBankPathName": "Event/en/play_favor_word_linnai_sys_foodlike.bnk",
+                "SoundBankPathName": "Event/play_favor_word_linnai_sys_foodlike.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 429784752,
-                "MediaPathName": "Media/en/429784752.wem",
+                "MediaId": 278074107,
+                "MediaPathName": "Media/278074107.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\en_vo_linnai_sys_foodlike_word.wav",
+                "DebugName": "Voices\\ja\\role\\branch_3,0\\linnai\\ja_vo_linnai_sys_foodlike_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_sys_foodlike"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 530658253,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 530658253,
-                "SoundBankPathName": "Event/ja/play_favor_word_linnai_sys_foodlike.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_sys_foodlike",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 637253785,
-                "MediaPathName": "Media/ja/637253785.wem",
+                "MediaId": 607887838,
+                "MediaPathName": "Media/607887838.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ja_vo_linnai_sys_foodlike_word.wav",
+                "DebugName": "Voices\\en\\role\\branch_3,0\\linnai\\en_vo_linnai_sys_foodlike_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_sys_foodlike"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 530658253,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 530658253,
-                "SoundBankPathName": "Event/ko/play_favor_word_linnai_sys_foodlike.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_sys_foodlike",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 495299180,
-                "MediaPathName": "Media/ko/495299180.wem",
+                "MediaId": 489589966,
+                "MediaPathName": "Media/489589966.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\ko_vo_linnai_sys_foodlike_word.wav",
+                "DebugName": "Voices\\zh\\role\\branch_3,0\\linnai\\zh_vo_linnai_sys_foodlike_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_linnai_sys_foodlike"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 530658253,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 530658253,
-                "SoundBankPathName": "Event/zh/play_favor_word_linnai_sys_foodlike.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_linnai_sys_foodlike",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 948072306,
-                "MediaPathName": "Media/zh/948072306.wem",
+                "MediaId": 861216832,
+                "MediaPathName": "Media/861216832.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bStreaming": true,
-                "DebugName": "role\\branch_3,0\\linnai\\zh_vo_linnai_sys_foodlike_word.wav",
+                "DebugName": "Voices\\ko\\role\\branch_3,0\\linnai\\ko_vo_linnai_sys_foodlike_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_linnai_sys_foodlike",
       "EventId": 530658253
     },
-    "MaximumDuration": 12.535,
-    "MinimumDuration": 12.535,
+    "MaximumDuration": 14.770729,
+    "MinimumDuration": 11.140062,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }

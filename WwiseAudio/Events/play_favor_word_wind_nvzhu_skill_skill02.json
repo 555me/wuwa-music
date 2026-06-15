@@ -9,16 +9,16 @@
       "EventLanguageMap": [
         {
           "Key": {
-            "LanguageId": 1819748192,
-            "LanguageName": "en",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+            "LanguageId": 0,
+            "LanguageName": "SFX",
+            "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
           },
           "Value": {
             "EventId": 2448267158,
             "SoundBanks": [
               {
                 "SoundBankId": 2448267158,
-                "SoundBankPathName": "Event/en/play_favor_word_wind_nvzhu_skill_skill02.bnk",
+                "SoundBankPathName": "Event/play_favor_word_wind_nvzhu_skill_skill02.bnk",
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
                 "bContainsMedia": false,
@@ -29,130 +29,43 @@
             ],
             "Media": [
               {
-                "MediaId": 887149637,
-                "MediaPathName": "Media/en/887149637.wem",
+                "MediaId": 882468425,
+                "MediaPathName": "Media/882468425.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\wind_nvzhu\\en_vo_wind_nvzhu_skill_skill02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\zh\\role\\branch_2,2\\wind_nvzhu\\zh_vo_wind_nvzhu_skill_skill02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_wind_nvzhu_skill_skill02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1735860046,
-            "LanguageName": "ja",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2448267158,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2448267158,
-                "SoundBankPathName": "Event/ja/play_favor_word_wind_nvzhu_skill_skill02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_wind_nvzhu_skill_skill02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 638459450,
-                "MediaPathName": "Media/ja/638459450.wem",
+                "MediaId": 785680568,
+                "MediaPathName": "Media/785680568.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\wind_nvzhu\\ja_vo_wind_nvzhu_skill_skill02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ko\\role\\branch_2,2\\wind_nvzhu\\ko_vo_wind_nvzhu_skill_skill02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_wind_nvzhu_skill_skill02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1719082483,
-            "LanguageName": "ko",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
-          },
-          "Value": {
-            "EventId": 2448267158,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2448267158,
-                "SoundBankPathName": "Event/ko/play_favor_word_wind_nvzhu_skill_skill02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_wind_nvzhu_skill_skill02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 418888158,
-                "MediaPathName": "Media/ko/418888158.wem",
+                "MediaId": 544540705,
+                "MediaPathName": "Media/544540705.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\wind_nvzhu\\ko_vo_wind_nvzhu_skill_skill02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\en\\role\\branch_2,2\\wind_nvzhu\\en_vo_wind_nvzhu_skill_skill02_word.wav",
                 "PackagedFile": null
-              }
-            ],
-            "ExternalSources": [],
-            "SwitchContainerLeaves": [],
-            "RequiredGroupValueSet": [],
-            "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
-            "DebugName": "play_favor_word_wind_nvzhu_skill_skill02"
-          }
-        },
-        {
-          "Key": {
-            "LanguageId": 1467418007,
-            "LanguageName": "zh",
-            "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
-          },
-          "Value": {
-            "EventId": 2448267158,
-            "SoundBanks": [
+              },
               {
-                "SoundBankId": 2448267158,
-                "SoundBankPathName": "Event/zh/play_favor_word_wind_nvzhu_skill_skill02.bnk",
-                "MemoryAlignment": 16,
-                "bDeviceMemory": false,
-                "bContainsMedia": false,
-                "SoundBankType": "EWwiseSoundBankType::Event",
-                "DebugName": "play_favor_word_wind_nvzhu_skill_skill02",
-                "PackagedFile": null
-              }
-            ],
-            "Media": [
-              {
-                "MediaId": 279821587,
-                "MediaPathName": "Media/zh/279821587.wem",
+                "MediaId": 740511785,
+                "MediaPathName": "Media/740511785.wem",
                 "PrefetchSize": 0,
                 "MemoryAlignment": 16,
                 "bDeviceMemory": false,
-                "bStreaming": true,
-                "DebugName": "role\\branch_2,2\\wind_nvzhu\\zh_vo_wind_nvzhu_skill_skill02_word.wav",
+                "bStreaming": false,
+                "DebugName": "Voices\\ja\\role\\branch_2,2\\wind_nvzhu\\ja_vo_wind_nvzhu_skill_skill02_word.wav",
                 "PackagedFile": null
               }
             ],
@@ -167,8 +80,8 @@
       "DebugName": "play_favor_word_wind_nvzhu_skill_skill02",
       "EventId": 2448267158
     },
-    "MaximumDuration": 0.8618125,
-    "MinimumDuration": 0.8618125,
+    "MaximumDuration": 0.96033335,
+    "MinimumDuration": 0.7285625,
     "IsInfinite": false,
     "MaxAttenuationRadius": 0.0
   }
